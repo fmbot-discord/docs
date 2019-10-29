@@ -31,21 +31,21 @@
       
         <meta name="lang:search.tokenizer" content="[\s\-]+">
       
-      <link rel="shortcut icon" href="assets/images/favicon.png">
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
     
     
       
-        <title>.fmbot</title>
+        <title>Commands - .fmbot</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/application.30686662.css">
+      <link rel="stylesheet" href="../assets/stylesheets/application.30686662.css">
       
       
     
     
-      <script src="assets/javascripts/modernizr.74668098.js"></script>
+      <script src="../assets/javascripts/modernizr.74668098.js"></script>
     
     
       
@@ -54,7 +54,7 @@
         <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
       
     
-    <link rel="stylesheet" href="assets/fonts/material-icons.css">
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
     
     
     
@@ -75,7 +75,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#introduction" tabindex="1" class="md-skip">
+      <a href="#commands" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -84,7 +84,7 @@
   <nav class="md-header-nav md-grid">
     <div class="md-flex">
       <div class="md-flex__cell md-flex__cell--shrink">
-        <a href="." title=".fmbot" class="md-header-nav__button md-logo">
+        <a href=".." title=".fmbot" class="md-header-nav__button md-logo">
           
             <i class="md-icon"></i>
           
@@ -101,7 +101,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Introduction
+                Commands
               
             </span>
           
@@ -154,7 +154,7 @@
                   <div class="md-sidebar__inner">
                     <nav class="md-nav md-nav--primary" data-md-level="0">
   <label class="md-nav__title md-nav__title--site" for="__drawer">
-    <a href="." title=".fmbot" class="md-nav__button md-logo">
+    <a href=".." title=".fmbot" class="md-nav__button md-logo">
       
         <i class="md-icon"></i>
       
@@ -163,6 +163,18 @@
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
     
       
       
@@ -179,11 +191,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        Introduction
+        Commands
       </label>
     
-    <a href="." title="Introduction" class="md-nav__link md-nav__link--active">
-      Introduction
+    <a href="./" title="Commands" class="md-nav__link md-nav__link--active">
+      Commands
     </a>
     
       
@@ -197,9 +209,42 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#inviting-the-bot" class="md-nav__link">
-    Inviting the bot
+  <a href="#setting-your-lastfm-username" class="md-nav__link">
+    Setting your Last.FM Username
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fmset" class="md-nav__link">
+    .fmset
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-your-scrobbles" class="md-nav__link">
+    Getting your scrobbles
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fm" class="md-nav__link">
+    .fm
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -211,18 +256,6 @@
   
 </nav>
     
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="commands/" title="Commands" class="md-nav__link">
-      Commands
-    </a>
   </li>
 
     
@@ -247,9 +280,42 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#inviting-the-bot" class="md-nav__link">
-    Inviting the bot
+  <a href="#setting-your-lastfm-username" class="md-nav__link">
+    Setting your Last.FM Username
   </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fmset" class="md-nav__link">
+    .fmset
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#getting-your-scrobbles" class="md-nav__link">
+    Getting your scrobbles
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fm" class="md-nav__link">
+    .fm
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -270,21 +336,35 @@
               
                 
                 
-                <h1 id="introduction">Introduction</h1>
-<p>Welcome to the documentation for .fmbot.</p>
-<p>.fmbot is an open sourced bot used for accessing statistics from Last.FM.</p>
-<p>Features:</p>
+                <h1 id="commands">Commands</h1>
+<h2 id="setting-your-lastfm-username">Setting your Last.FM Username</h2>
+<h3 id="fmset"><code>.fmset</code></h3>
+<p>Parameters:</p>
 <ul>
-<li>Allows users to access various statistics from lastfm, such as scrobbles, profile stats, and more!</li>
-<li>Resizable charts allow users to display their music taste in any way they want, with support for albums and artists.</li>
-<li>Avatar changes based on what people are listening to. Anyone can get featured!</li>
-<li>Customize how your fm command by changing it with the .FMSet command.</li>
-<li>Add friends and see what your friends are listening to with one simple command.</li>
-<li>Get the Spotify, Youtube or Genius link from any song</li>
+<li>Username - Your Last.FM username.</li>
+<li>Mode - Default mode for <code>.fm</code>. Defaults to <code>embedfull</code>.</li>
 </ul>
-<p>.fmbot is written in C# and uses .NET Core 3.0.</p>
-<h2 id="inviting-the-bot">Inviting the bot</h2>
-<p><a href="https://discordapp.com/oauth2/authorize?client_id=356268235697553409&amp;scope=bot&amp;permissions=50176">Click here to invite the bot to your own server</a>.</p>
+<p>Modes: <code>embedfull</code>, <code>embedmini</code>, <code>textfull</code>, <code>textmini</code>.</p>
+<p>Examples: </p>
+<blockquote>
+<p><code>.fmset thomkap</code></p>
+<p><code>.fmset thomkap embedfull</code></p>
+</blockquote>
+<h2 id="getting-your-scrobbles">Getting your scrobbles</h2>
+<h3 id="fm"><code>.fm</code></h3>
+<p>The main command of the bot is <code>.fm</code>.</p>
+<p>You can set how your <code>.fm</code> embed looks in the <a href="#fmset"><code>.fmset</code></a> command.</p>
+<p>Parameters:</p>
+<ul>
+<li>User - A Last.FM username or a user in your server.</li>
+</ul>
+<p>Examples: </p>
+<blockquote>
+<p><code>.fm</code></p>
+<p><code>.fm thomkap</code></p>
+<p><code>.fm @Frikandel</code></p>
+<p><code>.fm 125740103539621888</code></p>
+</blockquote>
                 
                   
                 
@@ -305,20 +385,20 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-        
-          <a href="commands/" title="Commands" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href=".." title="Introduction" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
-                  Next
+                  Previous
                 </span>
-                Commands
+                Introduction
               </span>
             </div>
-            <div class="md-flex__cell md-flex__cell--shrink">
-              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
-            </div>
           </a>
+        
         
       </nav>
     </div>
@@ -340,9 +420,9 @@
       
     </div>
     
-      <script src="assets/javascripts/application.ac79c3b0.js"></script>
+      <script src="../assets/javascripts/application.ac79c3b0.js"></script>
       
-      <script>app.initialize({version:"1.0.4",url:{base:"."}})</script>
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
       
     
   </body>
