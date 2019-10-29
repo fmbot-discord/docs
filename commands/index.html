@@ -243,6 +243,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#fmrecent" class="md-nav__link">
+    .fmrecent
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -314,6 +321,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#fmrecent" class="md-nav__link">
+    .fmrecent
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -336,9 +350,10 @@
               
                 
                 
-                <h1 id="commands">Commands</h1>
-<h2 id="setting-your-lastfm-username">Setting your Last.FM Username</h2>
-<h3 id="fmset"><code>.fmset</code></h3>
+                <h1 id="commands">Commands<a class="headerlink" href="#commands" title="Permanent link">&para;</a></h1>
+<hr />
+<h2 id="setting-your-lastfm-username">Setting your Last.FM Username<a class="headerlink" href="#setting-your-lastfm-username" title="Permanent link">&para;</a></h2>
+<h3 id="fmset"><code>.fmset</code><a class="headerlink" href="#fmset" title="Permanent link">&para;</a></h3>
 <p>Parameters:</p>
 <ul>
 <li>Username - Your Last.FM username.</li>
@@ -350,21 +365,42 @@
 <p><code>.fmset thomkap</code></p>
 <p><code>.fmset thomkap embedfull</code></p>
 </blockquote>
-<h2 id="getting-your-scrobbles">Getting your scrobbles</h2>
-<h3 id="fm"><code>.fm</code></h3>
-<p>The main command of the bot is <code>.fm</code>.</p>
-<p>You can set how your <code>.fm</code> embed looks in the <a href="#fmset"><code>.fmset</code></a> command.</p>
+<div class="admonition info">
+<p>Please note that users in shared servers will be able to see and request your Last.FM username.</p>
+</div>
+<div class="admonition warning">
+<p>To delete all your data from .fmbot, including friends and other settings, use <code>.fmremove</code>.</p>
+</div>
+<hr />
+<h2 id="getting-your-scrobbles">Getting your scrobbles<a class="headerlink" href="#getting-your-scrobbles" title="Permanent link">&para;</a></h2>
+<h3 id="fm">.fm<a class="headerlink" href="#fm" title="Permanent link">&para;</a></h3>
+<p>Shows your last 1 or 2 scrobbles, either in embed or text format.</p>
+<p>You can set how your <code>.fm</code> embed looks in the <a href="#fmset"><code>.fmset</code> command</a>.</p>
 <p>Parameters:</p>
 <ul>
 <li>User - A Last.FM username or a user in your server.</li>
 </ul>
-<p>Examples: </p>
-<blockquote>
+<div class="admonition note">
+<p class="admonition-title">Examples</p>
 <p><code>.fm</code></p>
 <p><code>.fm thomkap</code></p>
 <p><code>.fm @Frikandel</code></p>
 <p><code>.fm 125740103539621888</code></p>
-</blockquote>
+</div>
+<h3 id="fmrecent">.fmrecent<a class="headerlink" href="#fmrecent" title="Permanent link">&para;</a></h3>
+<p>Shows your latest scrobbles.</p>
+<p>Parameters:</p>
+<ul>
+<li>Amount - Number of scrobbles. Can only be between 1 and 10.</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Examples</p>
+<p><code>.fmrecent</code></p>
+<p><code>.fmrecent 10</code></p>
+<p><code>.fmrecent 5 thomkap</code></p>
+<p><code>.fmrecent 8 @Frikandel</code></p>
+<p><code>.fmrecent 3 125740103539621888</code></p>
+</div>
                 
                   
                 
