@@ -351,8 +351,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#fmspotify-fmsp" class="md-nav__link">
-    .fmspotify (.fmsp)
+  <a href="#fmspotify-fms" class="md-nav__link">
+    .fmspotify (.fms)
   </a>
   
 </li>
@@ -566,8 +566,8 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#fmspotify-fmsp" class="md-nav__link">
-    .fmspotify (.fmsp)
+  <a href="#fmspotify-fms" class="md-nav__link">
+    .fmspotify (.fms)
   </a>
   
 </li>
@@ -683,6 +683,9 @@ This means you can use the command on other users.</p>
 <p><code>.fm</code></p>
 <p><code>.fm user</code></p>
 </div>
+<div class="admonition info">
+<p>Tip: You can click the embed title to go to the users Last.FM profile.</p>
+</div>
 <h3 id="fmrecent-fmr">.fmrecent (<code>.fmr</code>)<a class="headerlink" href="#fmrecent-fmr" title="Permanent link">&para;</a></h3>
 <p>Shows your latest scrobbles.</p>
 <p>Parameters:</p>
@@ -720,21 +723,28 @@ This means you can use the command on other users.</p>
 <ul>
 <li>Chart size - Size of your chart.</li>
 <li>Time period - Time period of your top albums. Defaults to weekly.</li>
-<li>Titles - Show title of album on the chart.</li>
-<li><a href="#using-commands-for-other-users">User</a> - A Last.FM username or a user in your server.</li>
+<li>Options - Additional options for generating your chart</li>
 </ul>
 <p>Chart size: <code>2x2</code>, <code>3x3</code> up to <code>8x8</code>.</p>
 <p>Time periods: <code>weekly</code>,<code>monthly</code>,<code>yearly</code> or <code>alltime</code>. (<code>w</code>, <code>m</code>, <code>y</code> or <code>a</code>)</p>
-<p>Titles: <code>titles</code> or <code>notitles</code>. (<code>t</code> or <code>nt</code>)</p>
+<p>Options: </p>
+<ul>
+<li>
+<p><code>notitles</code>. Don't display album titles. (<code>nt</code>)</p>
+</li>
+<li>
+<p><code>skipemptyalbums</code>. Skips albums without images. (<code>s</code> or <code>skip</code>)</p>
+</li>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
 <p><code>.fmc</code></p>
 <p><code>.fmchart</code></p>
 <p><code>.fmchart 5x5</code></p>
 <p><code>.fmchart 8x8 yearly</code></p>
-<p><code>.fmchart 8x8 alltime titles</code></p>
-<p><code>.fmchart 8x8 alltime notitles user</code></p>
-<p><code>.fmc 8x8 a nt user</code></p>
+<p><code>.fmchart 8x8 alltime notitles</code></p>
+<p><code>.fmchart 8x8 alltime notitles skipemptyalbums</code></p>
+<p><code>.fmc 8x8 a nt s</code></p>
 </div>
 <hr />
 <h2 id="featured-users">Featured users<a class="headerlink" href="#featured-users" title="Permanent link">&para;</a></h2>
@@ -757,11 +767,11 @@ People are able to see what exactly is featured using <code>.fmfeatured</code>.<
 </div>
 <hr />
 <h2 id="spotify">Spotify<a class="headerlink" href="#spotify" title="Permanent link">&para;</a></h2>
-<h3 id="fmspotify-fmsp">.fmspotify (<code>.fmsp</code>)<a class="headerlink" href="#fmspotify-fmsp" title="Permanent link">&para;</a></h3>
+<h3 id="fmspotify-fms">.fmspotify (<code>.fms</code>)<a class="headerlink" href="#fmspotify-fms" title="Permanent link">&para;</a></h3>
 <p>Gets the Spotify link for the song you're currently listening to.</p>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
-<p><code>.fmsp</code></p>
+<p><code>.fms</code></p>
 <p><code>.fmspotify</code></p>
 </div>
 <hr />
