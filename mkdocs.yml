@@ -1,0 +1,20 @@
+site_name: .fmbot
+repo_url: https://github.com/fmbot-discord/fmbot
+repo_name: fmbot
+site_description: Documentation for fmbot, a Discord Last.FM bot with various 3rd party integrations.
+theme:
+  name: 'material'
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+nav:
+  - 'Introduction': 'index.md'
+  - 'Commands': 'commands.md'
+  - 'Friends': 'friends.md'
+  - 'Integrations':
+    - 'Spotify': 'integrations/spotify.md'
+    - 'Genius': 'integrations/genius.md'
+    - 'YouTube': 'integrations/youtube.md'
+  - 'FAQ': 'faq.md'
+  - 'Selfhosting': 'setup.md'
