@@ -1,7 +1,7 @@
 # FMbot documentation
 Documentation website for fmbot
 
-https://fmbot-discord.github.io/docs/
+https://fmbot.xyz/
 
 To edit the documentation:
 
