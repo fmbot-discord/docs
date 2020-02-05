@@ -1,6 +1,4 @@
-# Spotify
-
-## Commands
+# Spotify commands
 
 ### .fmspotify (`.fms`)
 

@@ -1,6 +1,4 @@
-# Genius
-
-## Commands
+# Genius commands
 
 ### .fmgenius (`.fmg`)
 

@@ -1,6 +1,4 @@
-# Youtube
-
-## Commands
+# Youtube commands
 
 ### .fmyoutube (`.fmyt`)
 

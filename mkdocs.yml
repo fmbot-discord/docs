@@ -10,11 +10,16 @@ markdown_extensions:
       permalink: true
 nav:
   - 'Introduction': 'index.md'
-  - 'Commands': 'commands.md'
-  - 'Friends': 'friends.md'
-  - 'Integrations':
-    - 'Spotify': 'integrations/spotify.md'
-    - 'Genius': 'integrations/genius.md'
-    - 'YouTube': 'integrations/youtube.md'
+  - 'Commands':
+    - 'Getting started': 'commands/index.md'
+    - 'Tracks': 'commands/tracks.md'
+    - 'Albums': 'commands/albums.md'
+    - 'Artists': 'commands/artists.md'
+    - 'Featured': 'commands/featured.md'
+    - 'Friends': 'commands/friends.md'
+    - 'Spotify': 'commands/spotify.md'
+    - 'Genius': 'commands/genius.md'
+    - 'YouTube': 'commands/youtube.md'
+    - 'Miscellaneous': 'commands/misc.md'
   - 'FAQ': 'faq.md'
   - 'Selfhosting': 'setup.md'

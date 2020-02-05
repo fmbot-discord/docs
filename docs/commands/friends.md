@@ -1,6 +1,4 @@
-# Friends
-
----
+# Friend commands
 
 ### .fmfriends (`.fmf`)
 
