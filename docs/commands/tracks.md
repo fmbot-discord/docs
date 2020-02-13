@@ -20,6 +20,9 @@ Parameters:
 !!! info ""
     Tip: You can click the embed title to go to the users Last.FM profile.
 
+!!! tip ""
+    If you want .fmbot to add reactions to this command, please see [`.fmserverreactions`](/commands/guild-settings).
+
 ---
 
 ### .fmrecent (`.fmr`)

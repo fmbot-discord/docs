@@ -21,6 +21,7 @@ nav:
     - 'Spotify': 'commands/spotify.md'
     - 'Genius': 'commands/genius.md'
     - 'YouTube': 'commands/youtube.md'
+    - 'Guild settings': 'commands/guildsettings.md'
     - 'Miscellaneous': 'commands/misc.md'
   - 'FAQ': 'faq.md'
   - 'Selfhosting': 'setup.md'
