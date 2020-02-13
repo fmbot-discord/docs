@@ -38,7 +38,7 @@
     
     
       
-        <title>Miscellaneous - .fmbot</title>
+        <title>Guild settings - .fmbot</title>
       
     
     
@@ -104,7 +104,7 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
     
-      <a href="#miscellaneous-commands" tabindex="1" class="md-skip">
+      <a href="#guild-settings" tabindex="1" class="md-skip">
         Skip to content
       </a>
     
@@ -130,7 +130,7 @@
             </span>
             <span class="md-header-nav__topic">
               
-                Miscellaneous
+                Guild settings
               
             </span>
           
@@ -380,18 +380,6 @@
           
           
 
-
-  <li class="md-nav__item">
-    <a href="../guildsettings/" title="Guild settings" class="md-nav__link">
-      Guild settings
-    </a>
-  </li>
-
-        
-          
-          
-          
-
   
 
 
@@ -403,11 +391,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        Miscellaneous
+        Guild settings
       </label>
     
-    <a href="./" title="Miscellaneous" class="md-nav__link md-nav__link--active">
-      Miscellaneous
+    <a href="./" title="Guild settings" class="md-nav__link md-nav__link--active">
+      Guild settings
     </a>
     
       
@@ -421,43 +409,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#fmhelp" class="md-nav__link">
-    .fmhelp
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fminfo" class="md-nav__link">
-    .fminfo
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fmstats" class="md-nav__link">
-    .fmstats
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fmstatus" class="md-nav__link">
-    .fmstatus
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fmexport" class="md-nav__link">
-    .fmexport
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fmremove" class="md-nav__link">
-    .fmremove
+  <a href="#fmserverreactions" class="md-nav__link">
+    .fmserverreactions
   </a>
   
 </li>
@@ -470,6 +423,18 @@
   
 </nav>
     
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../misc/" title="Miscellaneous" class="md-nav__link">
+      Miscellaneous
+    </a>
   </li>
 
         
@@ -523,43 +488,8 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#fmhelp" class="md-nav__link">
-    .fmhelp
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fminfo" class="md-nav__link">
-    .fminfo
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fmstats" class="md-nav__link">
-    .fmstats
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fmstatus" class="md-nav__link">
-    .fmstatus
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fmexport" class="md-nav__link">
-    .fmexport
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#fmremove" class="md-nav__link">
-    .fmremove
+  <a href="#fmserverreactions" class="md-nav__link">
+    .fmserverreactions
   </a>
   
 </li>
@@ -580,51 +510,22 @@
             <article class="md-content__inner md-typeset">
               
                 
-                  <a href="https://github.com/fmbot-discord/fmbot/edit/master/docs/commands/misc.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                  <a href="https://github.com/fmbot-discord/fmbot/edit/master/docs/commands/guildsettings.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="miscellaneous-commands">Miscellaneous commands<a class="headerlink" href="#miscellaneous-commands" title="Permanent link">&para;</a></h1>
-<h3 id="fmhelp">.fmhelp<a class="headerlink" href="#fmhelp" title="Permanent link">&para;</a></h3>
-<p>Shows information about getting started with the bot.</p>
+                <h1 id="guild-settings">Guild settings<a class="headerlink" href="#guild-settings" title="Permanent link">&para;</a></h1>
+<p>Guild settings can only be changed by admins, users with the 'Ban Members' permission or .fmbot admins.</p>
+<h3 id="fmserverreactions">.fmserverreactions<a class="headerlink" href="#fmserverreactions" title="Permanent link">&para;</a></h3>
+<p>Sets the emote reactions for every .fm command in your server.</p>
+<p>To disable, simply use <code>.fmserverreactions</code> without any emotes.</p>
+<p>Make sure the emotes you enable are on your server.</p>
+<p>Max amount of emotes is 3. Please put a space between every emote.</p>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
-<p><code>.fmhelp</code></p>
-</div>
-<hr />
-<h3 id="fminfo">.fminfo<a class="headerlink" href="#fminfo" title="Permanent link">&para;</a></h3>
-<p>Shows all the information and links related to the bot.</p>
-<div class="admonition note">
-<p class="admonition-title">Examples</p>
-<p><code>.fminfo</code></p>
-</div>
-<hr />
-<h3 id="fmstats">.fmstats<a class="headerlink" href="#fmstats" title="Permanent link">&para;</a></h3>
-<p>Shows all the information that the bot has about you.</p>
-<div class="admonition note">
-<p class="admonition-title">Examples</p>
-<p><code>.fmstats</code></p>
-</div>
-<hr />
-<h3 id="fmstatus">.fmstatus<a class="headerlink" href="#fmstatus" title="Permanent link">&para;</a></h3>
-<p>Gets the bot status information.</p>
-<div class="admonition note">
-<p class="admonition-title">Examples</p>
-<p><code>.fmstatus</code></p>
-</div>
-<hr />
-<h3 id="fmexport">.fmexport<a class="headerlink" href="#fmexport" title="Permanent link">&para;</a></h3>
-<p>Export all registered users in your server in a handy json file.</p>
-<p>Note: This command is admin only.</p>
-<div class="admonition note">
-<p class="admonition-title">Examples</p>
-<p><code>.fmexport</code></p>
-</div>
-<hr />
-<h3 id="fmremove">.fmremove<a class="headerlink" href="#fmremove" title="Permanent link">&para;</a></h3>
-<p>Deletes all your user information, including all your friends and other settings.</p>
-<div class="admonition note">
-<p class="admonition-title">Examples</p>
-<p><code>.fmremove</code></p>
+<p><code>.fmserverreactions :PagChomp: :PensiveBlob:</code></p>
+<p><code>.fmserverreactions 😀 😯 🥵</code></p>
+<p><code>.fmserverreactions 😀 😯 :PensiveBlob:</code></p>
+<p><code>.fmserverreactions</code></p>
 </div>
                 
                   
@@ -646,7 +547,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../guildsettings/" title="Guild settings" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../youtube/" title="YouTube" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -655,19 +556,19 @@
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                Guild settings
+                YouTube
               </span>
             </div>
           </a>
         
         
-          <a href="../../faq/" title="FAQ" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../misc/" title="Miscellaneous" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                FAQ
+                Miscellaneous
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
