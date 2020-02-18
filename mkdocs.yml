@@ -25,3 +25,4 @@ nav:
     - 'Miscellaneous': 'commands/misc.md'
   - 'FAQ': 'faq.md'
   - 'Selfhosting': 'setup.md'
+  - 'Invite the bot': https://discordapp.com/oauth2/authorize?client_id=356268235697553409&scope=bot&permissions=52288
