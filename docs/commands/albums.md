@@ -45,3 +45,14 @@ Options:
     `.fmchart 8x8 alltime notitles skipemptyalbums`
 
     `.fmc 8x8 a nt s`
+
+---
+
+### .fmcover (`.fmco`)
+
+Shows the cover for the album you're currently listening to.
+
+!!! note "Examples"
+    `.fmco`
+
+    `.fmcover`

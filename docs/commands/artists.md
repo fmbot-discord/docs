@@ -44,5 +44,45 @@ Time periods: `weekly`, `monthly`, `yearly` or `alltime`. (`w`, `m`, `y` or `a`)
 
 ---
 
+### .fmwhoknows (`.fmwk`, `.fmw`)
+
+Shows who in your server listened to an artist you're currently listening to or the one you're searching for.
+
+This command requires you to have [indexed your server](#fmindex) at least once.
+
+Note that the playcount for the user that requested the command will always be up to date.
+
+Parameters:
+
+* Artist - An artist you want to search for.
+
+!!! note "Examples"
+    `.fmw`
+
+    `.fmwk`
+
+    `.fmw COMA`
+
+    `.fmwhoknows`
+
+    `.fmwhoknows DJ Seinfeld`
+
+---
+
+### .fmindex
+
+Retrieves and stores top 2000 artists for all users in your server.
+
+Users can only be indexed once every 48 hours. This is to prevent too much API calls to last.fm.
+
+When new users setup their account, you can also run this command to update their artists.
+
+Every user that has to be indexed gets placed in a bot-wide queue, so if it takes longer then expected it might be that there are a lot of people in the queue.
+
+!!! note "Examples"
+    `.fmindex`
+
+---
+
 !!! warning "A note about artist chart commands"
     Last.fm [restricted](https://getsatisfaction.com/lastfm/topics/api-announcement-dac8oefw5vrxq) access to artist images a while ago, so unfortunately we can no longer offer artist charts.
