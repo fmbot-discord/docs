@@ -549,14 +549,18 @@
 <h3 id="fmset">.fmset<a class="headerlink" href="#fmset" title="Permanent link">&para;</a></h3>
 <p>Parameters:</p>
 <ul>
-<li>Username - Your Last.FM username.</li>
+<li>Username - Your Last.FM username. Required.</li>
 <li>Mode - Default mode for <code>.fm</code>. Defaults to <code>embedfull</code>.</li>
+<li>Playcount - Optional playcount to display on <code>.fm</code>.</li>
 </ul>
 <p>Modes: <code>embedfull</code>, <code>embedmini</code>, <code>textfull</code>, <code>textmini</code>.</p>
+<p>Playcount modes: <code>artist</code>, <code>album</code> or <code>track</code>.</p>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
 <p><code>.fmset thomkap</code></p>
 <p><code>.fmset thomkap embedfull</code></p>
+<p><code>.fmset thomkap artist</code></p>
+<p><code>.fmset thomkap embedmini track</code></p>
 </div>
 <div class="admonition info">
 <p>Please note that users in shared servers will be able to see and request your Last.FM username.</p>
