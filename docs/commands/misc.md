@@ -36,10 +36,18 @@ Gets the bot status information.
 
 Export all registered users in your server in a handy json file.
 
-Note: This command is admin only.
+Note: This command is server admin only.
 
 !!! note "Examples"
     `.fmexport`
+
+---
+### .fmdebug
+
+See all the database data .fmbot stores about you.
+
+!!! note "Examples"
+    `.fmdebug`
 
 ---
 ### .fmremove

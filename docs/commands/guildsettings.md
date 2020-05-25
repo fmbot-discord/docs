@@ -20,3 +20,33 @@ Max amount of emotes is 3. Please put a space between every emote.
     `.fmserverreactions 😀 😯 :PensiveBlob:`
 
     `.fmserverreactions`
+
+    
+### .fmtogglecommand
+
+You can enable/disable commands for your server.
+
+To view all disabled commands, use `.fmtogglecommand` without any options.
+
+Make sure to enter commands without without the `.fm` prefix.
+
+!!! note "Examples"
+    `.fmtogglecommand`
+
+    `.fmtogglecommand chart`
+
+    `.fmtogglecommand whoknows`
+
+    
+### .fmprefix
+
+It's possible to change the .fmbot .`fm` prefix. This isn't supported everywhere and we don't generally recommend it, but it's still an option for those who want it.
+
+To disable the prefix, use the `prefix` command without any prefix behind it. You can also mention the bot, that will always work regardless of prefix.
+
+!!! note "Examples"
+    `.fmprefix`
+
+    `.fmprefix !`
+
+    `@.fmbot prefix`

@@ -22,13 +22,20 @@ Parameters:
 
 * Username - Your Last.FM username.
 * Mode - Default mode for `.fm`. Defaults to `embedfull`.
+* Playcount - Playcount mode for `.fm`. Defaults to none.
 
 Modes: `embedfull`, `embedmini`, `textfull`, `textmini`.
+
+Playcounts: `track`, `album` or `artist`.
 
 !!! note "Examples"
     `.fmset thomkap`
 
     `.fmset thomkap embedfull`
+    
+    `.fmset thomkap artist`
+    
+    `.fmset thomkap embedmini track`
 
 !!! info ""
     Please note that users in shared servers will be able to see and request your Last.FM username.
