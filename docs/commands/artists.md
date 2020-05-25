@@ -84,5 +84,16 @@ Every user that has to be indexed gets placed in a bot-wide queue, so if it take
 
 ---
 
+### .fmserverartists
+
+Shows top alltime artists for everyone in your server.
+
+!!! note "Examples"
+    `.fmsa`
+
+    `.fmserverartists`
+
+---
+
 !!! warning "A note about artist chart commands"
     Last.fm [restricted](https://getsatisfaction.com/lastfm/topics/api-announcement-dac8oefw5vrxq) access to artist images a while ago, so unfortunately we can no longer offer artist charts.
