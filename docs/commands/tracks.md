@@ -43,3 +43,28 @@ Parameters:
 
     `.fmrecent 5 user`
     
+---
+### .fmtoptracks (`.fmtt`)
+
+Shows a list of your top tracks over a certain time period.
+
+Parameters:
+
+* Time period - Time period of your top tracks. Defaults to weekly.
+* Amount - Number of tracks. Can only be between 1 and 12. Defaults to 8.
+* [User](/commands/#using-commands-for-other-users) - A Last.FM username or a user in your server.
+
+Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+
+!!! note "Examples"
+    `.fmtt`
+
+    `.fmtoptracks`
+
+    `.fmtt y 3`
+
+    `.fmtoptracks weekly 5`
+
+    `.fmtoptracks alltime 10 user`
+
+---

@@ -19,28 +19,30 @@ Parameters:
 
 ---
 
-### .fmartists (`.fmal`)
+### .fmtopartists (`.fmta`)
 
 Shows a list of your top artists over a certain time period.
 
 Parameters:
 
 * Time period - Time period of your top artists. Defaults to weekly.
-* Amount - Number of artists. Can only be between 1 and 10. Defaults to 6.
+* Amount - Number of artists. Can only be between 1 and 16. Defaults to 10.
 * [User](/commands/#using-commands-for-other-users) - A Last.FM username or a user in your server.
 
-Time periods: `weekly`, `monthly`, `yearly` or `alltime`. (`w`, `m`, `y` or `a`)
+Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
 
 !!! note "Examples"
-    `.fma`
+    `.fmta`
 
     `.fmartists`
 
-    `.fmartists weekly`
+    `.fmtopartists`
 
-    `.fmartists weekly 5`
+    `.fmta w 5`
+    
+    `.fmtopartists weekly 8`
 
-    `.fmartists alltime 10 user`
+    `.fmtopartists alltime 10 user`
 
 ---
 
