@@ -46,6 +46,37 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 
 ---
 
+### .fmtaste (`.fmt`)
+
+Compares your top artists to another users top artists.
+
+You can mention someone or enter their last.fm username.
+
+Parameters:
+
+* User - An artist you want to search for.
+* Options - Options like taste display mode or time period.
+
+Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+
+Modes:
+
+* Table (`t`): Default. Works on all platforms, might not properly outline non-unicode characters
+* Embed (`e`): Looks better, but is unreadable on mobile.
+
+!!! note "Examples"
+    `.fmt frikandel_`
+
+    `.fmt @user`
+
+    `.fmtaste bitldev`
+
+    `.fmtaste @user monthly embed`
+
+    `.fmt @user m e`
+
+---
+
 ### .fmwhoknows (`.fmwk`, `.fmw`)
 
 Shows who in your server listened to an artist you're currently listening to or the one you're searching for.
