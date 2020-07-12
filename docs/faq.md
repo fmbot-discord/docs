@@ -36,6 +36,12 @@ Cool, great to hear.
 
 Or make your own Last.FM bot! You can export all guild members into a handy json format using `.fmgetmembers`, so your friends don't have to re-set their usernames.
 
+## Can I support the bot?
+
+Yes, you can consider [donating](https://www.paypal.me/th0m). All donations will go towards the server costs.
+
+If you are familiar with C# / .NET you can also help us out and pick up one of the open [issues](https://github.com/fmbot-discord/fmbot/issues). Please check out our [contributing guidelines](https://github.com/fmbot-discord/fmbot/blob/main/CONTRIBUTING.md) first.
+
 ## Why does this bot exist?
 
 This bot was made by BitL back in September 2017, and was inspired by [UB3R Bot](https://ub3r-b0t.com/). Back then the bot just had `.fm`, the charts, featuring and `.fmyoutube`. Frikandel joined in when he had the idea of `.fmfriends`, but was too lazy to make his own bot. Together they moved the bot from text files to an actual database, and the quality of the code has greatly improved since the start.
