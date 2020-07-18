@@ -38,7 +38,7 @@ Or make your own Last.FM bot! You can export all guild members into a handy json
 
 ## Can I support the bot?
 
-To support us financially, check out [our OpenCollective](https://www.paypal.me/th0m). All donations will go towards bot expenses and we will provide full transparency about where your money goes.
+To support us financially, check out [our OpenCollective](https://opencollective.com/fmbot). All donations will go towards bot expenses and we will provide full transparency about where your money goes.
 
 If you are familiar with C# / .NET you can also help us out and pick up one of the open [issues](https://github.com/fmbot-discord/fmbot/issues). Please check out our [contributing guidelines](https://github.com/fmbot-discord/fmbot/blob/main/CONTRIBUTING.md) first.
 
