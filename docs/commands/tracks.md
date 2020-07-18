@@ -25,6 +25,32 @@ Parameters:
 
 ---
 
+### .fmtrack (`.fmtr`)
+
+Gets information about the track you're currently listening to or searching for.
+
+!!! note "Examples"
+    `.fmtr`
+
+    `.fmtrack`
+
+    `.fmtrack Stronger Kanye West`
+    
+---
+
+### .fmtrackplays (`.fmtp`)
+
+Shows you your plays for the track you're currently listening to or searching for.
+
+!!! note "Examples"
+    `.fmtp`
+
+    `.fmtrackplays`
+
+    `.fmtrackplays Infected Mushroom Can't Stop`
+    
+---
+
 ### .fmrecent (`.fmr`)
 
 Shows your latest scrobbles.

@@ -2,12 +2,27 @@
 
 ### .fmalbum (`.fmab`)
 
-Gets information about the album you're currently listening to.
+Gets information about the album you're currently listening to or searching for.
 
 !!! note "Examples"
     `.fmab`
 
     `.fmalbum`
+
+    `.fmalbum Ventura Anderson .Paak`
+    
+---
+
+### .fmalbumplays (`.fmabp`)
+
+Shows you your plays for the album you're currently listening to or searching for.
+
+!!! note "Examples"
+    `.fmabp`
+
+    `.fmalbumplays`
+    
+    `.fmalbumplays The Slow Rush`
     
 ---
 
@@ -75,9 +90,11 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 
 ### .fmcover (`.fmco`)
 
-Shows the cover for the album you're currently listening to.
+Shows the cover for the album you're currently listening to or searching for.
 
 !!! note "Examples"
     `.fmco`
 
     `.fmcover`
+    
+    `.fmcover la priest inji`

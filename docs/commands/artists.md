@@ -19,6 +19,19 @@ Parameters:
 
 ---
 
+### .fmartistplays (`.fmap`)
+
+Shows you your plays for the artist you're currently listening to or searching for.
+
+!!! note "Examples"
+    `.fmap`
+
+    `.fmartistplays`
+
+    `.fmartistplays Mall Grab`
+    
+---
+
 ### .fmtopartists (`.fmta`)
 
 Shows a list of your top artists over a certain time period.
