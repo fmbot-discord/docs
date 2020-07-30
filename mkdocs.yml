@@ -6,7 +6,7 @@ google_analytics: ['UA-157903776-1', 'fmbot.xyz']
 theme:
   name: 'material'
   palette:
-    scheme: slate
+    scheme: preference
 markdown_extensions:
   - admonition
   - toc:
