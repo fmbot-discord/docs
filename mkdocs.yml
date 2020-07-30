@@ -5,6 +5,8 @@ site_description: Documentation for fmbot, a Discord Last.FM bot with various 3r
 google_analytics: ['UA-157903776-1', 'fmbot.xyz']
 theme:
   name: 'material'
+  palette:
+    scheme: slate
 markdown_extensions:
   - admonition
   - toc:
