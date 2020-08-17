@@ -20,11 +20,11 @@ Adds one or multiple friends to your friends list.
 Can both be used with Discord users or Last.FM usernames.
 
 !!! note "Examples"
-    `.fmaddfriends thomkap`
+    `.fmaddfriends frikandel_`
 
-    `.fmaddfriends thomkap otherlastfmuser`
+    `.fmaddfriends frikandel_ otherlastfmuser`
 
-    `.fmaddfriends thomkap @discorduser`
+    `.fmaddfriends frikandel_ @discorduser`
 
     `.fmaddfriends 356268235697553409`
 
@@ -37,11 +37,11 @@ Removes one or multiple friends from your friends list.
 Can both be used with Discord users or Last.FM usernames.
 
 !!! note "Examples"
-    `.fmremovefriends thomkap`
+    `.fmremovefriends frikandel_`
 
-    `.fmremovefriends thomkap otherlastfmuser`
+    `.fmremovefriends frikandel_ otherlastfmuser`
 
-    `.fmremovefriends thomkap @discorduser`
+    `.fmremovefriends frikandel_ @discorduser`
 
     `.fmremovefriends 356268235697553409`
 

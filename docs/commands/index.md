@@ -45,17 +45,3 @@ Playcounts: `track`, `album` or `artist`.
     To delete all your data from .fmbot, including friends and other settings, use `.fmremove`.
 
 ---
-
-
-## Using commands for other users
-
-In some commands you will see **user** in the examples. 
-This means you can use the command on other users.
-
-This can consist of the following:
-
-* Last.FM username
-* Discord nickname
-* Discord username
-* Discord mention
-* Discord userId

@@ -65,13 +65,13 @@ Options:
 
 ### .fmtopalbums (`.fmtab`)
 
-Shows a list of your top albums over a certain time period.
+Shows a list of you or your friends top albums over a certain time period.
 
-Parameters:
+Parameters (Can be used in any order):
 
 * Time period - Time period of your top albums. Defaults to weekly.
-* Amount - Number of albums. Can only be between 1 and 12. Defaults to 8.
-* [User](/commands/#using-commands-for-other-users) - A Last.FM username or a user in your server.
+* Amount - Number of albums. Can only be between 1 and 16. Defaults to 10.
+* User - Mention another user or use their Discord id.
 
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
 
@@ -82,9 +82,9 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 
     `.fmtab a 3`
 
-    `.fmtopalbums weekly 5`
+    `.fmtopalbums 8 weekly @user`
 
-    `.fmtopalbums alltime 10 user`
+    `.fmtopalbums quarterly @slipper 12`
 
 ---
 

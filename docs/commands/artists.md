@@ -34,13 +34,13 @@ Shows you your plays for the artist you're currently listening to or searching f
 
 ### .fmtopartists (`.fmta`)
 
-Shows a list of your top artists over a certain time period.
+Shows a list of you or your friends top artists over a certain time period.
 
-Parameters:
+Parameters (Can be used in any order):
 
 * Time period - Time period of your top artists. Defaults to weekly.
 * Amount - Number of artists. Can only be between 1 and 16. Defaults to 10.
-* [User](/commands/#using-commands-for-other-users) - A Last.FM username or a user in your server.
+* User - Mention another user or use their Discord id.
 
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
 
@@ -53,9 +53,9 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 
     `.fmta w 5`
     
-    `.fmtopartists weekly 8`
+    `.fmtopartists 8 weekly @user`
 
-    `.fmtopartists alltime 10 user`
+    `.fmtopartists alltime @drasil 10`
 
 ---
 
@@ -67,7 +67,7 @@ You can mention someone or enter their last.fm username.
 
 Parameters:
 
-* User - An artist you want to search for.
+* User - A Last.FM username or a user in your server.
 * Options - Options like taste display mode or time period.
 
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
@@ -117,7 +117,7 @@ Parameters:
 
 ### .fmindex
 
-Retrieves and stores top 2000 artists for all users in your server.
+Retrieves and stores top 4000 artists for all users in your server.
 
 Users can only be indexed once every 48 hours. This is to prevent too much API calls to last.fm.
 

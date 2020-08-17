@@ -10,12 +10,14 @@ You can set how your `.fm` embed looks with the [`.fmset` command](/commands/#se
 
 Parameters:
 
-* [User](/commands/#using-commands-for-other-users) - A Last.FM username or a user in your server.
+* User - A Last.FM username or a user in your server.
 
 !!! note "Examples"
     `.fm`
 
-    `.fm user`
+    `.fm @user`
+
+    `.fm lastfmusername`
 
 !!! info ""
     Tip: You can click the embed title to go to the users Last.FM profile.
@@ -58,7 +60,7 @@ Shows your latest scrobbles.
 Parameters:
 
 * Amount - Number of scrobbles. Can only be between 1 and 10. Defaults to 5.
-* [User](/commands/#using-commands-for-other-users) - A Last.FM username or a user in your server.
+* User - A Last.FM username or a user in your server.
 
 !!! note "Examples"
     `.fmr`
@@ -72,13 +74,13 @@ Parameters:
 ---
 ### .fmtoptracks (`.fmtt`)
 
-Shows a list of your top tracks over a certain time period.
+Shows a list of you or your friends top tracks over a certain time period.
 
-Parameters:
+Parameters (Can be used in any order):
 
 * Time period - Time period of your top tracks. Defaults to weekly.
-* Amount - Number of tracks. Can only be between 1 and 12. Defaults to 8.
-* [User](/commands/#using-commands-for-other-users) - A Last.FM username or a user in your server.
+* Amount - Number of tracks. Can only be between 1 and 16. Defaults to 10.
+* User - Mention another user or use their Discord id.
 
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
 
@@ -89,8 +91,8 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 
     `.fmtt y 3`
 
-    `.fmtoptracks weekly 5`
+    `.fmtoptracks weekly @user 5`
 
-    `.fmtoptracks alltime 10 user`
+    `.fmtoptracks @john alltime 12`
 
 ---

@@ -22,7 +22,7 @@ Click [here to invite the bot to your own server](https://discordapp.com/oauth2/
 
 Click [here to join our support server](https://discord.gg/5SZRGnJ).
 
-Check out [our OpenCollective](https://opencollective.com/fmbot).
+Support us on our [OpenCollective](https://opencollective.com/fmbot).
 
 ## View us on bot lists
 
