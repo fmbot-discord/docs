@@ -13,7 +13,7 @@
       
       
       <link rel="shortcut icon" href="../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.0">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.7">
     
     
       
@@ -21,9 +21,9 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.b5d04df8.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.b8ac9624.min.css">
       
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.9ab2c1f8.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.28f3ef9a.min.css">
       
       
     
@@ -579,12 +579,13 @@
 <p>You can set how your <code>.fm</code> embed looks with the <a href="/commands/#setting-your-lastfm-username"><code>.fmset</code> command</a>.</p>
 <p>Parameters:</p>
 <ul>
-<li><a href="/commands/#using-commands-for-other-users">User</a> - A Last.FM username or a user in your server.</li>
+<li>User - A Last.FM username or a user in your server.</li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
 <p><code>.fm</code></p>
-<p><code>.fm user</code></p>
+<p><code>.fm @user</code></p>
+<p><code>.fm lastfmusername</code></p>
 </div>
 <div class="admonition info">
 <p>Tip: You can click the embed title to go to the users Last.FM profile.</p>
@@ -616,7 +617,7 @@
 <p>Parameters:</p>
 <ul>
 <li>Amount - Number of scrobbles. Can only be between 1 and 10. Defaults to 5.</li>
-<li><a href="/commands/#using-commands-for-other-users">User</a> - A Last.FM username or a user in your server.</li>
+<li>User - A Last.FM username or a user in your server.</li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
@@ -627,12 +628,12 @@
 </div>
 <hr />
 <h3 id="fmtoptracks-fmtt">.fmtoptracks (<code>.fmtt</code>)<a class="headerlink" href="#fmtoptracks-fmtt" title="Permanent link">&para;</a></h3>
-<p>Shows a list of your top tracks over a certain time period.</p>
-<p>Parameters:</p>
+<p>Shows a list of you or your friends top tracks over a certain time period.</p>
+<p>Parameters (Can be used in any order):</p>
 <ul>
 <li>Time period - Time period of your top tracks. Defaults to weekly.</li>
-<li>Amount - Number of tracks. Can only be between 1 and 12. Defaults to 8.</li>
-<li><a href="/commands/#using-commands-for-other-users">User</a> - A Last.FM username or a user in your server.</li>
+<li>Amount - Number of tracks. Can only be between 1 and 16. Defaults to 10.</li>
+<li>User - Mention another user or use their Discord id.</li>
 </ul>
 <p>Time periods: <code>weekly</code>, <code>monthly</code>, <code>quarterly</code>, <code>half</code>, <code>yearly</code> or <code>alltime</code>. (<code>w</code>, <code>m</code>, <code>q</code>, <code>h</code>, <code>y</code> or <code>a</code>)</p>
 <div class="admonition note">
@@ -640,8 +641,8 @@
 <p><code>.fmtt</code></p>
 <p><code>.fmtoptracks</code></p>
 <p><code>.fmtt y 3</code></p>
-<p><code>.fmtoptracks weekly 5</code></p>
-<p><code>.fmtoptracks alltime 10 user</code></p>
+<p><code>.fmtoptracks weekly @user 5</code></p>
+<p><code>.fmtoptracks @john alltime 12</code></p>
 </div>
 <hr />
                 
@@ -710,15 +711,15 @@
       
     </div>
     
-      <script src="../../assets/javascripts/vendor.92ffa368.min.js"></script>
-      <script src="../../assets/javascripts/bundle.5123e3d4.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../../assets/javascripts/vendor.d1f5a259.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d5fec882.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
       
       <script>
         app = initialize({
           base: "../..",
           features: [],
           search: Object.assign({
-            worker: "../../assets/javascripts/worker/search.a68abb33.min.js"
+            worker: "../../assets/javascripts/worker/search.fae956e7.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
