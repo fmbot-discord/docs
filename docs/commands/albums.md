@@ -98,3 +98,24 @@ Shows the cover for the album you're currently listening to or searching for.
     `.fmcover`
     
     `.fmcover la priest inji`
+
+---
+
+### .fmwhoknowsalbum (`.fmwkab`, `.fmwa`)
+
+Shows who in your server listened to an album you're currently listening to or the one you're searching for.
+
+Note that the playcount for the user that requested the command will always be up to date.
+
+Parameters:
+
+* Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.
+
+!!! note "Examples"
+    `.fmwa`
+
+    `.fmwhoknowsalbum`
+
+    `.fmwhoknowsalbum The Beatles Abbey Road`
+
+    `.fmwhoknowsalbum Metallica & Lou Reed | Lulu`

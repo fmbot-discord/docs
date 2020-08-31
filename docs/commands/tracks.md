@@ -96,3 +96,23 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
     `.fmtoptracks @john alltime 12`
 
 ---
+
+
+### .fmwhoknowstracks (`.fmwktr`, `.fmwt`)
+
+Shows who in your server listened to an track you're currently listening to or the one you're searching for.
+
+Note that the playcount for the user that requested the command will always be up to date.
+
+Parameters:
+
+* Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as seperator.
+
+!!! note "Examples"
+    `.fmwt`
+
+    `.fmwhoknowstrack`
+
+    `.fmwhoknowstrack Hothouse Flowers Don't Go`
+
+    `.fmwhoknowstrack Natasha Bedingfield | Unwritten`

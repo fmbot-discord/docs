@@ -115,21 +115,6 @@ Parameters:
 
 ---
 
-### .fmindex
-
-Retrieves and stores top 4000 artists for all users in your server.
-
-Users can only be indexed once every 48 hours. This is to prevent too much API calls to last.fm.
-
-When new users setup their account, you can also run this command to update their artists.
-
-Every user that has to be indexed gets placed in a bot-wide queue, so if it takes longer then expected it might be that there are a lot of people in the queue.
-
-!!! note "Examples"
-    `.fmindex`
-
----
-
 ### .fmserverartists
 
 Shows top alltime artists for everyone in your server.
