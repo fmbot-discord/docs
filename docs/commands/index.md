@@ -29,13 +29,13 @@ Modes: `embedfull`, `embedmini`, `textfull`, `textmini`.
 Playcounts: `track`, `album` or `artist`.
 
 !!! note "Examples"
-    `.fmset thomkap`
+    `.fmset frikandel_`
 
-    `.fmset thomkap embedfull`
+    `.fmset frikandel_ embedfull`
     
-    `.fmset thomkap artist`
+    `.fmset frikandel_ artist`
     
-    `.fmset thomkap embedmini track`
+    `.fmset frikandel_ embedmini track`
 
 !!! info ""
     Please note that users in shared servers will be able to see and request your Last.FM username.
@@ -45,3 +45,16 @@ Playcounts: `track`, `album` or `artist`.
     To delete all your data from .fmbot, including friends and other settings, use `.fmremove`.
 
 ---
+
+## Logging in
+
+### .fmlogin
+
+.fmlogin is a new and easy way of logging in. This command is more error-proof and allows for new commands that interact with your last.fm profile.
+
+
+!!! note "Examples"
+    `.fmlogin`
+
+!!! info ""
+    If you're using the develop (public test) version of the bot, your login will not work in the main bot. This also applies the other way around.
