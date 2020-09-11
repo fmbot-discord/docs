@@ -136,7 +136,7 @@ Requires you to have logged in to .fmbot using the new [new login](/commands/#fm
 ---
 
 
-### .fmtrack (`.fmul`)
+### .fmunlove (`.fmul`)
 
 Removes the track you're currently listening to or searching for from your last.fm loved tracks.
 
