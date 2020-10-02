@@ -6,7 +6,7 @@
 
 To use .fmbot, you need a Last.fm account, which you can create [here](https://www.last.fm/join).
 
-You can connect your Last.fm to your spotify [here](https://www.last.fm/settings/applications). 
+You can connect your Last.fm to your Spotify [here](https://www.last.fm/settings/applications). 
 
 For more information on connecting other music services, please [click here](https://www.last.fm/about/trackmymusic) for more information.
 
