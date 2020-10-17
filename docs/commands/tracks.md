@@ -120,6 +120,26 @@ Parameters:
 
 ---
 
+### .fmservertracks
+
+Shows top tracks for everyone in your server.
+
+Parameters:
+
+* Time period - `alltime` or `weekly`
+* Sorting - `listeners` or `plays`
+
+!!! note "Examples"
+    `.fmst`
+
+    `.fmservertracks a p`
+
+    `.fmservertracks alltime plays`
+
+    `.fmservertracks listeners weekly`
+
+---
+
 ### .fmlove (`.fml`)
 
 Adds the track you're currently listening to or searching for to your last.fm loved tracks.

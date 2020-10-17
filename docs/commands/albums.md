@@ -119,3 +119,23 @@ Parameters:
     `.fmwhoknowsalbum The Beatles Abbey Road`
 
     `.fmwhoknowsalbum Metallica & Lou Reed | Lulu`
+
+---
+
+### .fmserveralbums
+
+Shows top albums for everyone in your server.
+
+Parameters:
+
+* Time period - `alltime` or `weekly`
+* Sorting - `listeners` or `plays`
+
+!!! note "Examples"
+    `.fmsab`
+
+    `.fmserveralbums a p`
+
+    `.fmserveralbums alltime plays`
+
+    `.fmserveralbums listeners weekly`
