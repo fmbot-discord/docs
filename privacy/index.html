@@ -10,8 +10,9 @@
       
       
       
+      
       <link rel="shortcut icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.0">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.1.4">
     
     
       
@@ -19,10 +20,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.bc7e593a.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.358818c7.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab28b872.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.f0267088.min.css">
         
       
     
@@ -398,6 +399,115 @@
       
       
 
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Privacy
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Privacy
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-does-your-application-do-please-be-as-detailed-as-possible-and-feel-free-to-include-links-to-image-or-video-examples" class="md-nav__link">
+    What does your application do? Please be as detailed as possible, and feel free to include links to image or video examples.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-discord-data-do-you-store" class="md-nav__link">
+    WHAT DISCORD DATA DO YOU STORE?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#for-what-purposes-do-you-store-it" class="md-nav__link">
+    FOR WHAT PURPOSE(S) DO YOU STORE IT?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#for-how-long-do-you-store-it" class="md-nav__link">
+    FOR HOW LONG DO YOU STORE IT?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-the-process-for-users-to-request-deletion-of-their-data" class="md-nav__link">
+    WHAT IS THE PROCESS FOR USERS TO REQUEST DELETION OF THEIR DATA?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-systems-and-infrastructure-do-you-use" class="md-nav__link">
+    WHAT SYSTEMS AND INFRASTRUCTURE DO YOU USE?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-have-you-secured-access-to-your-systems-and-infrastructure" class="md-nav__link">
+    HOW HAVE YOU SECURED ACCESS TO YOUR SYSTEMS AND INFRASTRUCTURE?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-can-users-contact-you-with-security-issues" class="md-nav__link">
+    HOW CAN USERS CONTACT YOU WITH SECURITY ISSUES?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#does-your-application-utilize-other-third-party-auth-services-or-connections-if-so-which-and-why" class="md-nav__link">
+    DOES YOUR APPLICATION UTILIZE OTHER THIRD-PARTY AUTH SERVICES OR CONNECTIONS? IF SO, WHICH, AND WHY?
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extra-info" class="md-nav__link">
+    Extra info
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+      
+      
+      
+
 
   <li class="md-nav__item">
     <a href="https://discordapp.com/oauth2/authorize?client_id=356268235697553409&scope=bot&permissions=52288" class="md-nav__link">
@@ -526,20 +636,26 @@
 <p>The bot allows you to set your last.fm username, but it also allows you to set server-wide settings.</p>
 <p>You can see more information on our site: https://fmbot.xyz and Github: https://github.com/fmbot-discord/fmbot</p>
 <h2 id="what-discord-data-do-you-store">WHAT DISCORD DATA DO YOU STORE?<a class="headerlink" href="#what-discord-data-do-you-store" title="Permanent link">&para;</a></h2>
-<p>When someone sets their last.fm username or registers in to the bot, we store the following Discord data:
-- Discord user ID
-- That they are in that server
-- Their nickname or name on that server</p>
-<p>When someone sets their server settings:
-- Server name
-- Server ID
-- Members that have been registered in .fmbot</p>
-<p>When someone uses a command, the debug log stores this:
-- Discord name or nickname of the user executing the command
-- Discord user id
-- Server name
-- Server id
-- The text in the command</p>
+<p>When someone sets their last.fm username or registers in to the bot, we store the following Discord data:</p>
+<ul>
+<li>Discord user ID</li>
+<li>That they are in that server</li>
+<li>Their nickname or name on that server</li>
+</ul>
+<p>When someone sets their server settings:</p>
+<ul>
+<li>Server name</li>
+<li>Server ID</li>
+<li>Members in the server that have been registered in .fmbot</li>
+</ul>
+<p>When someone uses a command, the debug log stores this:</p>
+<ul>
+<li>Discord name or nickname of the user executing the command</li>
+<li>Discord user id</li>
+<li>Server name</li>
+<li>Server id</li>
+<li>The text in the command</li>
+</ul>
 <p>We don't store any data from users that have not registered in the bot.</p>
 <h2 id="for-what-purposes-do-you-store-it">FOR WHAT PURPOSE(S) DO YOU STORE IT?<a class="headerlink" href="#for-what-purposes-do-you-store-it" title="Permanent link">&para;</a></h2>
 <p>To identify who is calling the command and get the appropriate parameters to customize their command.</p>
@@ -562,14 +678,17 @@
 <p>Through our server and DMs, or through Github issues. We are visibly identified as developers on the server.</p>
 <h2 id="does-your-application-utilize-other-third-party-auth-services-or-connections-if-so-which-and-why">DOES YOUR APPLICATION UTILIZE OTHER THIRD-PARTY AUTH SERVICES OR CONNECTIONS? IF SO, WHICH, AND WHY?<a class="headerlink" href="#does-your-application-utilize-other-third-party-auth-services-or-connections-if-so-which-and-why" title="Permanent link">&para;</a></h2>
 <p>We have multiple connections. For Last.fm we allow people to connect their account to the bot, after which we store their last.fm session token.</p>
-<p>We are connected to the following services:
-- Last.fm
-- Spotify
-- Youtube
-- Genius</p>
+<p>We are connected to the following services:</p>
+<ul>
+<li>Last.fm</li>
+<li>Spotify</li>
+<li>Youtube</li>
+<li>Genius</li>
+</ul>
 <p>These connections are to show users their song history and search these services for quick links to songs and lyrics.</p>
 <h2 id="extra-info">Extra info<a class="headerlink" href="#extra-info" title="Permanent link">&para;</a></h2>
-<p>.fmbot data will never be shared with any other 3rd party services unless explicitly specified.</p>
+<p>Personal .fmbot data will never be shared with any 3rd party services unless explicitly specified.</p>
+<p>If you have any questions after reading all this feel free to contact us on <a href="https://discord.gg/5SZRGnJ">our Discord</a> or open an issue on <a href="https://github.com/fmbot-discord/fmbot/issues/new/choose">our Github</a>.</p>
                 
               
               
@@ -584,6 +703,27 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../setup/" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Selfhosting
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -601,8 +741,8 @@
       
     </div>
     
-      <script src="../assets/javascripts/vendor.6a3d08fc.min.js"></script>
-      <script src="../assets/javascripts/bundle.71201edf.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      <script src="../assets/javascripts/vendor.7e0ee788.min.js"></script>
+      <script src="../assets/javascripts/bundle.b3a72adc.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
       
       <script>
         app = initialize({
