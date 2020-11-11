@@ -48,6 +48,17 @@ Parameters:
     
 ---
 
+### .fmstreak (`.fmstr`)
+
+Shows your track, album or artist streak.
+
+!!! note "Examples"
+    `.fmstr`
+
+    `.fmstreak`
+    
+---
+
 ### .fmoverview (`.fmo`)
 
 Shows you an overview of your top track, album and artist for the last few days.

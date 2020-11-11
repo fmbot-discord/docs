@@ -32,6 +32,33 @@ Shows you your plays for the artist you're currently listening to or searching f
     
 ---
 
+### .fmartisttracks (`.fmat`)
+
+Shows you your all-time top tracks for the artist you're currently listening to or searching for.
+
+!!! note "Examples"
+    `.fmat`
+
+    `.fmartisttracks`
+
+    `.fmartisttracks The Beatles`
+    
+---
+
+
+### .fmartistalbums (`.fmaa`)
+
+Shows you your all-time top albums for the artist you're currently listening to or searching for.
+
+!!! note "Examples"
+    `.fmaa`
+
+    `.fmartistalbums`
+
+    `.fmartistalbums Frank Ocean`
+    
+---
+
 ### .fmtopartists (`.fmta`)
 
 Shows a list of you or your friends top artists over a certain time period.
