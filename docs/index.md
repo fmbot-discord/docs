@@ -14,7 +14,7 @@ Features:
 - See what friends listen to artists with the [whoknows](/commands/artists/#fmwhoknows-fmwk-fmw) command
 - Get the Spotify, Youtube or Genius link for any song
 
-.fmbot is written in C# and uses .NET Core 3.1.
+.fmbot is written in C# and uses DNetPlus and .NET 5.
 
 ## Inviting the bot
 
