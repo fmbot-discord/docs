@@ -1,14 +1,10 @@
 # Selfhosting
 
-[Create a Discord bot here.](https://discordapp.com/developers/applications/me)
-
-[And an Last.FM API account.](https://www.last.fm/api/account/create) 
-
 ## Installing the database
-1. Download PostgreSQL 12 and start the installation.
+1. Download PostgreSQL 13 and start the installation.
 2. Make sure pgadmin is checked in the installation wizard.
 3. Use as password 'password'. This is safe because the database will not be accessed externally. You can set a different password in the config.json we create later.
-4. Set the port to port '5433' and continue with the installation. You can also change this port in the config if you want.
+4. Set the port to port '5432' and continue with the installation. You can also change this port in the config if you want.
 5. After the installation is done, open pgadmin.
 6. Right-click on databases and create a database called 'fmbot'.
 
@@ -16,7 +12,7 @@
 ## Running the bot
 1. Download the `BinaryFiles.zip` and the `BinaryRelease.zip` from the [latest release](https://github.com/fmbot-discord/fmbot/releases/latest).
 2. Extract both BinaryRelease.zip and BinaryFiles.zip and put the files into the same folder. 
-3. Make sure you have the [.NET Core 3.1 SDK](https://dotnet.microsoft.com/download/dotnet-core/3.1) installed
+3. Make sure you have the [.NET 5.0 SDK](https://dotnet.microsoft.com/download/dotnet/5.0) installed
 4. Run the bot once and a config file should be created in configs/configs.json. The database tables will also be created.
 5. Open this config and enter the values. Spotify and Genius api keys aren't required, but the commands will not work.
 6. Make sure the config is in a valid json format.

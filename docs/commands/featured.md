@@ -5,6 +5,7 @@
 Shows the user that is currently featured.
 
 Anyone that is registered in fmbot can get featured! 
+
 If you get featured, the music you listen to will be the bots avatar for an hour.
 People are able to see what exactly is featured using `.fmfeatured`.
 

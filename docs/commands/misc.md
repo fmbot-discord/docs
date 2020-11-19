@@ -42,14 +42,6 @@ Note: This command is server admin only.
     `.fmexport`
 
 ---
-### .fmdebug
-
-See all the database data .fmbot stores about you.
-
-!!! note "Examples"
-    `.fmdebug`
-
----
 ### .fmremove
 
 Deletes all your user information, including all your friends and other settings.

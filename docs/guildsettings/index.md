@@ -66,3 +66,15 @@ To disable the prefix, use the `prefix` command without any prefix behind it. Yo
     `.fmprefix !`
 
     `@.fmbot prefix`
+
+    
+!!! note "Examples of commands when prefix is set to !"
+    `!fm`
+
+    `!chart`
+
+    `!whoknows`
+    
+    `!topalbums`
+    
+    `!prefix`

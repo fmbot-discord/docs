@@ -4,10 +4,6 @@
 
 Shows the latest scrobble of your added friends in a list.
 
-Please note that the friend functionality is still in beta and can contain bugs.
-
-If you encounter any issues, feel free to join the support server and contact us.
-
 !!! note "Examples"
     `.fmfriends`
 
@@ -17,7 +13,7 @@ If you encounter any issues, feel free to join the support server and contact us
 
 Adds one or multiple friends to your friends list.
 
-Can both be used with Discord users or Last.FM usernames.
+Can both be used with Discord users or Last.fm usernames.
 
 !!! note "Examples"
     `.fmaddfriends frikandel_`
@@ -34,7 +30,7 @@ Can both be used with Discord users or Last.FM usernames.
 
 Removes one or multiple friends from your friends list.
 
-Can both be used with Discord users or Last.FM usernames.
+Can both be used with Discord users or Last.fm usernames.
 
 !!! note "Examples"
     `.fmremovefriends frikandel_`

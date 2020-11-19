@@ -10,7 +10,7 @@ You can set how your `.fm` embed looks with the [`.fmset` command](/commands/#se
 
 Parameters:
 
-* User - A Last.FM username or a user in your server.
+* User - A Last.fm username or a user in your server.
 
 !!! note "Examples"
     `.fm`
@@ -35,7 +35,7 @@ Shows your latest scrobbles.
 Parameters:
 
 * Amount - Number of scrobbles. Can only be between 1 and 10. Defaults to 5.
-* User - A Last.FM username or a user in your server.
+* User - A Last.fm username or a user in your server.
 
 !!! note "Examples"
     `.fmr`

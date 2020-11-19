@@ -14,7 +14,7 @@ Note that .fmbot is not associated with Last.fm.
 
 ---
 
-## Setting your Last.FM Username
+## Setting your Last.fm Username
 
 ### .fmset
 
@@ -38,7 +38,7 @@ Playcounts: `track`, `album` or `artist`.
     `.fmset frikandel_ embedmini track`
 
 !!! info ""
-    Please note that users in shared servers will be able to see and request your Last.FM username.
+    Please note that users in shared servers will be able to see and request your Last.fm username.
 
     
 !!! warning ""
@@ -50,11 +50,8 @@ Playcounts: `track`, `album` or `artist`.
 
 ### .fmlogin
 
-.fmlogin is a new and easy way of logging in. This command is more error-proof and allows for new commands that interact with your last.fm profile.
+.fmlogin is a new and easy way of logging in. This command is more error-proof and allows for new commands that interact with your Last.fm profile.
 
 
 !!! note "Examples"
     `.fmlogin`
-
-!!! info ""
-    If you're using the develop (public test) version of the bot, your login will not work in the main bot. This also applies the other way around.

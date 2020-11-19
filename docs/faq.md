@@ -8,11 +8,11 @@ Please see [`.fmset`](/commands/#setting-your-lastfm-username).
 
 ## Commands are showing the wrong songs
 
-Please check your last.fm profile to see if it matches the command output. We get our data from last.fm and if something is wrong with the data its almost always on their end.
+Please check your last.fm profile to see if it matches the command output. We get our data from Last.fm and if something is wrong with the data its almost always on their end.
 
 ## Help! Everything is broken even though the bot is still online..
 
-Most likely the Last.FM API is having issues, this happens every now and then. Please be patient and/or join our server for updates.
+Most likely the Last.fm API is having issues, this happens every now and then. Please be patient and/or join our server for updates.
 
 ## The bot is offline
 

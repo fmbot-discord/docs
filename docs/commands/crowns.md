@@ -45,4 +45,4 @@ Shows the users with the most crowns on your server.
     `.fmcrownleaderboard`
 
 
-More commands coming soon!
+More crown commands coming soon!
