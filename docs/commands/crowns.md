@@ -4,7 +4,7 @@ A crown is an award that you get if you're the #1 listener for a certain artist 
 
 To get crowns you can use [`.fmwhoknows`](/commands/artists/#fmwhoknows-fmwk-fmw).
 
-Crown server settings are available [here](/guildsettings/crownsettings/). Leaving a server resets all your crowns.
+Crown server settings are available [here](/guildsettings/crownsettings/). Leaving a server resets all your crowns for that server.
 
 ### .fmcrowns  (`.fmcws`)
 
