@@ -15,7 +15,7 @@ Note that .fmbot is not associated with Last.fm, we simply use their API. For is
 
 ### .fmlogin
 
-The bot will DM you a link where you can allow the bot access to your Last.fm account.
+After using this command the bot will DM you a link where you can allow access to your Last.fm account.
 
 Not receiving a DM from .fmbot when using this command? Please check if you have DMs enabled in the servers privacy settings.
 
