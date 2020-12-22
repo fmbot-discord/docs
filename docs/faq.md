@@ -2,17 +2,19 @@
 
 ---
 
-## How do I set my username?
+## How do I set my Last.fm username?
 
-Please see [`.fmset`](/commands/#setting-your-lastfm-username).
+Please see [`.fmlogin`](/commands/#fmlogin).
 
 ## Commands are showing the wrong songs
 
 Please check your last.fm profile to see if it matches the command output. We get our data from Last.fm and if something is wrong with the data its almost always on their end.
 
-## Help! Everything is broken even though the bot is still online..
+## I have an issue with Last.fm
 
-Most likely the Last.fm API is having issues, this happens every now and then. Please be patient and/or join our server for updates.
+We are not affiliated with Last.fm. This bot only uses their API to show you and your friends their statistics.
+
+If you have issues with Last.fm, we'd suggest you to check out their [support forums](https://support.last.fm)
 
 ## The bot is offline
 
@@ -23,8 +25,6 @@ It could be that it just happens to be updating. If it stays down, please join t
 The develop bot is used to test new fixes and functionality before they go to the normal bot. This is usually announced in #announcements.
 
 This bot can have more downtime and bugs than the normal bot, so that is something to keep in mind. The bots currently share the same database, so switching is easy.
-
-In the future you will be able to check the version through `.fmstatus`, but it's currently broken.
 
 ## I like this bot
 

@@ -55,31 +55,6 @@ Playcounts: `track`, `album` or `artist`. Playcounts are only available on embed
     
     `.fmmode embedmini track`
 
----
-
-## Classic login
-
-### .fmset
-
-This command is the classic way of logging in to .fmbot. 
-
-We recommend `.fmlogin` together with `.fmmode` over `.fmset`, but it will still remain available.
-
-Parameters:
-
-* Username - Your Last.FM username.
-* Mode - Default mode for `.fm`. Defaults to `embedfull`.
-* Playcount - Playcount mode for `.fm`. Defaults to none.
-
-Modes: `embedfull`, `embedmini`, `textfull`, `textmini`.
-
-Playcounts: `track`, `album` or `artist`.
-
-!!! note "Examples"
-    `.fmset frikandel_`
-
-    `.fmset frikandel_ embedfull`
     
-    `.fmset frikandel_ artist`
-    
-    `.fmset frikandel_ embedmini track`
+!!! info ""
+    Looking for the legacy way of logging in through .fmset? That's available [here](/commands/misc/#fmset).

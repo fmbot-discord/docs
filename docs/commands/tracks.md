@@ -1,31 +1,6 @@
 # Track commands
 
-## Getting your latest scrobbles
-
-### .fm
-
-Shows your last 1 or 2 scrobbles, either in embed or text format.
-
-You can set how your `.fm` embed looks with the [`.fmset` command](/commands/#setting-your-lastfm-username).
-
-Parameters:
-
-* User - A Last.fm username or a user in your server.
-
-!!! note "Examples"
-    `.fm`
-
-    `.fm @user`
-
-    `.fm lastfmusername`
-
-!!! info ""
-    Tip: You can click the embed title to go to the users Last.FM profile.
-
-!!! tip ""
-    If you want .fmbot to add reactions to this command, please see [`.fmserverreactions`](/commands/guild-settings).
-
----
+## Viewing your tracks
 
 ### .fmtrack (`.fmtr`)
 

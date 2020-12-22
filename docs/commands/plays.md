@@ -6,7 +6,7 @@
 
 Shows your last 1 or 2 scrobbles, either in embed or text format.
 
-You can set how your `.fm` embed looks with the [`.fmset` command](/commands/#setting-your-lastfm-username).
+You can set how your `.fm` embed looks with the [`.fmmode` command](/commands/#fmmode).
 
 Parameters:
 

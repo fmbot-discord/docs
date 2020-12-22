@@ -48,3 +48,29 @@ Deletes all your user information, including all your friends and other settings
 
 !!! note "Examples"
     `.fmremove`
+
+---
+
+
+### .fmset
+
+This command is the legacy way of logging in to .fmbot. 
+
+Parameters:
+
+* Username - Your Last.FM username.
+* Mode - Default mode for `.fm`. Defaults to `embedfull`.
+* Playcount - Playcount mode for `.fm`. Defaults to none.
+
+Modes: `embedfull`, `embedmini`, `textfull`, `textmini`.
+
+Playcounts: `track`, `album` or `artist`.
+
+!!! note "Examples"
+    `.fmset frikandel_`
+
+    `.fmset frikandel_ embedfull`
+    
+    `.fmset frikandel_ artist`
+    
+    `.fmset frikandel_ embedmini track`
