@@ -74,3 +74,6 @@ Playcounts: `track`, `album` or `artist`.
     `.fmset frikandel_ artist`
     
     `.fmset frikandel_ embedmini track`
+        
+!!! warning ""
+    Changing your username through the `.fmset` command will remove all your crowns!
