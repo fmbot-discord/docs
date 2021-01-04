@@ -82,7 +82,7 @@ Note that the playcount for the user that requested the command will always be u
 
 Parameters:
 
-* Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as seperator.
+* Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
 
 !!! note "Examples"
     `.fmwt`
@@ -144,3 +144,24 @@ Requires you to have logged in to .fmbot using the [new login](/commands/#fmlogi
 
     `.fmunlove Lou Reed Brandenburg Gate`
     
+---
+
+### .fmscrobble (`.fmsb`)
+
+Scrobbles the track you're searching for. You can only scrobble tracks that already exist on Last.fm.
+
+Parameters:
+
+* Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
+
+!!! note "Examples"
+    `.fmscrobble`
+
+    `.fmsb Stronger Kanye`
+
+    `.fmscrobble Loona Heart Attack`
+
+    `.fmscrobble Mac DeMarco | Chamber of Reflection`
+
+    `.fmscrobble Home | Climbing Out`
+
