@@ -43,6 +43,16 @@ Allows you to remove a crown and all crown history for a certain artist.
     `.fmkillcrown the beatles`
 
 ---
+### .fmkillallcrowns
+
+Removes all crowns from your server.
+
+!!! note "Examples"
+    `.fmkillallcrowns`
+
+    `.fmkillallcrowns confirm`
+
+---
 ### .fmcrownblock
 
 Blocks a user from getting any crowns. They will still be visible in the whoknows output.
@@ -69,6 +79,29 @@ View all blocked members on your server.
 
 !!! note "Examples"
     `.fmcrownblockedmembers`
+
+
+---
+
+### .fmcrownseeder
+
+Automatically adds crowns for your server. If you've done this before, it will update all automatically seeded crowns.
+
+Crown seeding again only updates automatically seeded crowns, not manually claimed crowns.
+
+!!! note "Examples"
+    `.fmcrownseeder`
+    
+---
+### .fmkillallseededcrowns
+
+Removes all automatically seeded crowns from your server.
+
+!!! note "Examples"
+    `.fmkillallseededcrowns`
+
+    `.fmkillallseededcrowns confirm`
+
 
 ---
 ### .fmtogglecrowns

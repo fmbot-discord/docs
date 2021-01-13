@@ -44,5 +44,6 @@ Shows the users with the most crowns on your server.
 
     `.fmcrownleaderboard`
 
-
-More crown commands coming soon!
+    
+!!! info ""
+    Looking for automatic crowns, crown settings and ways to moderate crowns on your server? That's [available here](/guildsettings/crownsettings/) in the server setting section.

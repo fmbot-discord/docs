@@ -74,7 +74,7 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 ---
 
 
-### .fmwhoknowstracks (`.fmwktr`, `.fmwt`)
+### .fmwhoknowstrack (`.fmwktr`, `.fmwt`)
 
 Shows who in your server listened to an track you're currently listening to or the one you're searching for.
 
@@ -92,6 +92,28 @@ Parameters:
     `.fmwhoknowstrack Hothouse Flowers Don't Go`
 
     `.fmwhoknowstrack Natasha Bedingfield | Unwritten`
+
+
+---
+
+### .fmglobalwhoknowstrack (`.fmgwkt`, `.fmgwt`)
+
+Shows who in .fmbot listened to an track you're currently listening to or the one you're searching for.
+
+This searches through all registered .fmbot users. Note that some users with fake playcounts might be excluded.
+
+Parameters:
+
+* Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
+
+!!! note "Examples"
+    `.fmgwt`
+
+    `.fmglobalwhoknowstrack`
+
+    `.fmglobalwhoknowstrack Hothouse Flowers Don't Go`
+
+    `.fmglobalwhoknowstrack Natasha Bedingfield | Unwritten`
 
 ---
 

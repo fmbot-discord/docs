@@ -120,6 +120,28 @@ Parameters:
 
     `.fmwhoknowsalbum Metallica & Lou Reed | Lulu`
 
+
+---
+
+### .fmglobalwhoknowsalbum (`.fmgwka`, `.fmgwa`)
+
+Shows who in .fmbot listened to an album you're currently listening to or the one you're searching for.
+
+This searches through all registered .fmbot users. Note that some users with fake playcounts might be excluded.
+
+Parameters:
+
+* Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.
+
+!!! note "Examples"
+    `.fmgwa`
+
+    `.fmglobalwhoknowsalbum`
+
+    `.fmglobalwhoknowsalbum The Beatles Abbey Road`
+
+    `.fmglobalwhoknowsalbum Metallica & Lou Reed | Lulu`
+
 ---
 
 ### .fmserveralbums

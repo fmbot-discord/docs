@@ -142,6 +142,29 @@ Parameters:
 
 ---
 
+### .fmglobalwhoknows (`.fmgwk`, `.fmgw`)
+
+Shows who in .fmbot listened to an artist you're currently listening to or the one you're searching for.
+
+This searches through all registered .fmbot users. Note that some users with fake playcounts might be excluded.
+
+Parameters:
+
+* Artist - An artist you want to search for.
+
+!!! note "Examples"
+    `.fmgw`
+
+    `.fmgwk`
+
+    `.fmgw COMA`
+
+    `.fmglobalwhoknows`
+
+    `.fmglobalwhoknows DJ Seinfeld`
+
+---
+
 ### .fmserverartists
 
 Shows top alltime artists for everyone in your server.
