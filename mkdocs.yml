@@ -35,4 +35,4 @@ nav:
   - 'FAQ': 'faq.md'
   - 'Selfhosting': 'setup.md'
   - 'Privacy': 'privacy.md'
-  - 'Invite the bot': https://discordapp.com/oauth2/authorize?client_id=356268235697553409&scope=bot+applications.commands&permissions=1074056256
+  - 'Invite the bot': https://discord.com/oauth2/authorize?client_id=356268235697553409&scope=bot+applications.commands&permissions=1074056256
