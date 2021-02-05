@@ -2,7 +2,7 @@ site_name: .fmbot
 repo_url: https://github.com/fmbot-discord/fmbot
 repo_name: fmbot
 site_description: Documentation for fmbot, a Discord Last.FM bot with various 3rd party integrations.
-google_analytics: ['G-2NVJXMTT2N', 'fmbot.xyz']
+google_analytics: ['UA-157903776-1', 'fmbot.xyz']
 theme:
   name: 'material'
   palette:
