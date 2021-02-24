@@ -10,10 +10,11 @@ For more information on connecting other music services, please [click here](htt
 
 Note that .fmbot is not associated with Last.fm, we simply use their API. For issues with Last.fm you can check out their [support forums](https://support.last.fm/).
 
-
-## Connecting your Last.fm account to .fmbot
+---
 
 ### .fmlogin
+
+This command connects your Last.fm account to .fmbot.
 
 After using this command the bot will DM you a link where you can allow access to your Last.fm account.
 
