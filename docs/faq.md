@@ -30,6 +30,14 @@ This uses a lot of API calls to Last.fm, so try not to do it too often.
 
 ---
 
+### Who picks what is featured?
+
+The bot randomly picks any user that has used .fmbot in the last 3 days.
+
+For more information, check out [Featured](/commands/featured/)
+
+---
+
 ### How do I remove someone from WhoKnows?
 
 Please check the server [WhoKnows settings](/guildsettings/whoknowsettings/).

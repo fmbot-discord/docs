@@ -35,7 +35,7 @@ To connect your account, simply use the command `.fmlogin`
 
 .fmbot is trusted by over 20.000 servers, has over 75.000 registered users, and is used more than 100.000 times every day.
 
-It is written in C#, uses Discord.net and .NET 5. The code is completely [open-source](https://github.com/fmbot-discord/fmbot/), so anyone can see how it works and modify it themselves.
+It is written in C#, uses Discord.Net and .NET 5. The code is completely [open-source](https://github.com/fmbot-discord/fmbot/), so anyone can see how it works and modify it themselves.
 
 The bot is non-commercial and is hosted and maintained by volunteers. You can help us cover hosting and other costs on our [OpenCollective](https://opencollective.com/fmbot).
 
