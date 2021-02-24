@@ -1,7 +1,7 @@
 site_name: .fmbot
 repo_url: https://github.com/fmbot-discord/fmbot
 repo_name: fmbot
-site_description: Documentation for fmbot, a Discord Last.FM bot with various 3rd party integrations.
+site_description: Welcome to .fmbot! .fmbot is a social Discord bot that provides music statistics for you, your friends, and your fellow server members.
 theme:
   name: 'material'
   custom_dir: overrides
