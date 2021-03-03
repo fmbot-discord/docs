@@ -8,6 +8,16 @@ Shows information about getting started with the bot.
     `.fmhelp`
 
 ---
+
+### .fmrateyourmusic
+
+Enables/disabled an option that changes all album links to link to RateYourMusic.
+
+!!! note "Examples"
+    `.fmrym`
+
+---
+
 ### .fminfo
 
 Shows all the information and links related to the bot.
