@@ -11,9 +11,9 @@ Please see [`.fmlogin`](/commands/#fmlogin).
 We get what you're playing directly from your Last.fm profile, so please check there first to see what is showing on your profile. 
 
 Last.fm often has issues with their Spotify connection. 
-For some people, it helps to reconnect Spotify in their [Last.fm application settings](https://www.last.fm/settings/applications).
+For most people it helps to reconnect Spotify in their [Last.fm application settings](https://www.last.fm/settings/applications). 
 
-Also, these Twitter accounts sometimes post updates in case of issues: [@lastfmstatus](https://twitter.com/lastfmstatus) and [@SpotifyStatus](https://twitter.com/SpotifyStatus)
+Last.fm also has [an official guide](https://support.last.fm/t/spotify-has-stopped-scrobbling-what-can-i-do/3184) on how to fix this.
 
 !!! info ""
     We're not affiliated with Last.fm or Spotify, so we can't fix this for you. Please don't join our support server to complain about this issue.
