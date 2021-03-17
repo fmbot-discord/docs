@@ -54,7 +54,7 @@ If you have issues with Last.fm, we'd suggest you check out their [support forum
 
 ### The bot is offline
 
-It could be that it just happens to be updating. If it stays down, please join the [support server](https://discord.gg/5SZRGnJ) and ping one of the developers.
+It could be that it just happens to be updating. If it stays down, please join the [support server](http://server.fmbot.xyz/) and ping one of the developers.
 
 ---
 
@@ -76,7 +76,7 @@ Cool, great to hear.
 
 ### I don't like this bot
 
-:( Please let us know why in the [support server](https://discord.gg/5SZRGnJ). We're open to all feedback and happy to help.
+:( Please let us know why in the [support server](http://invite.fmbot.xyz/). We're open to all feedback and happy to help.
 
 Or make your own Last.FM bot! You can export all guild members into a handy JSON format using `.fmexport`, so your friends don't have to re-set their usernames.
 

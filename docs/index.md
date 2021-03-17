@@ -26,7 +26,7 @@ To connect your account, simply use the command `.fmlogin`
 ### Links:
 
 - You can invite .fmbot to your own server by [clicking here](http://invite.fmbot.xyz).
-- Join the [.fmbot server](https://discord.gg/srmpCaa) for support and updates.
+- Join the [.fmbot server](http://server.fmbot.xyz/) for support and updates.
 - Follow us on Twitter: [@fmbotDiscord](https://twitter.com/fmbotDiscord)
 
 ---

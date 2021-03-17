@@ -88,4 +88,4 @@ These connections are to show users their song history and search these services
 
 Personal .fmbot data will never be shared with any 3rd party services unless explicitly specified.
 
-If you have any questions after reading all this feel free to contact us on [our Discord](https://discord.gg/5SZRGnJ) or open an issue on [our Github](https://github.com/fmbot-discord/fmbot/issues/new/choose).
+If you have any questions after reading all this feel free to contact us on [our Discord](http://invite.fmbot.xyz/) or open an issue on [our Github](https://github.com/fmbot-discord/fmbot/issues/new/choose).
