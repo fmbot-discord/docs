@@ -85,6 +85,7 @@ Parameters:
 
 * Amount - Number of plays you want to reach
 * Time period - Time you want to base the estimate on. Defaults to your last.fm register date.
+* User
 
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
 
@@ -93,7 +94,29 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 
     `.fmpace`
 
-    `.fmpace a 73000`
+    `.fmpace a 73k`
 
     `.fmpace 50000 quarterly`
+    
+---
+
+### .fmmilestone (`.fmms`)
+
+Shows you your latest scrobble milestones.
+
+Parameters:
+
+* Amount - Milestone you want to check
+* User
+
+!!! note "Examples"
+    `.fmms`
+
+    `.fmms 30k`
+
+    `.fmmilestone`
+
+    `.fmmilestone 20k`
+
+    `.fmmilestone 1337 @frikandel`
     
