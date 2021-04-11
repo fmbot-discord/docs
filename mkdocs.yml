@@ -55,8 +55,8 @@ nav:
     - 'WhoKnows': 'guildsettings/whoknowsettings.md'
     - 'Crowns': 'guildsettings/crownsettings.md'
     - 'Webhooks': 'guildsettings/webhooks.md'
-  - 'Selfhosting': 'setup.md'
   - 'Music bot scrobbling': 'botscrobbling.md'
+  - 'Selfhosting': 'setup.md'
   - 'Privacy': 'privacy.md'
   - 'Donations': https://opencollective.com/fmbot/
   - 'Invite the bot': http://invite.fmbot.xyz/

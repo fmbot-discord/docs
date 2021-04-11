@@ -1,5 +1,9 @@
 # Selfhosting
 
+!!! note "Selfhosting as a server owner"
+    If you're a server owner and are considering selfhosting keep in mind that we recommend [using the bot that we host](http://invite.fmbot.xyz/) over our selfhosted version. 
+    The reason for this is that selfhosting only has minor upsides and that we can't really offer support to selfhosters.
+
 ## Installing the database
 1. Download PostgreSQL 13 and start the installation.
 2. Make sure pgadmin is checked in the installation wizard.
@@ -48,10 +52,3 @@
 
 1. Go to the [Spotify Developer dashboard](https://developer.spotify.com/dashboard/applications)
 2. Create an app and enter both the ID and the secret into the config file.
-
-### Google (used for youtube):
-
-1. Create a project in the [developer console](https://console.developers.google.com/)
-2. Enable the Youtube Data API v3 for the project.
-3. In project credentials, create an API key
-4. Enter the API key in the config file.
