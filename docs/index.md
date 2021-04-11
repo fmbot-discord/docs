@@ -7,6 +7,7 @@ Welcome to .fmbot! .fmbot is a social Discord bot that provides music statistics
 - Generate [advanced charts](/commands/albums/#fmchart-fmc) based on your listening history
 - Get the Spotify, Youtube, or Genius link for any song
 - View all your Last.fm statistics through deep integration with Last.fm
+- Scrobble songs that other Discord bots are playing to your Last.fm account with our [Bot scrobbling](/botscrobbling/)
 
 ### Social features:
 
