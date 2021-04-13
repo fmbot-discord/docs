@@ -55,7 +55,3 @@ Playcounts: `track`, `album` or `artist`. Playcounts are only available on embed
     `.fmmode textmini`
     
     `.fmmode embedmini track`
-
-    
-!!! info ""
-    Looking for the legacy way of logging in through .fmset? That's available [here](/commands/misc/#fmset).
