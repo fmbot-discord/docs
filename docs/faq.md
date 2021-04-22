@@ -16,7 +16,7 @@ For most people it helps to reconnect Spotify in their [Last.fm application sett
 Last.fm also has [an official guide](https://support.last.fm/t/spotify-has-stopped-scrobbling-what-can-i-do/3184) on how to fix this.
 
 !!! info ""
-    We're not affiliated with Last.fm or Spotify, so we can't fix this for you. Please don't join our support server to complain about this issue.
+    .fmbot is **not** affiliated with Last.fm or Spotify, so we can't fix this for you. Please don't join our support server to complain about this issue.
 
 ---
 

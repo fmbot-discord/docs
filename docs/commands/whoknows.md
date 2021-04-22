@@ -10,6 +10,10 @@
 
 - To manually update your records for the whoknows commands.
 
+### When **not** to use:
+
+- If your `.fm` command is showing the wrong song / not showing what you're listening to on Spotify. See related [FAQ entry](/faq/#commands-are-showing-the-wrong-songs-its-not-showing-what-i-listen-to-on-spotify).
+
 ### Things to note:
 
 - Commands that use your plays will also update you automatically or just get their information directly from last.fm. Manually updating only makes sense if you don't appear properly in whoknows.
