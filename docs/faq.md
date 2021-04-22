@@ -8,7 +8,7 @@ Please see [`.fmlogin`](/commands/#fmlogin).
 
 ### Commands are showing the wrong songs/ it's not showing what I listen to on Spotify
 
-We get what you're playing directly from your Last.fm profile, so please check there first to see what is showing on your profile. 
+We get what you're playing directly from your Last.fm profile, so please check there first to see what is showing on [your profile](https://www.last.fm/user/_). 
 
 Last.fm often has issues with their Spotify connection. 
 For most people it helps to reconnect Spotify in their [Last.fm application settings](https://www.last.fm/settings/applications). 
