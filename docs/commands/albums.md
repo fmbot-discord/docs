@@ -88,6 +88,21 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 
 ---
 
+### .fmalbumtracks (`.fmabt`)
+
+Shows a list of tracks in an album that you have plays on.
+
+Note that Last.fm or Spotify will sometimes not return the tracks within an album.
+
+!!! note "Examples"
+    `.fmabt`
+
+    `.fmalbumtracks`
+
+    `.fmalbumtracks the beatles yesterday`
+
+---
+
 ### .fmcover (`.fmco`)
 
 Shows the cover for the album you're currently listening to or searching for.
