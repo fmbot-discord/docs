@@ -141,8 +141,6 @@ Parameters:
 
 Adds the track you're currently listening to or searching for to your last.fm loved tracks.
 
-Requires you to have logged in to .fmbot using the new [new login](/commands/#fmlogin).
-
 !!! note "Examples"
     `.fml`
 
@@ -157,14 +155,25 @@ Requires you to have logged in to .fmbot using the new [new login](/commands/#fm
 
 Removes the track you're currently listening to or searching for from your last.fm loved tracks.
 
-Requires you to have logged in to .fmbot using the [new login](/commands/#fmlogin).
-
 !!! note "Examples"
     `.fmul`
 
     `.fmunlove`
 
-    `.fmunlove Lou Reed Brandenburg Gate`
+    `.fmunlove Lou Reed Brandenburg Gate`---
+
+---
+
+### .fmloved (`.fmlt`)
+
+Displays a user's loved tracks.
+
+!!! note "Examples"
+    `.fmlt`
+
+    `.fmlovedtracks`
+
+    `.fmlovedtracks @user`
     
 ---
 
