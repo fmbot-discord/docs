@@ -1,8 +1,11 @@
-# Selfhosting
+# Development and selfhosting
 
 !!! note "Selfhosting as a server owner"
-    If you're a server owner and are considering selfhosting keep in mind that we recommend [using the bot that we host](http://invite.fmbot.xyz/) over our selfhosted version. 
-    The reason for this is that selfhosting only has minor upsides and that we can't really offer support to selfhosters.
+    If you're a server owner and are considering selfhosting keep in mind that we recommend [using the bot that we host](http://invite.fmbot.xyz/). 
+    The reason for this is that selfhosting only has minor upsides and that we don't offer support to selfhosters. 
+
+    We only recommend using this guide if you're a developer and know what you're doing.
+
 
 ## Installing the database
 1. Download PostgreSQL 13 and start the installation.
