@@ -1,6 +1,6 @@
 # Updating and indexing
 
-## .fmupdate
+## .update
 
 ### What it does:
 
@@ -12,7 +12,7 @@
 
 ### When **not** to use:
 
-- If your `.fm` command is showing the wrong song / not showing what you're listening to on Spotify. See related [FAQ entry](/faq/#commands-are-showing-the-wrong-songs-its-not-showing-what-i-listen-to-on-spotify).
+- If your `.fm` command is showing the wrong song / not showing what you're listening to on Spotify. See related [FAQ entry](/faq.html#commands-are-showing-the-wrong-songs-its-not-showing-what-i-listen-to-on-spotify).
 
 ### Things to note:
 
@@ -22,21 +22,21 @@
 
     
 !!! warning ""
-    Commands that use locally stored plays (like `.fmoverview` and `.fmstreak`) will also update you automatically. Commands like `.fm` and `.fmartist` get their info directly from Last.fm.
+    Commands that use locally stored plays (like `.overview` and `.streak`) will also update you automatically. Commands like `.fm` and `.fmartist` get their info directly from Last.fm.
 
     Manually updating isn't required and does not make sense in these situations.
 
 
 !!! note "Examples"
-    `.fmu`
+    `.u`
 
-    `.fmupdate`
+    `.update`
 
-    `.fmupdate full`
+    `.update full`
 
 ---
 
-## .fmindex
+## .index
 
 ### What it does:
 
@@ -55,6 +55,6 @@
 - This command will eventually be phased out due to all this being done automatically.
 
 !!! note "Examples"
-    `.fmi`
+    `.i`
 
-    `.fmindex`
+    `.index`

@@ -1,44 +1,44 @@
 # Spotify commands
 
-### .fmspotify (`.fmsp`)
+### .spotify (`.sp`)
 
 Gets the Spotify link for the song you're currently listening to, or the one you're searching for.
 
 !!! note "Examples"
-    `.fmsp`
+    `.sp`
 
-    `.fmspotify`
+    `.spotify`
 
-    `.fmsp C418 Sweden`
+    `.sp C418 Sweden`
 
-    `.fmspotify Delta Sleep Camp Adventure`
+    `.spotify Delta Sleep Camp Adventure`
 
 ---
     
-### .fmspotifyalbum (`.fmspab`)
+### .spotifyalbum (`.spab`)
 
 Gets the Spotify link for the album you're currently listening to, or the one you're searching for.
 
 !!! note "Examples"
-    `.fmspab`
+    `.spab`
 
-    `.fmspotifyalbum`
+    `.spotifyalbum`
 
-    `.fmspab De Jeugd De Lachende Derde`
+    `.spab De Jeugd De Lachende Derde`
 
-    `.fmspotifyalbum Alexander Robotnick April`
+    `.spotifyalbum Alexander Robotnick April`
 
 ---
     
-### .fmspotifyartist (`.fmspa`)
+### .spotifyartist (`.spa`)
 
 Gets the Spotify link for the artist you're currently listening to, or the one you're searching for.
 
 !!! note "Examples"
-    `.fmspa`
+    `.spa`
 
-    `.fmspotifyartist`
+    `.spotifyartist`
 
-    `.fmspa Green Day`
+    `.spa Green Day`
 
-    `.fmspotifyartist Acid Pauli`
+    `.spotifyartist Acid Pauli`

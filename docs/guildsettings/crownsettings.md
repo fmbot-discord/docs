@@ -5,7 +5,7 @@ You can change what users are able to gain crowns, configure other crown setting
 These settings can only be changed by admins, users with the 'Ban Members' permission or .fmbot admins.
 
 
-### .fmcrownthreshold
+### .crownthreshold
 
 Allows you set a minimum amount of plays required for someone to claim a crown.
 
@@ -14,12 +14,12 @@ The default value for this is 30.
 Use the command without any parameters to disable.
 
 !!! note "Examples"
-    `.fmcrownthreshold`
+    `.crownthreshold`
 
-    `.fmcrownthreshold 100`
+    `.crownthreshold 100`
 
 ---
-### .fmcrownactivitythreshold
+### .crownactivitythreshold
 
 Allows you to block users from gaining crowns if they have not been active in a certain amount of days.
 
@@ -28,87 +28,87 @@ A user is counted as active once they use .fmbot.
 Use the command without any parameters to disable.
 
 !!! note "Examples"
-    `.fmcrownactivitythreshold`
+    `.crownactivitythreshold`
 
-    `.fmcrownactivitythreshold 14`
+    `.crownactivitythreshold 14`
 
 ---
-### .fmkillcrown
+### .killcrown
 
 Allows you to remove a crown and all crown history for a certain artist.
 
 !!! note "Examples"
-    `.fmkillcrown deadmau5`
+    `.killcrown deadmau5`
 
-    `.fmkillcrown the beatles`
+    `.killcrown the beatles`
 
 ---
-### .fmkillallcrowns
+### .killallcrowns
 
 Removes all crowns from your server.
 
 !!! note "Examples"
-    `.fmkillallcrowns`
+    `.killallcrowns`
 
-    `.fmkillallcrowns confirm`
+    `.killallcrowns confirm`
 
 ---
-### .fmcrownblock
+### .crownblock
 
 Blocks a user from getting any crowns. They will still be visible in the whoknows output.
 
 !!! note "Examples"
-    `.fmcrownblock 748900688129687642`
+    `.crownblock 748900688129687642`
 
-    `.fmcrownblock lastfmsupport`
+    `.crownblock lastfmsupport`
 
 ---
-### .fmunblock
+### .unblock
 
 Unblocks a user and allows them to gain crowns again.
 
 !!! note "Examples"
-    `.fmunblock 748900688129687642`
+    `.unblock 748900688129687642`
 
-    `.fmunblock lastfmsupport`
+    `.unblock lastfmsupport`
 
 ---
-### .fmcrownblockedmembers
+### .crownblockedmembers
 
 View all blocked members on your server.
 
 !!! note "Examples"
-    `.fmcrownblockedmembers`
+    `.crownblockedmembers`
 
 
 ---
 
-### .fmcrownseeder
+### .crownseeder
 
 Automatically adds crowns for your server. If you've done this before, it will update all automatically seeded crowns.
 
 Crown seeding again only updates automatically seeded crowns, not manually claimed crowns.
 
 !!! note "Examples"
-    `.fmcrownseeder`
+    `.crownseeder`
     
 ---
-### .fmkillallseededcrowns
+### .killallseededcrowns
 
 Removes all automatically seeded crowns from your server.
 
 !!! note "Examples"
-    `.fmkillallseededcrowns`
+    `.killallseededcrowns`
 
-    `.fmkillallseededcrowns confirm`
+    `.killallseededcrowns confirm`
 
 
 ---
-### .fmtogglecrowns
+### .togglecrowns
 
 Enables/disables all crowns for your server.
 
 All mentions of crowns will be hidden and all crowns that exist will be removed.
 
 !!! note "Examples"
-    `.fmtogglecrowns`
+    `.togglecrowns`

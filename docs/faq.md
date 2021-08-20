@@ -2,7 +2,7 @@
 
 ### How do I set my Last.fm username?
 
-Please see [`.fmlogin`](/commands/#fmlogin).
+Please see [`.login`](/commands/#login).
 
 ---
 
@@ -24,7 +24,7 @@ Last.fm also has [an official guide](https://support.last.fm/t/spotify-has-stopp
 
 Because we rely heavily on caching your playcounts to keep our commands fast it can sometimes happen that you don't get updated properly.
 
-In this case, try to use `.fmupdate full`. This completely re-builds the stored playcounts the bot has for you. 
+In this case, try to use `.update full`. This completely re-builds the stored playcounts the bot has for you. 
 
 This uses a lot of API calls to Last.fm, so try not to do it too often.
 
@@ -78,7 +78,7 @@ Cool, great to hear.
 
 :( Please let us know why in the [support server](http://invite.fmbot.xyz/). We're open to all feedback and happy to help.
 
-Or make your own Last.FM bot! You can export all guild members into a handy JSON format using `.fmexport`, so your friends don't have to re-set their usernames.
+Or make your own Last.FM bot! You can export all guild members into a handy JSON format using `.export`, so your friends don't have to re-set their usernames.
 
 ---
 
@@ -86,7 +86,7 @@ Or make your own Last.FM bot! You can export all guild members into a handy JSON
 
 To support us financially, check out [our OpenCollective](https://opencollective.com/fmbot). All donations will go towards bot expenses and we will provide full transparency about where your money goes.
 
-You will also gain a `backer status`, which gives you a fancy emote after your name.
+You will also gain a `supporter status`, which gives you a fancy emote after your name.
 
 If you are familiar with C# / .NET you can also help us out and pick up one of the open [issues](https://github.com/fmbot-discord/fmbot/issues). Please check out our [contributing guidelines](https://github.com/fmbot-discord/fmbot/blob/main/CONTRIBUTING.md) first.
 
@@ -96,4 +96,4 @@ If you are familiar with C# / .NET you can also help us out and pick up one of t
 
 This bot was made by BitL back in September 2017 and was inspired by [UB3R Bot](https://ub3r-b0t.com/). Back then the bot just had `.fm`, the charts, featuring and `.fmyoutube`. 
 
-Frikandel joined in when he had the idea of `.fmfriends`, but was too lazy to make his own bot. Together they moved the bot from text files to an actual database, and the quality of the code has greatly improved since the start.
+Frikandel joined in when he had the idea of `.friends`, but was too lazy to make his own bot. Together they moved the bot from text files to an actual database, and the quality of the code has greatly improved since the start.

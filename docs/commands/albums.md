@@ -1,32 +1,32 @@
 # Albums
 
-### .fmalbum (`.fmab`)
+### .album (`.ab`)
 
 Gets information about the album you're currently listening to or searching for.
 
 !!! note "Examples"
-    `.fmab`
+    `.ab`
 
-    `.fmalbum`
+    `.album`
 
-    `.fmalbum Ventura Anderson .Paak`
+    `.album Ventura Anderson .Paak`
     
 ---
 
-### .fmalbumplays (`.fmabp`)
+### .albumplays (`.abp`)
 
 Shows you your plays for the album you're currently listening to or searching for.
 
 !!! note "Examples"
-    `.fmabp`
+    `.abp`
 
-    `.fmalbumplays`
+    `.albumplays`
     
-    `.fmalbumplays The Slow Rush`
+    `.albumplays The Slow Rush`
     
 ---
 
-### .fmchart (`.fmc`)
+### .chart (`.c`)
 
 Creates a chart of your top albums over a certain time period.
 
@@ -47,23 +47,23 @@ Options:
 - `skipemptyalbums`. Skips albums without images. (`s` or `skip`)
 
 !!! note "Examples"
-    `.fmc`
+    `.c`
 
-    `.fmchart`
+    `.chart`
 
-    `.fmchart 5x5`
+    `.chart 5x5`
 
-    `.fmchart 8x8 yearly`
+    `.chart 8x8 yearly`
 
-    `.fmchart 8x8 alltime notitles`
+    `.chart 8x8 alltime notitles`
 
-    `.fmchart 8x8 alltime notitles skipemptyalbums`
+    `.chart 8x8 alltime notitles skipemptyalbums`
 
-    `.fmc 8x8 a nt s`
+    `.c 8x8 a nt s`
 
 ---
 
-### .fmtopalbums (`.fmtab`)
+### .topalbums (`.tab`)
 
 Shows a list of you or your friends top albums over a certain time period.
 
@@ -76,47 +76,47 @@ Parameters (Can be used in any order):
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
 
 !!! note "Examples"
-    `.fmtab`
+    `.tab`
 
-    `.fmtopalbums`
+    `.topalbums`
 
-    `.fmtab a 3`
+    `.tab a 3`
 
-    `.fmtopalbums 8 weekly @user`
+    `.topalbums 8 weekly @user`
 
-    `.fmtopalbums quarterly @slipper 12`
+    `.topalbums quarterly @slipper 12`
 
 ---
 
-### .fmalbumtracks (`.fmabt`)
+### .albumtracks (`.abt`)
 
 Shows a list of tracks in an album that you have plays on.
 
 Note that Last.fm or Spotify will sometimes not return the tracks within an album.
 
 !!! note "Examples"
-    `.fmabt`
+    `.abt`
 
-    `.fmalbumtracks`
+    `.albumtracks`
 
-    `.fmalbumtracks the beatles yesterday`
+    `.albumtracks the beatles yesterday`
 
 ---
 
-### .fmcover (`.fmco`)
+### .cover (`.co`)
 
 Shows the cover for the album you're currently listening to or searching for.
 
 !!! note "Examples"
-    `.fmco`
+    `.co`
 
-    `.fmcover`
+    `.cover`
     
-    `.fmcover la priest inji`
+    `.cover la priest inji`
 
 ---
 
-### .fmwhoknowsalbum (`.fmwkab`, `.fmwa`)
+### .whoknowsalbum (`.wkab`, `.wa`)
 
 Shows who in your server listened to an album you're currently listening to or the one you're searching for.
 
@@ -127,18 +127,18 @@ Parameters:
 * Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.
 
 !!! note "Examples"
-    `.fmwa`
+    `.wa`
 
-    `.fmwhoknowsalbum`
+    `.whoknowsalbum`
 
-    `.fmwhoknowsalbum The Beatles Abbey Road`
+    `.whoknowsalbum The Beatles Abbey Road`
 
-    `.fmwhoknowsalbum Metallica & Lou Reed | Lulu`
+    `.whoknowsalbum Metallica & Lou Reed | Lulu`
 
 
 ---
 
-### .fmglobalwhoknowsalbum (`.fmgwka`, `.fmgwa`)
+### .globalwhoknowsalbum (`.gwka`, `.gwa`)
 
 Shows who in .fmbot listened to an album you're currently listening to or the one you're searching for.
 
@@ -149,17 +149,17 @@ Parameters:
 * Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.
 
 !!! note "Examples"
-    `.fmgwa`
+    `.gwa`
 
-    `.fmglobalwhoknowsalbum`
+    `.globalwhoknowsalbum`
 
-    `.fmglobalwhoknowsalbum The Beatles Abbey Road`
+    `.globalwhoknowsalbum The Beatles Abbey Road`
 
-    `.fmglobalwhoknowsalbum Metallica & Lou Reed | Lulu`
+    `.globalwhoknowsalbum Metallica & Lou Reed | Lulu`
 
 ---
 
-### .fmserveralbums
+### .serveralbums
 
 Shows top albums for everyone in your server.
 
@@ -169,10 +169,10 @@ Parameters:
 * Sorting - `listeners` or `plays`
 
 !!! note "Examples"
-    `.fmsab`
+    `.sab`
 
-    `.fmserveralbums a p`
+    `.serveralbums a p`
 
-    `.fmserveralbums alltime plays`
+    `.serveralbums alltime plays`
 
-    `.fmserveralbums listeners weekly`
+    `.serveralbums listeners weekly`

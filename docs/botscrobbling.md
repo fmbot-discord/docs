@@ -14,16 +14,16 @@ The bot will only scrobble songs it can find on Last.fm. The scrobbling works be
 ### Requirements:
 
 * Make sure .fmbot can see the voice channel
-* Make sure you've logged in at least once using `.fmlogin`
+* Make sure you've logged in at least once using `.login`
 
 
-### .fmbotscrobbling
+### .botscrobbling
 
 Use this command to disable/enable bot scrobbling for your account or to check if you are ready for scrobbling.
 
 !!! note "Examples"
-    `.fmbotscrobbling`
+    `.botscrobbling`
 
-    `.fmbotscrobbling on`
+    `.botscrobbling on`
 
-    `.fmbotscrobbling off`
+    `.botscrobbling off`

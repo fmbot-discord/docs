@@ -2,48 +2,46 @@
 
 A crown is an award that you get if you're the #1 listener for a certain artist in a server.
 
-To get crowns you can use [`.fmwhoknows`](/commands/artists/#fmwhoknows-fmwk-fmw).
+To get crowns you can use [`.whoknows`](/commands/artists.html#whoknows-wk-w).
 
-Crown server settings are available [here](/guildsettings/crownsettings/). Leaving a server resets all your crowns for that server.
+Crown server settings are available [here](/guildsettings/crownsettings.html). Leaving a server resets all your crowns for that server.
 
-### .fmcrowns  (`.fmcws`)
+### .crowns  (`.cws`)
 
 Shows your top crowns or crowns for a user you're searching for.
 
 
 !!! note "Examples"
-    `.fmcws`
+    `.cws`
 
-    `.fmcrowns`
+    `.crowns`
 
-    `.fmcrowns @frikandel`
-
-    `.fmupdate 125740103539621888`
+    `.crowns @frikandel`
     
 ---
-### .fmcrown (`.fmcw`)
+### .crown (`.cw`)
 
 Shows the current crown owner and crown history for the artist you're currently listening to or searching for.
 
 !!! note "Examples"
-    `.fmcw`
+    `.cw`
 
-    `.fmcrown`
+    `.crown`
 
-    `.fmcrown the beatles`
+    `.crown the beatles`
 
-    `.fmcrown kanye west`
+    `.crown kanye west`
 
 ---   
-### .fmcrownleaderboard (`.fmcwlb`)
+### .crownleaderboard (`.cwlb`)
 
 Shows the users with the most crowns on your server.
 
 !!! note "Examples"
-    `.fmcwlb`
+    `.cwlb`
 
-    `.fmcrownleaderboard`
+    `.crownleaderboard`
 
     
 !!! info ""
-    Looking for automatic crowns, crown settings and ways to moderate crowns on your server? That's [available here](/guildsettings/crownsettings/) in the server setting section.
+    Looking for automatic crowns, crown settings and ways to moderate crowns on your server? That's [available here](/guildsettings/crownsettings.html) in the server setting section.

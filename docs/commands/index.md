@@ -12,7 +12,7 @@ Note that .fmbot is not associated with Last.fm, we simply use their API. For is
 
 ---
 
-### .fmlogin
+### .login
 
 This command connects your Last.fm account to .fmbot.
 
@@ -22,7 +22,7 @@ Not receiving a DM from .fmbot when using this command? Please check if you have
 
 
 !!! note "Examples"
-    `.fmlogin`
+    `.login`
 
     
 !!! info ""
@@ -30,11 +30,11 @@ Not receiving a DM from .fmbot when using this command? Please check if you have
 
     
 !!! warning ""
-    To delete all your data from .fmbot, including friends and other settings, use `.fmremove`.
+    To delete all your data from .fmbot, including friends and other settings, use `.remove`.
 
 ---
 
-### .fmmode
+### .mode
 
 This command allows you to change how your .fm command looks.
 
@@ -48,10 +48,10 @@ Modes: `embedfull`, `embedmini`, `textfull`, `textmini`.
 Playcounts: `track`, `album` or `artist`. Playcounts are only available on embed modes.
 
 !!! note "Examples"
-    `.fmmode embedmini artist`
+    `.mode embedmini artist`
 
-    `.fmmode embedfull`
+    `.mode embedfull`
     
-    `.fmmode textmini`
+    `.mode textmini`
     
-    `.fmmode embedmini track`
+    `.mode embedmini track`

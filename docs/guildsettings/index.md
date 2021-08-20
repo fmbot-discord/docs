@@ -2,56 +2,56 @@
 
 Server settings can only be changed by admins, users with the 'Ban Members' permission or .fmbot admins.
 
-### .fmserverreactions
+### .serverreactions
 
 Sets the emote reactions for every .fm command in your server.
 
-To disable, simply use `.fmserverreactions` without any emotes.
+To disable, simply use `.serverreactions` without any emotes.
 
 Make sure the emotes you enable are on your server.
 
 Max amount of emotes is 3. Please put a space between every emote.
 
 !!! note "Examples"
-    `.fmserverreactions :PagChomp: :PensiveBlob:`
+    `.serverreactions :PagChomp: :PensiveBlob:`
 
-    `.fmserverreactions 😀 😯 🥵`
+    `.serverreactions 😀 😯 🥵`
 
-    `.fmserverreactions 😀 😯 :PensiveBlob:`
+    `.serverreactions 😀 😯 :PensiveBlob:`
 
-    `.fmserverreactions`
+    `.serverreactions`
 
 ---   
-### .fmtogglecommand
+### .togglecommand
 
 You can enable/disable commands per channel.
 
-To view all disabled commands, use `.fmtogglecommand` without any options.
+To view all disabled commands, use `.togglecommand` without any options.
 
-Make sure to enter commands without without the `.fm` prefix.
+Make sure to enter commands without without the `.` prefix.
 
 !!! note "Examples"
-    `.fmtogglecommand`
+    `.togglecommand`
 
-    `.fmtogglecommand chart`
+    `.togglecommand chart`
 
-    `.fmtogglecommand whoknows`
+    `.togglecommand whoknows`
 
 ---        
-### .fmtoggleservercommand
+### .toggleservercommand
 
 You can enable/disable commands server-wide.
 
-To view all disabled commands, use `.fmtoggleservercommand` without any options.
+To view all disabled commands, use `.toggleservercommand` without any options.
 
-Make sure to enter commands without without the `.fm` prefix.
+Make sure to enter commands without without the `.` prefix.
 
 !!! note "Examples"
-    `.fmtoggleservercommand`
+    `.toggleservercommand`
 
-    `.fmtoggleservercommand chart`
+    `.toggleservercommand chart`
 
-    `.fmtoggleservercommand whoknows`
+    `.toggleservercommand whoknows`
 
 ---   
 
@@ -100,5 +100,5 @@ Note that you can always mention the bot, this will work regardless of prefix.
 
     <b>Is it possible to change this back if I want?</b>
 
-    Yes. Simply use `.fmprefix .fm` and it won't respond to commands with just the `.` prefix, except for the main `.fm` command of course.
+    Yes. Simply use `.prefix .fm` and it won't respond to commands with just the `.` prefix, except for the main `.fm` command of course.
     Note that this documentation site will also move to having the `.` prefix.

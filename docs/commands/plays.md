@@ -6,7 +6,7 @@
 
 Shows your last 1 or 2 scrobbles, either in embed or text format.
 
-You can set how your `.fm` embed looks with the [`.fmmode` command](/commands/#fmmode).
+You can set how your `.fm` embed looks with the [`.mode` command](/commands/#mode).
 
 Parameters:
 
@@ -20,15 +20,15 @@ Parameters:
     `.fm lastfmusername`
 
 !!! info ""
-    Tip: You can click the embed title to go to the users Last.FM profile.
+    Tip: You can click the embed title to go to the users Last.fm profile.
 
 !!! tip ""
-    If you want .fmbot to add reactions to this command, please see [`.fmserverreactions`](/commands/guild-settings).
+    If you want .fmbot to add reactions to this command, please see [`.serverreactions`](/guildsettings/index.html#serverreactions).
 
 ---
 
 
-### .fmrecent (`.fmr`)
+### .recent (`.r`)
 
 Shows your latest scrobbles.
 
@@ -38,28 +38,28 @@ Parameters:
 * User - A Last.fm username or a user in your server.
 
 !!! note "Examples"
-    `.fmr`
+    `.r`
 
-    `.fmrecent`
+    `.recent`
 
-    `.fmrecent 10`
+    `.recent 10`
 
-    `.fmrecent 5 user`
+    `.recent 5 user`
     
 ---
 
-### .fmstreak (`.fmstr`)
+### .streak (`.str`)
 
 Shows your track, album or artist streak.
 
 !!! note "Examples"
-    `.fmstr`
+    `.str`
 
-    `.fmstreak`
+    `.streak`
     
 ---
 
-### .fmoverview (`.fmo`)
+### .overview (`.o`)
 
 Shows you an overview of your top track, album and artist for the last few days.
 
@@ -68,16 +68,16 @@ Parameters:
 * Amount - Number of days to show. Can only be between 1 and 8. Defaults to 4.
 
 !!! note "Examples"
-    `.fmo`
+    `.o`
 
-    `.fmoverview`
+    `.overview`
 
-    `.fmoverview 8`
+    `.overview 8`
     
     
 ---
 
-### .fmpace (`.fmpc`)
+### .pace (`.pc`)
 
 Shows you an estimate of when you will reach a certain amount of plays.
 
@@ -90,17 +90,17 @@ Parameters:
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
 
 !!! note "Examples"
-    `.fmpc`
+    `.pc`
 
-    `.fmpace`
+    `.pace`
 
-    `.fmpace a 73k`
+    `.pace a 73k`
 
-    `.fmpace 50000 quarterly`
+    `.pace 50000 quarterly`
     
 ---
 
-### .fmmilestone (`.fmms`)
+### .milestone (`.ms`)
 
 Shows you your latest scrobble milestones.
 
@@ -110,13 +110,13 @@ Parameters:
 * User
 
 !!! note "Examples"
-    `.fmms`
+    `.ms`
 
-    `.fmms 30k`
+    `.ms 30k`
 
-    `.fmmilestone`
+    `.milestone`
 
-    `.fmmilestone 20k`
+    `.milestone 20k`
 
-    `.fmmilestone 1337 @frikandel`
+    `.milestone 1337 @frikandel`
     

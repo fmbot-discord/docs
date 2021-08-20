@@ -2,34 +2,34 @@
 
 ## Viewing your tracks
 
-### .fmtrack (`.fmtr`)
+### .track (`.tr`)
 
 Gets information about the track you're currently listening to or searching for.
 
 !!! note "Examples"
-    `.fmtr`
+    `.tr`
 
-    `.fmtrack`
+    `.track`
 
-    `.fmtrack Stronger Kanye West`
+    `.track Stronger Kanye West`
     
 ---
 
-### .fmtrackplays (`.fmtp`)
+### .trackplays (`.tp`)
 
 Shows you your plays for the track you're currently listening to or searching for.
 
 !!! note "Examples"
-    `.fmtp`
+    `.tp`
 
-    `.fmtrackplays`
+    `.trackplays`
 
-    `.fmtrackplays Infected Mushroom Can't Stop`
+    `.trackplays Infected Mushroom Can't Stop`
     
 ---
 
 
-### .fmrecent (`.fmr`)
+### .recent (`.r`)
 
 Shows your latest scrobbles.
 
@@ -39,16 +39,16 @@ Parameters:
 * User - A Last.FM username or a user in your server.
 
 !!! note "Examples"
-    `.fmr`
+    `.r`
 
-    `.fmrecent`
+    `.recent`
 
-    `.fmrecent 10`
+    `.recent 10`
 
-    `.fmrecent 5 user`
+    `.recent 5 user`
     
 ---
-### .fmtoptracks (`.fmtt`)
+### .toptracks (`.tt`)
 
 Shows a list of you or your friends top tracks over a certain time period.
 
@@ -61,20 +61,20 @@ Parameters (Can be used in any order):
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
 
 !!! note "Examples"
-    `.fmtt`
+    `.tt`
 
-    `.fmtoptracks`
+    `.toptracks`
 
-    `.fmtt y 3`
+    `.tt y 3`
 
-    `.fmtoptracks weekly @user 5`
+    `.toptracks weekly @user 5`
 
-    `.fmtoptracks @john alltime 12`
+    `.toptracks @john alltime 12`
 
 ---
 
 
-### .fmwhoknowstrack (`.fmwktr`, `.fmwt`)
+### .whoknowstrack (`.wktr`, `.wt`)
 
 Shows who in your server listened to an track you're currently listening to or the one you're searching for.
 
@@ -85,18 +85,18 @@ Parameters:
 * Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
 
 !!! note "Examples"
-    `.fmwt`
+    `.wt`
 
-    `.fmwhoknowstrack`
+    `.whoknowstrack`
 
-    `.fmwhoknowstrack Hothouse Flowers Don't Go`
+    `.whoknowstrack Hothouse Flowers Don't Go`
 
-    `.fmwhoknowstrack Natasha Bedingfield | Unwritten`
+    `.whoknowstrack Natasha Bedingfield | Unwritten`
 
 
 ---
 
-### .fmglobalwhoknowstrack (`.fmgwkt`, `.fmgwt`)
+### .globalwhoknowstrack (`.gwkt`, `.gwt`)
 
 Shows who in .fmbot listened to an track you're currently listening to or the one you're searching for.
 
@@ -107,17 +107,17 @@ Parameters:
 * Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
 
 !!! note "Examples"
-    `.fmgwt`
+    `.gwt`
 
-    `.fmglobalwhoknowstrack`
+    `.globalwhoknowstrack`
 
-    `.fmglobalwhoknowstrack Hothouse Flowers Don't Go`
+    `.globalwhoknowstrack Hothouse Flowers Don't Go`
 
-    `.fmglobalwhoknowstrack Natasha Bedingfield | Unwritten`
+    `.globalwhoknowstrack Natasha Bedingfield | Unwritten`
 
 ---
 
-### .fmservertracks
+### .servertracks
 
 Shows top tracks for everyone in your server.
 
@@ -127,57 +127,57 @@ Parameters:
 * Sorting - `listeners` or `plays`
 
 !!! note "Examples"
-    `.fmst`
+    `.st`
 
-    `.fmservertracks a p`
+    `.servertracks a p`
 
-    `.fmservertracks alltime plays`
+    `.servertracks alltime plays`
 
-    `.fmservertracks listeners weekly`
+    `.servertracks listeners weekly`
 
 ---
 
-### .fmlove (`.fml`)
+### .love (`.l`)
 
 Adds the track you're currently listening to or searching for to your last.fm loved tracks.
 
 !!! note "Examples"
-    `.fml`
+    `.l`
 
-    `.fmlove`
+    `.love`
 
-    `.fmlove Tame Impala Borderline`
+    `.love Tame Impala Borderline`
     
 ---
 
 
-### .fmunlove (`.fmul`)
+### .unlove (`.ul`)
 
 Removes the track you're currently listening to or searching for from your last.fm loved tracks.
 
 !!! note "Examples"
-    `.fmul`
+    `.ul`
 
-    `.fmunlove`
+    `.unlove`
 
-    `.fmunlove Lou Reed Brandenburg Gate`---
+    `.unlove Lou Reed Brandenburg Gate`---
 
 ---
 
-### .fmloved (`.fmlt`)
+### .loved (`.lt`)
 
 Displays a user's loved tracks.
 
 !!! note "Examples"
-    `.fmlt`
+    `.lt`
 
-    `.fmlovedtracks`
+    `.lovedtracks`
 
-    `.fmlovedtracks @user`
+    `.lovedtracks @user`
     
 ---
 
-### .fmscrobble (`.fmsb`)
+### .scrobble (`.sb`)
 
 Scrobbles the track you're searching for. You can only scrobble tracks that already exist on Last.fm.
 
@@ -186,13 +186,13 @@ Parameters:
 * Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
 
 !!! note "Examples"
-    `.fmscrobble`
+    `.scrobble`
 
-    `.fmsb Stronger Kanye`
+    `.sb Stronger Kanye`
 
-    `.fmscrobble Loona Heart Attack`
+    `.scrobble Loona Heart Attack`
 
-    `.fmscrobble Mac DeMarco | Chamber of Reflection`
+    `.scrobble Mac DeMarco | Chamber of Reflection`
 
-    `.fmscrobble Home | Climbing Out`
+    `.scrobble Home | Climbing Out`
 

@@ -1,6 +1,6 @@
 # Artist commands
     
-### .fmartist (`.fma`)
+### .artist (`.a`)
 
 Shows information about the artist you're currently listening to or the one you're searching for.
 
@@ -9,57 +9,95 @@ Parameters:
 * Artist - An artist you want to search for.
 
 !!! note "Examples"
-    `.fma`
+    `.a`
 
-    `.fmartist`
+    `.artist`
 
-    `.fma Gorillaz`
+    `.a Gorillaz`
 
-    `.fmartist David Vunk`
+    `.artist David Vunk`
 
 ---
 
-### .fmartistplays (`.fmap`)
+### .artistplays (`.ap`)
 
 Shows you your plays for the artist you're currently listening to or searching for.
 
 !!! note "Examples"
-    `.fmap`
+    `.ap`
 
-    `.fmartistplays`
+    `.artistplays`
 
-    `.fmartistplays Mall Grab`
+    `.artistplays Mall Grab`
     
 ---
 
-### .fmartisttracks (`.fmat`)
+### .artistchart (`.ac`)
+
+Creates a chart of your top artists over a certain time period.
+
+Parameters:
+
+* Chart size - Size of your chart.
+* Time period - Time period of your top artists. Defaults to weekly.
+* Options - Additional options for generating your chart
+
+Chart size: `2x2`, `3x3` up to `10x10`.
+
+Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+
+Options: 
+
+- `notitles`. Don't display artist names. (`nt`)
+
+- `skip`. Skips artists without images. (`s` or `skip`)
+
+!!! note "Examples"
+    `.ac`
+
+    `.artistchart`
+
+    `.artistchart 5x5`
+
+    `.artistchart 8x8 yearly`
+
+    `.artistchart 8x8 alltime notitles`
+
+    `.artistchart 8x8 alltime notitles skip`
+
+    `.ac 8x8 a nt s`
+
+
+---
+
+### .artisttracks (`.at`)
 
 Shows you your all-time top tracks for the artist you're currently listening to or searching for.
 
 !!! note "Examples"
-    `.fmat`
+    `.at`
 
-    `.fmartisttracks`
+    `.artisttracks`
 
-    `.fmartisttracks The Beatles`
+    `.artisttracks The Beatles`
     
 ---
 
 
-### .fmartistalbums (`.fmaa`)
+### .artistalbums (`.aa`)
 
 Shows you your all-time top albums for the artist you're currently listening to or searching for.
 
 !!! note "Examples"
-    `.fmaa`
+    `.aa`
 
-    `.fmartistalbums`
+    `.artistalbums`
 
-    `.fmartistalbums Frank Ocean`
+    `.artistalbums Frank Ocean`
     
 ---
 
-### .fmtopartists (`.fmta`)
+### .topartists (`.ta`)
 
 Shows a list of you or your friends top artists over a certain time period.
 
@@ -72,21 +110,21 @@ Parameters (Can be used in any order):
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
 
 !!! note "Examples"
-    `.fmta`
+    `.ta`
 
-    `.fmartists`
+    `.artists`
 
-    `.fmtopartists`
+    `.topartists`
 
-    `.fmta w 5`
+    `.ta w 5`
     
-    `.fmtopartists 8 weekly @user`
+    `.topartists 8 weekly @user`
 
-    `.fmtopartists alltime @drasil 10`
+    `.topartists alltime @drasil 10`
 
 ---
 
-### .fmtaste (`.fmt`)
+### .taste (`.t`)
 
 Compares your top artists to another users top artists.
 
@@ -105,23 +143,21 @@ Modes:
 * Embed (`e`): Looks better, but is unreadable on mobile.
 
 !!! note "Examples"
-    `.fmt frikandel_`
+    `.t frikandel_`
 
-    `.fmt @user`
+    `.t @user`
 
-    `.fmtaste bitldev`
+    `.taste bitldev`
 
-    `.fmtaste @user monthly embed`
+    `.taste @user monthly embed`
 
-    `.fmt @user m e`
+    `.t @user m e`
 
 ---
 
-### .fmwhoknows (`.fmwk`, `.fmw`)
+### .whoknows (`.wk`, `.w`)
 
 Shows who in your server listened to an artist you're currently listening to or the one you're searching for.
-
-This command requires you to have [indexed your server](#fmindex) at least once.
 
 Note that the playcount for the user that requested the command will always be up to date.
 
@@ -130,19 +166,19 @@ Parameters:
 * Artist - An artist you want to search for.
 
 !!! note "Examples"
-    `.fmw`
+    `.w`
 
-    `.fmwk`
+    `.wk`
 
-    `.fmw COMA`
+    `.w COMA`
 
-    `.fmwhoknows`
+    `.whoknows`
 
-    `.fmwhoknows DJ Seinfeld`
+    `.whoknows DJ Seinfeld`
 
 ---
 
-### .fmglobalwhoknows (`.fmgwk`, `.fmgw`)
+### .globalwhoknows (`.gwk`, `.gw`)
 
 Shows who in .fmbot listened to an artist you're currently listening to or the one you're searching for.
 
@@ -153,28 +189,23 @@ Parameters:
 * Artist - An artist you want to search for.
 
 !!! note "Examples"
-    `.fmgw`
+    `.gw`
 
-    `.fmgwk`
+    `.gwk`
 
-    `.fmgw COMA`
+    `.gw COMA`
 
-    `.fmglobalwhoknows`
+    `.globalwhoknows`
 
-    `.fmglobalwhoknows DJ Seinfeld`
+    `.globalwhoknows DJ Seinfeld`
 
 ---
 
-### .fmserverartists
+### .serverartists
 
 Shows top alltime artists for everyone in your server.
 
 !!! note "Examples"
-    `.fmsa`
+    `.sa`
 
-    `.fmserverartists`
-
----
-
-!!! warning "A note about artist chart commands"
-    Last.fm [restricted](https://getsatisfaction.com/lastfm/topics/api-announcement-dac8oefw5vrxq) access to artist images a while ago, so unfortunately we can no longer offer artist charts.
+    `.serverartists`

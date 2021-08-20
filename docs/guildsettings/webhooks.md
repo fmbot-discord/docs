@@ -2,10 +2,10 @@
 
 You can use .fmbot webhooks to automatically post the featured music to your own channel.
 
-To see more information about how featured works, [click here](/commands/featured/).
+To see more information about how featured works, [click here](/commands/featured.html).
 
 ---   
-### .fmaddwebhook
+### .addwebhook
 
 Adds a webhook to the channel you're in.
 
@@ -16,13 +16,13 @@ To change the channel simply change it in the server integration settings.
 To remove the webhook simply delete it from your server integrations.
 
 !!! note "Examples"
-    `.fmaddwebhook`
+    `.addwebhook`
 
     
 ---   
-### .fmtestwebhook
+### .testwebhook
 
 Sends a test message through the webhook you've setup in your server. You can use this to check if you've set everything up correctly.
 
 !!! note "Examples"
-    `.fmtestwebhook`
+    `.testwebhook`

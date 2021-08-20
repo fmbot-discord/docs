@@ -3,24 +3,24 @@ Welcome to .fmbot! .fmbot is a social Discord bot that provides music statistics
 ### Main features:
 
 - Show your friends what you're listening to by using `.fm`
-- Customize your `.fm` to make it unique by using [`.fmmode`](/commands/#fmmode)
-- Generate [advanced charts](/commands/albums/#fmchart-fmc) based on your listening history
+- Customize your `.fm` to make it unique by using [`.mode`](/commands/index.html#mode)
+- Generate [advanced charts](/commands/albums.html#chart-c) based on your listening history
 - Get the Spotify, Youtube, or Genius link for any song
 - View all your Last.fm statistics through deep integration with Last.fm
-- Scrobble songs that other Discord bots are playing to your Last.fm account with our [Bot scrobbling](/botscrobbling/)
+- Scrobble songs that other Discord bots are playing to your Last.fm account with our [Bot scrobbling](/botscrobbling.html)
 
 ### Social features:
 
-- Use [WhoKnows](/commands/artists/#fmwhoknows-fmwk-fmw) in your server to see who listens to artists and compete for crowns!
+- Use [WhoKnows](/commands/artists.html#whoknows-wk-w) in your server to see who listens to artists and compete for crowns!
 - See what music is trending in your server for various time periods
-- [Compare your taste](/commands/artists/#fmtaste-fmt) with others and see who has the most similar music taste
-- Add [friends](/commands/friends/) and see what they've been listening to
-- Bot avatar changes based on what people are listening to. Anyone can get [featured](/commands/featured)!
+- [Compare your taste](/commands/artists.html#taste-t) with others and see who has the most similar music taste
+- Add [friends](/commands/friends.html) and see what they've been listening to
+- Bot avatar changes based on what people are listening to. Anyone can get [featured](/commands/featured.html)!
 
 
 This bot requires a Last.fm account to work. 
 
-To connect your account, simply use the command `.fmlogin`
+To connect your account, simply use the command `.login`
 
 ---
 
@@ -34,7 +34,7 @@ To connect your account, simply use the command `.fmlogin`
 
 ### Extra information
 
-.fmbot is trusted by over 30.000 servers, has over 100.000 registered users, and is used more than 150.000 times every day.
+.fmbot is trusted by over 45.000 servers, has over 140.000 registered users, and is used more than 150.000 times every day.
 
 It is written in C#, uses Discord.Net and .NET 5. The code is completely [open-source](https://github.com/fmbot-discord/fmbot/), so anyone can see how it works and modify it themselves.
 

@@ -1,14 +1,14 @@
 # Genius commands
 
-### .fmgenius (`.fmg`)
+### .genius (`.gen`)
 
 Gets the Genius link for the song you're currently listening to, or the one you're searching for.
 
 !!! note "Examples"
-    `.fmg`
+    `.gen`
 
-    `.fmgenius`
+    `.genius`
 
-    `.fmg Godzilla Eminem`
+    `.g Godzilla Eminem`
 
-    `.fmgenius Mac Miller Good News`
+    `.genius Mac Miller Good News`
