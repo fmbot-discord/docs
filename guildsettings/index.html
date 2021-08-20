@@ -81,6 +81,14 @@
     </div>
     <div data-md-component="announce">
       
+        <aside class="md-banner md-announce">
+          <div class="md-banner__inner md-announce__inner md-grid md-typeset">
+            
+  <p style="text-align: center">We've updated our default prefix to support commands with the '.' prefix alongside the '.fm' prefix. <a href="/guildsettings/index.html#prefix-update">More information.</a></p>
+
+          </div>
+        </aside>
+      
     </div>
     
       <header class="md-header" data-md-component="header">
@@ -527,8 +535,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#fmprefix" class="md-nav__link">
-    .fmprefix
+  <a href="#prefix" class="md-nav__link">
+    .prefix
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prefix-update" class="md-nav__link">
+    Prefix update
   </a>
   
 </li>
@@ -720,8 +735,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#fmprefix" class="md-nav__link">
-    .fmprefix
+  <a href="#prefix" class="md-nav__link">
+    .prefix
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prefix-update" class="md-nav__link">
+    Prefix update
   </a>
   
 </li>
@@ -776,13 +798,14 @@
 <p><code>.fmtoggleservercommand whoknows</code></p>
 </div>
 <hr />
-<h3 id="fmprefix">.fmprefix<a class="headerlink" href="#fmprefix" title="Permanent link">&para;</a></h3>
-<p>It's possible to change the .fmbot .<code>fm</code> prefix. This isn't supported everywhere and we don't generally recommend it, but it's still an option for those who want it.</p>
-<p>To disable the prefix, use the <code>prefix</code> command without any prefix behind it. You can also mention the bot, that will always work regardless of prefix.</p>
+<h3 id="prefix">.prefix<a class="headerlink" href="#prefix" title="Permanent link">&para;</a></h3>
+<p>This command allows you to change the .fmbot prefix on your server.</p>
+<p>To disable your custom prefix, use the <code>prefix</code> command without any prefix behind it. </p>
+<p>Note that you can always mention the bot, this will work regardless of prefix.</p>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
-<p><code>.fmprefix</code></p>
-<p><code>.fmprefix !</code></p>
+<p><code>.prefix</code></p>
+<p><code>.prefix !</code></p>
 <p><code>@.fmbot prefix</code></p>
 </div>
 <div class="admonition note">
@@ -792,6 +815,19 @@
 <p><code>!whoknows</code></p>
 <p><code>!topalbums</code></p>
 <p><code>!prefix</code></p>
+</div>
+<hr />
+<h3 id="prefix-update">Prefix update<a class="headerlink" href="#prefix-update" title="Permanent link">&para;</a></h3>
+<div class="admonition info">
+<p class="admonition-title">Default prefix has been changed as of August 20</p>
+<p>After testing this out for a bit and getting (positive) feedback we've decided to support the <code>.</code> prefix by default alongside the <code>.fm</code> prefix.</p>
+<p>For example, you can now also use <code>.whoknows</code> instead of only <code>.fmwhoknows</code>.</p>
+<hr />
+<p><b>Does this mean I have to change how I use .fmbot?</b></p>
+<p>No! If you wish to remain prefixing all commands with <code>.fm</code> that's fine, this will always remain available by default.</p>
+<p><b>Is it possible to change this back if I want?</b></p>
+<p>Yes. Simply use <code>.fmprefix .fm</code> and it won't respond to commands with just the <code>.</code> prefix, except for the main <code>.fm</code> command of course.
+Note that this documentation site will also move to having the <code>.</code> prefix.</p>
 </div>
                 
               
