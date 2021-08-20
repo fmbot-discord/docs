@@ -2,7 +2,7 @@
 
 You can use .fmbot webhooks to automatically post the featured music to your own channel.
 
-To see more information about how featured works, [click here](/commands/featured.html).
+To see more information about how featured works, [click here](/commands/featured/).
 
 ---   
 ### .addwebhook
