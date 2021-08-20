@@ -23,7 +23,7 @@ Parameters:
     Tip: You can click the embed title to go to the users Last.fm profile.
 
 !!! tip ""
-    If you want .fmbot to add reactions to this command, please see [`.serverreactions`](/guildsettings/index.html#serverreactions).
+    If you want .fmbot to add reactions to this command, please see [`.serverreactions`](/guildsettings/#serverreactions).
 
 ---
 

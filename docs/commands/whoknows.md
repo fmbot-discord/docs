@@ -12,7 +12,7 @@
 
 ### When **not** to use:
 
-- If your `.fm` command is showing the wrong song / not showing what you're listening to on Spotify. See related [FAQ entry](/faq.html#commands-are-showing-the-wrong-songs-its-not-showing-what-i-listen-to-on-spotify).
+- If your `.fm` command is showing the wrong song / not showing what you're listening to on Spotify. See related [FAQ entry](/faq/#commands-are-showing-the-wrong-songs-its-not-showing-what-i-listen-to-on-spotify).
 
 ### Things to note:
 
