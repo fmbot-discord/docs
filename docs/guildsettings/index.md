@@ -54,16 +54,19 @@ Make sure to enter commands without without the `.fm` prefix.
     `.fmtoggleservercommand whoknows`
 
 ---   
-### .fmprefix
 
-It's possible to change the .fmbot .`fm` prefix. This isn't supported everywhere and we don't generally recommend it, but it's still an option for those who want it.
+### .prefix
 
-To disable the prefix, use the `prefix` command without any prefix behind it. You can also mention the bot, that will always work regardless of prefix.
+This command allows you to change the .fmbot prefix on your server.
+
+To disable your custom prefix, use the `prefix` command without any prefix behind it. 
+
+Note that you can always mention the bot, this will work regardless of prefix.
 
 !!! note "Examples"
-    `.fmprefix`
+    `.prefix`
 
-    `.fmprefix !`
+    `.prefix !`
 
     `@.fmbot prefix`
 
@@ -78,3 +81,24 @@ To disable the prefix, use the `prefix` command without any prefix behind it. Yo
     `!topalbums`
     
     `!prefix`
+
+---
+
+### Prefix update
+
+
+!!! info "Default prefix has been changed as of August 20"
+    After testing this out for a bit and getting (positive) feedback we've decided to support the `.` prefix by default alongside the `.fm` prefix.
+
+    For example, you can now also use `.whoknows` instead of only `.fmwhoknows`.
+
+    ---
+
+    <b>Does this mean I have to change how I use .fmbot?</b>
+
+    No! If you wish to remain prefixing all commands with `.fm` that's fine, this will always remain available by default.
+
+    <b>Is it possible to change this back if I want?</b>
+
+    Yes. Simply use `.fmprefix .fm` and it won't respond to commands with just the `.` prefix, except for the main `.fm` command of course.
+    Note that this documentation site will also move to having the `.` prefix.
