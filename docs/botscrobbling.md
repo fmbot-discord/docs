@@ -9,7 +9,8 @@ The bot will only scrobble songs it can find on Last.fm. The scrobbling works be
 ### Currently supported bots: 
 
 * Groovy
-* Other bots coming soon
+* Rythm (Requires setting '[announcesongs](https://rythm.fm/docs/commands#settings)' to be enabled)
+* Hydra
 
 ### Requirements:
 
@@ -27,3 +28,7 @@ Use this command to disable/enable bot scrobbling for your account or to check i
     `.botscrobbling on`
 
     `.botscrobbling off`
+
+    
+!!! info
+    Please note that .fmbot is not affiliated with any of these music bots, and that .fmbot does not stream music or download music to Discord in any way.
