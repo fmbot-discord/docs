@@ -120,8 +120,6 @@ Shows the cover for the album you're currently listening to or searching for.
 
 Shows who in your server listened to an album you're currently listening to or the one you're searching for.
 
-Note that the playcount for the user that requested the command will always be up to date.
-
 Parameters:
 
 * Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.
@@ -137,6 +135,27 @@ Parameters:
 
 
 ---
+
+### .friendwhoknowsalbum (`.fwkab`, `.fwa`)
+
+Shows who from your friends listened to an album you're currently listening to or the one you're searching for.
+
+Parameters:
+
+* Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.
+
+!!! note "Examples"
+    `.fwa`
+
+    `.friendwhoknowsalbum`
+
+    `.friendwhoknowsalbum The Beatles Abbey Road`
+
+    `.friendwhoknowsalbum Metallica & Lou Reed | Lulu`
+
+
+---
+
 
 ### .globalwhoknowsalbum (`.gwka`, `.gwa`)
 

@@ -96,6 +96,26 @@ Parameters:
 
 ---
 
+### .friendwhoknowstrack (`.fwkt`, `.fwt`)
+
+Shows who from your friends listened to an track you're currently listening to or the one you're searching for.
+
+Parameters:
+
+* Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
+
+!!! note "Examples"
+    `.fwt`
+
+    `.friendwhoknowstrack`
+
+    `.friendwhoknowstrack Hothouse Flowers Don't Go`
+
+    `.friendwhoknowstrack Natasha Bedingfield | Unwritten`
+
+
+---
+
 ### .globalwhoknowstrack (`.gwkt`, `.gwt`)
 
 Shows who in .fmbot listened to an track you're currently listening to or the one you're searching for.

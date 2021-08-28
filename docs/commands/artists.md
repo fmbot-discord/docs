@@ -159,8 +159,6 @@ Modes:
 
 Shows who in your server listened to an artist you're currently listening to or the one you're searching for.
 
-Note that the playcount for the user that requested the command will always be up to date.
-
 Parameters:
 
 * Artist - An artist you want to search for.
@@ -177,6 +175,30 @@ Parameters:
     `.whoknows DJ Seinfeld`
 
 ---
+
+
+### .friendwhoknows (`.fwk`, `.fw`)
+
+Shows who from your friends listened to an artist you're currently listening to or the one you're searching for.
+
+Parameters:
+
+* Artist - An artist you want to search for.
+
+!!! note "Examples"
+    `.fw`
+
+    `.fwk`
+
+    `.fw COMA`
+
+    `.friendwhoknows`
+
+    `.friendwhoknows DJ Seinfeld`
+
+
+---
+
 
 ### .globalwhoknows (`.gwk`, `.gw`)
 
