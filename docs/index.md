@@ -42,7 +42,7 @@ The bot is non-commercial and is hosted and maintained by volunteers. You can he
 
 ---
 
-Thanks to [ngrok](https://ngrok.com/) for providing a free subscription of their great tunneling software.
+Thanks to [ngrok](https://ngrok.com/) for providing us with a free subscription of their tunneling software.
 
 ---
 
