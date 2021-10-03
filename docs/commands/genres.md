@@ -30,7 +30,7 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 
 ### .genre (`.g`)
 
-Shows information for your current genre or your top artist for the genre you're searching for.
+Shows information for your current genre or your top artists for the genre you're searching for.
 
 !!! note "Examples"
     `.g`
