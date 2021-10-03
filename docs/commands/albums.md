@@ -70,7 +70,6 @@ Shows a list of you or your friends top albums over a certain time period.
 Parameters (Can be used in any order):
 
 * Time period - Time period of your top albums. Defaults to weekly.
-* Amount - Number of albums. Can only be between 1 and 16. Defaults to 10.
 * User - Mention another user or use their Discord id.
 
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
@@ -80,11 +79,11 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 
     `.topalbums`
 
-    `.tab a 3`
+    `.tab a`
 
-    `.topalbums 8 weekly @user`
+    `.topalbums weekly @user`
 
-    `.topalbums quarterly @slipper 12`
+    `.topalbums quarterly @slipper`
 
 ---
 

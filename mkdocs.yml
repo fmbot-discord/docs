@@ -52,6 +52,7 @@ nav:
     - 'Featured': 'commands/featured.md'
     - 'Friends': 'commands/friends.md'
     - 'Genius': 'commands/genius.md'
+    - 'Genres': 'commands/genres.md'
     - 'Plays': 'commands/plays.md'
     - 'Spotify': 'commands/spotify.md'
     - 'Tracks': 'commands/tracks.md'

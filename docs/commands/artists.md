@@ -104,7 +104,6 @@ Shows a list of you or your friends top artists over a certain time period.
 Parameters (Can be used in any order):
 
 * Time period - Time period of your top artists. Defaults to weekly.
-* Amount - Number of artists. Can only be between 1 and 16. Defaults to 10.
 * User - Mention another user or use their Discord id.
 
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
@@ -116,11 +115,11 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 
     `.topartists`
 
-    `.ta w 5`
+    `.ta w`
     
-    `.topartists 8 weekly @user`
+    `.topartists weekly @user`
 
-    `.topartists alltime @drasil 10`
+    `.topartists alltime @drasil`
 
 ---
 

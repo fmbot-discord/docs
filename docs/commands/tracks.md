@@ -55,7 +55,6 @@ Shows a list of you or your friends top tracks over a certain time period.
 Parameters (Can be used in any order):
 
 * Time period - Time period of your top tracks. Defaults to weekly.
-* Amount - Number of tracks. Can only be between 1 and 16. Defaults to 10.
 * User - Mention another user or use their Discord id.
 
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
@@ -65,11 +64,11 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 
     `.toptracks`
 
-    `.tt y 3`
+    `.tt y`
 
-    `.toptracks weekly @user 5`
+    `.toptracks weekly @user`
 
-    `.toptracks @john alltime 12`
+    `.toptracks @john alltime`
 
 ---
 
