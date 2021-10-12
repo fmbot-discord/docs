@@ -1,0 +1,26 @@
+h1 {
+    margin: 0 0 0.8em !important;
+}
+
+h3{
+    margin: 0.8em 0 .8em !important;
+    font-size: 1.5em !important;
+}
+
+p {
+    margin-block-start: 0.8em;
+    margin-block-end: 0.8em;
+}
+
+ul{
+    margin-top: 0 !important;
+}
+
+code{
+    font-size: 0.98em !important;
+}
+
+.note p{
+    margin-block-start: 0.6em;
+    margin-block-end: 0.3em;
+}
