@@ -42,7 +42,7 @@ Parameters:
 * Time period - Time period of your top artists. Defaults to weekly.
 * Options - Additional options for generating your chart
 
-Chart size: `2x2`, `3x3` up to `10x10`.
+Chart size: `2x2`, `3x5` all the way up to `10x10`.
 
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
 
@@ -59,13 +59,13 @@ Options:
 
     `.artistchart 5x5`
 
-    `.artistchart 8x8 yearly`
+    `.artistchart 4x8 yearly`
 
     `.artistchart 8x8 alltime notitles`
 
     `.artistchart 8x8 alltime notitles skip`
 
-    `.ac 8x8 a nt s`
+    `.ac 8x10 a nt s`
 
 
 ---
