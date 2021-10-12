@@ -27,6 +27,7 @@ theme:
   favicon: img/favicon.png
 markdown_extensions:
   - admonition
+  - attr_list
   - toc:
       permalink: true
 
@@ -70,6 +71,6 @@ nav:
   - 'Music bot scrobbling': 'botscrobbling.md'
   - 'Development': 'setup.md'
   - 'Privacy': 'privacy.md'
-  - 'Donations': https://opencollective.com/fmbot/
+  - 'Get .fmbot supporter': 'supporter.md'
   - 'Join our server': http://server.fmbot.xyz/
   - 'Invite the bot': http://invite.fmbot.xyz/

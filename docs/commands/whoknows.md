@@ -26,6 +26,10 @@
 
     Manually updating isn't required and does not make sense in these situations.
 
+        
+!!! info ""
+    If you want .fmbot to store more then just your top 4k/5k/6k artist/albums/tracks, check out [.fmbot supporter](/supporter/)!
+
 
 !!! note "Examples"
     `.u`

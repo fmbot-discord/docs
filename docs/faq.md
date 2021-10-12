@@ -76,7 +76,7 @@ Cool, great to hear.
 
 ### I don't like this bot
 
-:( Please let us know why in the [support server](http://invite.fmbot.xyz/). We're open to all feedback and happy to help.
+:( Please let us know why in the [support server](http://server.fmbot.xyz/). We're open to all feedback and happy to help.
 
 Or make your own Last.FM bot! You can export all guild members into a handy JSON format using `.export`, so your friends don't have to re-set their usernames.
 
@@ -84,7 +84,7 @@ Or make your own Last.FM bot! You can export all guild members into a handy JSON
 
 ### Is there any way to support the bot?
 
-To support us financially, check out [our OpenCollective](https://opencollective.com/fmbot). All donations will go towards bot expenses and we will provide full transparency about where your money goes.
+To support us financially, check out [our OpenCollective](https://opencollective.com/fmbot). All donations will go towards bot expenses and we will provide full transparency about where your money goes. Plus, you will get [.fmbot supporter](/supporter/) which gives you some small perks.
 
 You will also gain a `supporter status`, which gives you a fancy emote after your name.
 
