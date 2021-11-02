@@ -38,3 +38,22 @@ Shows information for your current genre or your top artists for the genre you'r
     `.genre`
 
     `.genre electro`
+
+---
+
+### .whoknowsgenre (`.wg`)
+
+Shows who in your server listened to a genre you're searching for.
+
+Parameters:
+
+* Genre - A genre you want to search for.
+
+!!! note "Examples"
+    `.wg`
+
+    `.wkg`
+
+    `.wg hiphop`
+
+    `.whoknowsgenre techno`
