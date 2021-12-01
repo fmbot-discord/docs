@@ -71,15 +71,16 @@ Parameters (Can be used in any order):
 
 * Time period - Time period of your top albums. Defaults to weekly.
 * User - Mention another user or use their Discord id.
+* Billboard - Show recent changes in your top list in a billboard style
 
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
 
 !!! note "Examples"
     `.tab`
 
-    `.topalbums`
+    `.topalbums billboard`
 
-    `.tab a`
+    `.tab a bb`
 
     `.topalbums weekly @user`
 

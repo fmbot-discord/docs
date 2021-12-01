@@ -105,6 +105,7 @@ Parameters (Can be used in any order):
 
 * Time period - Time period of your top artists. Defaults to weekly.
 * User - Mention another user or use their Discord id.
+* Billboard - Show recent changes in your top list in a billboard style
 
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
 
@@ -113,9 +114,9 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 
     `.artists`
 
-    `.topartists`
+    `.topartists billboard`
 
-    `.ta w`
+    `.ta w bb`
     
     `.topartists weekly @user`
 
