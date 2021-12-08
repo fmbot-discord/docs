@@ -46,7 +46,6 @@ Thanks to [ngrok](https://ngrok.com/) for providing us with a free subscription 
 
 ---
 
-
 ### View us on bot lists:
 
 [![Discord Bots](https://top.gg/api/widget/356268235697553409.svg)](https://top.gg/bot/356268235697553409)
