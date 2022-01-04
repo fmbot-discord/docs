@@ -8,8 +8,6 @@ The bot will only scrobble songs it can find on Last.fm. The scrobbling works be
 
 ### Currently supported bots: 
 
-* Groovy
-* Rythm (Requires setting '[announcesongs](https://rythm.fm/docs/commands#settings)' to be enabled)
 * Hydra
 
 ### Requirements:
