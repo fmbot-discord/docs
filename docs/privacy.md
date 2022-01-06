@@ -2,8 +2,9 @@ We think your privacy is very important, so below are our answers to the most co
 
 These are the questions Discord asks for bot verification, but updated with our new functionalities.
 
-Last update: 2020-11-09
+Last update: 2022-06-01
 
+Changelog: Clarify that server data is stored when the bot joins
 
 ## What does your application do? Please be as detailed as possible, and feel free to include links to image or video examples.
 .fmbot is an open sourced bot that mostly gets used for calling the Last.fm API. Last.fm is a service that tracks what people listen to. 
@@ -12,22 +13,28 @@ We use their API mostly for showing what people listen to right now, showing top
 
 You can also search Spotify, Youtube and Genius for songs and more.
 
-The bot allows you to set your last.fm username, but it also allows you to set server-wide settings.
+The bot allows you to set your Last.fm username, but it also allows you to set server-wide settings.
 
 You can see more information on our site: https://fmbot.xyz and Github: https://github.com/fmbot-discord/fmbot
 
 ## WHAT DISCORD DATA DO YOU STORE?
-When someone sets their last.fm username or registers in to the bot, we store the following Discord data:
+When someone sets their Last.fm username or registers in to the bot, we store the following Discord data:
 
 - Discord user ID
 - That they are in that server
 - Their nickname or name on that server
 
-When someone sets their server settings:
+When the bot joins a server, the following data from that server is stored:
 
 - Server name
 - Server ID
 - Members in the server that have been registered in .fmbot
+- Nickname or username of members in the server that have been registered in .fmbot
+
+When specific settings for a server channel are set, the following data from that channel is stored
+
+- Channel name
+- Channel ID
 
 When someone uses a command, the debug log stores this:
 
@@ -52,11 +59,11 @@ Settings data: Forever, or until deleted.
 Logs: Cleared every month.
 
 ## WHAT IS THE PROCESS FOR USERS TO REQUEST DELETION OF THEIR DATA?
-For user data we have a command (.fmremove).
+For user data we have a command (.remove).
 
-For server data people can remove the bot and all the data will be deleted.
+For server data people can remove the bot and all the data related to that server will be deleted.
 
-Logs get cleared every month.
+Debug logs get automatically cleared every month.
 
 ## WHAT SYSTEMS AND INFRASTRUCTURE DO YOU USE?
 .fmbot is currently hosted on a private server at my home.
