@@ -53,6 +53,17 @@ Removes all crowns from your server.
     `.killallcrowns confirm`
 
 ---
+
+### .removeusercrowns
+
+Removes all crowns from a specific user
+
+!!! note "Examples"
+    `.removeusercrowns 748900688129687642`
+
+    `.removeusercrowns lastfmsupport`
+
+---
 ### .crownblock
 
 Blocks a user from getting any crowns. They will still be visible in the whoknows output.
