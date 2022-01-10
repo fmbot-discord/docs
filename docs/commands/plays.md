@@ -17,7 +17,9 @@ Parameters:
 
     `.fm @user`
 
-    `.fm lastfmusername`
+    `.fm lfm:lastfmusername`
+
+    `.fm this is a nice song`
 
 !!! info ""
     Tip: You can click the embed title to go to the users Last.fm profile.
