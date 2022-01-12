@@ -225,9 +225,18 @@ Parameters:
 
 ### .serverartists
 
-Shows top alltime artists for everyone in your server.
+Shows top artists for everyone in your server.
+
+Parameters:
+
+* Time period - `alltime`, `monthly` or `weekly`
+* Sorting - `listeners` or `plays`
 
 !!! note "Examples"
     `.sa`
 
-    `.serverartists`
+    `.serverartists a p`
+
+    `.serverartists alltime plays`
+
+    `.serverartists listeners weekly`

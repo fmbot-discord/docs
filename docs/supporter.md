@@ -10,7 +10,7 @@ We use [OpenCollective](https://opencollective.com/fmbot) so we can be transpare
 - Their name permanently added to the list of supporters (`.supporters`)
 - A chance of sponsoring a chart
 - Exclusive role and channel on [our Discord](https://discord.gg/6y3jJjtDqK)
-- Friend limit increased to 15 (up from 12)
+- Friend limit increased to 16 (up from 12)
 - WhoKnows tracking increased to all their music (instead of top 4/5/6k artist/albums/tracks)
 - Any future supporter advantages
 

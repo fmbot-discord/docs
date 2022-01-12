@@ -86,7 +86,7 @@ Or make your own Last.FM bot! You can export all guild members into a handy JSON
 
 To support us financially, check out [our OpenCollective](https://opencollective.com/fmbot). All donations will go towards bot expenses and we will provide full transparency about where your money goes. Plus, you will get [.fmbot supporter](/supporter/) which gives you some small perks.
 
-You will also gain a `supporter status`, which gives you a fancy emote after your name.
+You will also gain a `supporter status`, which gives you a fancy emote after your name. Some other perks are also included.
 
 If you are familiar with C# / .NET you can also help us out and pick up one of the open [issues](https://github.com/fmbot-discord/fmbot/issues). Please check out our [contributing guidelines](https://github.com/fmbot-discord/fmbot/blob/main/CONTRIBUTING.md) first.
 

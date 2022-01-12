@@ -143,7 +143,7 @@ Shows top tracks for everyone in your server.
 
 Parameters:
 
-* Time period - `alltime` or `weekly`
+* Time period - `alltime`, `monthly` or `weekly`
 * Sorting - `listeners` or `plays`
 
 !!! note "Examples"
