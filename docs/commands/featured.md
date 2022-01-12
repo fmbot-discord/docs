@@ -21,3 +21,14 @@ If your top album doesn't have a picture, no worries. The bot will just grab the
 
 !!! note "Examples"
     `.featured`
+
+---
+
+### .featuredlog
+
+Shows your or someone else their featured history.
+
+!!! note "Examples"
+    `.featuredlog`
+
+    `.featuredlog @user`
