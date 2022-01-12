@@ -74,7 +74,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#updating-and-indexing" class="md-skip">
+        <a href="#caching" class="md-skip">
           Skip to content
         </a>
       
@@ -524,11 +524,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#index" class="md-nav__link">
-    .index
+  <a href="#refreshmembers" class="md-nav__link">
+    .refreshmembers
   </a>
   
-    <nav class="md-nav" aria-label=".index">
+    <nav class="md-nav" aria-label=".refreshmembers">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -848,11 +848,11 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#index" class="md-nav__link">
-    .index
+  <a href="#refreshmembers" class="md-nav__link">
+    .refreshmembers
   </a>
   
-    <nav class="md-nav" aria-label=".index">
+    <nav class="md-nav" aria-label=".refreshmembers">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -894,7 +894,10 @@
               
                 
 
-<h1 id="updating-and-indexing">Updating and indexing<a class="headerlink" href="#updating-and-indexing" title="Permanent link">&para;</a></h1>
+<h1 id="caching">Caching<a class="headerlink" href="#caching" title="Permanent link">&para;</a></h1>
+<p>.fmbot uses various ways of making sure all commands are fast and smooth.</p>
+<p>This includes storing a copy of your Last.fm history and storing what registered .fmbot members are in which server.</p>
+<p>Most of this is done automatically behind the scenes, but you can also adjust this manually.</p>
 <h2 id="update">.update<a class="headerlink" href="#update" title="Permanent link">&para;</a></h2>
 <h3 id="what-it-does">What it does:<a class="headerlink" href="#what-it-does" title="Permanent link">&para;</a></h3>
 <ul>
@@ -912,10 +915,10 @@
 <ul>
 <li>Commands that use your plays will also update you automatically or just get their information directly from last.fm. Manually updating only makes sense if you don't appear properly in whoknows.</li>
 <li>Updating already gets done automatically every 48 hours, so using this command isn't required to stay up to date.</li>
-<li>If you edit your scrobble history this command might not work properly, so you can use <code>.fmupdate full</code>. Please don't do a full update too often, if the normal update doesn't work good enough for you please let us know.</li>
+<li>If you edit your scrobble history this command might not work properly, so you can use <code>.update full</code>. Please don't do a full update too often, if the normal update doesn't work good enough for you please let us know.</li>
 </ul>
 <div class="admonition warning">
-<p>Commands that use locally stored plays (like <code>.overview</code> and <code>.streak</code>) will also update you automatically. Commands like <code>.fm</code> and <code>.fmartist</code> get their info directly from Last.fm.</p>
+<p>Commands that use locally stored plays (like <code>.overview</code> and <code>.streak</code>) will also update you automatically. Commands like <code>.fm</code> and <code>.artist</code> get their info directly from Last.fm.</p>
 <p>Manually updating isn't required and does not make sense in these situations.</p>
 </div>
 <div class="admonition info">
@@ -928,26 +931,23 @@
 <p><code>.update full</code></p>
 </div>
 <hr />
-<h2 id="index">.index<a class="headerlink" href="#index" title="Permanent link">&para;</a></h2>
+<h2 id="refreshmembers">.refreshmembers<a class="headerlink" href="#refreshmembers" title="Permanent link">&para;</a></h2>
 <h3 id="what-it-does_1">What it does:<a class="headerlink" href="#what-it-does_1" title="Permanent link">&para;</a></h3>
 <ul>
-<li>Stores what registered .fmbot users are in your server for other server-wide commands.</li>
-<li>Index stores users their all-time 4000 top artists, top 5000 albums and top 6000 tracks (only tracks with a playcount of 3 or higher) of users were this has not been done before.</li>
+<li>Stores what .fmbot users are in your server for server-wide commands.</li>
 </ul>
 <h3 id="when-to-use_1">When to use:<a class="headerlink" href="#when-to-use_1" title="Permanent link">&para;</a></h3>
 <ul>
-<li>To reset the storage what .fmbot users are in your server.</li>
-<li>To index users that have never been indexed before.</li>
+<li>To reset the cached memberlist of .fmbot users that are in your server.</li>
 </ul>
 <h3 id="things-to-note_1">Things to note:<a class="headerlink" href="#things-to-note_1" title="Permanent link">&para;</a></h3>
 <ul>
-<li>If a user sets their username, they also get indexed and added to your server.</li>
-<li>You don't have to do this all the time anymore, just once at the start of your server or when members are missing.</li>
-<li>This command will eventually be phased out due to all this being done automatically.</li>
+<li>If a user joins your server they will automatically get added to the cached memberlist</li>
+<li>You can remove the cached memberlist by kicking the bot from your server</li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
-<p><code>.i</code></p>
+<p><code>.refreshmembers</code></p>
 <p><code>.index</code></p>
 </div>
 
