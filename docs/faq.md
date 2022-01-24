@@ -32,7 +32,7 @@ This uses a lot of API calls to Last.fm, so try not to do it too often.
 
 ### Who picks what is featured?
 
-The bot randomly picks any user that has used .fmbot in the last 3 days.
+The bot randomly picks any user that has used .fmbot in the last day.
 
 For more information, check out [Featured](/commands/featured/)
 

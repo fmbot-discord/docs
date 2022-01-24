@@ -7,6 +7,7 @@ We use [OpenCollective](https://opencollective.com/fmbot) so we can be transpare
 
 ### Supporters get: 
 - An emote behind their name (⭐)
+- Higher chance of being featured every Supporter Sunday (first Sunday of each month)
 - Their name permanently added to the list of supporters (`.supporters`)
 - A chance of sponsoring a chart
 - Exclusive role and channel on [our Discord](https://discord.gg/6y3jJjtDqK)
