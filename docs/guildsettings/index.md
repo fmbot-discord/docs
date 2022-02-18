@@ -30,12 +30,16 @@ To view all disabled commands, use `.togglecommand` without any options.
 
 Make sure to enter commands without without the `.` prefix.
 
+You can toggle all commands at once by using the `all` option.
+
 !!! note "Examples"
     `.togglecommand`
 
     `.togglecommand chart`
 
-    `.togglecommand whoknows`
+    `.togglecommand whoknows chart taste`
+
+    `.togglecommand all`
 
 ---        
 ### .toggleservercommand
