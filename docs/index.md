@@ -34,7 +34,7 @@ To connect your account, simply use the command `.login`
 
 ### Extra information
 
-.fmbot is trusted by over 80.000 servers, has over 200.000 registered users, and is used more than 250.000 times every day.
+.fmbot is trusted by over 100.000 servers, has over 250.000 registered users, and is used more than 250.000 times every day.
 
 It is written in C#, uses Discord.Net and .NET 6. The code is completely [open-source](https://github.com/fmbot-discord/fmbot/), so anyone can see how it works and modify it themselves.
 
