@@ -52,6 +52,7 @@ nav:
     - 'Getting started': 'commands/index.md'
     - 'Albums': 'commands/albums.md'
     - 'Artists': 'commands/artists.md'
+    - 'Countries': 'commands/countries.md'
     - 'Crowns': 'commands/crowns.md'
     - 'Featured': 'commands/featured.md'
     - 'Friends': 'commands/friends.md'
