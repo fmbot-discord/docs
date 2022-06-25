@@ -43,12 +43,3 @@ The bot is non-commercial and is hosted and maintained by volunteers. You can he
 ---
 
 Thanks to [ngrok](https://ngrok.com/) for providing us with a free subscription of their tunneling software.
-
----
-
-### View us on bot lists:
-
-[![Discord Bots](https://top.gg/api/widget/356268235697553409.svg)](https://top.gg/bot/356268235697553409)
-[![Discord Bots](https://discord.boats/api/widget/356268235697553409)](https://discord.boats/bot/356268235697553409)
-[![.fmbot](https://bots.ondiscord.xyz/bots/356268235697553409/embed?theme=dark)](https://bots.ondiscord.xyz/bots/356268235697553409)
-[![Bots for Discord](https://botsfordiscord.com/api/bot/356268235697553409/widget)](https://botsfordiscord.com/bots/356268235697553409)
