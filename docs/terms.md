@@ -25,6 +25,7 @@ Any payment issues must be handled through OpenCollective, although you can also
 You may not access or use the Bot for any purpose other than that for which we make the Bot available. The Bot may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.
 
 As a user of the Bot, you agree not to:
+
 * Systematically retrieve data or other content from the Bot to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.
 Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.
 * Circumvent, disable, or otherwise interfere with security-related features of the Bot, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the Bot and/or the Content contained therein.
