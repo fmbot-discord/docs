@@ -24,23 +24,23 @@ Any payment issues must be handled through OpenCollective, although you can also
 ## Prohibited Activities
 You may not access or use the Bot for any purpose other than that for which we make the Bot available. The Bot may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.
 As a user of the Bot, you agree not to:
-- Systematically retrieve data or other content from the Bot to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.
+* Systematically retrieve data or other content from the Bot to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.
 Trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords.
-- Circumvent, disable, or otherwise interfere with security-related features of the Bot, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the Bot and/or the Content contained therein.
-- Use any information obtained from the Bot in order to harass, abuse, or harm another person.
-- Make improper use of our support services or submit false reports of abuse or misconduct.
-- Use the Bot in a manner inconsistent with any applicable laws or regulations.
-- Upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material, including excessive use of capital letters and spamming (continuous posting of repetitive text), that interferes with any party’s uninterrupted use and enjoyment of the Bot or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the Bot.
-- Engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools.
-- Delete the copyright or other proprietary rights notice from any Content.
-- Interfere with, disrupt, or create an undue burden on the Bot or the networks or services connected to the Bot.
-- Harass, annoy, intimidate, or threaten any of our employees or agents engaged in providing any portion of the Bot to you.
-- Attempt to bypass any measures of the Bot designed to prevent or restrict access to the Bot, or any portion of the Bot.
-- Use any type of unauthorized automation within Discord.
-- Use the bot for unauthorized advertisements.
-- Use the bot for breaking Discord terms of service: <https://discord.com/terms>
-- Use the bot for breaking Last.fm terms of use: <https://www.last.fm/legal/terms>
-- Use the bot for breaking Spotify terms of use: <https://www.spotify.com/us/legal/end-user-agreement/>
+* Circumvent, disable, or otherwise interfere with security-related features of the Bot, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the Bot and/or the Content contained therein.
+* Use any information obtained from the Bot in order to harass, abuse, or harm another person.
+* Make improper use of our support services or submit false reports of abuse or misconduct.
+* Use the Bot in a manner inconsistent with any applicable laws or regulations.
+* Upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material, including excessive use of capital letters and spamming (continuous posting of repetitive text), that interferes with any party’s uninterrupted use and enjoyment of the Bot or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the Bot.
+* Engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools.
+* Delete the copyright or other proprietary rights notice from any Content.
+* Interfere with, disrupt, or create an undue burden on the Bot or the networks or services connected to the Bot.
+* Harass, annoy, intimidate, or threaten any of our employees or agents engaged in providing any portion of the Bot to you.
+* Attempt to bypass any measures of the Bot designed to prevent or restrict access to the Bot, or any portion of the Bot.
+* Use any type of unauthorized automation within Discord.
+* Use the bot for unauthorized advertisements.
+* Use the bot for breaking Discord terms of service: <https://discord.com/terms>
+* Use the bot for breaking Last.fm terms of use: <https://www.last.fm/legal/terms>
+* Use the bot for breaking Spotify terms of use: <https://www.spotify.com/us/legal/end-user-agreement/>
 
 ## Contribution License
 You and the Bot agree that we may access, store, process, and use any information and personal data that you provide following the terms of the Privacy Policy and your choices (including settings).
