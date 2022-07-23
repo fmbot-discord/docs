@@ -15,9 +15,9 @@ By using the Bot, you represent and warrant that: (1) you have the legal capacit
 ## Fees and Payment
 We use OpenCollective for any payments
 
-https://opencollective.com/tos
+<https://opencollective.com/tos>
 
-https://opencollective.com/privacypolicy
+<https://opencollective.com/privacypolicy>
 
 Any payment issues must be handled through OpenCollective, although you can also ask us and we can see what we can do on our side to help with any issues.
 
@@ -38,9 +38,9 @@ Trick, defraud, or mislead us and other users, especially in any attempt to lear
 - Attempt to bypass any measures of the Bot designed to prevent or restrict access to the Bot, or any portion of the Bot.
 - Use any type of unauthorized automation within Discord.
 - Use the bot for unauthorized advertisements.
-- Use the bot for breaking Discord terms of service: https://discord.com/terms
-- Use the bot for breaking Last.fm terms of use: https://www.last.fm/legal/terms
-- Use the bot for breaking Spotify terms of use: https://www.spotify.com/us/legal/end-user-agreement/
+- Use the bot for breaking Discord terms of service: <https://discord.com/terms>
+- Use the bot for breaking Last.fm terms of use: <https://www.last.fm/legal/terms>
+- Use the bot for breaking Spotify terms of use: <https://www.spotify.com/us/legal/end-user-agreement/>
 
 ## Contribution License
 You and the Bot agree that we may access, store, process, and use any information and personal data that you provide following the terms of the Privacy Policy and your choices (including settings).
@@ -57,7 +57,7 @@ The Bot may contain (or you may be sent via the Bot) links to other websites ("T
 We reserve the right, but not the obligation, to: (1) monitor the Bot for violations of these Terms of Use; (2) take appropriate action against anyone who, in our sole discretion, violates the law or these Terms of Use, including without limitation, reporting such user to law enforcement authorities; (3) in our sole discretion and without limitation, refuse, restrict access to, limit the availability of, or disable (to the extent technologically feasible) any of your Contributions or any portion thereof; (4) in our sole discretion and without limitation, notice, or liability, to remove from the Bot or otherwise disable all files and content that are excessive in size or are in any way burdensome to our systems; and (5) otherwise manage the Bot in a manner designed to protect our rights and property and to facilitate the proper functioning of the Bot.
 
 ## Privacy Policy
-We care about data privacy and security. Please review our Privacy Policy: https://fmbot.xyz/privacy. By using the Bot, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Use. Please be advised the Bot is hosted in Finland. If you access the Bot from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in Finland, then through your continued use of the Bot, you are transferring your data to Finland, and you agree to have your data transferred to and processed in Finland. Further, we do not knowingly accept, request, or solicit information from children or knowingly market to children. Therefore, in accordance with the U.S. Children’s Online Privacy Protection Act, if we receive actual knowledge that anyone under the age of 13 has provided personal information to us without the requisite and verifiable parental consent, we will delete that information from the Bot as quickly as is reasonably practical.
+We care about data privacy and security. Please review our Privacy Policy: <https://fmbot.xyz/privacy>. By using the Bot, you agree to be bound by our Privacy Policy, which is incorporated into these Terms of Use. Please be advised the Bot is hosted in Finland. If you access the Bot from any other region of the world with laws or other requirements governing personal data collection, use, or disclosure that differ from applicable laws in Finland, then through your continued use of the Bot, you are transferring your data to Finland, and you agree to have your data transferred to and processed in Finland. Further, we do not knowingly accept, request, or solicit information from children or knowingly market to children. Therefore, in accordance with the U.S. Children’s Online Privacy Protection Act, if we receive actual knowledge that anyone under the age of 13 has provided personal information to us without the requisite and verifiable parental consent, we will delete that information from the Bot as quickly as is reasonably practical.
 
 ## Term and Termination
 These Terms of Use shall remain in full force and effect while you use the Bot. WITHOUT LIMITING ANY OTHER PROVISION OF THESE TERMS OF USE, WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND WITHOUT NOTICE OR LIABILITY, DENY ACCESS TO AND USE OF THE BOT (INCLUDING BLOCKING CERTAIN IP ADDRESSES), TO ANY PERSON FOR ANY REASON OR FOR NO REASON, INCLUDING WITHOUT LIMITATION FOR BREACH OF ANY REPRESENTATION, WARRANTY, OR COVENANT CONTAINED IN THESE TERMS OF USE OR OF ANY APPLICABLE LAW OR REGULATION. WE MAY TERMINATE YOUR USE OR PARTICIPATION IN THE BOT OR DELETE ANY CONTENT OR INFORMATION THAT YOU POSTED AT ANY TIME, WITHOUT WARNING, IN OUR SOLE DISCRETION.
@@ -95,4 +95,4 @@ If any complaint with us is not satisfactorily resolved, you can contact the Com
 These Terms of Use and any policies or operating rules posted by us on the website or in respect to the Bot constitute the entire agreement and understanding between you and us. Our failure to exercise or enforce any right or provision of these Terms of Use shall not operate as a waiver of such right or provision. These Terms of Use operate to the fullest extent permissible by law. We may assign any or all of our rights and obligations to others at any time. We shall not be responsible or liable for any loss, damage, delay, or failure to act caused by any cause beyond our reasonable control. If any provision or part of a provision of these Terms of Use is determined to be unlawful, void, or unenforceable, that provision or part of the provision is deemed severable from these Terms of Use and does not affect the validity and enforceability of any remaining provisions. There is no joint venture, partnership, employment or agency relationship created between you and us as a result of these Terms of Use or use of the Bot. You agree that these Terms of Use will not be construed against us by virtue of having drafted them. You hereby waive any and all defenses you may have based on the electronic form of these Terms of Use and the lack of signing by the parties hereto to execute these Terms of Use.
 
 ## Contact Us
-Discord: https://discord.gg/fmbot
+Discord: <https://discord.gg/fmbot>
