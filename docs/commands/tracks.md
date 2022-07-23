@@ -73,6 +73,28 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 
 ---
 
+### .receipt (`.rcpt`)
+
+Shows your track receipt. Based on Receiptify.
+
+Parameters (Can be used in any order):
+
+* Time period - Time period of your top tracks. Defaults to weekly.
+* User - Mention another user or use their Discord id.
+
+Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+
+!!! note "Examples"
+    `.rcpt`
+
+    `.receipt`
+
+    `.receipt march 2021`
+
+    `.receipt weekly @user`
+
+---
+
 
 ### .whoknowstrack (`.wktr`, `.wt`)
 
