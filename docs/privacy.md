@@ -2,9 +2,9 @@ We think your privacy is very important, so below are our answers to the most co
 
 These are the questions Discord asks for bot verification, but updated with our new functionalities.
 
-Last update: 2022-06-01
+Last update: 2022-09-01
 
-Changelog: Clarify that server data is stored when the bot joins
+Changelog: Clarified that we don't store data from logged out users, changed commands to slash command version
 
 ## What does your application do? Please be as detailed as possible, and feel free to include links to image or video examples.
 .fmbot is an open sourced bot that mostly gets used for calling the Last.fm API. Last.fm is a service that tracks what people listen to. 
@@ -44,7 +44,13 @@ When someone uses a command, the debug log stores this:
 - Server id
 - The text in the command
 
-We don't store any data from users that have not registered in the bot.
+If you have logged into the bot the bot will scrobble songs music bots play to your Last.fm profile by default. 
+You can opt-out of this feature by using the `/botscrobbling` command. 
+
+For this feature the bot tries to fetch the artist and track name from messages music bots send in your server. 
+If a song is successfully found, it will be send to Last.fm. No message content is stored or proessed otherwise.
+
+We don't store any data from users that have not registered in the bot. If you don't want us to store any data about you, do not log into the bot.
 
 ## FOR WHAT PURPOSE(S) DO YOU STORE IT?
 To identify who is calling the command and get the appropriate parameters to customize their command.
@@ -59,7 +65,7 @@ Settings data: Forever, or until deleted.
 Logs: Cleared every month.
 
 ## WHAT IS THE PROCESS FOR USERS TO REQUEST DELETION OF THEIR DATA?
-For user data we have a command (.remove).
+For user data we have a command (`/remove`).
 
 For server data people can remove the bot and all the data related to that server will be deleted.
 
