@@ -6,6 +6,7 @@ We use [OpenCollective](https://opencollective.com/fmbot) so we can be transpare
 
 
 ### Supporters get: 
+- More statistics in some commands
 - An emote behind their name (⭐)
 - Higher chance of being featured every Supporter Sunday (first Sunday of each month)
 - Their name permanently added to the list of supporters (`.supporters`)
@@ -18,8 +19,8 @@ We use [OpenCollective](https://opencollective.com/fmbot) so we can be transpare
 
 ### Supporter types
 
-- Lifetime ($30 one-time purchase)
-- Yearly ($14 / year)
+- Monthly ($3 / month)
+- Lifetime ($35 one-time purchase)
 
 <br>
 
