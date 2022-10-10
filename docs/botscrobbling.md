@@ -4,29 +4,30 @@ Bot scrobbling is a new feature from .fmbot that allows you to automatically scr
 
 The feature works fully automatic. Simply start listening to music using a supported bot and .fmbot will scrobble it for users in that voice channel.
 
-The bot will only scrobble songs it can find on Last.fm. The scrobbling works best with Spotify songs, although it will also attempt to find songs from other sources like YouTube.
+The bot will only scrobble songs it can find on Last.fm. The scrobbling works best with Spotify songs.
 
 ### Currently supported bots: 
 
 * Cakey Bot
 * Hydra
+* Soundcloud
 
 ### Requirements:
 
 * Make sure .fmbot can see the voice channel
-* Make sure you've logged in at least once using `.login`
+* Make sure you've logged in at least once using `/login`
 
 
-### .botscrobbling
+### /botscrobbling
 
 Use this command to disable/enable bot scrobbling for your account or to check if you are ready for scrobbling.
 
 !!! note "Examples"
-    `.botscrobbling`
+    `/botscrobbling`
 
-    `.botscrobbling on`
+    `/botscrobbling on`
 
-    `.botscrobbling off`
+    `/botscrobbling off`
 
     
 !!! info
