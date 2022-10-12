@@ -25,7 +25,7 @@ Can both be used with Discord users or Last.fm usernames.
     `.addfriends 356268235697553409`
 
 !!! info ""
-    Want to be able to add 16 friends (up from 12)? Check out [.fmbot supporter](/supporter/).
+    Want to be able to add more friends (up to 16)? <a href="https://opencollective.com/fmbot/contribute" target="_blank">Get .fmbot supporter here.</a>
 
 ---
 

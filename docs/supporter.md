@@ -1,8 +1,8 @@
 # .fmbot supporter
 
-.fmbot is non-commercial and is hosted and maintained by volunteers. In order to help us pay for hosting, fund development and deal with other expenses we've added a way for people to donate and get some small perks in the bot.
+.fmbot is non-commercial and is hosted and maintained by volunteers. In order to help us pay for hosting, fund development and deal with other expenses we've added a way for people to donate. In return for your support you get some cool exclusive perks.
 
-We use [OpenCollective](https://opencollective.com/fmbot) so we can be transparent about our expenses. If you decide to sponsor us, you can see exactly where your money goes.
+We use [OpenCollective](https://opencollective.com/fmbot) so we can be transparent about what comes in and goes out. If you decide to sponsor us, you can see exactly where your money goes.
 
 
 ### Supporters get: 
@@ -22,9 +22,8 @@ We use [OpenCollective](https://opencollective.com/fmbot) so we can be transpare
 - Monthly ($3 / month)
 - Lifetime ($35 one-time purchase)
 
-<br>
 
-[Get .fmbot supporter](https://opencollective.com/fmbot/contribute){ .md-button }
+[Get .fmbot supporter here](https://opencollective.com/fmbot/contribute){ .md-button }
 
 <hr>
 
