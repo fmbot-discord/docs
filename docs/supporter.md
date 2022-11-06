@@ -1,7 +1,5 @@
 # Become a supporter
 
-### Supporters get the following advantages: 
-
 #### Make development sustainable
 - Support development and get cool perks
 - Help us pay for hosting and remain independent and free for everyone
