@@ -1,8 +1,13 @@
 # FAQ
 
-### How do I set my Last.fm username?
+### How do I get started?
 
-Please see [`.login`](/commands/#login).
+This bot uses your music history for various commands. For this we use a website called Last.fm. 
+This site allows you to track your music history [from various platforms](https://www.last.fm/about/trackmymusic).
+
+To get started you need a Last.fm account. After you've setup your account there you can login to our bot by using `/login` within Discord.
+
+While we require a Last.fm account the bot is not affiliated with Last.fm.
 
 ---
 
@@ -25,8 +30,6 @@ Last.fm also has [an official guide](https://support.last.fm/t/spotify-has-stopp
 Because we rely heavily on caching your playcounts to keep our commands fast it can sometimes happen that you don't get updated properly.
 
 In this case, try to use `.update full`. This completely re-builds the stored playcounts the bot has for you. 
-
-This uses a lot of API calls to Last.fm, so try not to do it too often.
 
 ---
 
