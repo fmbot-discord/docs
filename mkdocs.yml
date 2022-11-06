@@ -48,7 +48,7 @@ copyright: .fmbot is not affiliated with Last.fm
 nav:
   - 'Introduction': 'index.md'
   - 'Frequently Asked Questions': 'faq.md'
-  - 'Commands':
+  - 'Text Commands':
     - 'Getting started': 'commands/index.md'
     - 'Albums': 'commands/albums.md'
     - 'Artists': 'commands/artists.md'
@@ -73,6 +73,6 @@ nav:
   - 'Development': 'setup.md'
   - 'Privacy': 'privacy.md'
   - 'Terms of Use': 'terms.md'
-  - 'Become a supporter': 'supporter.md'
+  - 'Get supporter': 'supporter.md'
   - 'Join our server': http://server.fmbot.xyz/
   - 'Invite the bot': http://invite.fmbot.xyz/
