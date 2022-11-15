@@ -1,6 +1,6 @@
 .fmbot is a social Discord bot that provides music statistics for you, your friends, and your fellow server members. Easily see who listens to your favorite artist in a server and make new friends. Or discover new artists within your favorite genres.
 
-The bot connects to a Last.fm account to see your listening history. Over 350.000 users have already connected. To get started, simply use `/login`.
+The bot connects to a Last.fm account to see your listening history. Over 400.000 users have already connected. To get started, simply use `/login`.
 
 ---
 ### 📋Main features:
@@ -41,8 +41,8 @@ The bot will also change it's profile picture to the album cover of the feature.
 
 ### Extra information
 
-.fmbot is trusted by over 150.000 servers, has over 350.000 registered users, and is used more than 250.000 times every day.
+.fmbot is trusted by over 150.000 servers, has over 400.000 registered users, and is used more than 250.000 times every day.
 
-It is written in C#, uses Discord.Net and .NET 6. The code is completely [open-source](https://github.com/fmbot-discord/fmbot/), so anyone can see how it works and modify it themselves.
+It is written in C#, uses Discord.Net and .NET 7. The code is completely [open-source](https://github.com/fmbot-discord/fmbot/), so anyone can see how it works and modify it themselves.
 
 The bot is non-commercial. You can help us cover hosting and other costs by getting [.fmbot supporter](/supporter/).

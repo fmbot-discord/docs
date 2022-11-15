@@ -35,11 +35,6 @@
 [Get .fmbot supporter here](https://opencollective.com/fmbot/contribute){ .md-button }
 
 <hr>
- 
-!!! info ""
-    Please contact us in our [support server](http://server.fmbot.xyz/) after donating so we can apply supporter to your Discord account.
-
-<hr>
 
 ### Frequently asked
 

@@ -19,7 +19,7 @@
 ## Running the bot
 1. Download the `BinaryFiles.zip` and the `BinaryRelease.zip` from the [latest release](https://github.com/fmbot-discord/fmbot/releases/latest).
 2. Extract both BinaryRelease.zip and BinaryFiles.zip and put the files into the same folder. 
-3. Make sure you have the [.NET 6.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) installed
+3. Make sure you have the [.NET 7.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) installed
 4. Run the bot once and a config file should be created in configs/configs.json. The database tables will also be created.
 5. Open this config and enter the values. Spotify and Genius api keys aren't required, but the commands will not work.
 6. Make sure the config is in a valid json format.
