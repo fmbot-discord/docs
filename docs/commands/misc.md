@@ -1,5 +1,17 @@
 # Miscellaneous commands
 
+### .stats
+
+Shows you or someone else their user profile with some interesting statistics.
+
+!!! note "Examples"
+    `.stats`
+
+!!! info ""
+    Want to see a yearly overview on your profile? <a href="https://opencollective.com/fmbot/contribute" target="_blank">Get .fmbot supporter here.</a>
+
+---
+
 ### .help 
 
 Shows information about getting started with the bot.
@@ -24,14 +36,6 @@ Shows all the information and links related to the bot.
 
 !!! note "Examples"
     `.info`
-
----
-### .stats
-
-Shows all the information that the bot has about you.
-
-!!! note "Examples"
-    `.stats`
 
 ---
 ### .status

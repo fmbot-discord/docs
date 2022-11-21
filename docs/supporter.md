@@ -8,6 +8,7 @@
 #### Get more stats
 - See first listen dates for artists/albums/tracks
 - Expanded `stats` command with overall history
+- Extra page on `year` overview
 - More coming soon
 
 #### Flex your support
@@ -15,13 +16,14 @@
 - Sponsor charts
 - Your name in `supporters`
 
+#### All your music
+- Lifetime scrobble history stored for extra stats
+- All artist/album/track playcounts cached (up from top 4/5/6k)
+- Full Discogs collection stored (up from last 100)
+
 #### Add more friends
 - Friend limit raised to 18 (up from 12)
 - Applies to all commands, from `friends` to `friendwhoknows`
-
-#### All your scrobbles
-- Lifetime scrobble history stored for extra stats
-- All artist/album/track playcounts cached (up from top 4/5/6k)
 
 #### Get featured
 - Every first Sunday of the month is Supporter Sunday

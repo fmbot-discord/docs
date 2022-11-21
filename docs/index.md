@@ -12,6 +12,7 @@ The bot connects to a Last.fm account to see your listening history. Over 400.00
 - Get the Spotify, Youtube, or Genius link for any song
 - View all your Last.fm statistics through **deep integration with Last.fm**
 - Scrobble songs that other Discord bots are playing to your Last.fm account with our [**Music Bot Scrobbling**](/botscrobbling/)
+- View and show off your **[Discogs collection](/commands/discogs/)**
 
 ---
 ### 👥Social features:
@@ -21,7 +22,7 @@ The bot connects to a Last.fm account to see your listening history. Over 400.00
 - [Compare your taste](/commands/artists/#taste-t) with others and see who has the most similar music taste
 - [**Add friends**](/commands/friends/)  and see what they've been listening to in `/friends`
 - See how you stack up against anyone in the bot with our **global commands**
-- Use the affinity command to see who's taste is most similar to you
+- Use the [affinity command](/commands/artists/#affinity-aff) to see who's taste is most similar to you
 
 ---
 ### ✨Featured

@@ -24,8 +24,12 @@ Can both be used with Discord users or Last.fm usernames.
 
     `.addfriends 356268235697553409`
 
+
 !!! info ""
-    Want to be able to add more friends (up to 16)? <a href="https://opencollective.com/fmbot/contribute" target="_blank">Get .fmbot supporter here.</a>
+    Did you know there's also another way to add friends? Simply rightclick their profile > `Apps` > `Add Friend`
+
+!!! info ""
+    Want to be able to add more friends (up to 18)? <a href="https://opencollective.com/fmbot/contribute" target="_blank">Get .fmbot supporter here.</a>
 
 ---
 
@@ -43,6 +47,9 @@ Can both be used with Discord users or Last.fm usernames.
     `.removefriends frikandel_ @discorduser`
 
     `.removefriends 356268235697553409`
+
+!!! info ""
+    Did you know there's also another way to add friends? Simply rightclick their profile > `Apps` > `Remove Friend`
 
 ---
 

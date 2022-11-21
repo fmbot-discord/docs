@@ -38,17 +38,12 @@ Shows your latest scrobbles.
 
 Parameters:
 
-* Amount - Number of scrobbles. Can only be between 1 and 10. Defaults to 5.
 * User - A Last.FM username or a user in your server.
 
 !!! note "Examples"
     `.r`
 
     `.recent`
-
-    `.recent 10`
-
-    `.recent 5 user`
     
 ---
 ### .toptracks (`.tt`)

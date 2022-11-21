@@ -23,6 +23,18 @@ Parameters:
 
 ---
 
+### .affinity (`.aff`)
+
+Shows users in the same server who have the most similar top artists.
+
+
+!!! note "Examples"
+    `.aff`
+
+    `.affinity`
+
+---
+
 ### .artistplays (`.ap`)
 
 Shows you your plays for the artist you're currently listening to or searching for.
