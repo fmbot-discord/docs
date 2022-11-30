@@ -1,40 +1,40 @@
 # Become a supporter
 
-#### Make development sustainable
-- Support development and get cool perks
-- Help us pay for hosting and remain independent and free for everyone
-- Transparent fundraising on [OpenCollective](https://opencollective.com/fmbot)
+.fmbot is free to use and non-commercial. We optionally offer supporter so you can help us pay for hosting and development and receive some cool perks in return.
 
-#### Get more stats
-- See first listen dates for artists/albums/tracks
-- Expanded `stats` command with overall history
-- Extra page on `year` overview
-- More coming soon
+Fundraising is done through [OpenCollective](https://opencollective.com/fmbot) for full transparency.
 
-#### Flex your support
-- Get a ⭐ badge after your name
-- Sponsor charts
-- Your name in `supporters`
+|             | Free        | Supporter |
+| ----------- | ----------- |----------- |
+| Access to all commands     | ✅  | ✅ |
+| Cached artists | Top 4000 | Unlimited |
+| Cached albums | Top 5000 | Unlimited |
+| Cached tracks | Top 6000 | Unlimited |
+| Cached play history | Up to 1.5y | Lifetime |
+| Cached Discogs collection | Last 100 | Unlimited |
+| First listen dates in `artist`, `album` and `track` | ❌ | ✅ |
+| Artist Discoveries and months in `year` | ❌ | ✅ |
+| Years and listening time overview in `stats` | ❌ | ✅ |
+| Added friends limit | 12 | 18 |
+| ⭐ Supporter badge displayed | ❌ | ✅ |
+| Chance to sponsor bot-wide charts | ❌ | ✅ |
+| Your name in the `supporters` command | ❌ | ✅ |
+| Higher chance of getting featured on Supporter Sunday | ❌ | ✅ |
+| Exclusive role and channel on [our Discord](https://discord.gg/6y3jJjtDqK) with sneak peeks of new features | ❌ | ✅ |
 
-#### All your music
-- Lifetime scrobble history stored for extra stats
-- All artist/album/track playcounts cached (up from top 4/5/6k)
-- Full Discogs collection stored (up from last 100)
+<div>
+<a href="https://opencollective.com/fmbot/contribute/fmbot-monthly-supporter-45504/checkout?interval=month&amount=3" class="md-button md-button--primary getsupporter-button"> 
+  <h4>Monthly</h3>
+  <h3>$3 / month</h2>
+</a>
 
-#### Add more friends
-- Friend limit raised to 18 (up from 12)
-- Applies to all commands, from `friends` to `friendwhoknows`
+<h4 class="getsupporter-text"></h4>
 
-#### Get featured
-- Every first Sunday of the month is Supporter Sunday
-- Higher chance for supporters to become featured
-
-#### Join the community
-- Exclusive role and channel on [our Discord](https://discord.gg/6y3jJjtDqK)
-- Sneak peeks of new features
-
-
-[Get .fmbot supporter here](https://opencollective.com/fmbot/contribute){ .md-button }
+<a href="https://opencollective.com/fmbot/contribute/fmbot-lifetime-supporter-25651/checkout?amount=35" class="md-button md-button--primary getsupporter-button"> 
+  <h4>Lifetime</h3>
+  <h3>$35 once</h2>
+</a>
+</div>
 
 <hr>
 
@@ -42,11 +42,13 @@
 
 #### Why a supporter program?
 
+<p>
 In order to help us pay for hosting, fund development and deal with other expenses we've added a way for people to donate. In return for your support you get some cool exclusive perks.
 
 We're dedicated to making sure the bot remains free and independent. That's why most supporter features are simply features that are nice but would be difficult to roll out to everyone. For example some of the extra statistics require us to store your full listening history, which would be difficult to do for all our users.
 
 By getting supporter you help us to be able to spend more time working on new features and fixes, which in return improves your user experience.
+</p>
 
 #### Can I see where my money goes?
 
