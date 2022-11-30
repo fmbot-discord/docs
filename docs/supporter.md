@@ -66,3 +66,7 @@ If you go to the [budget category](https://opencollective.com/fmbot#category-BUD
 #### Can I cancel or change my subscription?
 
 Yes, you can cancel a recurring contribution at any time. To do so, go to [OpenCollective](https://opencollective.com/) and sign in. After signing in go to 'Manage Contributions' where you can change your subscription.
+
+#### I just bought supporter, what now?
+
+Join [our Discord](https://discord.gg/6y3jJjtDqK) and create a thread in #help. A staff member will apply it to your account as soon as possible.
