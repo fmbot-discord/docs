@@ -122,3 +122,23 @@ Parameters:
 
     `.milestone 1337 @frikandel`
     
+---
+
+### .year (`.wrapped`)
+
+Shows you an overview of you or someone else their year.
+
+[Supporters](/supporter/) get an extra page with Artist Discoveries and a monthly overview.
+
+Parameters:
+
+* Year
+* User
+
+!!! note "Examples"
+    `.year`
+
+    `.year 2020`
+
+    `.wrapped @frikandel`
+    
