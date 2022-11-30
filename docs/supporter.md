@@ -47,7 +47,7 @@ In order to help us pay for hosting, fund development and deal with other expens
 
 We're dedicated to making sure the bot remains free and independent. That's why most supporter features are simply features that are nice but would be difficult to roll out to everyone. For example some of the extra statistics require us to store your full listening history, which would be difficult to do for all our users.
 
-By getting supporter you help us to be able to spend more time working on new features and fixes, which in return improves your user experience.
+By getting supporter you help us to be able to spend more time working on new features and fixes, which in return improves the user experience for everyone.
 
 #### What is OpenCollective?
 
@@ -59,7 +59,7 @@ OpenCollective relies on Stripe to handle their payments, which is one of the wo
 
 #### Can I see where my money goes?
 
-Yes! Because we [OpenCollective](https://opencollective.com/fmbot), which means that our finances are transparent.
+Yes! We use [OpenCollective](https://opencollective.com/fmbot) which means that our finances are fully transparent.
 
 If you go to the [budget category](https://opencollective.com/fmbot#category-BUDGET) on our page it's easy to see where the money comes from and where it goes.
 
