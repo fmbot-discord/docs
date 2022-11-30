@@ -14,7 +14,7 @@ Gets information about the track you're currently listening to or searching for.
     `.track Stronger Kanye West`
 
 !!! info ""
-    Want this command to also show the date you first listened to a track? <a href="https://opencollective.com/fmbot/contribute" target="_blank">Get .fmbot supporter here.</a>
+    Want this command to also show the date you first listened to a track? <a href="/supporter/">Get .fmbot supporter here.</a>
     
 ---
 

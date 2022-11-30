@@ -18,7 +18,7 @@ Parameters:
     `.artist David Vunk`
 
 !!! info ""
-    Want this command to also show the date you first listened to an artist? <a href="https://opencollective.com/fmbot/contribute" target="_blank">Get .fmbot supporter here.</a>
+    Want this command to also show the date you first listened to an artist? <a href="/supporter/">Get .fmbot supporter here.</a>
 
 
 ---

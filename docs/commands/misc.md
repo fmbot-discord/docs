@@ -8,7 +8,7 @@ Shows you or someone else their user profile with some interesting statistics.
     `.stats`
 
 !!! info ""
-    Want to see a yearly overview on your profile? <a href="https://opencollective.com/fmbot/contribute" target="_blank">Get .fmbot supporter here.</a>
+    Want to see a yearly overview on your profile? <a href="/supporter/">Get .fmbot supporter here.</a>
 
 ---
 

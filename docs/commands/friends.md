@@ -29,7 +29,7 @@ Can both be used with Discord users or Last.fm usernames.
     Did you know there's also another way to add friends? Simply rightclick their profile > `Apps` > `Add Friend`
 
 !!! info ""
-    Want to be able to add more friends (up to 18)? <a href="https://opencollective.com/fmbot/contribute" target="_blank">Get .fmbot supporter here.</a>
+    Want to be able to add more friends (up to 18)? <a href="/supporter/">Get .fmbot supporter here.</a>
 
 ---
 

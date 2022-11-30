@@ -32,4 +32,4 @@ Some places where your collection can also be visible are the `stats`, `artist` 
 !!! info ""
     Only the last 100 items you've added to Discogs can be viewed and stored. 
     
-    Want to view your whole collection? <a href="https://opencollective.com/fmbot/contribute" target="_blank">Get .fmbot supporter here.</a>
+    Want to view your whole collection? <a href="/supporter/">Get .fmbot supporter here.</a>

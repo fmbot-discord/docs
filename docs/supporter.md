@@ -2,7 +2,7 @@
 
 .fmbot is free to use and non-commercial. We optionally offer supporter so you can help us pay for hosting and development and receive some cool perks in return.
 
-Fundraising is done through [OpenCollective](https://opencollective.com/fmbot) for full transparency.
+Fundraising is done through [OpenCollective](https://opencollective.com/fmbot).
 
 |             | Free        | Supporter |
 | ----------- | ----------- |----------- |
@@ -10,7 +10,7 @@ Fundraising is done through [OpenCollective](https://opencollective.com/fmbot) f
 | Cached artists | Top 4000 | Unlimited |
 | Cached albums | Top 5000 | Unlimited |
 | Cached tracks | Top 6000 | Unlimited |
-| Cached play history | Up to 1.5y | Lifetime |
+| Cached scrobble history | Up to 1.5y | Lifetime |
 | Cached Discogs collection | Last 100 | Unlimited |
 | First listen dates in `artist`, `album` and `track` | ❌ | ✅ |
 | Artist Discoveries and months in `year` | ❌ | ✅ |
@@ -40,20 +40,29 @@ Fundraising is done through [OpenCollective](https://opencollective.com/fmbot) f
 
 ### Frequently asked
 
+
 #### Why a supporter program?
 
-<p>
 In order to help us pay for hosting, fund development and deal with other expenses we've added a way for people to donate. In return for your support you get some cool exclusive perks.
 
 We're dedicated to making sure the bot remains free and independent. That's why most supporter features are simply features that are nice but would be difficult to roll out to everyone. For example some of the extra statistics require us to store your full listening history, which would be difficult to do for all our users.
 
 By getting supporter you help us to be able to spend more time working on new features and fixes, which in return improves your user experience.
-</p>
+
+#### What is OpenCollective?
+
+OpenCollective is like Patreon, except for open source projects. It's also more transparent and easier when working with multiple people.
+
+They manage our funds and allow us to focus on development while they handle the financial side of things.
+
+OpenCollective relies on Stripe to handle their payments, which is one of the worlds biggest payment providers. You can read more about their [security here](https://docs.opencollective.com/help/product/security).
 
 #### Can I see where my money goes?
 
-Yes! We use [OpenCollective](https://opencollective.com/fmbot), which means that our finances are transparent.
+Yes! Because we [OpenCollective](https://opencollective.com/fmbot), which means that our finances are transparent.
 
 If you go to the [budget category](https://opencollective.com/fmbot#category-BUDGET) on our page it's easy to see where the money comes from and where it goes.
 
-OpenCollective provides funding options for open source projects like ours. It's similar to Patreon, just more transparent and easier when working with multiple people.
+#### Can I cancel or change my subscription?
+
+Yes, you can cancel a recurring contribution at any time. To do so, go to [OpenCollective](https://opencollective.com/) and sign in. After signing in go to 'Manage Contributions' where you can change your subscription.
