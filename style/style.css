@@ -24,3 +24,35 @@ code{
     margin-block-start: 0.6em;
     margin-block-end: 0.3em;
 }
+
+.getsupporter-button h4{
+    margin-bottom: 0 !important;
+}
+.getsupporter-button h3{
+    margin-top: 0 !important;
+    font-size: 1.3em !important;
+}
+.getsupporter-button{
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.getsupporter-text{
+    display: inline-block;
+    width: 6%;
+}
+
+@media screen and (max-width: 40em)
+{
+    .getsupporter-button{
+        width: 100%;
+        display: block;
+    }
+    
+    .getsupporter-text{
+        display: block;
+    }
+}
