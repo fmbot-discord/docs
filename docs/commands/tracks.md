@@ -11,7 +11,7 @@ Gets information about the track you're currently listening to or searching for.
 
     `.track`
 
-    `.track Stronger Kanye West`
+    `.track Kaytranada You're The One`
 
 !!! info ""
     Want this command to also show the date you first listened to a track? <a href="/supporter/">Get .fmbot supporter here.</a>
@@ -228,7 +228,7 @@ Parameters:
 !!! note "Examples"
     `.scrobble`
 
-    `.sb Stronger Kanye`
+    `.sb The Less I Know The Better`
 
     `.scrobble Loona Heart Attack`
 

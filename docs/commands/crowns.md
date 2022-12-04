@@ -30,7 +30,7 @@ Shows the current crown owner and crown history for the artist you're currently 
 
     `.crown the beatles`
 
-    `.crown kanye west`
+    `.crown tame impala`
 
 ---   
 ### .crownleaderboard (`.cwlb`)
