@@ -7,6 +7,7 @@ Fundraising is done through [OpenCollective](https://opencollective.com/fmbot).
 |             | Free        | Supporter |
 | ----------- | ----------- |----------- |
 | Access to all commands     | ✅  | ✅ |
+| Help us pay for hosting, development and other costs  | ❌  | ✅ |
 | Cached artists | Top 4000 | Unlimited |
 | Cached albums | Top 5000 | Unlimited |
 | Cached tracks | Top 6000 | Unlimited |
