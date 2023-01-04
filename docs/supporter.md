@@ -1,9 +1,5 @@
 # Become a supporter
 
-.fmbot is free to use and non-commercial. We optionally offer supporter so you can help us pay for hosting and development and receive some cool perks in return.
-
-Fundraising is done through [OpenCollective](https://opencollective.com/fmbot).
-
 |             | Free        | Supporter |
 | ----------- | ----------- |----------- |
 | Access to all commands     | ✅  | ✅ |
