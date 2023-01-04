@@ -85,24 +85,3 @@ Note that you can always mention the bot, this will work regardless of prefix.
     `!topalbums`
     
     `!prefix`
-
----
-
-### Prefix update
-
-
-!!! info "Default prefix has been changed as of August 20"
-    After testing this out for a bit and getting (positive) feedback we've decided to support the `.` prefix by default alongside the `.fm` prefix.
-
-    For example, you can now also use `.whoknows` instead of only `.fmwhoknows`.
-
-    ---
-
-    <b>Does this mean I have to change how I use .fmbot?</b>
-
-    No! If you wish to remain prefixing all commands with `.fm` that's fine, this will always remain available by default.
-
-    <b>Is it possible to change this back if I want?</b>
-
-    Yes. Simply use `.prefix .fm` and it won't respond to commands with just the `.` prefix, except for the main `.fm` command of course.
-    Note that this documentation site will also move to having the `.` prefix.
