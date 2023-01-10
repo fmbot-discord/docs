@@ -1,5 +1,7 @@
 # Become a supporter
 
+.fmbot is open-source and free to use. Optionally you can get supporter to help support the development of the bot and receive the following extra features and benefits.
+
 <div>
 <a href="https://opencollective.com/fmbot/contribute/fmbot-monthly-supporter-45504/checkout?interval=month&amount=4" class="md-button md-button--primary getsupporter-button"> 
   <h4>Monthly</h3>
