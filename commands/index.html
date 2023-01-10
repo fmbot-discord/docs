@@ -17,7 +17,7 @@
         <link rel="next" href="albums/">
       
       <link rel="icon" href="../img/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.2">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.3">
     
     
       
@@ -25,7 +25,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.f56500e0.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.6b71719e.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
@@ -279,12 +279,13 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
       
       
       
-      
-        <label class="md-nav__link" for="__nav_3">
+        <label class="md-nav__link" for="__nav_3" tabindex="0" aria-expanded="true">
           Text Commands
           <span class="md-nav__icon md-icon"></span>
         </label>
@@ -343,8 +344,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mode" class="md-nav__link">
-    .mode
+  <a href="#fmmode" class="md-nav__link">
+    .fmmode
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wkmode" class="md-nav__link">
+    .wkmode
   </a>
   
 </li>
@@ -585,12 +593,13 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
       
       
-      
-        <label class="md-nav__link" for="__nav_4">
+        <label class="md-nav__link" for="__nav_4" tabindex="0" aria-expanded="false">
           Server settings
           <span class="md-nav__icon md-icon"></span>
         </label>
@@ -803,8 +812,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mode" class="md-nav__link">
-    .mode
+  <a href="#fmmode" class="md-nav__link">
+    .fmmode
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#wkmode" class="md-nav__link">
+    .wkmode
   </a>
   
 </li>
@@ -839,6 +855,7 @@
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
 <p><code>.login</code></p>
+<p><code>/login</code> (responds in-channel)</p>
 </div>
 <div class="admonition info">
 <p>Please note that users in shared servers will be able to see and request your Last.fm username.</p>
@@ -847,21 +864,34 @@
 <p>To delete all your data from .fmbot, including friends and other settings, use <code>.remove</code>.</p>
 </div>
 <hr />
-<h3 id="mode">.mode<a class="headerlink" href="#mode" title="Permanent link">&para;</a></h3>
+<h3 id="fmmode">.fmmode<a class="headerlink" href="#fmmode" title="Permanent link">&para;</a></h3>
 <p>This command allows you to change how your .fm command looks.</p>
-<p>Parameters:</p>
-<ul>
-<li>Mode - Default mode for <code>.fm</code>. Defaults to <code>embedfull</code>.</li>
-<li>Playcount - Playcount mode for <code>.fm</code>. Defaults to none.</li>
-</ul>
-<p>Modes: <code>embedfull</code>, <code>embedmini</code>, <code>textfull</code>, <code>textmini</code>.</p>
-<p>Playcounts: <code>track</code>, <code>album</code> or <code>artist</code>. Playcounts are only available on embed modes.</p>
+<p>Modes: <code>embedfull</code>, <code>embedmini</code>, <code>embedtiny</code>, <code>textfull</code> and <code>textmini</code>.</p>
+<p>You can also enable up to 4 custom options to show in your <code>.fm</code> footer. </p>
+<p>Use the provided dropdowns to select and de-select which options you want.</p>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
-<p><code>.mode embedmini artist</code></p>
-<p><code>.mode embedfull</code></p>
-<p><code>.mode textmini</code></p>
-<p><code>.mode embedmini track</code></p>
+<p><code>.fmmode</code></p>
+<p><code>/fmmode</code> (responds in-channel)</p>
+</div>
+<div class="admonition info">
+<p>Supporters can select up 8 options, and have access to some exclusive options like first artist listen. 
+<a href="/supporter/">Get .fmbot supporter here.</a></p>
+</div>
+<hr />
+<h3 id="wkmode">.wkmode<a class="headerlink" href="#wkmode" title="Permanent link">&para;</a></h3>
+<p>This command allows you to change how responses to the various whoknows commmand look.</p>
+<p>Modes: <code>embed</code> or <code>image</code></p>
+<p>You can also override this preference on every invididual <code>whoknows</code> command. Simply add <code>img</code> or <code>embed</code> to the command.</p>
+<div class="admonition note">
+<p class="admonition-title">Examples</p>
+<p><code>.wkmode image</code></p>
+<p><code>.wkmode embed</code></p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Override examples</p>
+<p><code>.whoknows the beatles image</code></p>
+<p><code>.globalwhoknows mac miller embed</code></p>
 </div>
 
 
@@ -917,10 +947,10 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["announce.dismiss"], "search": "../assets/javascripts/workers/search.12658920.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["announce.dismiss"], "search": "../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.5cf534bf.min.js"></script>
+      <script src="../assets/javascripts/bundle.ba449ae6.min.js"></script>
       
         <script src="../javascript/analytics.js"></script>
       

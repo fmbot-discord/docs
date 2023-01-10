@@ -17,7 +17,7 @@
         <link rel="next" href="../privacy/">
       
       <link rel="icon" href="../img/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.2">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.3">
     
     
       
@@ -25,7 +25,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.f56500e0.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.6b71719e.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.2505c338.min.css">
@@ -277,12 +277,13 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
       
       
       
-      
-        <label class="md-nav__link" for="__nav_3">
+        <label class="md-nav__link" for="__nav_3" tabindex="0" aria-expanded="false">
           Text Commands
           <span class="md-nav__icon md-icon"></span>
         </label>
@@ -535,12 +536,13 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      <input class="md-nav__toggle md-toggle " data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
       
       
       
-      
-        <label class="md-nav__link" for="__nav_4">
+        <label class="md-nav__link" for="__nav_4" tabindex="0" aria-expanded="false">
           Server settings
           <span class="md-nav__icon md-icon"></span>
         </label>
@@ -678,8 +680,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#running-the-bot" class="md-nav__link">
-    Running the bot
+  <a href="#development" class="md-nav__link">
+    Development
   </a>
   
 </li>
@@ -722,6 +724,13 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-the-bot-outdated" class="md-nav__link">
+    Running the bot (outdated)
+  </a>
   
 </li>
       
@@ -842,8 +851,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#running-the-bot" class="md-nav__link">
-    Running the bot
+  <a href="#development" class="md-nav__link">
+    Development
   </a>
   
 </li>
@@ -889,6 +898,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#running-the-bot-outdated" class="md-nav__link">
+    Running the bot (outdated)
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -922,28 +938,16 @@ The reason for this is that selfhosting only has minor upsides and that we don't
 <li>Right-click on databases and create a database called 'fmbot'.</li>
 <li>Install the <a href="https://docs.timescale.com/install/latest/self-hosted/">Timescale postgres extension</a></li>
 </ol>
-<h2 id="running-the-bot">Running the bot<a class="headerlink" href="#running-the-bot" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Download the <code>BinaryFiles.zip</code> and the <code>BinaryRelease.zip</code> from the <a href="https://github.com/fmbot-discord/fmbot/releases/latest">latest release</a>.</li>
-<li>Extract both BinaryRelease.zip and BinaryFiles.zip and put the files into the same folder. </li>
-<li>Make sure you have the <a href="https://dotnet.microsoft.com/en-us/download/dotnet/7.0">.NET 7.0 SDK</a> installed</li>
-<li>Run the bot once and a config file should be created in configs/configs.json. The database tables will also be created.</li>
-<li>Open this config and enter the values. Spotify and Genius api keys aren't required, but the commands will not work.</li>
-<li>Make sure the config is in a valid json format.</li>
-<li>Run the bot again.</li>
-</ol>
-<div class="admonition note">
-<p class="admonition-title">Updates</p>
-<p>If you want to update the bot in the future, just download the new "BinaryRelease.zip" and/or the new "BinaryFiles.zip" and override the old files with the new ones.</p>
-</div>
 <div class="admonition note">
 <p class="admonition-title">Viewing the data</p>
-<p>To view the data in the database, click the fmbot database &gt; schemas &gt; public &gt; tables.</p>
+<p>To view the data in the database, use pgadmin and click the fmbot database &gt; schemas &gt; public &gt; tables.</p>
 </div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Please also launch the bot from the "StartFMBot.bat" as it allows the bot to restart itself when there is an error.</p>
-</div>
+<h2 id="development">Development<a class="headerlink" href="#development" title="Permanent link">&para;</a></h2>
+<ul>
+<li>For development it's recommended to either use Visual Studio or Rider as your IDE</li>
+<li>The first time you debug the bot it will automatically create a <code>config.json</code> that's located in the <code>bin</code> folder. You will have to enter your own configuration values there.</li>
+<li>Need more help? Contact <code>Frikandel#0001</code> on Discord.</li>
+</ul>
 <h2 id="getting-api-keys">Getting API keys<a class="headerlink" href="#getting-api-keys" title="Permanent link">&para;</a></h2>
 <h3 id="discord">Discord<a class="headerlink" href="#discord" title="Permanent link">&para;</a></h3>
 <ol>
@@ -965,6 +969,24 @@ The reason for this is that selfhosting only has minor upsides and that we don't
 <li>Go to the <a href="https://developer.spotify.com/dashboard/applications">Spotify Developer dashboard</a></li>
 <li>Create an app and enter both the ID and the secret into the config file.</li>
 </ol>
+<h2 id="running-the-bot-outdated">Running the bot (outdated)<a class="headerlink" href="#running-the-bot-outdated" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Download the <code>BinaryFiles.zip</code> and the <code>BinaryRelease.zip</code> from the <a href="https://github.com/fmbot-discord/fmbot/releases/latest">latest release</a>.</li>
+<li>Extract both BinaryRelease.zip and BinaryFiles.zip and put the files into the same folder. </li>
+<li>Make sure you have the <a href="https://dotnet.microsoft.com/en-us/download/dotnet/7.0">.NET 7.0 SDK</a> installed</li>
+<li>Run the bot once and a config file should be created in configs/configs.json. The database tables will also be created.</li>
+<li>Open this config and enter the values. Spotify and Genius api keys aren't required, but the commands will not work.</li>
+<li>Make sure the config is in a valid json format.</li>
+<li>Run the bot again.</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Updates</p>
+<p>If you want to update the bot in the future, just download the new "BinaryRelease.zip" and/or the new "BinaryFiles.zip" and override the old files with the new ones.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please also launch the bot from the "StartFMBot.bat" as it allows the bot to restart itself when there is an error.</p>
+</div>
 
 
 
@@ -1019,10 +1041,10 @@ The reason for this is that selfhosting only has minor upsides and that we don't
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["announce.dismiss"], "search": "../assets/javascripts/workers/search.12658920.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["announce.dismiss"], "search": "../assets/javascripts/workers/search.e5c33ebb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.5cf534bf.min.js"></script>
+      <script src="../assets/javascripts/bundle.ba449ae6.min.js"></script>
       
         <script src="../javascript/analytics.js"></script>
       
