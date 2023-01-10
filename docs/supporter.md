@@ -21,7 +21,7 @@
 | Exclusive role and channel on [our Discord](https://discord.gg/6y3jJjtDqK) with sneak peeks of new features | ❌ | ✅ |
 
 <div>
-<a href="https://opencollective.com/fmbot/contribute/fmbot-monthly-supporter-45504/checkout?interval=month&amount=3" class="md-button md-button--primary getsupporter-button"> 
+<a href="https://opencollective.com/fmbot/contribute/fmbot-monthly-supporter-45504/checkout?interval=month&amount=3.5" class="md-button md-button--primary getsupporter-button"> 
   <h4>Monthly</h3>
   <h3>$3.50 / month</h2>
 </a>
