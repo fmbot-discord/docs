@@ -32,7 +32,7 @@ code {
 
 .getsupporter-button h3 {
     margin-top: 0 !important;
-    font-size: 1.2em !important;
+    font-size: 1.15em !important;
     margin-bottom: 0.5em !important;
 }
 
@@ -58,4 +58,9 @@ code {
     .getsupporter-text {
         display: block;
     }
+}
+
+.new {
+    color: #f32c62;
+    font-weight: 700;
 }

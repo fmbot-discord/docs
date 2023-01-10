@@ -4,15 +4,15 @@
 
 <div>
 <a href="https://opencollective.com/fmbot/contribute/fmbot-monthly-supporter-45504/checkout?interval=month&amount=4" class="md-button md-button--primary getsupporter-button"> 
-  <h4>Monthly</h3>
-  <h3>$4 / month</h2>
+  <h4 class="title">Monthly</h3>
+  <h3>$4 / month</h3>
 </a>
 
 <h4 class="getsupporter-text"></h4>
 
 <a href="https://opencollective.com/fmbot/contribute/fmbot-lifetime-supporter-25651/checkout?amount=35" class="md-button md-button--primary getsupporter-button"> 
   <h4>Lifetime</h3>
-  <h3>$35 once</h2>
+  <h3>$35 once</h3>
 </a>
 </div>
 
@@ -28,7 +28,7 @@
 | First listen dates in `artist`, `album` and `track` | ❌ | ✅ |
 | Artist Discoveries and months in `year` | ❌ | ✅ |
 | Years and listening time overview in `stats` | ❌ | ✅ |
-| Custom `fm` footer options | 4 | 8 |
+| <span class="new">New</span> Custom `fm` footer options | 4 | 8 |
 | Added friends limit | 12 | 18 |
 | ⭐ Supporter badge displayed | ❌ | ✅ |
 | Chance to sponsor bot-wide charts | ❌ | ✅ |
