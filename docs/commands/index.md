@@ -24,6 +24,8 @@ Not receiving a DM from .fmbot when using this command? Please check if you have
 !!! note "Examples"
     `.login`
 
+    `/login` (responds in-channel)
+
     
 !!! info ""
     Please note that users in shared servers will be able to see and request your Last.fm username.
@@ -34,24 +36,41 @@ Not receiving a DM from .fmbot when using this command? Please check if you have
 
 ---
 
-### .mode
+### .fmmode
 
 This command allows you to change how your .fm command looks.
 
-Parameters:
+Modes: `embedfull`, `embedmini`, `embedtiny`, `textfull` and `textmini`.
 
-* Mode - Default mode for `.fm`. Defaults to `embedfull`.
-* Playcount - Playcount mode for `.fm`. Defaults to none.
+You can also enable up to 4 custom options to show in your `.fm` footer. 
 
-Modes: `embedfull`, `embedmini`, `textfull`, `textmini`.
-
-Playcounts: `track`, `album` or `artist`. Playcounts are only available on embed modes.
+Use the provided dropdowns to select and de-select which options you want.
 
 !!! note "Examples"
-    `.mode embedmini artist`
+    `.fmmode`
 
-    `.mode embedfull`
+    `/fmmode` (responds in-channel)
+
+!!! info ""
+    Supporters can select up 8 options, and have access to some exclusive options like first artist listen. 
+    <a href="/supporter/">Get .fmbot supporter here.</a>
+
+---
+
+### .wkmode
+
+This command allows you to change how responses to the various whoknows commmand look.
+
+Modes: `embed` or `image`
+
+You can also override this preference on every invididual `whoknows` command. Simply add `img` or `embed` to the command.
+
+!!! note "Examples"
+    `.wkmode image`
+
+    `.wkmode embed`
     
-    `.mode textmini`
-    
-    `.mode embedmini track`
+!!! note "Override examples"
+    `.whoknows the beatles image`
+
+    `.globalwhoknows mac miller embed`

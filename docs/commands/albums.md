@@ -126,6 +126,7 @@ Shows who in your server listened to an album you're currently listening to or t
 Parameters:
 
 * Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.
+* Mode - Response type. `embed` or `image`
 
 !!! note "Examples"
     `.wa`
@@ -146,6 +147,7 @@ Shows who from your friends listened to an album you're currently listening to o
 Parameters:
 
 * Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.
+* Mode - Response type. `embed` or `image`
 
 !!! note "Examples"
     `.fwa`
@@ -169,6 +171,7 @@ This searches through all registered .fmbot users. Note that some users with fak
 Parameters:
 
 * Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.
+* Mode - Response type. `embed` or `image`
 
 !!! note "Examples"
     `.gwa`

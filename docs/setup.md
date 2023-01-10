@@ -16,23 +16,13 @@
 6. Right-click on databases and create a database called 'fmbot'.
 7. Install the [Timescale postgres extension](https://docs.timescale.com/install/latest/self-hosted/)
 
-## Running the bot
-1. Download the `BinaryFiles.zip` and the `BinaryRelease.zip` from the [latest release](https://github.com/fmbot-discord/fmbot/releases/latest).
-2. Extract both BinaryRelease.zip and BinaryFiles.zip and put the files into the same folder. 
-3. Make sure you have the [.NET 7.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) installed
-4. Run the bot once and a config file should be created in configs/configs.json. The database tables will also be created.
-5. Open this config and enter the values. Spotify and Genius api keys aren't required, but the commands will not work.
-6. Make sure the config is in a valid json format.
-7. Run the bot again.
-
-!!! note "Updates"
-    If you want to update the bot in the future, just download the new "BinaryRelease.zip" and/or the new "BinaryFiles.zip" and override the old files with the new ones.
-
 !!! note "Viewing the data"
-    To view the data in the database, click the fmbot database > schemas > public > tables.
+    To view the data in the database, use pgadmin and click the fmbot database > schemas > public > tables.
 
-!!! note
-    Please also launch the bot from the "StartFMBot.bat" as it allows the bot to restart itself when there is an error.
+## Development
+- For development it's recommended to either use Visual Studio or Rider as your IDE
+- The first time you debug the bot it will automatically create a `config.json` that's located in the `bin` folder. You will have to enter your own configuration values there.
+- Need more help? Contact `Frikandel#0001` on Discord.
 
 ## Getting API keys
 
@@ -55,3 +45,19 @@
 
 1. Go to the [Spotify Developer dashboard](https://developer.spotify.com/dashboard/applications)
 2. Create an app and enter both the ID and the secret into the config file.
+
+
+## Running the bot (outdated)
+1. Download the `BinaryFiles.zip` and the `BinaryRelease.zip` from the [latest release](https://github.com/fmbot-discord/fmbot/releases/latest).
+2. Extract both BinaryRelease.zip and BinaryFiles.zip and put the files into the same folder. 
+3. Make sure you have the [.NET 7.0 SDK](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) installed
+4. Run the bot once and a config file should be created in configs/configs.json. The database tables will also be created.
+5. Open this config and enter the values. Spotify and Genius api keys aren't required, but the commands will not work.
+6. Make sure the config is in a valid json format.
+7. Run the bot again.
+
+!!! note "Updates"
+    If you want to update the bot in the future, just download the new "BinaryRelease.zip" and/or the new "BinaryFiles.zip" and override the old files with the new ones.
+
+!!! note
+    Please also launch the bot from the "StartFMBot.bat" as it allows the bot to restart itself when there is an error.

@@ -178,6 +178,7 @@ Shows who in your server listened to an artist you're currently listening to or 
 Parameters:
 
 * Artist - An artist you want to search for.
+* Mode - Response type. `embed` or `image`
 
 !!! note "Examples"
     `.w`
@@ -188,7 +189,7 @@ Parameters:
 
     `.whoknows`
 
-    `.whoknows DJ Seinfeld`
+    `.whoknows DJ Seinfeld img`
 
 ---
 
@@ -200,6 +201,7 @@ Shows who from your friends listened to an artist you're currently listening to 
 Parameters:
 
 * Artist - An artist you want to search for.
+* Mode - Response type. `embed` or `image`
 
 !!! note "Examples"
     `.fw`
@@ -225,6 +227,7 @@ This searches through all registered .fmbot users. Note that some users with fak
 Parameters:
 
 * Artist - An artist you want to search for.
+* Mode - Response type. `embed` or `image`
 
 !!! note "Examples"
     `.gw`

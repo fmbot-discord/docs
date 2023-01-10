@@ -103,6 +103,7 @@ Note that the playcount for the user that requested the command will always be u
 Parameters:
 
 * Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
+* Mode - Response type. `embed` or `image`
 
 !!! note "Examples"
     `.wt`
@@ -123,6 +124,7 @@ Shows who from your friends listened to an track you're currently listening to o
 Parameters:
 
 * Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
+* Mode - Response type. `embed` or `image`
 
 !!! note "Examples"
     `.fwt`
