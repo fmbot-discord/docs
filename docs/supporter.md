@@ -1,5 +1,19 @@
 # Become a supporter
 
+<div>
+<a href="https://opencollective.com/fmbot/contribute/fmbot-monthly-supporter-45504/checkout?interval=month&amount=4" class="md-button md-button--primary getsupporter-button"> 
+  <h4>Monthly</h3>
+  <h3>$4 / month</h2>
+</a>
+
+<h4 class="getsupporter-text"></h4>
+
+<a href="https://opencollective.com/fmbot/contribute/fmbot-lifetime-supporter-25651/checkout?amount=35" class="md-button md-button--primary getsupporter-button"> 
+  <h4>Lifetime</h3>
+  <h3>$35 once</h2>
+</a>
+</div>
+
 |             | Free        | Supporter |
 | ----------- | ----------- |----------- |
 | Access to all commands     | ✅  | ✅ |
@@ -19,20 +33,6 @@
 | Your name in the `supporters` command | ❌ | ✅ |
 | Higher chance of getting featured on Supporter Sunday | ❌ | ✅ |
 | Exclusive role and channel on [our Discord](https://discord.gg/6y3jJjtDqK) with sneak peeks of new features | ❌ | ✅ |
-
-<div>
-<a href="https://opencollective.com/fmbot/contribute/fmbot-monthly-supporter-45504/checkout?interval=month&amount=3.5" class="md-button md-button--primary getsupporter-button"> 
-  <h4>Monthly</h3>
-  <h3>$3.50 / month</h2>
-</a>
-
-<h4 class="getsupporter-text"></h4>
-
-<a href="https://opencollective.com/fmbot/contribute/fmbot-lifetime-supporter-25651/checkout?amount=35" class="md-button md-button--primary getsupporter-button"> 
-  <h4>Lifetime</h3>
-  <h3>$35 once</h2>
-</a>
-</div>
 
 <hr>
 
