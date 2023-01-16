@@ -40,7 +40,7 @@
 
 <h4 align="center"><strong>Thank you to all our generous supporters.</strong></h4>
 
-<a rel="noreferrer noopener" href="https://opencollective.com/fmbot" target="_blank"><img src="https://opencollective.com/fmbot/backers.svg?width=890&limit=1000"></a>
+<a rel="noreferrer noopener" href="https://opencollective.com/fmbot" target="_blank"><img src="https://opencollective.com/fmbot/backers.svg?width=890&limit=1000&avatarHeight=32"></a>
 
 ---
 

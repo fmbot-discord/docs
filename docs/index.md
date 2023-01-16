@@ -50,4 +50,4 @@ It is written in C#, uses Discord.Net and .NET 7. The code is completely [open-s
 
 <h4 align="center">Thank you to all our generous supporters. <a href="/supporter">Support .fmbot too and get some nice perks in return.</a></h4> 
 
-<a rel="noreferrer noopener" href="https://opencollective.com/fmbot" target="_blank"><img src="https://opencollective.com/fmbot/backers.svg?width=890&limit=1000"></a>
+<a rel="noreferrer noopener" href="https://opencollective.com/fmbot" target="_blank"><img src="https://opencollective.com/fmbot/backers.svg?width=890&limit=1000&avatarHeight=32"></a>
