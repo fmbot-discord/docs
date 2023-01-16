@@ -46,4 +46,8 @@ The bot will also change it's profile picture to the album cover of the feature.
 
 It is written in C#, uses Discord.Net and .NET 7. The code is completely [open-source](https://github.com/fmbot-discord/fmbot/), so anyone can see how it works and modify it themselves.
 
-The bot is non-commercial. You can help us cover hosting and other costs by getting [.fmbot supporter](/supporter/), and in return you get [some cool perks](/supporter/).
+--- 
+
+<h4 align="center">Thank you to all our generous supporters. <a href="/supporter">Support .fmbot too and get some nice perks in return.</a></h4> 
+
+<a rel="noreferrer noopener" href="https://opencollective.com/fmbot" target="_blank"><img src="https://opencollective.com/fmbot/backers.svg?width=890&limit=1000"></a>

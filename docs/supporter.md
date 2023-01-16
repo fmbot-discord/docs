@@ -36,7 +36,14 @@
 | Higher chance of getting featured on Supporter Sunday | ❌ | ✅ |
 | Exclusive role and channel on [our Discord](https://discord.gg/6y3jJjtDqK) with sneak peeks of new features | ❌ | ✅ |
 
-<hr>
+--- 
+
+<h4 align="center"><strong>Thank you to all our generous supporters.</strong></h4>
+
+<a rel="noreferrer noopener" href="https://opencollective.com/fmbot" target="_blank"><img src="https://opencollective.com/fmbot/backers.svg?width=890&limit=1000"></a>
+
+---
+
 
 ### Frequently asked
 
