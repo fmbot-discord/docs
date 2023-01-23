@@ -88,7 +88,7 @@ Options:
 
 ### .artisttracks (`.at`)
 
-Shows you your all-time top tracks for the artist you're currently listening to or searching for.
+Shows you your all-time top tracks for the artist you're currently listening to or searching for. You can also show top tracks for someone else in the server.
 
 !!! note "Examples"
     `.at`
@@ -96,6 +96,8 @@ Shows you your all-time top tracks for the artist you're currently listening to 
     `.artisttracks`
 
     `.artisttracks The Beatles`
+
+    `.at The Beatles @user`
     
 ---
 

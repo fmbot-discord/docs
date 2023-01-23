@@ -2,6 +2,8 @@
 
 To view a list of all available commands, use the sidebar. The basic commands to get started are listed below.
 
+.fmbot supports identifying users by Discord mention, Discord ID, or Last.fm username.
+
 .fmbot uses Last.fm to get information about your music taste. Don't have a Last.fm account? You can create one [here](https://www.last.fm/join).
 
 For more information on connecting Last.fm to Spotify other music services, please [click here](https://www.last.fm/about/trackmymusic).
