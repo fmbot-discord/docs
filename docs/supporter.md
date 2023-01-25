@@ -20,21 +20,21 @@
 | ----------- | ----------- |----------- |
 | Access to all commands     | ✅  | ✅ |
 | Help us pay for hosting, development and other costs  | ❌  | ✅ |
+| Added friends limit | 12 | 18 |
+| <span class="new">New</span> Custom `fm` footer options | 4 | 8 + 1 |
+| First listen dates in `artist`, `album` and `track` | ❌ | ✅ |
+| Years and listening time overview in `stats` | ❌ | ✅ |
+| Artist Discoveries and months in `year` | ❌ | ✅ |
+| Higher chance of getting featured on Supporter Sunday | ❌ | ✅ |
+| Supporter badge ⭐ | ❌ | ✅ |
+| Chance to sponsor bot-wide charts | ❌ | ✅ |
+| Your name in the `supporters` command | ❌ | ✅ |
+| Exclusive role and channel on [our Discord](https://discord.gg/6y3jJjtDqK) with sneak peeks of new features | ❌ | ✅ |
+| Cached scrobble history | Up to 1.5y | Lifetime |
 | Cached artists | Top 4000 | Unlimited |
 | Cached albums | Top 5000 | Unlimited |
 | Cached tracks | Top 6000 | Unlimited |
-| Cached scrobble history | Up to 1.5y | Lifetime |
 | Cached Discogs collection | Last 100 | Unlimited |
-| First listen dates in `artist`, `album` and `track` | ❌ | ✅ |
-| Artist Discoveries and months in `year` | ❌ | ✅ |
-| Years and listening time overview in `stats` | ❌ | ✅ |
-| <span class="new">New</span> Custom `fm` footer options | 4 | 8 |
-| Added friends limit | 12 | 18 |
-| ⭐ Supporter badge displayed | ❌ | ✅ |
-| Chance to sponsor bot-wide charts | ❌ | ✅ |
-| Your name in the `supporters` command | ❌ | ✅ |
-| Higher chance of getting featured on Supporter Sunday | ❌ | ✅ |
-| Exclusive role and channel on [our Discord](https://discord.gg/6y3jJjtDqK) with sneak peeks of new features | ❌ | ✅ |
 
 --- 
 
