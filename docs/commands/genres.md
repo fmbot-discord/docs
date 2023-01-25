@@ -8,10 +8,10 @@ To view a list of all Spotify genres, you can use the website [everynoise.com](h
 
 Shows a list of you or your friends top genres over a certain time period.
 
-Parameters (Can be used in any order):
+Options:
 
 * Time period - Time period of your top genres. Defaults to weekly.
-* User - Mention another user or use their Discord id.
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Billboard - Show recent changes in your top list in a billboard style
 
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
@@ -48,7 +48,7 @@ Shows genre information for your current artist or your top artists for the genr
 
 Shows who in your server listened to a genre you're searching for.
 
-Parameters:
+Options:
 
 * Genre - A genre you want to search for.
 
@@ -67,7 +67,7 @@ Parameters:
 
 Shows top genres for everyone in your server.
 
-Parameters:
+Options:
 
 * Time period - `alltime`, `monthly` or `weekly`
 * Sorting - `listeners` or `plays`

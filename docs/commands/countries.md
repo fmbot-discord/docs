@@ -8,11 +8,11 @@ To enter countries, you can either enter the full name or the 2 letter ISO code.
 
 Shows a list of you or your friends top countries over a certain time period.
 
-Parameters (Can be used in any order):
+Options:
 
-* Time period - Time period of your top countries. Defaults to weekly.
-* User - Mention another user or use their Discord id.
+* Time period - Time period of your top countries. Defaults to weekly
 * Billboard - Show recent changes in your top list in a billboard style
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
 

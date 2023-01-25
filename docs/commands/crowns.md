@@ -10,6 +10,9 @@ Crown server settings are available [here](/guildsettings/crownsettings/). Leavi
 
 Shows your top crowns or crowns for a user you're searching for.
 
+Options:
+
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"
     `.cws`

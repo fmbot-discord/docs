@@ -11,7 +11,7 @@ Allows you to filter users from commands that have not been active in a certain 
 
 A user is counted as active once they use .fmbot.
 
-Use the command without any parameters to disable.
+Use the command without any options to disable.
 
 !!! note "Examples"
     `.activitythreshold`

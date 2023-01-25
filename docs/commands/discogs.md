@@ -24,6 +24,10 @@ This command updates your stored collection in .fmbot. Your collection can only 
 
 Some places where your collection can also be visible are the `stats`, `artist` and `album` commands.
 
+Options:
+
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
 !!! note "Examples"
     `.discogs`
 

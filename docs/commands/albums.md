@@ -20,6 +20,10 @@ Gets information about the album you're currently listening to or searching for.
 
 Shows you your plays for the album you're currently listening to or searching for.
 
+Options: 
+
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
 !!! note "Examples"
     `.abp`
 
@@ -33,11 +37,12 @@ Shows you your plays for the album you're currently listening to or searching fo
 
 Creates a chart of your top albums over a certain time period.
 
-Parameters:
+Options:
 
 * Chart size - Size of your chart.
 * Time period - Time period of your top albums. Defaults to weekly.
 * Options - Additional options for generating your chart
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 Chart size: `2x2`, `3x5` all the way up to `10x10`.
 
@@ -70,11 +75,11 @@ Options:
 
 Shows a list of you or your friends top albums over a certain time period.
 
-Parameters (Can be used in any order):
+Options:
 
-* Time period - Time period of your top albums. Defaults to weekly.
-* User - Mention another user or use their Discord id.
+* Time period - Time period of your top albums. Defaults to weekly
 * Billboard - Show recent changes in your top list in a billboard style
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
 
@@ -96,6 +101,10 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 Shows a list of tracks in an album that you have plays on.
 
 Note that Last.fm or Spotify will sometimes not return the tracks within an album.
+
+Options:
+
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"
     `.abt`
@@ -123,7 +132,7 @@ Shows the cover for the album you're currently listening to or searching for.
 
 Shows who in your server listened to an album you're currently listening to or the one you're searching for.
 
-Parameters:
+Options:
 
 * Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.
 * Mode - Response type. `embed` or `image`
@@ -144,7 +153,7 @@ Parameters:
 
 Shows who from your friends listened to an album you're currently listening to or the one you're searching for.
 
-Parameters:
+Options:
 
 * Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.
 * Mode - Response type. `embed` or `image`
@@ -168,7 +177,7 @@ Shows who in .fmbot listened to an album you're currently listening to or the on
 
 This searches through all registered .fmbot users. Note that some users with fake playcounts might be excluded.
 
-Parameters:
+Options:
 
 * Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.
 * Mode - Response type. `embed` or `image`
@@ -188,7 +197,7 @@ Parameters:
 
 Shows top albums for everyone in your server.
 
-Parameters:
+Options:
 
 * Time period - `alltime`, `monthly` or `weekly`
 * Sorting - `listeners` or `plays`

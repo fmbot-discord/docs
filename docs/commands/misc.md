@@ -4,6 +4,10 @@
 
 Shows you or someone else their user profile with some interesting statistics.
 
+Options:
+
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
 !!! note "Examples"
     `.stats`
 

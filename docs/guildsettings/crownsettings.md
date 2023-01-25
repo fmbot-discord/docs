@@ -11,7 +11,7 @@ Allows you set a minimum amount of plays required for someone to claim a crown.
 
 The default value for this is 30.
 
-Use the command without any parameters to disable.
+Use the command without any options to disable.
 
 !!! note "Examples"
     `.crownthreshold`
@@ -25,7 +25,7 @@ Allows you to block users from gaining crowns if they have not been active in a 
 
 A user is counted as active once they use .fmbot.
 
-Use the command without any parameters to disable.
+Use the command without any options to disable.
 
 !!! note "Examples"
     `.crownactivitythreshold`

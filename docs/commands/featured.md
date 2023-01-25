@@ -32,6 +32,10 @@ If your top album doesn't have a picture, no worries. The bot will just grab the
 
 Shows your or someone else their featured history.
 
+Options:
+
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
 !!! note "Examples"
     `.featuredlog`
 

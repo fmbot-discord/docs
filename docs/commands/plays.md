@@ -8,9 +8,9 @@ Shows your last 1 or 2 scrobbles, either in embed or text format.
 
 You can set how your `.fm` embed looks with the [`.mode` command](/commands/#mode).
 
-Parameters:
+Options:
 
-* User - A Last.fm username or a user in your server.
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"
     `.fm`
@@ -34,10 +34,10 @@ Parameters:
 
 Shows your latest scrobbles.
 
-Parameters:
+Options:
 
 * Amount - Number of scrobbles. Can only be between 1 and 10. Defaults to 5.
-* User - A Last.fm username or a user in your server.
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"
     `.r`
@@ -54,6 +54,10 @@ Parameters:
 
 Shows your track, album or artist streak.
 
+Options:
+
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
 !!! note "Examples"
     `.str`
 
@@ -65,9 +69,10 @@ Shows your track, album or artist streak.
 
 Shows you an overview of your top track, album and artist for the last few days.
 
-Parameters:
+Options:
 
 * Amount - Number of days to show. Can only be between 1 and 8. Defaults to 4.
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"
     `.o`
@@ -83,11 +88,11 @@ Parameters:
 
 Shows you an estimate of when you will reach a certain amount of plays.
 
-Parameters:
+Options:
 
 * Amount - Number of plays you want to reach
 * Time period - Time you want to base the estimate on. Defaults to your last.fm register date.
-* User
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
 
@@ -106,10 +111,10 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 
 Shows you your latest scrobble milestones.
 
-Parameters:
+Options:
 
 * Amount - Milestone you want to check
-* User
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"
     `.ms`
@@ -130,10 +135,10 @@ Shows you an overview of you or someone else their year.
 
 [Supporters](/supporter/) get an extra page with Artist Discoveries and a monthly overview.
 
-Parameters:
+Options:
 
-* Year
-* User
+* Year - Year number you want to view
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"
     `.year`

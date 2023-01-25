@@ -22,6 +22,10 @@ Gets information about the track you're currently listening to or searching for.
 
 Shows you your plays for the track you're currently listening to or searching for.
 
+Options:
+
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
 !!! note "Examples"
     `.tp`
 
@@ -36,9 +40,9 @@ Shows you your plays for the track you're currently listening to or searching fo
 
 Shows your latest scrobbles.
 
-Parameters:
+Options:
 
-* User - A Last.FM username or a user in your server.
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"
     `.r`
@@ -50,10 +54,10 @@ Parameters:
 
 Shows a list of you or your friends top tracks over a certain time period.
 
-Parameters (Can be used in any order):
+Options:
 
 * Time period - Time period of your top tracks. Defaults to weekly.
-* User - Mention another user or use their Discord id.
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Billboard - Show recent changes in your top list in a billboard style
 
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
@@ -75,10 +79,10 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 
 Shows your track receipt. Based on Receiptify.
 
-Parameters (Can be used in any order):
+Options:
 
 * Time period - Time period of your top tracks. Defaults to weekly.
-* User - Mention another user or use their Discord id.
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
 
@@ -100,7 +104,7 @@ Shows who in your server listened to an track you're currently listening to or t
 
 Note that the playcount for the user that requested the command will always be up to date.
 
-Parameters:
+Options:
 
 * Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
 * Mode - Response type. `embed` or `image`
@@ -121,7 +125,7 @@ Parameters:
 
 Shows who from your friends listened to an track you're currently listening to or the one you're searching for.
 
-Parameters:
+Options:
 
 * Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
 * Mode - Response type. `embed` or `image`
@@ -144,7 +148,7 @@ Shows who in .fmbot listened to an track you're currently listening to or the on
 
 This searches through all registered .fmbot users. Note that some users with fake playcounts might be excluded.
 
-Parameters:
+Options:
 
 * Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
 
@@ -163,7 +167,7 @@ Parameters:
 
 Shows top tracks for everyone in your server.
 
-Parameters:
+Options:
 
 * Time period - `alltime`, `monthly` or `weekly`
 * Sorting - `listeners` or `plays`
@@ -210,6 +214,10 @@ Removes the track you're currently listening to or searching for from your last.
 
 Displays a user's loved tracks.
 
+Options:
+
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
 !!! note "Examples"
     `.lt`
 
@@ -223,9 +231,10 @@ Displays a user's loved tracks.
 
 Scrobbles the track you're searching for. You can only scrobble tracks that already exist on Last.fm.
 
-Parameters:
+Options:
 
 * Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"
     `.scrobble`

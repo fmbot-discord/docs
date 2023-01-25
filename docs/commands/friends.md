@@ -13,7 +13,7 @@ Shows the latest scrobble of your added friends in a list.
 
 Adds one or multiple friends to your friends list.
 
-Can both be used with Discord users or Last.fm usernames.
+Select other users by mention, Discord ID or Last.fm username
 
 !!! note "Examples"
     `.addfriends frikandel_`
@@ -37,7 +37,7 @@ Can both be used with Discord users or Last.fm usernames.
 
 Removes one or multiple friends from your friends list.
 
-Can both be used with Discord users or Last.fm usernames.
+Select other users by mention, Discord ID or Last.fm username
 
 !!! note "Examples"
     `.removefriends frikandel_`
@@ -67,7 +67,7 @@ Removes all your friends from your friends list.
 
 Shows who from your friends listened to an artist you're currently listening to or the one you're searching for.
 
-Parameters:
+Options:
 
 * Artist - An artist you want to search for.
 
@@ -88,7 +88,7 @@ Parameters:
 
 Shows who from your friends listened to an album you're currently listening to or the one you're searching for.
 
-Parameters:
+Options:
 
 * Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.
 
@@ -108,7 +108,7 @@ Parameters:
 
 Shows who from your friends listened to an track you're currently listening to or the one you're searching for.
 
-Parameters:
+Options:
 
 * Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
 
