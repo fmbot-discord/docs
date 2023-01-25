@@ -17,7 +17,7 @@
         <link rel="next" href="../discogs/">
       
       <link rel="icon" href="../../img/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.5">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.6">
     
     
       
@@ -1023,6 +1023,10 @@
 <hr />
 <h3 id="trackplays-tp">.trackplays (<code>.tp</code>)<a class="headerlink" href="#trackplays-tp" title="Permanent link">&para;</a></h3>
 <p>Shows you your plays for the track you're currently listening to or searching for.</p>
+<p>Options:</p>
+<ul>
+<li>User - Select another user by mention, Discord ID or Last.fm username (<code>lfm:username</code>)</li>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
 <p><code>.tp</code></p>
@@ -1032,9 +1036,9 @@
 <hr />
 <h3 id="recent-r">.recent (<code>.r</code>)<a class="headerlink" href="#recent-r" title="Permanent link">&para;</a></h3>
 <p>Shows your latest scrobbles.</p>
-<p>Parameters:</p>
+<p>Options:</p>
 <ul>
-<li>User - A Last.FM username or a user in your server.</li>
+<li>User - Select another user by mention, Discord ID or Last.fm username (<code>lfm:username</code>)</li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
@@ -1044,10 +1048,10 @@
 <hr />
 <h3 id="toptracks-tt">.toptracks (<code>.tt</code>)<a class="headerlink" href="#toptracks-tt" title="Permanent link">&para;</a></h3>
 <p>Shows a list of you or your friends top tracks over a certain time period.</p>
-<p>Parameters (Can be used in any order):</p>
+<p>Options:</p>
 <ul>
 <li>Time period - Time period of your top tracks. Defaults to weekly.</li>
-<li>User - Mention another user or use their Discord id.</li>
+<li>User - Select another user by mention, Discord ID or Last.fm username (<code>lfm:username</code>)</li>
 <li>Billboard - Show recent changes in your top list in a billboard style</li>
 </ul>
 <p>Time periods: <code>weekly</code>, <code>monthly</code>, <code>quarterly</code>, <code>half</code>, <code>yearly</code> or <code>alltime</code>. (<code>w</code>, <code>m</code>, <code>q</code>, <code>h</code>, <code>y</code> or <code>a</code>)</p>
@@ -1062,10 +1066,10 @@
 <hr />
 <h3 id="receipt-rcpt">.receipt (<code>.rcpt</code>)<a class="headerlink" href="#receipt-rcpt" title="Permanent link">&para;</a></h3>
 <p>Shows your track receipt. Based on Receiptify.</p>
-<p>Parameters (Can be used in any order):</p>
+<p>Options:</p>
 <ul>
 <li>Time period - Time period of your top tracks. Defaults to weekly.</li>
-<li>User - Mention another user or use their Discord id.</li>
+<li>User - Select another user by mention, Discord ID or Last.fm username (<code>lfm:username</code>)</li>
 </ul>
 <p>Time periods: <code>weekly</code>, <code>monthly</code>, <code>quarterly</code>, <code>half</code>, <code>yearly</code> or <code>alltime</code>. (<code>w</code>, <code>m</code>, <code>q</code>, <code>h</code>, <code>y</code> or <code>a</code>)</p>
 <div class="admonition note">
@@ -1079,7 +1083,7 @@
 <h3 id="whoknowstrack-wktr-wt">.whoknowstrack (<code>.wktr</code>, <code>.wt</code>)<a class="headerlink" href="#whoknowstrack-wktr-wt" title="Permanent link">&para;</a></h3>
 <p>Shows who in your server listened to an track you're currently listening to or the one you're searching for.</p>
 <p>Note that the playcount for the user that requested the command will always be up to date.</p>
-<p>Parameters:</p>
+<p>Options:</p>
 <ul>
 <li>Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.</li>
 <li>Mode - Response type. <code>embed</code> or <code>image</code></li>
@@ -1094,7 +1098,7 @@
 <hr />
 <h3 id="friendwhoknowstrack-fwkt-fwt">.friendwhoknowstrack (<code>.fwkt</code>, <code>.fwt</code>)<a class="headerlink" href="#friendwhoknowstrack-fwkt-fwt" title="Permanent link">&para;</a></h3>
 <p>Shows who from your friends listened to an track you're currently listening to or the one you're searching for.</p>
-<p>Parameters:</p>
+<p>Options:</p>
 <ul>
 <li>Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.</li>
 <li>Mode - Response type. <code>embed</code> or <code>image</code></li>
@@ -1110,7 +1114,7 @@
 <h3 id="globalwhoknowstrack-gwkt-gwt">.globalwhoknowstrack (<code>.gwkt</code>, <code>.gwt</code>)<a class="headerlink" href="#globalwhoknowstrack-gwkt-gwt" title="Permanent link">&para;</a></h3>
 <p>Shows who in .fmbot listened to an track you're currently listening to or the one you're searching for.</p>
 <p>This searches through all registered .fmbot users. Note that some users with fake playcounts might be excluded.</p>
-<p>Parameters:</p>
+<p>Options:</p>
 <ul>
 <li>Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.</li>
 </ul>
@@ -1124,7 +1128,7 @@
 <hr />
 <h3 id="servertracks">.servertracks<a class="headerlink" href="#servertracks" title="Permanent link">&para;</a></h3>
 <p>Shows top tracks for everyone in your server.</p>
-<p>Parameters:</p>
+<p>Options:</p>
 <ul>
 <li>Time period - <code>alltime</code>, <code>monthly</code> or <code>weekly</code></li>
 <li>Sorting - <code>listeners</code> or <code>plays</code></li>
@@ -1157,6 +1161,10 @@
 <hr />
 <h3 id="loved-lt">.loved (<code>.lt</code>)<a class="headerlink" href="#loved-lt" title="Permanent link">&para;</a></h3>
 <p>Displays a user's loved tracks.</p>
+<p>Options:</p>
+<ul>
+<li>User - Select another user by mention, Discord ID or Last.fm username (<code>lfm:username</code>)</li>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
 <p><code>.lt</code></p>
@@ -1166,9 +1174,10 @@
 <hr />
 <h3 id="scrobble-sb">.scrobble (<code>.sb</code>)<a class="headerlink" href="#scrobble-sb" title="Permanent link">&para;</a></h3>
 <p>Scrobbles the track you're searching for. You can only scrobble tracks that already exist on Last.fm.</p>
-<p>Parameters:</p>
+<p>Options:</p>
 <ul>
 <li>Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.</li>
+<li>User - Select another user by mention, Discord ID or Last.fm username (<code>lfm:username</code>)</li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>

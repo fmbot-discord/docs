@@ -17,7 +17,7 @@
         <link rel="next" href="../artists/">
       
       <link rel="icon" href="../../img/favicon.png">
-      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.5">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.6">
     
     
       
@@ -954,6 +954,10 @@
 <hr />
 <h3 id="albumplays-abp">.albumplays (<code>.abp</code>)<a class="headerlink" href="#albumplays-abp" title="Permanent link">&para;</a></h3>
 <p>Shows you your plays for the album you're currently listening to or searching for.</p>
+<p>Options: </p>
+<ul>
+<li>User - Select another user by mention, Discord ID or Last.fm username (<code>lfm:username</code>)</li>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
 <p><code>.abp</code></p>
@@ -963,11 +967,12 @@
 <hr />
 <h3 id="chart-c">.chart (<code>.c</code>)<a class="headerlink" href="#chart-c" title="Permanent link">&para;</a></h3>
 <p>Creates a chart of your top albums over a certain time period.</p>
-<p>Parameters:</p>
+<p>Options:</p>
 <ul>
 <li>Chart size - Size of your chart.</li>
 <li>Time period - Time period of your top albums. Defaults to weekly.</li>
 <li>Options - Additional options for generating your chart</li>
+<li>User - Select another user by mention, Discord ID or Last.fm username (<code>lfm:username</code>)</li>
 </ul>
 <p>Chart size: <code>2x2</code>, <code>3x5</code> all the way up to <code>10x10</code>.</p>
 <p>Time periods: <code>weekly</code>, <code>monthly</code>, <code>quarterly</code>, <code>half</code>, <code>yearly</code> or <code>alltime</code>. (<code>w</code>, <code>m</code>, <code>q</code>, <code>h</code>, <code>y</code> or <code>a</code>)</p>
@@ -993,11 +998,11 @@
 <hr />
 <h3 id="topalbums-tab">.topalbums (<code>.tab</code>)<a class="headerlink" href="#topalbums-tab" title="Permanent link">&para;</a></h3>
 <p>Shows a list of you or your friends top albums over a certain time period.</p>
-<p>Parameters (Can be used in any order):</p>
+<p>Options:</p>
 <ul>
-<li>Time period - Time period of your top albums. Defaults to weekly.</li>
-<li>User - Mention another user or use their Discord id.</li>
+<li>Time period - Time period of your top albums. Defaults to weekly</li>
 <li>Billboard - Show recent changes in your top list in a billboard style</li>
+<li>User - Select another user by mention, Discord ID or Last.fm username (<code>lfm:username</code>)</li>
 </ul>
 <p>Time periods: <code>weekly</code>, <code>monthly</code>, <code>quarterly</code>, <code>half</code>, <code>yearly</code> or <code>alltime</code>. (<code>w</code>, <code>m</code>, <code>q</code>, <code>h</code>, <code>y</code> or <code>a</code>)</p>
 <div class="admonition note">
@@ -1012,6 +1017,10 @@
 <h3 id="albumtracks-abt">.albumtracks (<code>.abt</code>)<a class="headerlink" href="#albumtracks-abt" title="Permanent link">&para;</a></h3>
 <p>Shows a list of tracks in an album that you have plays on.</p>
 <p>Note that Last.fm or Spotify will sometimes not return the tracks within an album.</p>
+<p>Options:</p>
+<ul>
+<li>User - Select another user by mention, Discord ID or Last.fm username (<code>lfm:username</code>)</li>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
 <p><code>.abt</code></p>
@@ -1030,7 +1039,7 @@
 <hr />
 <h3 id="whoknowsalbum-wkab-wa">.whoknowsalbum (<code>.wkab</code>, <code>.wa</code>)<a class="headerlink" href="#whoknowsalbum-wkab-wa" title="Permanent link">&para;</a></h3>
 <p>Shows who in your server listened to an album you're currently listening to or the one you're searching for.</p>
-<p>Parameters:</p>
+<p>Options:</p>
 <ul>
 <li>Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.</li>
 <li>Mode - Response type. <code>embed</code> or <code>image</code></li>
@@ -1045,7 +1054,7 @@
 <hr />
 <h3 id="friendwhoknowsalbum-fwkab-fwa">.friendwhoknowsalbum (<code>.fwkab</code>, <code>.fwa</code>)<a class="headerlink" href="#friendwhoknowsalbum-fwkab-fwa" title="Permanent link">&para;</a></h3>
 <p>Shows who from your friends listened to an album you're currently listening to or the one you're searching for.</p>
-<p>Parameters:</p>
+<p>Options:</p>
 <ul>
 <li>Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.</li>
 <li>Mode - Response type. <code>embed</code> or <code>image</code></li>
@@ -1061,7 +1070,7 @@
 <h3 id="globalwhoknowsalbum-gwka-gwa">.globalwhoknowsalbum (<code>.gwka</code>, <code>.gwa</code>)<a class="headerlink" href="#globalwhoknowsalbum-gwka-gwa" title="Permanent link">&para;</a></h3>
 <p>Shows who in .fmbot listened to an album you're currently listening to or the one you're searching for.</p>
 <p>This searches through all registered .fmbot users. Note that some users with fake playcounts might be excluded.</p>
-<p>Parameters:</p>
+<p>Options:</p>
 <ul>
 <li>Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.</li>
 <li>Mode - Response type. <code>embed</code> or <code>image</code></li>
@@ -1076,7 +1085,7 @@
 <hr />
 <h3 id="serveralbums">.serveralbums<a class="headerlink" href="#serveralbums" title="Permanent link">&para;</a></h3>
 <p>Shows top albums for everyone in your server.</p>
-<p>Parameters:</p>
+<p>Options:</p>
 <ul>
 <li>Time period - <code>alltime</code>, <code>monthly</code> or <code>weekly</code></li>
 <li>Sorting - <code>listeners</code> or <code>plays</code></li>
