@@ -39,20 +39,13 @@ Creates a chart of your top albums over a certain time period.
 
 Options:
 
-* Chart size - Size of your chart.
+* Chart size - `2x2`, `3x5` all the way up to `10x10`.
 * Time period - Time period of your top albums. Defaults to weekly.
-* Options - Additional options for generating your chart
+* `notitles` - Don't display album titles. (`nt`)
+* `skipemptyalbums` - Skips albums without images. (`s` or `skip`)
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
-Chart size: `2x2`, `3x5` all the way up to `10x10`.
-
-Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
-
-Options: 
-
-- `notitles`. Don't display album titles. (`nt`)
-
-- `skipemptyalbums`. Skips albums without images. (`s` or `skip`)
+Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime` (`w`, `m`, `q`, `h`, `y` or `a`)
 
 !!! note "Examples"
     `.c`
