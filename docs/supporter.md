@@ -16,6 +16,9 @@
 </a>
 </div>
 
+!!! info ""
+    To ensure development remains sustainable in the future, the price for lifetime will be raised to $45 on March 15.
+
 |             | Free        | Supporter |
 | ----------- | ----------- |----------- |
 | Access to all commands     | ✅  | ✅ |
