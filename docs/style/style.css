@@ -37,7 +37,7 @@ code {
 }
 
 .getsupporter-button {
-    width: 45%;
+    width: 31.5%;
     display: inline-block;
     text-align: center;
     padding-top: 0 !important;
@@ -46,7 +46,7 @@ code {
 
 .getsupporter-text {
     display: inline-block;
-    width: 6%;
+    width: 1%;
 }
 
 @media screen and (max-width: 40em) {

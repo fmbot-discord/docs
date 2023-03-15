@@ -5,23 +5,26 @@
 <div>
 <a href="https://opencollective.com/fmbot/contribute/fmbot-monthly-supporter-45504/checkout?interval=month&amount=4" class="md-button md-button--primary getsupporter-button"> 
   <h4 class="title">Monthly</h3>
-  <h3>$4 / month</h3>
+  <h3>$4</h3>
 </a>
 
 <h4 class="getsupporter-text"></h4>
 
-<a href="https://opencollective.com/fmbot/contribute/fmbot-lifetime-supporter-25651/checkout?amount=35" class="md-button md-button--primary getsupporter-button"> 
+<a href="https://opencollective.com/fmbot/contribute/fmbot-yearly-supporter-53612/checkout?interval=year&amount=28" class="md-button md-button--primary getsupporter-button"> 
+  <h4>Yearly</h3>
+  <h3>$28</h3>
+</a>
+
+<h4 class="getsupporter-text"></h4>
+
+<a href="https://opencollective.com/fmbot/contribute/fmbot-lifetime-supporter-25651/checkout?amount=45" class="md-button md-button--primary getsupporter-button"> 
   <h4>Lifetime</h3>
-  <h3>$35 once</h3>
+  <h3>$45</h3>
 </a>
 </div>
 
-!!! info ""
-    To ensure development remains sustainable in the future, the price for lifetime will be raised to $45 on March 15.
-
 |             | Free        | Supporter |
 | ----------- | ----------- |----------- |
-| Access to all commands     | ✅  | ✅ |
 | Help us pay for hosting, development and other costs  | ❌  | ✅ |
 | Added friends limit | 12 | 18 |
 | <span class="new">New</span> Custom `fm` footer options | 4 | 8 + 1 |
