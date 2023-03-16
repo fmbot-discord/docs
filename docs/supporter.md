@@ -27,6 +27,7 @@
 | ----------- | ----------- |----------- |
 | Help us pay for hosting, development and other costs  | ❌  | ✅ |
 | Added friends limit | 12 | 18 |
+| <span class="new">New</span> Personal automatic emoji reactions with `.userreactions` | ❌ | ✅ |
 | <span class="new">New</span> Custom `fm` footer options | 4 | 8 + 1 |
 | First listen dates in `artist`, `album` and `track` | ❌ | ✅ |
 | Years and listening time overview in `stats` | ❌ | ✅ |

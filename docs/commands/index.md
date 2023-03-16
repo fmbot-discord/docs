@@ -74,3 +74,29 @@ You can also override this preference on every invididual `whoknows` command. Si
     `.whoknows the beatles image`
 
     `.globalwhoknows mac miller embed`
+
+
+---
+
+### .userreactions
+
+Sets automatic emoji reactions for every `.fm` and `featured` command you use.
+
+To disable, simply use `.userreactions` without any emojis.
+
+Make sure the emojis you enable are in a server that .fmbot is also in.
+
+Max amount of emojis is 5. Please put a space between every emoji.
+
+!!! info ""
+    This setting is supporter only.
+    <a href="/supporter/">Get .fmbot supporter here.</a>
+
+!!! note "Examples"
+    `.userreactions :PagChomp: :PensiveBlob:`
+
+    `.userreactions 😀 😯 🥵`
+
+    `.userreactions 😀 😯 :PensiveBlob:`
+
+    `.userreactions`

@@ -4,13 +4,13 @@ Server settings can only be changed by admins, users with the 'Ban Members' perm
 
 ### .serverreactions
 
-Sets the emote reactions for every .fm command in your server.
+Sets automatic emoji reactions for every `.fm` and `featured` command in your server.
 
-To disable, simply use `.serverreactions` without any emotes.
+To disable, simply use `.serverreactions` without any emojis.
 
-Make sure the emotes you enable are on your server.
+Make sure the emojis you enable are on your server, or in a server that .fmbot is also in.
 
-Max amount of emotes is 3. Please put a space between every emote.
+Max amount of emojis is 3. Please put a space between every emoji.
 
 !!! note "Examples"
     `.serverreactions :PagChomp: :PensiveBlob:`
