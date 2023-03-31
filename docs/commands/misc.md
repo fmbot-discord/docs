@@ -1,5 +1,24 @@
 # Miscellaneous commands
 
+### .judge
+
+Judges your music taste using AI. You can pick between either a compliment or a roast.
+
+Free users can use this command 3 times a day, <a href="/supporter/">supporters up to 25.</a>
+
+Options:
+
+* Time period - Time period of your top artists. Defaults to weekly.
+* User - Supporter only - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
+!!! note "Examples"
+    `.judge`
+
+!!! note ""
+    Please note that this command might become more limited or removed for free users in the future depending on popularity and cost.
+
+---
+
 ### .stats
 
 Shows you or someone else their user profile with some interesting statistics.

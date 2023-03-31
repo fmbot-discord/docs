@@ -1,11 +1,16 @@
 {% extends "base.html" %}
 
+{% block announce %}
+<p style="text-align: center">Check out our new <a href="/commands/misc/#judge">'.judge' command</a>, that uses
+  very advanced™️ AI to judge your music taste!</p>
+{% endblock %}
+
 {% block analytics %}
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2NVJXMTT2N"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
+  function gtag() { dataLayer.push(arguments); }
   gtag('js', new Date());
 
   gtag('config', 'G-2NVJXMTT2N');
