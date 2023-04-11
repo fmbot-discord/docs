@@ -8,8 +8,8 @@ The bot will only scrobble songs it can find on Last.fm. The scrobbling works be
 
 ### Currently supported bots: 
 
+* Jockie Music
 * Cakey Bot
-* Hydra
 * Soundcloud
 
 ### Requirements:
