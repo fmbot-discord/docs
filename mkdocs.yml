@@ -67,7 +67,7 @@ nav:
     - 'YouTube': 'commands/youtube.md'
     - 'Updating': 'commands/whoknows.md'
     - 'Miscellaneous': 'commands/misc.md'
-  - 'Server settings':
+  - 'Server configuration':
     - 'General': 'guildsettings/index.md'
     - 'WhoKnows': 'guildsettings/whoknowsettings.md'
     - 'Crowns': 'guildsettings/crownsettings.md'

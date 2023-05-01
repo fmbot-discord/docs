@@ -5,18 +5,15 @@ You can change what users are able to gain crowns, configure other crown setting
 These settings can only be changed by admins, users with the 'Ban Members' permission or .fmbot admins.
 
 
+---
 ### .crownthreshold
 
 Allows you set a minimum amount of plays required for someone to claim a crown.
 
 The default value for this is 30.
 
-Use the command without any options to disable.
-
 !!! note "Examples"
     `.crownthreshold`
-
-    `.crownthreshold 100`
 
 ---
 ### .crownactivitythreshold
@@ -25,12 +22,8 @@ Allows you to block users from gaining crowns if they have not been active in a 
 
 A user is counted as active once they use .fmbot.
 
-Use the command without any options to disable.
-
 !!! note "Examples"
     `.crownactivitythreshold`
-
-    `.crownactivitythreshold 14`
 
 ---
 ### .killcrown
