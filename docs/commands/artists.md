@@ -25,8 +25,13 @@ Options:
 
 ### .affinity (`.aff`)
 
-Shows users in the same server who have the most similar top artists.
+Shows users in the same server with similar music taste to you.
 
+Uses your alltime top artists and recent top artists.
+
+Options:
+
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"
     `.aff`
