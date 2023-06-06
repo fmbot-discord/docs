@@ -69,16 +69,6 @@ Gets the bot status information.
     `.status`
 
 ---
-### .export
-
-Export all registered users in your server in a handy json file.
-
-Note: This command is server admin only.
-
-!!! note "Examples"
-    `.export`
-
----
 ### .remove
 
 Deletes all your user information, including all your friends and other settings.

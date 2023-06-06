@@ -81,8 +81,6 @@ Cool, great to hear.
 
 :( Please let us know why in the [support server](http://server.fmbot.xyz/). We're open to all feedback and happy to help.
 
-Or make your own Last.FM bot! You can export all guild members into a handy JSON format using `.export`, so your friends don't have to re-set their usernames.
-
 ---
 
 ### Is there any way to support the bot?
