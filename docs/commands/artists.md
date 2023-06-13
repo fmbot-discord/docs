@@ -38,6 +38,17 @@ Options:
 
     `.affinity`
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5817610257612647"
+     crossorigin="anonymous"></script>
+<!-- Banner -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:120px"
+     data-ad-client="ca-pub-5817610257612647"
+     data-ad-slot="2734431126"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ---
 
 ### .artistplays (`.ap`)
@@ -121,6 +132,17 @@ Options:
     `.artistalbums`
 
     `.artistalbums Frank Ocean`
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5817610257612647"
+     crossorigin="anonymous"></script>
+<!-- Banner -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:120px"
+     data-ad-client="ca-pub-5817610257612647"
+     data-ad-slot="2734431126"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
     
 ---
 
@@ -206,7 +228,7 @@ Options:
      crossorigin="anonymous"></script>
 <!-- Banner -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
+     style="display:inline-block;width:728px;height:120px"
      data-ad-client="ca-pub-5817610257612647"
      data-ad-slot="2734431126"></ins>
 <script>

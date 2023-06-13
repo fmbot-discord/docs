@@ -31,7 +31,7 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
      crossorigin="anonymous"></script>
 <!-- Banner -->
 <ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:90px"
+     style="display:inline-block;width:728px;height:120px"
      data-ad-client="ca-pub-5817610257612647"
      data-ad-slot="2734431126"></ins>
 <script>
