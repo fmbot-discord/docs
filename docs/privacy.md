@@ -1,42 +1,46 @@
-We think your privacy is very important, so below are our answers to the most common questions. 
+What data .fmbot collects, how we use it and how you can manage it.
 
-These are the questions Discord asks for bot verification, but updated with our new functionalities.
+Last update: 2023-06-21
 
-Last update: 2022-09-01
+Changelog: Rewrite for clarity, add new functionalities, add info about Last.fm and Discogs data
 
-Changelog: Clarified that we don't store data from logged out users, changed commands to slash command version
+## What does your application do?
+.fmbot is an open-source Last.fm Discord bot. Last.fm is a service that tracks what people listen to. 
 
-## What does your application do? Please be as detailed as possible, and feel free to include links to image or video examples.
-.fmbot is an open sourced bot that mostly gets used for calling the Last.fm API. Last.fm is a service that tracks what people listen to. 
+In our bot you can do various things to analyze your and your friends music taste, like see your recent plays or see who in a server listens to a certain artist.
 
-We use their API mostly for showing what people listen to right now, showing top charts from their albums and artists over certain time periods. We also have commands that show people who listened most to certain artist, and they can add friends and see their latest songs as well.
+To use the bot, you have to log in with a Last.fm account. After that you can also login with a Discogs account.
 
-You can also search Spotify, Youtube and Genius for songs and more.
-
-The bot allows you to set your Last.fm username, but it also allows you to set server-wide settings.
-
-You can see more information on our site: https://fmbot.xyz and Github: https://github.com/fmbot-discord/fmbot
-
-## WHAT DISCORD DATA DO YOU STORE?
-When someone sets their Last.fm username or registers in to the bot, we store the following Discord data:
+## What data do you store?
+When someone logins to the bot, we store the following Discord data:
 
 - Discord user ID
 - That they are in that server
 - Their nickname or name on that server
 
+We store the following Last.fm data for every user:
+
+- Scrobbles (plays), top artists, top albums and top tracks
+- Registration date
+- Total scrobble count
+
+If a user logs in with Discogs, we store the following data:
+
+- What releases they have in their collection
+
 When the bot joins a server, the following data from that server is stored:
 
 - Server name
 - Server ID
-- Members in the server that have been registered in .fmbot
-- Nickname or username of members in the server that have been registered in .fmbot
+- Members in the server that have been logged into .fmbot
+- Nickname or username of members in the server that have logged into .fmbot
 
-When specific settings for a server channel are set, the following data from that channel is stored
+When specific settings for a server channel are set, the following data from that channel is stored:
 
 - Channel name
 - Channel ID
 
-When someone uses a command, the debug log stores this:
+When someone uses a command, the command log stores this:
 
 - Discord name or nickname of the user executing the command
 - Discord user id
@@ -44,61 +48,61 @@ When someone uses a command, the debug log stores this:
 - Server id
 - The text in the command
 
-If you have logged into the bot the bot will scrobble songs music bots play to your Last.fm profile by default. 
+If a server has Premium Server, the following data will be stored for every logged-in user in the server:
+
+- The date a user has last sent a message in that server
+- Their roles
+
+No data is stored from users that are not logged into the bot.
+
+'Logged in' means that a user has connected their Last.fm account to .fmbot with the 'login' command.
+
+## Music bot scrobbling
+If you have logged into the bot the bot will scrobble (store) songs music bots play to your Last.fm profile by default. 
 You can opt-out of this feature by using the `/botscrobbling` command. 
 
 For this feature the bot tries to fetch the artist and track name from messages music bots send in your server. 
-If a song is successfully found, it will be send to Last.fm. No message content is stored or proessed otherwise.
+If a song is successfully found, it will be send to Last.fm. No message content is stored or processed otherwise.
 
-We don't store any data from users that have not registered in the bot. If you don't want us to store any data about you, do not log into the bot.
-
-## FOR WHAT PURPOSE(S) DO YOU STORE IT?
+## For what purpose do you store it?
 To identify who is calling the command and get the appropriate parameters to customize their command.
 
-We only store the users from a server that have registered in our bot. This is for commands that allow server wide statistics.
+Music data and server data is used for commands that provide server-wide leaderboards and statistics.
 
-Logs are used for debugging and helping people with bug reports.
+This data is stored for caching purposes and to ensure our commands are performant. It is not possible to fetch data like playcounts for thousands of users real-time.
 
-## FOR HOW LONG DO YOU STORE IT?
+Command logs are used for debugging and helping people with bug reports.
+
+## For how long do you store it?
 Settings data: Forever, or until deleted.
 
-Logs: Cleared every month.
+Server data: Forever, or until the bot is kicked from the server.
 
-## WHAT IS THE PROCESS FOR USERS TO REQUEST DELETION OF THEIR DATA?
+Command logs: Cleared every month.
+
+## What is the process for users to request deletion of their data?
 For user data we have a command (`/remove`).
 
 For server data people can remove the bot and all the data related to that server will be deleted.
 
 Debug logs get automatically cleared every month.
 
-## WHAT SYSTEMS AND INFRASTRUCTURE DO YOU USE?
-.fmbot is currently hosted on a private server at my home.
+Users can also request deletion of their data in our [support server](https://discord.gg/fmbot).
 
-## HOW HAVE YOU SECURED ACCESS TO YOUR SYSTEMS AND INFRASTRUCTURE?
-We have a remote desktop account that is secured with 2FA, this is used for remote connections.
+## What systems and infrastructure do you use?
+.fmbot is currently hosted on a Hetzner VPS in Finland.
 
-After logging in, you also need to enter the server password.
+## How can users contact you with security issues?
+Through our server and DMs, or through Github issues. We are visibly identified as developers on [the server](https://discord.gg/fmbot).
 
-For accessing the database, you need to enter another password.
-
-## HOW CAN USERS CONTACT YOU WITH SECURITY ISSUES?
-Through our server and DMs, or through Github issues. We are visibly identified as developers on the server.
-
-## DOES YOUR APPLICATION UTILIZE OTHER THIRD-PARTY AUTH SERVICES OR CONNECTIONS? IF SO, WHICH, AND WHY?
-We have multiple connections. For Last.fm we allow people to connect their account to the bot, after which we store their last.fm session token.
-
-We are connected to the following services:
+## Does your app utilize other third-party auth services or connections?
+We provide auth services to the following services:
 
 - Last.fm
-- Spotify
-- Youtube
-- Genius
-
-These connections are to show users their song history and search these services for quick links to songs and lyrics.
-
+- Discogs
 
 ## Extra info
 
 Personal .fmbot data will never be shared with any 3rd party services unless explicitly specified.
 
-If you have any questions after reading all this feel free to contact us on [our Discord](http://invite.fmbot.xyz/) or open an issue on [our Github](https://github.com/fmbot-discord/fmbot/issues/new/choose).
+If you have any questions after reading all this feel free to contact us on [our Discord](https://discord.gg/fmbot) or open an issue on [our Github](https://github.com/fmbot-discord/fmbot/issues/new/choose).
