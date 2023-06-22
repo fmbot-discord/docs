@@ -2,6 +2,8 @@
 
 .fmbot is open-source and free to use. Optionally you can get supporter to help support the development of the bot and receive the following extra features and benefits.
 
+You can get supporter either directly through Discord or through OpenCollective.
+
 <hr class="divider">
 <div>
 <p class="purchase-option">Discord</p>
