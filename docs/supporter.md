@@ -44,9 +44,9 @@ You can get supporter either directly through Discord or through OpenCollective.
 | ----------- | ----------- |----------- |
 | Help us pay for hosting, development and other costs  | ❌  | ✅ |
 | Added friends limit | 12 | 18 |
-| <span class="new">New</span> Personal automatic emoji reactions with `.userreactions` | ❌ | ✅ |
+| Personal automatic emoji reactions with `.userreactions` | ❌ | ✅ |
 | Custom `fm` footer options | 4 | 8 + 1 |
-| <span class="new">New</span> Use the AI `.judge` command up to 25 times per day and on others | ❌ | ✅ |
+| <span class="new">New</span> Get a better GPT-4 powered `.judge` command with higher limits and the ability to use the command on others | ❌ | ✅ |
 | First listen dates in `artist`, `album` and `track` | ❌ | ✅ |
 | Years and listening time overview in `stats` | ❌ | ✅ |
 | Artist Discoveries and months in `year` | ❌ | ✅ |

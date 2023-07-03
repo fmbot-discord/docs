@@ -4,7 +4,9 @@
 
 Judges your music taste using AI. You can pick between either a compliment or a roast.
 
-Free users can use this command 3 times a day, <a href="/supporter/">supporters up to 25.</a>
+Free users can use this command 3 times a day, <a href="/supporter/">supporters up to 15.</a>
+
+Supporters also get access to higher quality GPT-4 powered compliments and roasts.
 
 Options:
 
@@ -15,7 +17,7 @@ Options:
     `.judge`
 
 !!! note ""
-    Please note that this command might become more limited or removed for free users in the future depending on popularity and cost.
+    The usage limits for this command might be adjusted depending on popularity and cost.
 
 ---
 
