@@ -10,25 +10,14 @@ This feature is only available for .fmbot supporters. Dont have supporter yet? <
 
 ### /import manage
 
-Allows you to imanage your imports and your import settings.
+Allows you to manage your imports and pick the source for your playcounts.
 
 You can pick between the following modes:
 
-**Last.fm**
+- Last.fm: Use only Last.fm
+- Full Spotify, then Last.fm: Use your full Spotify history and add Last.fm afterwards
+- Spotify until full Last.fm: Use your Spotify history up until you started scrobbling
 
-- Use only your Last.fm for stats and ignore imports
-
-**Full Spotify, then Last.fm**
-
-- Uses your full Spotify history and adds Last.fm afterwards
-- Recommended if you have imported Spotify on Last.fm before
-- Plays from other music apps you scrobbled to Last.fm will not be included
-
-**Spotify until full Last.fm**
-
-- Uses your Spotify history up until the point you started scrobbling on Last.fm
-- Do not use this if you have imported on Last.fm before
-- Best if you have scrobbles on Last.fm from sources other then Spotify
 
 To delete your imports from .fmbot, switch to the Last.fm option and use the provided button.
 
