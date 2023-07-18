@@ -1,6 +1,6 @@
 # Importing your music history
 
-By default, .fmbot uses your Last.fm for all your music data. We now also offer a way to import your listening history from Spotify and combine that with your Last.fm stats.
+The bot uses Last.fm by default for all your music data. We now also offer a way to import your listening history from Spotify and combine that together with your Last.fm stats.
 
 Importing is currently in beta. You might experience bugs, data inaccuracies or other issues.
 
