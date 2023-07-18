@@ -73,6 +73,7 @@ nav:
     - 'Crowns': 'guildsettings/crownsettings.md'
     - 'Webhooks': 'guildsettings/webhooks.md'
   - 'Music bot scrobbling': 'botscrobbling.md'
+  - 'Spotify importing': 'importing.md'
   - 'Development': 'setup.md'
   - 'Privacy': 'privacy.md'
   - 'Terms of Use': 'terms.md'
