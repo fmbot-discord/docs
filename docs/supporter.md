@@ -43,6 +43,7 @@ You can get supporter either directly through Discord or through OpenCollective.
 |             | Free        | Supporter |
 | ----------- | ----------- |----------- |
 | Help us pay for hosting, development and other costs  | ❌  | ✅ |
+| <span class="new">New</span> Import your full Spotify history into the bot (Beta) | ❌  | ✅ |
 | Added friends limit | 12 | 18 |
 | Personal automatic emoji reactions with `.userreactions` | ❌ | ✅ |
 | Custom `fm` footer options | 4 | 8 + 1 |
