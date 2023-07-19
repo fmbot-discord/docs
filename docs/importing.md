@@ -71,6 +71,14 @@ Importing helps you combine your full history together with your current Last.fm
 
 You get to keep your original listening timestamps added together with how long you listened to each track for more accurate listening time stats.
 
+#### The import command keeps saying my files are invalid.
+
+The only files we support are `endsong_x.json` files from the 'Extended streaming history' package.
+
+Are you using Discord on mobile? The Discord mobile app currently has a bug where it empties all `.json` files you send through it. Try importing with Discord on a different platform.
+
+Still having issues? Please open a thread on [our server](https://discord.gg/fmbot).
+
 #### Are platforms other then Spotify also supported?
 
 At the moment we only support Spotify.
@@ -99,3 +107,8 @@ We only store the following information:
 #### Can I change or delete my imports?
 
 See the [/import manage](#import-manage) command.
+
+---
+
+!!! warning
+    Imports contain personal data like your IP address and Spotify username. Never post your import files publicly.
