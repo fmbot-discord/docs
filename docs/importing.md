@@ -38,6 +38,9 @@ This command only supports `endsong.json` files from the 'Extended Streaming His
 !!! note "Examples"
     `/import Spotify`
 
+!!! warning "Using Discord on your phone?"
+    Discord mobile currently has a bug where it empties any `.json` file you send through it. Please only import your files through Discord desktop. We've reported this bug, sorry for the inconvenience.
+
 ---
 
 #### Requesting your files from Spotify
