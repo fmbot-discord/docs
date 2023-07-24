@@ -32,7 +32,7 @@ Allows you to import your Spotify streaming history in the bot.
 
 Shows the instructions on how to get started if you attach no files. These instructions are also listed below.
 
-This command only supports `endsong.json` files from the 'Extended Streaming History' package.
+This command only supports the 'Extended Streaming History' package. You can either upload the `my_spotify_data.zip` to import everything at once or upload each `.json` file separately.
 
 
 !!! note "Examples"
@@ -55,8 +55,8 @@ This command only supports `endsong.json` files from the 'Extended Streaming His
 
 #### Importing your data into .fmbot
 1. Download the file Spotify provided
-2. Extract the .zip file so you have multiple endsong_x.json files ready
-3. Use the `/import Spotify` slash command and attach each file through the options
+2. Use the `/import Spotify` slash command and add the `.zip` file as an attachment through the options
+3. Having issues? You can also attach each `.json` file separately
 
 #### Notes
 - We filter out duplicates, so don't worry about submitting the same file twice
@@ -76,7 +76,7 @@ You get to keep your original listening timestamps added together with how long 
 
 #### The import command keeps saying my files are invalid.
 
-The only files we support are `endsong_x.json` files from the 'Extended streaming history' package.
+We only support files from the 'Extended streaming history' package. You can try uploading the `my_spotify_data.zip` or attach each `.json` file separately.
 
 Are you using Discord on mobile? The Discord mobile app currently has a bug where it empties all `.json` files you send through it. Try importing with Discord on a different platform.
 
