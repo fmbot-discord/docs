@@ -1,8 +1,8 @@
 What data .fmbot collects, how we use it and how you can manage it.
 
-Last update: 2023-06-21
+Last update: 2023-07-26
 
-Changelog: Rewrite for clarity, add new functionalities, add info about Last.fm and Discogs data
+Changelog: Add Spotify import info
 
 ## What does your application do?
 .fmbot is an open-source Last.fm Discord bot. Last.fm is a service that tracks what people listen to. 
@@ -47,6 +47,14 @@ When someone uses a command, the command log stores this:
 - Server name
 - Server id
 - The text in the command
+
+If someone imports their Spotify history, we store the following data of their import files:
+
+- Artist name
+- Album name
+- Track name
+- Time played
+- Length listened
 
 If a server has Premium Server, the following data will be stored for every logged-in user in the server:
 
