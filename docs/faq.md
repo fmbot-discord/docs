@@ -45,6 +45,14 @@ In this case, try to use `.update full`. This completely re-builds the stored pl
 
 ---
 
+### How do I import my Spotify history into .fmbot?
+
+Check out the [importing page](/importing) for more info.
+
+Using Spotify imports requires an active [supporter subscription](/supporter).
+
+---
+
 ### Who picks what is featured?
 
 The bot randomly picks any user that has used .fmbot in the last day.

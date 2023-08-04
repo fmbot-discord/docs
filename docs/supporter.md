@@ -82,7 +82,7 @@ We're dedicated to making sure the bot remains free and independent. That's why 
 
 By getting supporter you help us to be able to spend more time working on new features and fixes, which in return improves the user experience for everyone.
 
-#### How does my supporter get activated?
+#### How do I activate my subscription?
 
 If you purchase through Discord it should get automatically activated within a minute.
 
@@ -101,3 +101,9 @@ OpenCollective relies on Stripe to handle their payments, which is one of the wo
 If you have purchased through Discord, you can go to settings and then 'Subscriptions'.
 
 If you have puchased through OpenCollective, you can cancel a recurring contribution at any time. To do so, go to [OpenCollective](https://opencollective.com/) and sign in. After signing in go to 'Manage Contributions' where you can change your subscription.
+
+#### What happens if I cancel my subscription and have imported my plays?
+
+When your supporter subscription expires, you will be moved back to using Last.fm as your only data source.
+
+Your imports are however saved and will be available again if you resubscribe in the future.

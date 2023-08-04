@@ -111,6 +111,12 @@ We only store the following information:
 
 See the [/import manage](#import-manage) command.
 
+#### What happens if I cancel my supporter subscription?
+
+When your supporter subscription expires, you will be moved back to using Last.fm as your only data source.
+
+Your imports are however saved and will be available again if you resubscribe in the future.
+
 ---
 
 !!! warning
