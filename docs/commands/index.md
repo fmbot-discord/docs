@@ -34,6 +34,20 @@ Not receiving a DM from .fmbot when using this command? Please check if you have
 !!! warning ""
     To delete all your data from .fmbot, including friends and other settings, use `.remove`.
 
+
+---
+
+### .settings
+
+Shows an overview of all your .fmbot settings.
+
+Use the dropdown to pick what setting you want to change.
+
+!!! note "Examples"
+    `.settings`
+
+    `/settings` (responds in-channel)
+
 ---
 
 ### .fmmode
@@ -66,9 +80,8 @@ Modes: `embed` or `image`
 You can also override this preference on every invididual `whoknows` command. Simply add `img` or `embed` to the command.
 
 !!! note "Examples"
-    `.wkmode image`
+    `.wkmode`
 
-    `.wkmode embed`
     
 !!! note "Override examples"
     `.whoknows the beatles image`
