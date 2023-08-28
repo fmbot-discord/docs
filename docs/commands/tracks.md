@@ -14,13 +14,13 @@ Gets information about the track you're currently listening to or searching for.
     `.track Kaytranada You're The One`
 
 !!! info ""
-    Want this command to also show the date you first listened to a track? <a href="/supporter/">Get .fmbot supporter here.</a>
+    Want this command to also show the date you discovered a track? <a href="/supporter/">Get .fmbot supporter here.</a>
     
 ---
 
 ### .trackplays (`.tp`)
 
-Shows you your plays for the track you're currently listening to or searching for.
+Shows you your playcount for the track you're currently listening to or searching for.
 
 Options:
 
@@ -49,7 +49,7 @@ Options:
 
 ### .recent (`.r`)
 
-Shows your latest scrobbles.
+Shows your latest plays.
 
 Options:
 
@@ -60,7 +60,12 @@ Options:
 
     `.recent`
     
+
+!!! info ""
+    For supporters this command expands to your full listening history. <a href="/supporter/">Get .fmbot supporter here.</a>
+
 ---
+
 ### .toptracks (`.tt`)
 
 Shows a list of you or your friends top tracks over a certain time period.
@@ -71,7 +76,10 @@ Options:
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Billboard - Show recent changes in your top list in a billboard style
 
-Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+Time periods: 
+
+* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+* Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
 
 !!! note "Examples"
     `.tt`
@@ -80,7 +88,7 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 
     `.tt y bb`
 
-    `.toptracks weekly @user`
+    `.toptracks 2023 @user`
 
     `.toptracks @john alltime`
 
@@ -95,7 +103,10 @@ Options:
 * Time period - Time period of your top tracks. Defaults to weekly.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
-Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+Time periods: 
+
+* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+* Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
 
 !!! note "Examples"
     `.rcpt`
@@ -268,6 +279,7 @@ Options:
 
 * Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* Album - Specify the album you want by using a second seperator. `Artist | Track | Album`
 
 !!! note "Examples"
     `.scrobble`
@@ -278,7 +290,7 @@ Options:
 
     `.scrobble Mac DeMarco | Chamber of Reflection`
 
-    `.scrobble Home | Climbing Out`
+    `.scrobble Home | Climbing Out | Falling into Place`
 
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5817610257612647"

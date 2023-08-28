@@ -18,7 +18,7 @@ Options:
     `.artist David Vunk`
 
 !!! info ""
-    Want this command to also show the date you first listened to an artist? <a href="/supporter/">Get .fmbot supporter here.</a>
+    Want this command to also show the date you discovered an artist? <a href="/supporter/">Get .fmbot supporter here.</a>
 
 
 ---
@@ -53,7 +53,7 @@ Options:
 
 ### .artistplays (`.ap`)
 
-Shows you your plays for the artist you're currently listening to or searching for.
+Shows you your playcount for the artist you're currently listening to or searching for.
 
 Options:
 
@@ -156,7 +156,10 @@ Options:
 * Billboard - Show recent changes in your top list in a billboard style
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
-Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+Time periods: 
+
+* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+* Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
 
 !!! note "Examples"
     `.ta`
@@ -167,7 +170,7 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 
     `.ta w bb`
     
-    `.topartists weekly @user`
+    `.topartists 2023 @user`
 
     `.topartists alltime @drasil`
 
@@ -184,7 +187,10 @@ Options:
 * User - Select another user by mention, Discord ID or Last.fm username
 * Options - Options like taste display mode or time period.
 
-Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+Time periods: 
+
+* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+* Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
 
 Modes:
 
@@ -302,6 +308,41 @@ Options:
     `.serverartists alltime plays`
 
     `.serverartists listeners weekly`
+
+---
+
+### .discoveries (`.d`)
+
+Shows a list of when you discovered artists, together with their alltime playcount.
+
+Options:
+
+* Time period - Timeframe of discoveries. Defaults to last quarter.
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
+Time periods: 
+
+* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+* Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
+
+!!! note "Examples"
+    `.ta`
+
+    `.artists`
+
+    `.topartists billboard`
+
+    `.ta w bb`
+    
+    `.topartists weekly @user`
+
+    `.topartists alltime @drasil`
+
+
+!!! info ""
+    This command requires .fmbot to store your full listening history, which we only do for supporters. <a href="/supporter/">Get .fmbot supporter here.</a>
+
+---
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5817610257612647"
      crossorigin="anonymous"></script>

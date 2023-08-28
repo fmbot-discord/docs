@@ -42,7 +42,7 @@ The bot will also change it's profile picture to the album cover of the feature.
 
 ### Extra information
 
-.fmbot is trusted by over 250.000 servers, has over 500.000 registered users, and is used more than 400.000 times every day.
+.fmbot is trusted by over 250.000 servers, has over 600.000 registered users, and is used more than 400.000 times every day.
 
 It is written in C#, uses Discord.Net and .NET 7. The code is completely [open-source](https://github.com/fmbot-discord/fmbot/), so anyone can see how it works and modify it themselves.
 

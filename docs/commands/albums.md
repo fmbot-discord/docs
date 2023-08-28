@@ -12,13 +12,13 @@ Gets information about the album you're currently listening to or searching for.
     `.album Ventura Anderson .Paak`
 
 !!! info ""
-    Want this command to also show the date you first listened to an album? <a href="/supporter/">Get .fmbot supporter here.</a>
+    Want this command to also show the date you discovered an album? <a href="/supporter/">Get .fmbot supporter here.</a>
     
 ---
 
 ### .albumplays (`.abp`)
 
-Shows you your plays for the album you're currently listening to or searching for.
+Shows you your playcount for the album you're currently listening to or searching for.
 
 Options: 
 
@@ -85,7 +85,10 @@ Options:
 * Billboard - Show recent changes in your top list in a billboard style
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
-Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+Time periods: 
+
+* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+* Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
 
 !!! note "Examples"
     `.tab`
@@ -94,7 +97,7 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 
     `.tab a bb`
 
-    `.topalbums weekly @user`
+    `.topalbums 2023 @user`
 
     `.topalbums quarterly @slipper`
 

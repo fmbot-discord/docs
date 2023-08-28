@@ -32,21 +32,21 @@ Options:
 
 ### .recent (`.r`)
 
-Shows your latest scrobbles.
+Shows your latest plays.
 
 Options:
 
-* Amount - Number of scrobbles. Can only be between 1 and 10. Defaults to 5.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"
     `.r`
 
     `.recent`
+    
 
-    `.recent 10`
+!!! info ""
+    For supporters this command expands to your full listening history. <a href="/supporter/">Get .fmbot supporter here.</a>
 
-    `.recent 5 user`
     
 ---
 
@@ -154,7 +154,7 @@ Options:
 !!! note "Examples"
     `.year`
 
-    `.year 2020`
+    `.year 2022`
 
     `.wrapped @frikandel`
     

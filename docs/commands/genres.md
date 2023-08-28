@@ -14,7 +14,10 @@ Options:
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Billboard - Show recent changes in your top list in a billboard style
 
-Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+Time periods: 
+
+* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+* Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
 
 !!! note "Examples"
     `.tg`
@@ -25,7 +28,7 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (
 
     `.tg alltime @drasil bb`
 
-    `.topgenres monthly lfm:fm-bot`
+    `.topgenres 2023 lfm:fm-bot`
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5817610257612647"
      crossorigin="anonymous"></script>
