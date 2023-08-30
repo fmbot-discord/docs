@@ -6,7 +6,7 @@
 
 Shows your last 1 or 2 scrobbles, either in embed or text format.
 
-You can set how your `.fm` embed looks with the [`.mode` command](index#mode).
+You can set how your `.fm` embed looks with the [`.mode` command](/commands#mode).
 
 Options:
 
@@ -45,7 +45,7 @@ Options:
     
 
 !!! info ""
-    For supporters this command expands to your full listening history. <a href="/supporter/">Get .fmbot supporter here.</a>
+    For supporters this command expands to your full listening history. [Get .fmbot supporter here.](/supporter)
 
     
 ---
