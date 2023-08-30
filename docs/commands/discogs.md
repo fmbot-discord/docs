@@ -23,7 +23,7 @@ One can also search by format type, include `cassette`, `cd` or `vinyl` in the c
 
 This command updates your stored collection in .fmbot. Your collection can only be updated once per hour. 
 
-Some places where your collection can also be visible are the [`stats`](index#stats), [`artist`](artists#artist-a), [`album`](albums#album-ab) as well as [`taste`](artists#taste-t) commands if both you and the other user have run [`.discogs`](#discogs).
+Some places where your collection can also be visible are the [`stats`](/commands#stats), [`artist`](/commands/artists#artist-a), [`album`](/commands/albums#album-ab) as well as [`taste`](/commands/artists#taste-t) commands if both you and the other user have run [`.discogs`](#discogs).
 
 Options:
 

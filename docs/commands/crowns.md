@@ -2,7 +2,7 @@
 
 A crown is an award that you get if you're the #1 listener for a certain artist in a server.
 
-To get crowns you can use [`.whoknows`](artists#whoknows-wk-w).
+To get crowns you can use [`.whoknows`](/commands/artists#whoknows-wk-w).
 
 Crown server settings are available [here](/guildsettings/crownsettings/). Leaving a server resets all your crowns for that server.
 
