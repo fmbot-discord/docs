@@ -18,7 +18,7 @@ Options:
     `.artist David Vunk`
 
 !!! info ""
-    Want this command to also show the date you discovered an artist? <a href="/supporter/">Get .fmbot supporter here.</a>
+    Want this command to also show the date you discovered an artist? [Get .fmbot supporter here.](../supporter)
 
 
 ---

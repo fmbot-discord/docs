@@ -19,19 +19,22 @@ Not receiving a DM from .fmbot when using this command? Please check if you have
 Shows you or someone else their Discogs collection.
 
 Allows for searching through artist or album title.
+One can also search by format type, include `cassette`, `cd` or `vinyl` in the command to enable.
 
 This command updates your stored collection in .fmbot. Your collection can only be updated once per hour. 
 
-Some places where your collection can also be visible are the `stats`, `artist` and `album` commands.
+Some places where your collection can also be visible are the [`stats`](index#stats), [`artist`](artists#artist-a), [`album`](albums#album-ab) as well as [`taste`](artists#taste-t) commands if both you and the other user have run [`.discogs`](#discogs).
 
 Options:
 
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"
-    `.discogs`
+    `.collection`
 
-    `.discogs mall grab`
+    `.collection mall grab`
+
+    `.collection cd`
 
 !!! info ""
     Only the last 100 items you've added to Discogs can be viewed and stored. 
