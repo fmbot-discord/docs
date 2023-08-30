@@ -34,6 +34,30 @@ Not receiving a DM from .fmbot when using this command? Please check if you have
 !!! warning ""
     To delete all your data from .fmbot, including friends and other settings, use `.remove`.
 
+---
+
+### .help
+
+Shows information about getting started with the bot.
+
+!!! note "Examples"
+    `.help`
+
+---
+
+### .stats
+
+Shows you or someone else their user profile with some interesting statistics.
+
+Options:
+
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
+!!! note "Examples"
+    `.stats`
+
+!!! info ""
+    Want to see a yearly overview on your profile? [Get .fmbot supporter here.](../supporter)
 
 ---
 

@@ -6,7 +6,7 @@
 
 Shows your last 1 or 2 scrobbles, either in embed or text format.
 
-You can set how your `.fm` embed looks with the [`.mode` command](/commands/#mode).
+You can set how your `.fm` embed looks with the [`.mode` command](index#mode).
 
 Options:
 

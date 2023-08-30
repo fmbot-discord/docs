@@ -265,6 +265,8 @@ Options:
 !!! note "Examples"
     `.lt`
 
+    `.loved`
+
     `.lovedtracks`
 
     `.lovedtracks @user`

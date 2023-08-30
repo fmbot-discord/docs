@@ -21,31 +21,6 @@ Options:
 
 ---
 
-### .stats
-
-Shows you or someone else their user profile with some interesting statistics.
-
-Options:
-
-* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
-
-!!! note "Examples"
-    `.stats`
-
-!!! info ""
-    Want to see a yearly overview on your profile? <a href="/supporter/">Get .fmbot supporter here.</a>
-
----
-
-### .help 
-
-Shows information about getting started with the bot.
-
-!!! note "Examples"
-    `.help`
-
----
-
 ### .rateyourmusic
 
 Enables/disabled an option that changes all album links to link to RateYourMusic.

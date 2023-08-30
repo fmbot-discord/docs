@@ -12,7 +12,7 @@ Gets information about the album you're currently listening to or searching for.
     `.album Ventura Anderson .Paak`
 
 !!! info ""
-    Want this command to also show the date you discovered an album? <a href="/supporter/">Get .fmbot supporter here.</a>
+    Want this command to also show the date you discovered an album? [Get .fmbot supporter here.](../supporter)
     
 ---
 
