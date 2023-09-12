@@ -20,23 +20,23 @@ You can get supporter either directly through Discord or through OpenCollective.
 
 <p class="purchase-option">OpenCollective</p>
 
-<a href="https://opencollective.com/fmbot/contribute/fmbot-monthly-supporter-45504/checkout?interval=month&amount=4" class="md-button md-button--secondary getsupporter-button"> 
+<a href="https://opencollective.com/fmbot/contribute/fmbot-monthly-supporter-45504/checkout?interval=month&amount=3.99" class="md-button md-button--secondary getsupporter-button"> 
   <h4 class="title">Monthly</h3>
-  <h3>$4</h3>
+  <h3>$3.99</h3>
 </a>
 
 <h4 class="getsupporter-text"></h4>
 
-<a href="https://opencollective.com/fmbot/contribute/fmbot-yearly-supporter-53612/checkout?interval=year&amount=28" class="md-button md-button--secondary getsupporter-button"> 
+<a href="https://opencollective.com/fmbot/contribute/fmbot-yearly-supporter-53612/checkout?interval=year&amount=29.99" class="md-button md-button--secondary getsupporter-button"> 
   <h4>Yearly</h3>
-  <h3>$28</h3>
+  <h3>$29.99</h3>
 </a>
 
 <h4 class="getsupporter-text"></h4>
 
-<a href="https://opencollective.com/fmbot/contribute/fmbot-lifetime-supporter-25651/checkout?amount=45" class="md-button md-button--secondary getsupporter-button"> 
+<a href="https://opencollective.com/fmbot/contribute/fmbot-lifetime-supporter-25651/checkout?amount=49.99" class="md-button md-button--secondary getsupporter-button"> 
   <h4>Lifetime</h3>
-  <h3>$45</h3>
+  <h3>$49.99</h3>
 </a>
 </div>
 
