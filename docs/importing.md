@@ -111,6 +111,10 @@ We only store the following information:
 
 See the [/import manage](#import-manage) command.
 
+#### Does importing in .fmbot add scrobbles to my Last.fm?
+
+No, imported data only shows in the bot. No scrobbles are added to your Last.fm.
+
 #### What happens if I cancel my supporter subscription?
 
 When your supporter subscription expires, you will be moved back to using Last.fm as your only data source.
