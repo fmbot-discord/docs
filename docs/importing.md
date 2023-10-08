@@ -2,8 +2,6 @@
 
 The bot uses Last.fm by default for all your music data. We now also offer a way to import your listening history from Spotify and combine that together with your Last.fm stats.
 
-Importing is currently in beta. You might experience bugs, data inaccuracies or other issues.
-
 This feature is only available for .fmbot supporters. Dont have supporter yet? <a href="/supporter/">Get it here.</a>
 
 ---
