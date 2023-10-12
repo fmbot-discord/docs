@@ -1,15 +1,15 @@
 What data .fmbot collects, how we use it and how you can manage it.
 
-Last update: 2023-07-26
+Last update: 2023-10-12
 
-Changelog: Add Spotify import info
+Changelog: Update command log storage policy
 
 ## What does your application do?
 .fmbot is an open-source Last.fm Discord bot. Last.fm is a service that tracks what people listen to. 
 
 In our bot you can do various things to analyze your and your friends music taste, like see your recent plays or see who in a server listens to a certain artist.
 
-To use the bot, you have to log in with a Last.fm account. After that you can also login with a Discogs account.
+To use the bot, you have to log in with a Last.fm account. After that you can optionally also login with a Discogs account.
 
 ## What data do you store?
 When someone logins to the bot, we store the following Discord data:
@@ -20,6 +20,7 @@ When someone logins to the bot, we store the following Discord data:
 
 We store the following Last.fm data for every user:
 
+- Username
 - Scrobbles (plays), top artists, top albums and top tracks
 - Registration date
 - Total scrobble count
@@ -45,8 +46,9 @@ When someone uses a command, the command log stores this:
 - Discord name or nickname of the user executing the command
 - Discord user id
 - Server name
-- Server id
-- The text in the command
+- Discord server id
+- Discord channel id
+- The text and options in the command
 
 If someone imports their Spotify history, we store the following data of their import files:
 
@@ -79,26 +81,22 @@ Music data and server data is used for commands that provide server-wide leaderb
 
 This data is stored for caching purposes and to ensure our commands are performant. It is not possible to fetch data like playcounts for thousands of users real-time.
 
-Command logs are used for debugging and helping people with bug reports.
+Command logs are used for statistics, debugging and helping people with bug reports.
 
 ## For how long do you store it?
-Settings data: Forever, or until deleted.
+Settings data and command logs: Forever, or until deleted.
 
 Server data: Forever, or until the bot is kicked from the server.
-
-Command logs: Cleared every month.
 
 ## What is the process for users to request deletion of their data?
 For user data we have a command (`/remove`).
 
 For server data people can remove the bot and all the data related to that server will be deleted.
 
-Debug logs get automatically cleared every month.
-
 Users can also request deletion of their data in our [support server](https://discord.gg/fmbot).
 
 ## What systems and infrastructure do you use?
-.fmbot is currently hosted on a Hetzner VPS in Finland.
+.fmbot is currently hosted on a Hetzner VPS in Germany.
 
 ## How can users contact you with security issues?
 Through our server and DMs, or through Github issues. We are visibly identified as developers on [the server](https://discord.gg/fmbot).
