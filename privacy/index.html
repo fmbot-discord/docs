@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../img/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.4">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.5">
     
     
       
@@ -26,7 +26,7 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.bd3936ea.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.6a10b989.min.css">
       
         
         <link rel="stylesheet" href="../assets/stylesheets/palette.356b1318.min.css">
@@ -1169,12 +1169,12 @@
   <h1>Privacy</h1>
 
 <p>What data .fmbot collects, how we use it and how you can manage it.</p>
-<p>Last update: 2023-07-26</p>
-<p>Changelog: Add Spotify import info</p>
+<p>Last update: 2023-10-12</p>
+<p>Changelog: Update command log storage policy</p>
 <h2 id="what-does-your-application-do">What does your application do?<a class="headerlink" href="#what-does-your-application-do" title="Permanent link">&para;</a></h2>
 <p>.fmbot is an open-source Last.fm Discord bot. Last.fm is a service that tracks what people listen to. </p>
 <p>In our bot you can do various things to analyze your and your friends music taste, like see your recent plays or see who in a server listens to a certain artist.</p>
-<p>To use the bot, you have to log in with a Last.fm account. After that you can also login with a Discogs account.</p>
+<p>To use the bot, you have to log in with a Last.fm account. After that you can optionally also login with a Discogs account.</p>
 <h2 id="what-data-do-you-store">What data do you store?<a class="headerlink" href="#what-data-do-you-store" title="Permanent link">&para;</a></h2>
 <p>When someone logins to the bot, we store the following Discord data:</p>
 <ul>
@@ -1184,6 +1184,7 @@
 </ul>
 <p>We store the following Last.fm data for every user:</p>
 <ul>
+<li>Username</li>
 <li>Scrobbles (plays), top artists, top albums and top tracks</li>
 <li>Registration date</li>
 <li>Total scrobble count</li>
@@ -1209,8 +1210,9 @@
 <li>Discord name or nickname of the user executing the command</li>
 <li>Discord user id</li>
 <li>Server name</li>
-<li>Server id</li>
-<li>The text in the command</li>
+<li>Discord server id</li>
+<li>Discord channel id</li>
+<li>The text and options in the command</li>
 </ul>
 <p>If someone imports their Spotify history, we store the following data of their import files:</p>
 <ul>
@@ -1236,18 +1238,16 @@ If a song is successfully found, it will be send to Last.fm. No message content 
 <p>To identify who is calling the command and get the appropriate parameters to customize their command.</p>
 <p>Music data and server data is used for commands that provide server-wide leaderboards and statistics.</p>
 <p>This data is stored for caching purposes and to ensure our commands are performant. It is not possible to fetch data like playcounts for thousands of users real-time.</p>
-<p>Command logs are used for debugging and helping people with bug reports.</p>
+<p>Command logs are used for statistics, debugging and helping people with bug reports.</p>
 <h2 id="for-how-long-do-you-store-it">For how long do you store it?<a class="headerlink" href="#for-how-long-do-you-store-it" title="Permanent link">&para;</a></h2>
-<p>Settings data: Forever, or until deleted.</p>
+<p>Settings data and command logs: Forever, or until deleted.</p>
 <p>Server data: Forever, or until the bot is kicked from the server.</p>
-<p>Command logs: Cleared every month.</p>
 <h2 id="what-is-the-process-for-users-to-request-deletion-of-their-data">What is the process for users to request deletion of their data?<a class="headerlink" href="#what-is-the-process-for-users-to-request-deletion-of-their-data" title="Permanent link">&para;</a></h2>
 <p>For user data we have a command (<code>/remove</code>).</p>
 <p>For server data people can remove the bot and all the data related to that server will be deleted.</p>
-<p>Debug logs get automatically cleared every month.</p>
 <p>Users can also request deletion of their data in our <a href="https://discord.gg/fmbot">support server</a>.</p>
 <h2 id="what-systems-and-infrastructure-do-you-use">What systems and infrastructure do you use?<a class="headerlink" href="#what-systems-and-infrastructure-do-you-use" title="Permanent link">&para;</a></h2>
-<p>.fmbot is currently hosted on a Hetzner VPS in Finland.</p>
+<p>.fmbot is currently hosted on a Hetzner VPS in Germany.</p>
 <h2 id="how-can-users-contact-you-with-security-issues">How can users contact you with security issues?<a class="headerlink" href="#how-can-users-contact-you-with-security-issues" title="Permanent link">&para;</a></h2>
 <p>Through our server and DMs, or through Github issues. We are visibly identified as developers on <a href="https://discord.gg/fmbot">the server</a>.</p>
 <h2 id="does-your-app-utilize-other-third-party-auth-services-or-connections">Does your app utilize other third-party auth services or connections?<a class="headerlink" href="#does-your-app-utilize-other-third-party-auth-services-or-connections" title="Permanent link">&para;</a></h2>
@@ -1319,7 +1319,7 @@ If a song is successfully found, it will be send to Last.fm. No message content 
     <script id="__config" type="application/json">{"base": "..", "features": ["announce.dismiss"], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.94c44541.min.js"></script>
+      <script src="../assets/javascripts/bundle.aecac24b.min.js"></script>
       
         <script src="../javascript/analytics.js"></script>
       
