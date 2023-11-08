@@ -76,9 +76,23 @@ You get to keep your original listening timestamps added together with how long 
 
 We only support files from the 'Extended streaming history' package. You can try uploading the `my_spotify_data.zip` or attach each `.json` file separately.
 
-Are you using Discord on mobile? The Discord mobile app currently has a bug where it empties all `.json` files you send through it. Try importing with Discord on a different platform.
+Discord on iOS currently [does not support attachments](https://github.com/discord/discord-api-docs/issues/5527) other then photos or videos through slash commands. For now you'll have to try on a different platform.
 
 Still having issues? Please open a thread on [our server](https://discord.gg/fmbot).
+
+#### How long does it take before Spotify sends my data?
+
+Spotify sends their files out in waves. For the extended streaming history package they usually do this once every 3 weeks.
+
+#### Does importing in .fmbot add scrobbles to my Last.fm?
+
+No, imported data only shows in the bot. No scrobbles are added to your Last.fm.
+
+#### What happens if I cancel my supporter subscription?
+
+When your supporter subscription expires, you will be moved back to using Last.fm as your only data source.
+
+Your imports are however saved and will be available again if you resubscribe in the future.
 
 #### Are platforms other then Spotify also supported?
 
@@ -91,9 +105,9 @@ Want a different platform to be supported? Open a help thread in [our server](di
 
 Each platform should have some way for you to request your listening data. This is legally required in Europe, California and various other places around the world.
 
-#### How long does it take before Spotify sends my data?
+#### Can I change or delete my imports?
 
-Spotify sends their files out in waves. For the extended streaming history package they usually do this once every 3 weeks.
+See the [/import manage](#import-manage) command.
 
 #### What data from my imports do you store?
 
@@ -104,20 +118,6 @@ We only store the following information:
 - Track name
 - Time played
 - Length listened
-
-#### Can I change or delete my imports?
-
-See the [/import manage](#import-manage) command.
-
-#### Does importing in .fmbot add scrobbles to my Last.fm?
-
-No, imported data only shows in the bot. No scrobbles are added to your Last.fm.
-
-#### What happens if I cancel my supporter subscription?
-
-When your supporter subscription expires, you will be moved back to using Last.fm as your only data source.
-
-Your imports are however saved and will be available again if you resubscribe in the future.
 
 ---
 
