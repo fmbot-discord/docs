@@ -126,6 +126,6 @@ Since 2019 Frikandel has been the main maintainer and hoster of .fmbot, adding c
 
 Join [our server here](https://discord.gg/fmbot) and ask in the #help channel.
 
-Note that since .fmbot and Last.fm are two seperate things we can't help with Last.fm. .fmbot is the Discord bot, Last.fm is the website.
+Note that since .fmbot and Last.fm are two seperate things. .fmbot is the Discord bot, Last.fm is the website.
 
 Need help with Last.fm? Check out their [support forums](https://support.last.fm) or their [Discord server](https://discord.gg/swrVDCBZ8H).
