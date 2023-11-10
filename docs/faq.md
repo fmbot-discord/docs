@@ -23,18 +23,6 @@ Last.fm also has [an official guide](https://support.last.fm/t/spotify-has-stopp
 !!! info ""
     .fmbot is **not** affiliated with Last.fm or Spotify, so we can't fix this for you. Please don't join our support server to complain about this issue.
 
-    
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5817610257612647"
-     crossorigin="anonymous"></script>
-<!-- Banner -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:120px"
-     data-ad-client="ca-pub-5817610257612647"
-     data-ad-slot="2734431126"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
 ---
 
 ### The playcounts in the bot don't match Last.fm!
@@ -72,18 +60,6 @@ Please check the server [WhoKnows settings](/guildsettings/whoknowsettings/).
 We are not affiliated with Last.fm. This bot only uses their API to show you and your friends their statistics.
 
 If you have issues with Last.fm, we'd suggest you check out their [support forums](https://support.last.fm) or their [Discord server](https://discord.gg/swrVDCBZ8H).
-
-    
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5817610257612647"
-     crossorigin="anonymous"></script>
-<!-- Banner -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:120px"
-     data-ad-client="ca-pub-5817610257612647"
-     data-ad-slot="2734431126"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ---
 
@@ -132,16 +108,3 @@ This bot was made by [BitL](https://twitter.com/BitlDev) back in September 2017 
 Frikandel joined in when he had the idea of `.friends`, but was too lazy to make his own bot. Together they moved the bot from text files to an actual database and made various other improvements.
 
 Since 2019 Frikandel has been the main maintainer and hoster of .fmbot, adding commands like `.whoknows` and other much-requested features. In March 2021 Frikandel took over all parts of the bot.
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5817610257612647"
-     crossorigin="anonymous"></script>
-<!-- In-docs -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-5817610257612647"
-     data-ad-slot="9031186671"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>

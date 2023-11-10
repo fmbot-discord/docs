@@ -61,16 +61,6 @@ Removes all your friends from your friends list.
     `.removeallfriends`
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5817610257612647"
-     crossorigin="anonymous"></script>
-<!-- Banner -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:728px;height:120px"
-     data-ad-client="ca-pub-5817610257612647"
-     data-ad-slot="2734431126"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 ---
 
@@ -133,15 +123,3 @@ Options:
     `.friendwhoknowstrack Natasha Bedingfield | Unwritten`
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5817610257612647"
-     crossorigin="anonymous"></script>
-<!-- In-docs -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-5817610257612647"
-     data-ad-slot="9031186671"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
