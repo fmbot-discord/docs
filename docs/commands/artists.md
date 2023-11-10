@@ -2,11 +2,12 @@
     
 ### .artist (`.a`)
 
-Shows information about the artist you're currently listening to or the one you're searching for.
+Shows information about current artist or the one you're searching for.
 
 Options:
 
 * Artist - An artist you want to search for.
+* Random - Use `random`/`rnd` to view a random artist you've listened to
 
 !!! note "Examples"
     `.a`
@@ -48,6 +49,7 @@ Shows you your playcount for the artist you're currently listening to or searchi
 Options:
 
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* Random - Use `random`/`rnd` to view a random artist you've listened to
 
 !!! note "Examples"
     `.ap`
@@ -92,7 +94,7 @@ Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `a
 
 ### .artisttracks (`.at`)
 
-Shows you your all-time top tracks for the artist you're currently listening to or searching for.
+Shows you your all-time top tracks for current artist or the one you're searching for.
 
 Options:
 
@@ -103,14 +105,14 @@ Options:
 
     `.artisttracks`
 
-    `.artisttracks The Beatles`
+    `.artisttracks Crystal Castles`
     
 ---
 
 
 ### .artistalbums (`.aa`)
 
-Shows you your all-time top albums for the artist you're currently listening to or searching for.
+Shows you your all-time top albums for current artist or the one you're searching for.
 
 Options:
 
@@ -158,9 +160,7 @@ Time periods:
 
 ### .taste (`.t`)
 
-Compares your top artists to another users top artists.
-
-You can mention someone or enter their last.fm username.
+Compares your top artists, genres, countries and Discogs to those of someone else.
 
 Options:
 
@@ -192,12 +192,13 @@ Modes:
 
 ### .whoknows (`.wk`, `.w`)
 
-Shows who in your server listened to an artist you're currently listening to or the one you're searching for.
+Shows who in your server listened to current artist or the one you're searching for.
 
 Options:
 
 * Artist - An artist you want to search for.
 * Mode - Response type. `embed` or `image`
+* Random - Use `random`/`rnd` to view a random artist you've listened to
 
 !!! note "Examples"
     `.w`
@@ -208,19 +209,20 @@ Options:
 
     `.whoknows`
 
-    `.whoknows DJ Seinfeld img`
+    `.whoknows Agar Agar img`
 
 
 ---
 
 ### .friendwhoknows (`.fwk`, `.fw`)
 
-Shows who from your friends listened to an artist you're currently listening to or the one you're searching for.
+Shows who from your friends listened to current artist or the one you're searching for.
 
 Options:
 
 * Artist - An artist you want to search for.
 * Mode - Response type. `embed` or `image`
+* Random - Use `random`/`rnd` to view a random artist you've listened to
 
 !!! note "Examples"
     `.fw`
@@ -231,7 +233,7 @@ Options:
 
     `.friendwhoknows`
 
-    `.friendwhoknows DJ Seinfeld`
+    `.friendwhoknows KAYTRANADA`
 
 
 ---
@@ -239,7 +241,7 @@ Options:
 
 ### .globalwhoknows (`.gwk`, `.gw`)
 
-Shows who in .fmbot listened to an artist you're currently listening to or the one you're searching for.
+Shows who in .fmbot listened to current artist or the one you're searching for.
 
 This searches through all registered .fmbot users. Note that some users with fake playcounts might be excluded.
 
@@ -247,6 +249,7 @@ Options:
 
 * Artist - An artist you want to search for.
 * Mode - Response type. `embed` or `image`
+* Random - Use `random`/`rnd` to view a random artist you've listened to
 
 !!! note "Examples"
     `.gw`
@@ -257,7 +260,7 @@ Options:
 
     `.globalwhoknows`
 
-    `.globalwhoknows DJ Seinfeld`
+    `.globalwhoknows Romy`
 
 ---
 

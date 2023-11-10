@@ -1,17 +1,17 @@
-# FAQ
+# Frequently Asked
 
 ### How do I get started?
 
 This bot uses your music history for various commands. For this we use a website called Last.fm. 
 This site allows you to track your music history [from various platforms](https://www.last.fm/about/trackmymusic).
 
-To get started you need a Last.fm account. After you've setup your account there you can login to our bot by using `/login` within Discord.
+To get started you need [to create a Last.fm account](https://www.last.fm/join). After you've setup your account there you can connect your account to our bot by using `/login` within Discord.
 
 While we require a Last.fm account the bot is not affiliated with Last.fm.
 
 ---
 
-### Commands are showing the wrong songs/ it's not showing what I listen to on Spotify
+### Commands are showing the wrong songs / it's not showing what I listen to on Spotify
 
 We get what you're playing directly from your Last.fm profile, so please check there first to see what is showing on [your profile](https://www.last.fm/user/_). 
 
@@ -55,6 +55,19 @@ Please check the server [WhoKnows settings](/guildsettings/whoknowsettings/).
 
 ---
 
+### I'm not visible in Global WhoKnows
+
+We sometimes remove users from Global WhoKnows that manipulate plays or scrobbles to get on top of our global charts. If you're not showing on the global charts this could be the case.
+
+You can use the `.privacy` command to check your status. Set your privacy to global and it will be visible, along with all necessary info.
+
+Users get filtered automatically for 3 months from Global WhoKnows when:
+
+- They have over 6 days of listening time in 8 days (thats less then 6 hours of sleep per night)
+- They have an average of over 650 scrobbles / day in an 8 day period
+
+---
+
 ### I have an issue with Last.fm
 
 We are not affiliated with Last.fm. This bot only uses their API to show you and your friends their statistics.
@@ -65,13 +78,13 @@ If you have issues with Last.fm, we'd suggest you check out their [support forum
 
 ### The bot is offline
 
-It could be that it just happens to be updating. If it stays down, please join the [support server](http://server.fmbot.xyz/) and ping one of the developers.
+It could be that it just happens to be updating. If it stays down, please join the [support server](https://discord.gg/fmbot) and ping one of the developers.
 
 ---
 
 ### What is the difference between the normal bot and the develop bot?
 
-The develop bot is used to test new fixes and functionality before they go to the normal bot. This is usually announced in #announcements.
+The develop bot is used to test new fixes and functionality before they go to the normal bot. This is usually announced in #beta-updates on [our server](https://discord.gg/fmbot).
 
 This bot can have more downtime and bugs than the normal bot, so that is something to keep in mind. The bots currently share the same database, so switching is easy.
 
@@ -87,15 +100,13 @@ Cool, great to hear.
 
 ### I don't like this bot
 
-:( Please let us know why in the [support server](http://server.fmbot.xyz/). We're open to all feedback and happy to help.
+:( Please let us know why in the [support server](https://discord.gg/fmbot). We're open to all feedback and happy to help.
 
 ---
 
 ### Is there any way to support the bot?
 
-To support us financially, check out [our OpenCollective](https://opencollective.com/fmbot). All donations will go towards bot expenses and we will provide full transparency about where your money goes. Plus, you will get [.fmbot supporter](/supporter/) which gives you some small perks.
-
-You will also gain a `supporter status`, which gives you a fancy emote after your name. Some other perks are also included.
+To support us financially, check out [.fmbot supporter](/supporter/). You help us with the hosting and development of the bot while getting some nice perks in return.
 
 If you are familiar with C# / .NET you can also help us out and pick up one of the open [issues](https://github.com/fmbot-discord/fmbot/issues). Please check out our [contributing guidelines](https://github.com/fmbot-discord/fmbot/blob/main/CONTRIBUTING.md) first.
 
@@ -108,3 +119,13 @@ This bot was made by [BitL](https://twitter.com/BitlDev) back in September 2017 
 Frikandel joined in when he had the idea of `.friends`, but was too lazy to make his own bot. Together they moved the bot from text files to an actual database and made various other improvements.
 
 Since 2019 Frikandel has been the main maintainer and hoster of .fmbot, adding commands like `.whoknows` and other much-requested features. In March 2021 Frikandel took over all parts of the bot.
+
+----
+
+### I have a question that isn't listed here
+
+Join [our server here](https://discord.gg/fmbot) and ask in the #help channel.
+
+Note that since .fmbot and Last.fm are two seperate things we can't help with Last.fm. .fmbot is the Discord bot, Last.fm is the website.
+
+Need help with Last.fm? Check out their [support forums](https://support.last.fm) or their [Discord server](https://discord.gg/swrVDCBZ8H).

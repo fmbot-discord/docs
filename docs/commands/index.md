@@ -78,7 +78,14 @@ Use the dropdown to pick what setting you want to change.
 
 This command allows you to change how your .fm command looks.
 
-Modes: `embedfull`, `embedmini`, `embedtiny`, `textfull` and `textmini`.
+Available modes:
+
+- Embed tiny - Shows last track in a compact format
+- Embed - Shows last track (default)
+- Embed full - Shows last two tracks
+- Text one-line - Shows last track in one lie, disables footer options and album
+- Text - Shows last track
+- Text full - Shows last two tracks
 
 You can also enable up to 4 custom options to show in your `.fm` footer. 
 
@@ -90,7 +97,7 @@ Use the provided dropdowns to select and de-select which options you want.
     `/fmmode` (responds in-channel)
 
 !!! info ""
-    Supporters can select up 8 options, and have access to some exclusive options like first artist listen. 
+    Supporters can select up 9 options, and have access to some exclusive options like first artist listen. 
     <a href="/supporter/">Get .fmbot supporter here.</a>
 
 ---

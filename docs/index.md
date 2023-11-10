@@ -35,7 +35,7 @@ The bot will also change it's profile picture to the album cover of the feature.
 ### 🔗Links:
 
 - You can invite .fmbot to your own server by [clicking here](http://invite.fmbot.xyz).
-- Join the [.fmbot server](http://server.fmbot.xyz/) for support and updates.
+- Join the [.fmbot server](https://discord.gg/fmbot) for support and updates.
 - Follow us on Twitter: [@fmbotDiscord](https://twitter.com/fmbotDiscord)
 
 ---

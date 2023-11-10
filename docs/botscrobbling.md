@@ -17,6 +17,7 @@ The bot will only scrobble songs it can find on Last.fm. The scrobbling works be
 * Make sure .fmbot can see the voice channel
 * Make sure you've logged in at least once using `/login`
 
+---
 
 ### /botscrobbling
 

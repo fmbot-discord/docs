@@ -46,7 +46,7 @@ You can get supporter either directly through Discord or through OpenCollective.
 | <span class="new">New</span> Import and use your full Spotify history | ❌  | ✅ |
 | Added friends limit | 12 | 18 |
 | Personal automatic emoji reactions with `.userreactions` | ❌ | ✅ |
-| Custom `fm` footer options | 4 | 8 + 1 |
+| Custom `fm` footer options | 4 | 9 |
 | Get a better GPT-4 powered `.judge` command with higher limits and the ability to use the command on others | ❌ | ✅ |
 | <span class="new">New</span> View when you discovered artists with the `.discoveries` command | ❌ | ✅ |
 | Discovery dates in `artist`, `album` and `track` | ❌ | ✅ |
@@ -108,3 +108,7 @@ If you have puchased through OpenCollective, you can cancel a recurring contribu
 When your supporter subscription expires, you will be moved back to using Last.fm as your only data source.
 
 Your imports are however saved and will be available again if you resubscribe in the future.
+
+#### I have a question that isn't listed here
+
+Please join [our server](https://discord.gg/fmbot) and make a thread in the #help channel. A staff member will try to help you as soon as possible.

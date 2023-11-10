@@ -6,6 +6,7 @@ These settings can only be changed by admins, users with the 'Ban Members' permi
 
 
 ---
+
 ### .crownthreshold
 
 Allows you set a minimum amount of plays required for someone to claim a crown.
@@ -16,6 +17,7 @@ The default value for this is 30.
     `.crownthreshold`
 
 ---
+
 ### .crownactivitythreshold
 
 Allows you to block users from gaining crowns if they have not been active in a certain amount of days.
@@ -26,6 +28,7 @@ A user is counted as active once they use .fmbot.
     `.crownactivitythreshold`
 
 ---
+
 ### .killcrown
 
 Allows you to remove a crown and all crown history for a certain artist.
@@ -35,9 +38,8 @@ Allows you to remove a crown and all crown history for a certain artist.
 
     `.killcrown the beatles`
 
-    
-
 ---
+
 ### .killallcrowns
 
 Removes all crowns from your server.
@@ -59,6 +61,7 @@ Removes all crowns from a specific user
     `.removeusercrowns lastfmsupport`
 
 ---
+
 ### .crownblock
 
 Blocks a user from getting any crowns. They will still be visible in the whoknows output.
@@ -69,6 +72,7 @@ Blocks a user from getting any crowns. They will still be visible in the whoknow
     `.crownblock lastfmsupport`
 
 ---
+
 ### .unblock
 
 Unblocks a user and allows them to gain crowns again.
@@ -79,6 +83,7 @@ Unblocks a user and allows them to gain crowns again.
     `.unblock lastfmsupport`
 
 ---
+
 ### .crownblockedmembers
 
 View all blocked members on your server.
@@ -99,6 +104,7 @@ Crown seeding again only updates automatically seeded crowns, not manually claim
     `.crownseeder`
     
 ---
+
 ### .killallseededcrowns
 
 Removes all automatically seeded crowns from your server.
@@ -110,6 +116,7 @@ Removes all automatically seeded crowns from your server.
 
 
 ---
+
 ### .togglecrowns
 
 Enables/disables all crowns for your server.

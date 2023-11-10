@@ -2,7 +2,7 @@
 
 ### .album (`.ab`)
 
-Gets information about the album you're currently listening to or searching for.
+Gets information about current album or the one you're searching for.
 
 !!! note "Examples"
     `.ab`
@@ -18,7 +18,7 @@ Gets information about the album you're currently listening to or searching for.
 
 ### .albumplays (`.abp`)
 
-Shows you your playcount for the album you're currently listening to or searching for.
+Shows you your playcount for current album or the one you're searching for.
 
 Options: 
 
@@ -113,7 +113,7 @@ Options:
 
 ### .cover (`.co`)
 
-Shows the cover for the album you're currently listening to or searching for.
+Shows the cover for current album or the one you're searching for.
 
 !!! note "Examples"
     `.co`
@@ -122,11 +122,13 @@ Shows the cover for the album you're currently listening to or searching for.
     
     `.cover la priest inji`
 
+    `.cover featured`
+
 ---
 
 ### .whoknowsalbum (`.wkab`, `.wa`)
 
-Shows who in your server listened to an album you're currently listening to or the one you're searching for.
+Shows who in your server listened to current album or the one you're searching for.
 
 Options:
 
@@ -146,7 +148,7 @@ Options:
 
 ### .friendwhoknowsalbum (`.fwkab`, `.fwa`)
 
-Shows who from your friends listened to an album you're currently listening to or the one you're searching for.
+Shows who from your friends listened to current album or the one you're searching for.
 
 Options:
 
@@ -168,7 +170,7 @@ Options:
 
 ### .globalwhoknowsalbum (`.gwka`, `.gwa`)
 
-Shows who in .fmbot listened to an album you're currently listening to or the one you're searching for.
+Shows who in .fmbot listened to current album or the one you're searching for.
 
 This searches through all registered .fmbot users. Note that some users with fake playcounts might be excluded.
 

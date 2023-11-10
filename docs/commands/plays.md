@@ -116,6 +116,7 @@ Options:
 
 * Amount - Milestone you want to check
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* Random - Use `random`/`rnd` to view a random milestone
 
 !!! note "Examples"
     `.ms`
@@ -127,6 +128,8 @@ Options:
     `.milestone 20k`
 
     `.milestone 1337 @frikandel`
+
+    `.milestone rnd`
     
 ---
 

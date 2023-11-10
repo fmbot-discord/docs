@@ -40,6 +40,8 @@ Max amount of emojis is 3. Please put a space between every emoji.
 
 Enable/disable commands per channel, or completely disable the bot in a channel.
 
+You can also force an `fm` mode for everyone in the channel.
+
 Use the up/down options to pick the channel you want to change.
 
 !!! note "Examples"

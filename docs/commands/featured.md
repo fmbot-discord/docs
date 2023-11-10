@@ -36,9 +36,12 @@ Shows your or someone else their featured history.
 Options:
 
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* View - `Global`, `Server`, `Friends` or `User`
 
 !!! note "Examples"
     `.featuredlog`
 
     `.featuredlog @user`
+
+    `.featuredlog server`
 

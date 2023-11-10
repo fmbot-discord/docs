@@ -37,6 +37,11 @@ Time periods:
 
 Shows genre information for your current artist or your top artists for the genre you're searching for.
 
+Options:
+
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* View - `Server` or `User`
+
 !!! note "Examples"
     `.g`
 
@@ -45,6 +50,8 @@ Shows genre information for your current artist or your top artists for the genr
     `.genre electro`
 
     `.genre Mac DeMarco`
+
+    `.g lfm:fm-bot`
 
 ---
 

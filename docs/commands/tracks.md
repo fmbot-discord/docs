@@ -20,7 +20,7 @@ Gets information about the track you're currently listening to or searching for.
 
 ### .trackplays (`.tp`)
 
-Shows you your playcount for the track you're currently listening to or searching for.
+Shows you your playcount for current track or the one you're searching for.
 
 Options:
 
@@ -32,6 +32,20 @@ Options:
     `.trackplays`
 
     `.trackplays Infected Mushroom Can't Stop`
+
+    
+---
+
+### .trackdetails(`.td`)
+
+Shows metadata for current track or the one you're searching for.
+
+!!! note "Examples"
+    `.td`
+
+    `.trackdetails`
+
+    `.trackdetails Underworld Born Slippy`
 
     
 ---
@@ -113,7 +127,7 @@ Time periods:
 
 ### .whoknowstrack (`.wktr`, `.wt`)
 
-Shows who in your server listened to an track you're currently listening to or the one you're searching for.
+Shows who in your server listened to current track or the one you're searching for.
 
 Note that the playcount for the user that requested the command will always be up to date.
 
@@ -136,7 +150,7 @@ Options:
 
 ### .friendwhoknowstrack (`.fwkt`, `.fwt`)
 
-Shows who from your friends listened to an track you're currently listening to or the one you're searching for.
+Shows who from your friends listened to current track or the one you're searching for.
 
 Options:
 
@@ -157,7 +171,7 @@ Options:
 
 ### .globalwhoknowstrack (`.gwkt`, `.gwt`)
 
-Shows who in .fmbot listened to an track you're currently listening to or the one you're searching for.
+Shows who in .fmbot listened to current track or the one you're searching for.
 
 This searches through all registered .fmbot users. Note that some users with fake playcounts might be excluded.
 
@@ -199,7 +213,7 @@ Options:
 
 ### .love (`.l`)
 
-Adds the track you're currently listening to or searching for to your last.fm loved tracks.
+Adds current track or the one you're searching for to your Last.fm loved tracks.
 
 !!! note "Examples"
     `.l`
@@ -213,7 +227,7 @@ Adds the track you're currently listening to or searching for to your last.fm lo
 
 ### .unlove (`.ul`)
 
-Removes the track you're currently listening to or searching for from your last.fm loved tracks.
+Removes current track or the one you're searching for from your Last.fm loved tracks.
 
 !!! note "Examples"
     `.ul`
@@ -250,8 +264,8 @@ Scrobbles the track you're searching for. You can only scrobble tracks that alre
 Options:
 
 * Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
-* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Album - Specify the album you want by using a second seperator. `Artist | Track | Album`
+* Discogs - Instead of searching a track, scrobble an entire Discogs album into the future
 
 !!! note "Examples"
     `.scrobble`
@@ -264,4 +278,4 @@ Options:
 
     `.scrobble Home | Climbing Out | Falling into Place`
 
-
+    `.scrobble https://www.discogs.com/release/249504-Rick-Astley-Never-Gonna-Give-You-Up`

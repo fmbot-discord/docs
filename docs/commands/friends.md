@@ -77,11 +77,11 @@ Options:
 
     `.fwk`
 
-    `.fw COMA`
+    `.fw MGMT`
 
     `.friendwhoknows`
 
-    `.friendwhoknows DJ Seinfeld`
+    `.friendwhoknows Nia Archives`
 
 ---
 
@@ -98,7 +98,7 @@ Options:
 
     `.friendwhoknowsalbum`
 
-    `.friendwhoknowsalbum The Beatles Abbey Road`
+    `.friendwhoknowsalbum The Beatles Help`
 
     `.friendwhoknowsalbum Metallica & Lou Reed | Lulu`
 
@@ -118,7 +118,7 @@ Options:
 
     `.friendwhoknowstrack`
 
-    `.friendwhoknowstrack Hothouse Flowers Don't Go`
+    `.friendwhoknowstrack Vansire Metamodernity`
 
     `.friendwhoknowstrack Natasha Bedingfield | Unwritten`
 
