@@ -62,9 +62,6 @@
   gtag('config', 'G-2NVJXMTT2N');
 </script>
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5817610257612647"
-  crossorigin="anonymous"></script>
-
 
     
     
@@ -90,7 +87,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#development-and-selfhosting" class="md-skip">
+        <a href="#development" class="md-skip">
           Skip to content
         </a>
       
@@ -896,7 +893,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#development" class="md-nav__link">
+  <a href="#development_1" class="md-nav__link">
     Development
   </a>
   
@@ -1021,7 +1018,7 @@
   
   
     <li class="md-nav__item">
-      <a href="http://server.fmbot.xyz/" class="md-nav__link">
+      <a href="https://discord.gg/fmbot" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1087,7 +1084,7 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#development" class="md-nav__link">
+  <a href="#development_1" class="md-nav__link">
     Development
   </a>
   
@@ -1156,32 +1153,31 @@
                   
 
 
-<h1 id="development-and-selfhosting">Development and selfhosting<a class="headerlink" href="#development-and-selfhosting" title="Permanent link">&para;</a></h1>
+<h1 id="development">Development<a class="headerlink" href="#development" title="Permanent link">&para;</a></h1>
 <div class="admonition note">
 <p class="admonition-title">Selfhosting as a server owner</p>
 <p>If you're a server owner and are considering selfhosting keep in mind that we recommend <a href="http://invite.fmbot.xyz/">using the bot that we host</a>. 
-The reason for this is that selfhosting only has minor upsides and that we don't offer support to selfhosters. </p>
+The reason for this is that selfhosting isn't officially supported.</p>
 <p>We only recommend using this guide if you're a developer and know what you're doing.</p>
 </div>
 <h2 id="installing-the-database">Installing the database<a class="headerlink" href="#installing-the-database" title="Permanent link">&para;</a></h2>
 <ol>
-<li>Download PostgreSQL 14 and start the installation.</li>
+<li>Download PostgreSQL 15 and start the installation.</li>
 <li>Make sure pgadmin is checked in the installation wizard.</li>
 <li>If you enter a custom password, make sure to also add it to the <code>config.json</code> file later.</li>
 <li>Set the port to port '5432' and continue with the installation. You can also change this port in the config if you want.</li>
 <li>After the installation is done, open pgadmin.</li>
 <li>Right-click on databases and create a database called 'fmbot'.</li>
-<li>Install the <a href="https://docs.timescale.com/install/latest/self-hosted/">Timescale postgres extension</a></li>
 </ol>
 <div class="admonition note">
 <p class="admonition-title">Viewing the data</p>
 <p>To view the data in the database, use pgadmin and click the fmbot database &gt; schemas &gt; public &gt; tables.</p>
 </div>
-<h2 id="development">Development<a class="headerlink" href="#development" title="Permanent link">&para;</a></h2>
+<h2 id="development_1">Development<a class="headerlink" href="#development_1" title="Permanent link">&para;</a></h2>
 <ul>
 <li>For development it's recommended to either use Visual Studio or Rider as your IDE</li>
 <li>The first time you debug the bot it will automatically create a <code>config.json</code> that's located in the <code>bin</code> folder. You will have to enter your own configuration values there.</li>
-<li>Need more help? Contact <code>Frikandel#0001</code> on Discord.</li>
+<li>Need more help? Contact <code>frikandel</code> on Discord, or see <a href="https://discord.gg/fmbot">our server</a></li>
 </ul>
 <h2 id="getting-api-keys">Getting API keys<a class="headerlink" href="#getting-api-keys" title="Permanent link">&para;</a></h2>
 <h3 id="discord">Discord<a class="headerlink" href="#discord" title="Permanent link">&para;</a></h3>
