@@ -13,6 +13,7 @@ Options:
 * Time period - Time period of your top countries. Defaults to weekly
 * Billboard - Show recent changes in your top list in a billboard style
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* Mode - Response mode. `embed` or `image`
 
 Time periods: 
 

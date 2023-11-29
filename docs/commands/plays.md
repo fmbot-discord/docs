@@ -45,7 +45,7 @@ Options:
     
 
 !!! info ""
-    For supporters this command expands to your full listening history. [Get .fmbot supporter here.](/supporter)
+    For supporters this command expands to your full listening history. Supporters can also filter to specific artists. [Get .fmbot supporter here.](/supporter)
 
     
 ---
@@ -147,7 +147,7 @@ Options:
 !!! note "Examples"
     `.year`
 
-    `.year 2022`
+    `.year 2023`
 
     `.wrapped @frikandel`
     

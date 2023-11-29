@@ -79,6 +79,7 @@ Options:
 * Time period - Time period of your top tracks. Defaults to weekly.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Billboard - Show recent changes in your top list in a billboard style
+* Mode - Response mode. `embed` or `image`
 
 Time periods: 
 
@@ -134,7 +135,7 @@ Note that the playcount for the user that requested the command will always be u
 Options:
 
 * Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
-* Mode - Response type. `embed` or `image`
+* Mode - Response mode. `embed` or `image`
 
 !!! note "Examples"
     `.wt`
@@ -155,7 +156,7 @@ Shows who from your friends listened to current track or the one you're searchin
 Options:
 
 * Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
-* Mode - Response type. `embed` or `image`
+* Mode - Response mode. `embed` or `image`
 
 !!! note "Examples"
     `.fwt`

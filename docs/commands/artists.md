@@ -137,6 +137,7 @@ Options:
 * Time period - Time period of your top artists. Defaults to weekly.
 * Billboard - Show recent changes in your top list in a billboard style
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* Mode - Response mode. `embed` or `image`
 
 Time periods: 
 
@@ -197,7 +198,7 @@ Shows who in your server listened to current artist or the one you're searching 
 Options:
 
 * Artist - An artist you want to search for.
-* Mode - Response type. `embed` or `image`
+* Mode - Response mode. `embed` or `image`
 * Random - Use `random`/`rnd` to view a random artist you've listened to
 
 !!! note "Examples"
@@ -221,7 +222,7 @@ Shows who from your friends listened to current artist or the one you're searchi
 Options:
 
 * Artist - An artist you want to search for.
-* Mode - Response type. `embed` or `image`
+* Mode - Response mode. `embed` or `image`
 * Random - Use `random`/`rnd` to view a random artist you've listened to
 
 !!! note "Examples"
@@ -248,7 +249,7 @@ This searches through all registered .fmbot users. Note that some users with fak
 Options:
 
 * Artist - An artist you want to search for.
-* Mode - Response type. `embed` or `image`
+* Mode - Response mode. `embed` or `image`
 * Random - Use `random`/`rnd` to view a random artist you've listened to
 
 !!! note "Examples"
