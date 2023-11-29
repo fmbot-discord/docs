@@ -102,20 +102,22 @@ Use the provided dropdowns to select and de-select which options you want.
 
 ---
 
-### .wkmode
+### .responsemode
 
-This command allows you to change how responses to the various whoknows commmand look.
+This command allows you to change how responses to the various whoknows and top lists commmand look.
 
 Modes: `embed` or `image`
 
-You can also override this preference on every invididual `whoknows` command. Simply add `img` or `embed` to the command.
+You can also override this preference on every invididual command. Simply add `img` or `embed` to the command.
 
 !!! note "Examples"
-    `.wkmode`
+    `.responsemode`
 
     
 !!! note "Override examples"
     `.whoknows the beatles image`
+
+    `.toptracks 2023 img`
 
     `.globalwhoknows mac miller embed`
 
