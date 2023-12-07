@@ -45,7 +45,7 @@ Shows information about getting started with the bot.
 
 ---
 
-### .stats
+### .profile
 
 Shows you or someone else their user profile with some interesting statistics.
 
@@ -54,7 +54,7 @@ Options:
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"
-    `.stats`
+    `.profile`
 
 !!! info ""
     Want to see a yearly overview on your profile? [Get .fmbot supporter here.](/supporter)
