@@ -56,6 +56,8 @@ Options:
 !!! note "Examples"
     `.profile`
 
+    `.stats`
+
 !!! info ""
     Want to see a yearly overview on your profile? [Get .fmbot supporter here.](/supporter)
 

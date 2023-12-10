@@ -50,7 +50,7 @@ You can get supporter either directly through Discord or through OpenCollective.
 | Get a better GPT-4 powered `.judge` command with higher limits and the ability to use the command on others | ❌ | ✅ |
 | <span class="new">New</span> View when you discovered artists with the `.discoveries` command | ❌ | ✅ |
 | Discovery dates in `artist`, `album` and `track` | ❌ | ✅ |
-| Years and listening time overview in `stats` | ❌ | ✅ |
+| Years and listening time overview in `profile` | ❌ | ✅ |
 | Artist Discoveries and months in `year` | ❌ | ✅ |
 | Higher chance of getting featured on Supporter Sunday | ❌ | ✅ |
 | Supporter badge ⭐ | ❌ | ✅ |
