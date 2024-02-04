@@ -52,6 +52,7 @@ You can get supporter either directly through Discord or through OpenCollective.
 | Discovery dates in `artist`, `album` and `track` | ❌ | ✅ |
 | Years and listening time overview in `profile` | ❌ | ✅ |
 | Artist Discoveries and months in `year` | ❌ | ✅ |
+| Lifetime history in `recent` and `overview` | ❌ | ✅ |
 | Higher chance of getting featured on Supporter Sunday | ❌ | ✅ |
 | Supporter badge ⭐ | ❌ | ✅ |
 | Chance to sponsor bot-wide charts | ❌ | ✅ |

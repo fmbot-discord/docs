@@ -37,7 +37,7 @@ This command only supports the 'Extended Streaming History' package. You can eit
     `/import Spotify`
 
 !!! warning "Using Discord on your phone?"
-    Discord mobile currently has a bug where it empties any `.json` file you send through it. Please only import your files through Discord desktop. We've reported this bug, sorry for the inconvenience.
+    Discord mobile currently has a bug where it might return `Not a valid value`. Please try importing your files through Discord desktop. We've reported this bug, sorry for the inconvenience.
 
 ---
 

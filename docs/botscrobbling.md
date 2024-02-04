@@ -11,6 +11,8 @@ The bot will only scrobble songs it can find on Last.fm. The scrobbling works be
 * Jockie Music
 * Cakey Bot
 * Soundcloud
+* Green-bot
+* Betty
 
 ### Requirements:
 

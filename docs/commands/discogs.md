@@ -2,12 +2,11 @@
 
 ### .discogs 
 
-This command connects your Discogs account to .fmbot.
+Allows you to connect or manage the connection with your Discogs account.
 
-After using this command the bot will DM you a link where you can connect to your Discogs account. Discogs will show a code which you have to copy and send back to the bot.
+The bot will send you a DM where you can configure this.
 
-Not receiving a DM from .fmbot when using this command? Please check if you have DMs enabled in the servers privacy settings.
-
+You can also show/hide the display of your collection value on your profile.
 
 !!! note "Examples"
     `.discogs`
