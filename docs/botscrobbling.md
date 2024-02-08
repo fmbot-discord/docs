@@ -8,15 +8,18 @@ The bot will only scrobble songs it can find on Last.fm. The scrobbling works be
 
 ### Currently supported bots: 
 
-* Jockie Music
-* Cakey Bot
-* Soundcloud
-* Green-bot
-* Betty
+- Jockie Music
+- SoundCloud
+- Tempo Bot
+- Green-Bot
+- Cakey Bot
+- Betty
+- Bleed
 
 ### Requirements:
 
 * Make sure .fmbot can see the voice channel
+* Make sure .fmbot can see the 'Now playing' messages
 * Make sure you've logged in at least once using `/login`
 
 ---
@@ -27,11 +30,6 @@ Use this command to disable/enable bot scrobbling for your account or to check i
 
 !!! note "Examples"
     `/botscrobbling`
-
-    `/botscrobbling on`
-
-    `/botscrobbling off`
-
     
 !!! info
     Please note that .fmbot is not affiliated with any of these music bots, and that .fmbot does not stream music or download music to Discord in any way.
