@@ -18,7 +18,7 @@
       
       
       <link rel="icon" href="../img/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.10">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.13">
     
     
       
@@ -930,6 +930,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#internal-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      Internal API
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#getting-api-keys" class="md-nav__link">
     <span class="md-ellipsis">
       Getting API keys
@@ -977,15 +986,6 @@
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#running-the-bot-outdated" class="md-nav__link">
-    <span class="md-ellipsis">
-      Running the bot (outdated)
-    </span>
-  </a>
   
 </li>
       
@@ -1142,6 +1142,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#internal-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      Internal API
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#getting-api-keys" class="md-nav__link">
     <span class="md-ellipsis">
       Getting API keys
@@ -1192,15 +1201,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#running-the-bot-outdated" class="md-nav__link">
-    <span class="md-ellipsis">
-      Running the bot (outdated)
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1217,12 +1217,7 @@
 
 
 <h1 id="development">Development<a class="headerlink" href="#development" title="Permanent link">&para;</a></h1>
-<div class="admonition note">
-<p class="admonition-title">Selfhosting as a server owner</p>
-<p>If you're a server owner and are considering selfhosting keep in mind that we recommend <a href="http://invite.fmbot.xyz/">using the bot that we host</a>. 
-The reason for this is that selfhosting isn't officially supported.</p>
-<p>We only recommend using this guide if you're a developer and know what you're doing.</p>
-</div>
+<p>Setup guide for developers who wish to contribute. Selfhosting .fmbot is not supported.</p>
 <h2 id="installing-the-database">Installing the database<a class="headerlink" href="#installing-the-database" title="Permanent link">&para;</a></h2>
 <ol>
 <li>Download PostgreSQL 16 and start the installation.</li>
@@ -1238,10 +1233,13 @@ The reason for this is that selfhosting isn't officially supported.</p>
 </div>
 <h2 id="development_1">Development<a class="headerlink" href="#development_1" title="Permanent link">&para;</a></h2>
 <ul>
-<li>For development it's recommended to either use Visual Studio or Rider as your IDE</li>
+<li>It's recommended to either use Visual Studio or Rider as your IDE</li>
 <li>The first time you debug the bot it will automatically create a <code>config.json</code> that's located in the <code>bin</code> folder. You will have to enter your own configuration values there.</li>
 <li>Need more help? Contact <code>frikandel</code> on Discord, or see <a href="https://discord.gg/fmbot">our server</a></li>
 </ul>
+<h2 id="internal-api">Internal API<a class="headerlink" href="#internal-api" title="Permanent link">&para;</a></h2>
+<p>The bot requires an internal API for some cache-heavy tasks. </p>
+<p>This API is not publicly available, you should however be able to run and debug the bot without it for local development.</p>
 <h2 id="getting-api-keys">Getting API keys<a class="headerlink" href="#getting-api-keys" title="Permanent link">&para;</a></h2>
 <h3 id="discord">Discord<a class="headerlink" href="#discord" title="Permanent link">&para;</a></h3>
 <ol>
@@ -1263,24 +1261,6 @@ The reason for this is that selfhosting isn't officially supported.</p>
 <li>Go to the <a href="https://developer.spotify.com/dashboard/applications">Spotify Developer dashboard</a></li>
 <li>Create an app and enter both the ID and the secret into the config file.</li>
 </ol>
-<h2 id="running-the-bot-outdated">Running the bot (outdated)<a class="headerlink" href="#running-the-bot-outdated" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Download the <code>BinaryFiles.zip</code> and the <code>BinaryRelease.zip</code> from the <a href="https://github.com/fmbot-discord/fmbot/releases/latest">latest release</a>.</li>
-<li>Extract both BinaryRelease.zip and BinaryFiles.zip and put the files into the same folder. </li>
-<li>Make sure you have the <a href="https://dotnet.microsoft.com/en-us/download/dotnet/8.0">.NET 8.0 SDK</a> installed</li>
-<li>Run the bot once and a config file should be created in configs/configs.json. The database tables will also be created.</li>
-<li>Open this config and enter the values. Spotify and Genius api keys aren't required, but the commands will not work.</li>
-<li>Make sure the config is in a valid json format.</li>
-<li>Run the bot again.</li>
-</ol>
-<div class="admonition note">
-<p class="admonition-title">Updates</p>
-<p>If you want to update the bot in the future, just download the new "BinaryRelease.zip" and/or the new "BinaryFiles.zip" and override the old files with the new ones.</p>
-</div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Please also launch the bot from the "StartFMBot.bat" as it allows the bot to restart itself when there is an error.</p>
-</div>
 
 
 
@@ -1349,7 +1329,7 @@ The reason for this is that selfhosting isn't officially supported.</p>
     <script id="__config" type="application/json">{"base": "..", "features": ["announce.dismiss"], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.8fd75fb4.min.js"></script>
+      <script src="../assets/javascripts/bundle.c8d2eff1.min.js"></script>
       
         <script src="../javascript/analytics.js"></script>
       
