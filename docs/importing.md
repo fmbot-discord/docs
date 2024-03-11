@@ -76,9 +76,13 @@ You get to keep your original listening timestamps added together with how long 
 
 We only support files from the 'Extended streaming history' package. You can try uploading the `my_spotify_data.zip` or attach each `.json` file separately.
 
-Discord on iOS currently [does not support attachments](https://github.com/discord/discord-api-docs/issues/5527) other then photos or videos through slash commands. For now you'll have to try on a different platform.
-
 Still having issues? Please open a thread on [our server](https://discord.gg/fmbot).
+
+#### It's adding less plays to my .fmbot account then expected
+
+Try switching modes with the `/import manage` command. This changes how your imports are combined with your Last.fm scrobbles.
+
+If you want to dive deeper, use the `.importdebug` command. You can also filter this command to a specific artist.
 
 #### How long does it take before Spotify sends my data?
 
