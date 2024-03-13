@@ -453,6 +453,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#albumsoftheyear-aoty" class="md-nav__link">
+    <span class="md-ellipsis">
+      .albumsoftheyear (.aoty)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#topalbums-tab" class="md-nav__link">
     <span class="md-ellipsis">
       .topalbums (.tab)
@@ -1165,6 +1174,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#albumsoftheyear-aoty" class="md-nav__link">
+    <span class="md-ellipsis">
+      .albumsoftheyear (.aoty)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#topalbums-tab" class="md-nav__link">
     <span class="md-ellipsis">
       .topalbums (.tab)
@@ -1273,6 +1291,7 @@
 <p>Options:</p>
 <ul>
 <li>Chart size - <code>2x2</code>, <code>3x5</code> all the way up to <code>10x10</code>.</li>
+<li>Filter - Filter albums to the year they released (<code>r:2023</code>)</li>
 <li>Time period - Time period of your top albums. Defaults to weekly.</li>
 <li><code>notitles</code> - Don't display album titles. (<code>nt</code>)</li>
 <li><code>skipemptyalbums</code> - Skips albums without images. (<code>s</code> or <code>skip</code>)</li>
@@ -1286,8 +1305,16 @@
 <p><code>.chart 5x5</code></p>
 <p><code>.chart 8x8 yearly</code></p>
 <p><code>.chart 6x8 alltime notitles</code></p>
-<p><code>.chart 8x8 alltime notitles skipemptyalbums</code></p>
+<p><code>.chart released:2022</code></p>
 <p><code>.c 8x10 a nt s</code></p>
+</div>
+<hr />
+<h3 id="albumsoftheyear-aoty">.albumsoftheyear (<code>.aoty</code>)<a class="headerlink" href="#albumsoftheyear-aoty" title="Permanent link">&para;</a></h3>
+<p>Generates a chart of albums released in a specific year.</p>
+<p>It works the exact same as the <code>chart</code> command, except that you can directly input the release year for the filter.</p>
+<div class="admonition note">
+<p class="admonition-title">Examples</p>
+<p><code>.aoty 2023</code></p>
 </div>
 <hr />
 <h3 id="topalbums-tab">.topalbums (<code>.tab</code>)<a class="headerlink" href="#topalbums-tab" title="Permanent link">&para;</a></h3>
@@ -1295,6 +1322,7 @@
 <p>Options:</p>
 <ul>
 <li>Time period - Time period of your top albums. Defaults to weekly</li>
+<li>Filter - Filter albums to the year they released (<code>r:2023</code>)</li>
 <li>Billboard - Show recent changes in your top list in a billboard style</li>
 <li>User - Select another user by mention, Discord ID or Last.fm username (<code>lfm:username</code>)</li>
 <li>Mode - Response mode. <code>embed</code> or <code>image</code></li>
@@ -1311,6 +1339,7 @@
 <p><code>.tab a bb</code></p>
 <p><code>.topalbums 2023 @user</code></p>
 <p><code>.topalbums quarterly @slipper</code></p>
+<p><code>.topalbums r:2022</code></p>
 </div>
 <hr />
 <h3 id="albumtracks-abt">.albumtracks (<code>.abt</code>)<a class="headerlink" href="#albumtracks-abt" title="Permanent link">&para;</a></h3>
