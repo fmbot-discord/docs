@@ -1,4 +1,24 @@
-# Miscellaneous commands
+# Miscellaneous
+
+### Deleting fmbot responses
+
+It's possible to remove .fmbot's response, even if you don't have permission to manage messages.
+
+Mobile: Long press message > Apps > Delete response
+
+Desktop: Right-click message > Apps > Delete response
+
+---
+
+### Reply context
+
+You can reply to any fmbot command or response with an artist, album or track to directly use that as context for your new command.
+
+Example below:
+
+![Reply context example](/img/reply_context_example.png){ loading=lazy }
+
+---
 
 ### .judge
 
