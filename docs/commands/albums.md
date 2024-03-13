@@ -40,6 +40,7 @@ Creates a chart of your top albums over a certain time period.
 Options:
 
 * Chart size - `2x2`, `3x5` all the way up to `10x10`.
+* Filter - Filter albums to the year they released (`r:2023`)
 * Time period - Time period of your top albums. Defaults to weekly.
 * `notitles` - Don't display album titles. (`nt`)
 * `skipemptyalbums` - Skips albums without images. (`s` or `skip`)
@@ -58,9 +59,20 @@ Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `a
 
     `.chart 6x8 alltime notitles`
 
-    `.chart 8x8 alltime notitles skipemptyalbums`
+    `.chart released:2022`
 
     `.c 8x10 a nt s`
+
+---
+
+### .albumsoftheyear (`.aoty`)
+
+Generates a chart of albums released in a specific year.
+
+It works the exact same as the `chart` command, except that you can directly input the release year for the filter.
+
+!!! note "Examples"
+    `.aoty 2023`
 
 ---
 
@@ -71,6 +83,7 @@ Shows a list of you or your friends top albums over a certain time period.
 Options:
 
 * Time period - Time period of your top albums. Defaults to weekly
+* Filter - Filter albums to the year they released (`r:2023`)
 * Billboard - Show recent changes in your top list in a billboard style
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Mode - Response mode. `embed` or `image`
@@ -90,6 +103,8 @@ Time periods:
     `.topalbums 2023 @user`
 
     `.topalbums quarterly @slipper`
+
+    `.topalbums r:2022`
 
 ---
 
