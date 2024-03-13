@@ -12,7 +12,7 @@ Desktop: Right-click message > Apps > Delete response
 
 ### Reply context
 
-You can reply to any fmbot command or response with an artist, album or track to directly use that as context for your new command.
+You can reply to any fmbot command or response that contains an artist, album or track to directly use that as context for your new command.
 
 Example below:
 
