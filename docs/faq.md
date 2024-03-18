@@ -33,11 +33,11 @@ In this case, try to use `.update full`. This completely re-builds the stored pl
 
 ---
 
-### How do I import my Spotify history into .fmbot?
+### How do I import my Spotify or Apple Music history into .fmbot?
 
 Check out the [importing page](/importing) for more info.
 
-Using Spotify imports requires an active [supporter subscription](/supporter).
+Using imports requires an active [supporter subscription](/supporter).
 
 ---
 

@@ -135,7 +135,6 @@ Your imports are however saved and will be available again if you resubscribe in
 At the moment we only support Spotify and Apple Music.
 
 - YouTube music exports are unfortunately too inconsistent in their artist and track names, so support will not be added.
-- Stats.fm has no easy way for users to export their data. If you succeed in getting your data from them, open a thread on [our server](discord.gg/fmbot) and we will see if we can help.
 - Listenbrainz export support is planned and will be added in the future.
 
 Want a different platform to be supported? Open a help thread in [our server](discord.gg/fmbot). It helps if you have a data export ready for the developers, so that way they can test a possible integration.
