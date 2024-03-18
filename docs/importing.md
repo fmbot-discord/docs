@@ -1,6 +1,6 @@
 # Importing your music history
 
-The bot uses Last.fm by default for all your music data. We now also offer a way to import your listening history from Spotify and combine that together with your Last.fm stats.
+The bot uses Last.fm by default for all your music data. We now also offer a way to import your listening history from Spotify and Apple Music and combine that together with your Last.fm stats.
 
 This feature is only available for .fmbot supporters. Dont have supporter yet? <a href="/supporter/">Get it here.</a>
 
@@ -13,9 +13,8 @@ Allows you to manage your imports and pick the source for your playcounts.
 You can pick between the following modes:
 
 - Last.fm: Use only Last.fm
-- Full Spotify, then Last.fm: Use your full Spotify history and add Last.fm afterwards
-- Spotify until full Last.fm: Use your Spotify history up until you started scrobbling
-
+- Full imports, then Last.fm: Use your full import history and add Last.fm afterwards
+- Imports until full Last.fm: Use your import history up until you started scrobbling
 
 To delete your imports from .fmbot, switch to the Last.fm option and use the provided button.
 
@@ -24,7 +23,7 @@ To delete your imports from .fmbot, switch to the Last.fm option and use the pro
 
 ---
 
-### /import Spotify
+### /import spotify
 
 Allows you to import your Spotify streaming history in the bot.
 
@@ -62,6 +61,37 @@ This command only supports the 'Extended Streaming History' package. You can eit
 
 ---
 
+### /import applemusic
+
+Allows you to import your Apple Music streaming history in the bot.
+
+Shows the instructions on how to get started if you attach no files. These instructions are also listed below.
+
+!!! note "Examples"
+    `/import applemusic`
+
+---
+
+#### Requesting your files from Apple
+
+1. Go to your <a href="https://privacy.apple.com/" target="_blank">**Apple Data and Privacy**</a>
+2. Sign in to your account
+3. Click on **Request a copy of your data**
+4. Select **Apple Media Services Information**
+5. Press **Continue**
+6. Press **Complete request**
+7. Wait up to 7 days for Apple to deliver your files
+
+#### Importing your data into .fmbot
+1. Download the file Apple provided
+2. Use the `/import applemusic` slash command and add the `.zip` file as an attachment through the option
+3. Having issues? You can also attach the `Apple Music Play Activity.csv` file separately
+
+#### Notes
+- Apple provides their history data without artist names. We try to find these as best as possible based on the album and track name.
+
+---
+
 ## Frequently asked
 
 #### Why would I use importing?
@@ -74,7 +104,7 @@ You get to keep your original listening timestamps added together with how long 
 
 #### The import command keeps saying my files are invalid.
 
-We only support files from the 'Extended streaming history' package. You can try uploading the `my_spotify_data.zip` or attach each `.json` file separately.
+For Spotify we only support files from the 'Extended streaming history' package. You can try uploading the `my_spotify_data.zip` or attach each `.json` file separately.
 
 Still having issues? Please open a thread on [our server](https://discord.gg/fmbot).
 
@@ -88,6 +118,8 @@ If you want to dive deeper, use the `.importdebug` command. You can also filter 
 
 Spotify sends their files out in waves. For the extended streaming history package they usually do this once every 3 weeks.
 
+Apple Music sends your file within a week.
+
 #### Does importing in .fmbot add scrobbles to my Last.fm?
 
 No, imported data only shows in the bot. No scrobbles are added to your Last.fm.
@@ -98,12 +130,13 @@ When your supporter subscription expires, you will be moved back to using Last.f
 
 Your imports are however saved and will be available again if you resubscribe in the future.
 
-#### Are platforms other then Spotify also supported?
+#### Are platforms other then Spotify and Apple Music also supported?
 
-At the moment we only support Spotify.
+At the moment we only support Spotify and Apple Music.
 
-- Apple Music doesn't provide any artist names with their exports. We're exploring ways to still allow for importing, but it will probably not be 100% perfect.
-- Stats.fm does not support users to request their own data yet unless you physically come to their office. They're working on making this an easier process.
+- YouTube music exports are unfortunately too inconsistent in their artist and track names, so support will not be added.
+- Stats.fm has no easy way for users to export their data. If you succeed in getting your data from them, open a thread on [our server](discord.gg/fmbot) and we will see if we can help.
+- Listenbrainz export support is planned and will be added in the future.
 
 Want a different platform to be supported? Open a help thread in [our server](discord.gg/fmbot). It helps if you have a data export ready for the developers, so that way they can test a possible integration.
 
@@ -126,4 +159,4 @@ We only store the following information:
 ---
 
 !!! warning
-    Imports contain personal data like your IP address and Spotify username. Never post your import files publicly.
+    Imports contain personal data like your IP address and username. Never post your import files publicly.
