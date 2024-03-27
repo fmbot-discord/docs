@@ -78,9 +78,10 @@ Shows the instructions on how to get started if you attach no files. These instr
 2. Sign in to your account
 3. Click on **Request a copy of your data**
 4. Select **Apple Media Services Information**
-5. Press **Continue**
-6. Press **Complete request**
-7. Wait up to 7 days for Apple to deliver your files
+5. De-select the other options
+6. Press **Continue**
+7. Press **Complete request**
+8. Wait up to 7 days for Apple to deliver your files
 
 #### Importing your data into .fmbot
 1. Download the file Apple provided
