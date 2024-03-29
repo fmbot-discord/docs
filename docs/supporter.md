@@ -107,9 +107,10 @@ If you have puchased through OpenCollective, you can cancel a recurring contribu
 
 #### What happens if I cancel my subscription and have imported my plays?
 
-When your supporter subscription expires, you will be moved back to using Last.fm as your only data source.
+Importing in .fmbot is a service that adjusts your Last.fm stats on the fly and adds your imported plays on top. 
+If your supporter subscription expires, this service is no longer available and the bot will only use your Last.fm stats.
 
-Your imports are however saved and will be available again if you resubscribe in the future.
+Your imported plays are however saved and will be available again if you resubscribe in the future.
 
 #### I have a question that isn't listed here
 

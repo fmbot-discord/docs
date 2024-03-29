@@ -1,6 +1,8 @@
 # Importing your music history
 
-The bot uses Last.fm by default for all your music data. We now also offer a way to import your listening history from Spotify and Apple Music and combine that together with your Last.fm stats.
+The bot uses Last.fm by default for all your music data. We now also offer a way to import your listening history from Spotify and Apple Music and combine that together with your scrobbles.
+
+The bot will adjust your Last.fm stats on the fly and dynamically add your imports on top.
 
 This feature is only available for .fmbot supporters. Dont have supporter yet? <a href="/supporter/">Get it here.</a>
 
@@ -90,6 +92,7 @@ Shows the instructions on how to get started if you attach no files. These instr
 
 #### Notes
 - Apple provides their history data without artist names. We try to find these as best as possible based on the album and track name.
+- If Apple sent their data in multiple parts, only one of them has the data we need. You can ignore the other parts.
 
 ---
 
@@ -121,15 +124,22 @@ Spotify sends their files out in waves. For the extended streaming history packa
 
 Apple Music sends your file within a week.
 
+#### My Apple Music imports are too big for Discord, and I don't have Nitro
+
+Try putting the `Apple Music Play Activity.csv` file in a .zip and using that.
+
+If it does't work or it's not possible, you can also try in [our support server](https://discord.gg/fmbot) which is boosted and has a higher file size limit for everyone.
+
 #### Does importing in .fmbot add scrobbles to my Last.fm?
 
 No, imported data only shows in the bot. No scrobbles are added to your Last.fm.
 
 #### What happens if I cancel my supporter subscription?
 
-When your supporter subscription expires, you will be moved back to using Last.fm as your only data source.
+Importing in .fmbot is a service that adjusts your Last.fm stats on the fly and adds your imported plays on top.
+If your supporter subscription expires, this service is no longer available and the bot will only use your Last.fm stats.
 
-Your imports are however saved and will be available again if you resubscribe in the future.
+Your imported plays are however saved and will be available again if you resubscribe in the future.
 
 #### Are platforms other then Spotify and Apple Music also supported?
 

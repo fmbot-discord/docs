@@ -147,7 +147,7 @@ Options:
 !!! note "Examples"
     `.year`
 
-    `.year 2023`
+    `.year 2024`
 
     `.wrapped @frikandel`
     

@@ -57,9 +57,9 @@ Please check the server [WhoKnows settings](/guildsettings/whoknowsettings/).
 
 ### I'm not visible in Global WhoKnows
 
-We sometimes remove users from Global WhoKnows that manipulate plays or scrobbles to get on top of our global charts. If you're not showing on the global charts this could be the case.
+We sometimes remove or filter users from Global WhoKnows for various reasons, like sleep scrobbling, manipulating scrobbles or other reasons. If you're not showing on the global charts this could be the case.
 
-You can use the `.privacy` command to check your status. Set your privacy to global and it will be visible, along with all necessary info.
+You can use the `.privacy` command to check your status. Set your privacy to global and it will be visible, along with all info required. If youre're removed, please fully read this as it contains all the information you need.
 
 Users get filtered automatically for 3 months from Global WhoKnows when:
 
