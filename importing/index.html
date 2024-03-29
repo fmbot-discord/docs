@@ -1031,6 +1031,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#my-apple-music-imports-are-too-big-for-discord-and-i-dont-have-nitro" class="md-nav__link">
+    <span class="md-ellipsis">
+      My Apple Music imports are too big for Discord, and I don't have Nitro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#does-importing-in-fmbot-add-scrobbles-to-my-lastfm" class="md-nav__link">
     <span class="md-ellipsis">
       Does importing in .fmbot add scrobbles to my Last.fm?
@@ -1374,6 +1383,15 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#my-apple-music-imports-are-too-big-for-discord-and-i-dont-have-nitro" class="md-nav__link">
+    <span class="md-ellipsis">
+      My Apple Music imports are too big for Discord, and I don't have Nitro
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#does-importing-in-fmbot-add-scrobbles-to-my-lastfm" class="md-nav__link">
     <span class="md-ellipsis">
       Does importing in .fmbot add scrobbles to my Last.fm?
@@ -1439,7 +1457,8 @@
 
 
 <h1 id="importing-your-music-history">Importing your music history<a class="headerlink" href="#importing-your-music-history" title="Permanent link">&para;</a></h1>
-<p>The bot uses Last.fm by default for all your music data. We now also offer a way to import your listening history from Spotify and Apple Music and combine that together with your Last.fm stats.</p>
+<p>The bot uses Last.fm by default for all your music data. We now also offer a way to import your listening history from Spotify and Apple Music and combine that together with your scrobbles.</p>
+<p>The bot will adjust your Last.fm stats on the fly and dynamically add your imports on top.</p>
 <p>This feature is only available for .fmbot supporters. Dont have supporter yet? <a href="/supporter/">Get it here.</a></p>
 <hr />
 <h3 id="import-manage">/import manage<a class="headerlink" href="#import-manage" title="Permanent link">&para;</a></h3>
@@ -1519,6 +1538,7 @@
 <h4 id="notes_1">Notes<a class="headerlink" href="#notes_1" title="Permanent link">&para;</a></h4>
 <ul>
 <li>Apple provides their history data without artist names. We try to find these as best as possible based on the album and track name.</li>
+<li>If Apple sent their data in multiple parts, only one of them has the data we need. You can ignore the other parts.</li>
 </ul>
 <hr />
 <h2 id="frequently-asked">Frequently asked<a class="headerlink" href="#frequently-asked" title="Permanent link">&para;</a></h2>
@@ -1535,11 +1555,15 @@
 <h4 id="how-long-does-it-take-before-spotify-sends-my-data">How long does it take before Spotify sends my data?<a class="headerlink" href="#how-long-does-it-take-before-spotify-sends-my-data" title="Permanent link">&para;</a></h4>
 <p>Spotify sends their files out in waves. For the extended streaming history package they usually do this once every 3 weeks.</p>
 <p>Apple Music sends your file within a week.</p>
+<h4 id="my-apple-music-imports-are-too-big-for-discord-and-i-dont-have-nitro">My Apple Music imports are too big for Discord, and I don't have Nitro<a class="headerlink" href="#my-apple-music-imports-are-too-big-for-discord-and-i-dont-have-nitro" title="Permanent link">&para;</a></h4>
+<p>Try putting the <code>Apple Music Play Activity.csv</code> file in a .zip and using that.</p>
+<p>If it does't work or it's not possible, you can also try in <a href="https://discord.gg/fmbot">our support server</a> which is boosted and has a higher file size limit for everyone.</p>
 <h4 id="does-importing-in-fmbot-add-scrobbles-to-my-lastfm">Does importing in .fmbot add scrobbles to my Last.fm?<a class="headerlink" href="#does-importing-in-fmbot-add-scrobbles-to-my-lastfm" title="Permanent link">&para;</a></h4>
 <p>No, imported data only shows in the bot. No scrobbles are added to your Last.fm.</p>
 <h4 id="what-happens-if-i-cancel-my-supporter-subscription">What happens if I cancel my supporter subscription?<a class="headerlink" href="#what-happens-if-i-cancel-my-supporter-subscription" title="Permanent link">&para;</a></h4>
-<p>When your supporter subscription expires, you will be moved back to using Last.fm as your only data source.</p>
-<p>Your imports are however saved and will be available again if you resubscribe in the future.</p>
+<p>Importing in .fmbot is a service that adjusts your Last.fm stats on the fly and adds your imported plays on top.
+If your supporter subscription expires, this service is no longer available and the bot will only use your Last.fm stats.</p>
+<p>Your imported plays are however saved and will be available again if you resubscribe in the future.</p>
 <h4 id="are-platforms-other-then-spotify-and-apple-music-also-supported">Are platforms other then Spotify and Apple Music also supported?<a class="headerlink" href="#are-platforms-other-then-spotify-and-apple-music-also-supported" title="Permanent link">&para;</a></h4>
 <p>At the moment we only support Spotify and Apple Music.</p>
 <ul>
