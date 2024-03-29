@@ -112,6 +112,10 @@ If your supporter subscription expires, this service is no longer available and 
 
 Your imported plays are however saved and will be available again if you resubscribe in the future.
 
+#### Does being an .fmbot supporter give me Last.fm Pro? Or the other way around?
+
+No, .fmbot is not affiliated with Last.fm. 
+
 #### I have a question that isn't listed here
 
 Please join [our server](https://discord.gg/fmbot) and make a thread in the #help channel. A staff member will try to help you as soon as possible.
