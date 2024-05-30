@@ -15,6 +15,7 @@ The bot will only scrobble songs it can find on Last.fm. The scrobbling works be
 - Cakey Bot
 - Betty
 - Bleed
+- Uzox
 
 ### Requirements:
 
