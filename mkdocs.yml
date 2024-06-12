@@ -64,6 +64,7 @@ nav:
     - 'Genres': 'commands/genres.md'
     - 'Plays': 'commands/plays.md'
     - 'Tracks': 'commands/tracks.md'
+    - 'Games': 'commands/games.md'
     - 'Discogs': 'commands/discogs.md'
     - 'Genius': 'commands/genius.md'
     - 'Spotify': 'commands/spotify.md'

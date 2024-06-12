@@ -43,13 +43,14 @@ You can get supporter either directly through Discord or through OpenCollective.
 |             | Free        | Supporter |
 | ----------- | ----------- |----------- |
 | Help us pay for hosting, development and other costs  | ❌  | ✅ |
-| <span class="new">New</span> Import and use your full Spotify history | ❌  | ✅ |
+| Import and use your full Spotify history | ❌  | ✅ |
 | <span class="new">New</span> Import and use your full Apple Music history | ❌  | ✅ |
 | Added friends limit | 12 | 18 |
 | Personal automatic emoji reactions with `.userreactions` | ❌ | ✅ |
 | Custom `fm` footer options | 4 | 9 |
 | Get a better GPT-4 powered `.judge` command with higher limits and the ability to use the command on others | ❌ | ✅ |
-| <span class="new">New</span> View when you discovered artists with the `.discoveries` command | ❌ | ✅ |
+| View when you discovered artists with the `.discoveries` command | ❌ | ✅ |
+| <span class="new">New</span> Play unlimited jumble games | ❌ | ✅ |
 | Discovery dates in `artist`, `album` and `track` | ❌ | ✅ |
 | Years and listening time overview in `profile` | ❌ | ✅ |
 | Artist Discoveries and months in `year` | ❌ | ✅ |
@@ -76,7 +77,7 @@ You can get supporter either directly through Discord or through OpenCollective.
 
 ### Frequently asked
 
-
+.f​m
 #### Why a supporter program?
 
 In order to help us pay for hosting, fund development and deal with other expenses we've added a way for people to donate. In return for your support you get some cool exclusive perks.
