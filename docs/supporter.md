@@ -77,7 +77,6 @@ You can get supporter either directly through Discord or through OpenCollective.
 
 ### Frequently asked
 
-.f​m
 #### Why a supporter program?
 
 In order to help us pay for hosting, fund development and deal with other expenses we've added a way for people to donate. In return for your support you get some cool exclusive perks.

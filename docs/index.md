@@ -1,6 +1,6 @@
 .fmbot is a social Discord bot that provides music statistics for you, your friends, and your fellow server members. Easily see who listens to your favorite artist in a server and make new friends. Or discover new artists within your favorite genres.
 
-The bot connects to a Last.fm account to see your listening history. Over 800.000 users have already connected. To get started, simply use `/login`.
+The bot connects to a Last.fm account to see your listening history. Over 800.000 users have already connected. To get started, create [a Last.fm account](https://www.last.fm/join) and afterwards use `/login` in the bot.
 
 ---
 ### 📋Main features:
@@ -23,13 +23,14 @@ The bot connects to a Last.fm account to see your listening history. Over 800.00
 - [**Add friends**](/commands/friends/)  and see what they've been listening to in `/friends`
 - See how you stack up against anyone in the bot with our **global commands**
 - Use the [affinity command](/commands/artists/#affinity-aff) to see who's taste is most similar to you
+- Play the [jumble game](/commands/artists/#affinity-aff) together with friends
 
 ---
 ### ✨Featured
 
 Every hour we feature a random user with something they've recently listened to. Everyone is able to see this using the `/featured` command, and anyone who recently used the bot gets a chance to become featured!
 
-The bot will also change it's profile picture to the album cover of the feature. Want to be alerted when you get featured? Join our server and you'll get a ping.
+The bot will also change it's profile picture to the album cover of the feature. Want to be alerted when you get featured? Join [our server](https://discord.gg/fmbot) and you'll get a ping.
 
 ---
 ### 🔗Links:
@@ -43,9 +44,9 @@ The bot will also change it's profile picture to the album cover of the feature.
 
 ### Extra information
 
-.fmbot is trusted by over 400.000 servers, has over 800.000 registered users, and is used more than 450.000 times every day.
+.fmbot is trusted by over 400.000 servers, has over 800.000 registered users, and is used more than 500.000 times every day.
 
-It is written in C#, uses Discord.Net and .NET 8. The bot is [source-available](https://github.com/fmbot-discord/fmbot/), so anyone can see how it works.
+Even since the bot was created in 2017 we've been hard at work at providing the best and easiest to use music statistics.
 
 --- 
 

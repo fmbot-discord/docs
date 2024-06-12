@@ -6,7 +6,7 @@ Shows the user that is currently featured.
 
 Anyone that is registered in fmbot can get featured, on one condition: They must have used .fmbot in the last day.
 
-To get pinged when you get featured you can [join our server](https://discord.gg/JaHj26hHGk).
+Want to be notified when you're featured? Join [our server](https://discord.gg/JaHj26hHGk) and you'll get a ping.
 
 Possible featured modes:
 
