@@ -83,4 +83,5 @@ nav:
   - 'Terms of Use': 'terms.md'
   - 'Get supporter': 'supporter.md'
   - 'Join our server': https://discord.gg/fmbot
-  - 'Invite the bot': http://invite.fmbot.xyz/
+  - 'Add to server': https://discord.com/oauth2/authorize?client_id=356268235697553409&permissions=275415092288&scope=applications.commands%20bot
+  - 'Add user app': https://discord.com/oauth2/authorize?client_id=356268235697553409&scope=applications.commands&integration_type=1

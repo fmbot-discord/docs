@@ -35,7 +35,8 @@ The bot will also change it's profile picture to the album cover of the feature.
 ---
 ### 🔗Links:
 
-- You can invite .fmbot to your own server by [clicking here](http://invite.fmbot.xyz).
+- **You can invite .fmbot to your own server [by clicking here](https://discord.com/oauth2/authorize?client_id=356268235697553409&permissions=275415092288&scope=applications.commands%20bot)**
+- New: Install fmbot as a user app [by clicking here](https://discord.com/oauth2/authorize?client_id=356268235697553409&scope=applications.commands&integration_type=1)
 - Join the [.fmbot server](https://discord.gg/fmbot) for support and updates.
 - Follow us on Twitter: [@fmbotDiscord](https://twitter.com/fmbotDiscord)
 - Upvote or review us on [Wumpus Store](https://wumpus.store/bot/356268235697553409)

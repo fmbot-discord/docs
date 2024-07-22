@@ -41,6 +41,16 @@ Using imports requires an active [supporter subscription](/supporter).
 
 ---
 
+### Can I use the bot in DM's or group chats?
+
+Yes! Just add fmbot as a user app onto your Discord account.
+
+This way you'll be able to use slash commands from the bot in DM's, group chats and servers without .fmbot.
+
+[Click here to add the bot to your Discord account](https://discord.com/oauth2/authorize?client_id=356268235697553409&scope=applications.commands&integration_type=1)
+
+---
+
 ### Who picks what is featured?
 
 The bot randomly picks any user that has used .fmbot in the last day.
