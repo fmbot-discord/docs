@@ -16,6 +16,7 @@ The bot will only scrobble songs it can find on Last.fm. The scrobbling works be
 - Betty
 - Bleed
 - Uzox
+- FlaviBot
 
 ### Requirements:
 
