@@ -23,7 +23,7 @@ The bot connects to a Last.fm account to see your listening history. Over 800.00
 - [**Add friends**](/commands/friends/)  and see what they've been listening to in `/friends`
 - See how you stack up against anyone in the bot with our **global commands**
 - Use the [affinity command](/commands/artists/#affinity-aff) to see who's taste is most similar to you
-- Play the [jumble game](/commands/artists/#affinity-aff) together with friends
+- Play the [jumble games](/commands/games/) together with friends
 
 ---
 ### ✨Featured
