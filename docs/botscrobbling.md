@@ -17,6 +17,7 @@ The bot will only scrobble songs it can find on Last.fm. The scrobbling works be
 - Bleed
 - Uzox
 - FlaviBot
+- Maki
 
 ### Requirements:
 
