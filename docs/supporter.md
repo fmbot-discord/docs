@@ -48,7 +48,7 @@ You can get supporter either directly through Discord or through OpenCollective.
 | Added friends limit | 12 | 18 |
 | Personal automatic emoji reactions with `.userreactions` | ❌ | ✅ |
 | Custom `fm` footer options | 4 | 9 |
-| Get a better GPT-4 powered `.judge` command with higher limits and the ability to use the command on others | ❌ | ✅ |
+| Get a better GPT-4o powered `.judge` command with higher limits and the ability to use the command on others | ❌ | ✅ |
 | View when you discovered artists with the `.discoveries` command | ❌ | ✅ |
 | <span class="new">New</span> Play unlimited jumble games | ❌ | ✅ |
 | Discovery dates in `artist`, `album` and `track` | ❌ | ✅ |

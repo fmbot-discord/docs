@@ -26,7 +26,7 @@ Judges your music taste using AI. You can pick between either a compliment or a 
 
 Free users can use this command 3 times a day, <a href="/supporter/">supporters up to 15.</a>
 
-Supporters also get access to higher quality GPT-4 powered compliments and roasts.
+Supporters also get access to higher quality GPT-4o powered compliments and roasts.
 
 Options:
 

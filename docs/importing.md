@@ -112,6 +112,10 @@ For Spotify we only support files from the 'Extended streaming history' package.
 
 Still having issues? Please open a thread on [our server](https://discord.gg/fmbot).
 
+#### The uploading file is larger then 10mb and I don't have Discord Nitro
+
+Please join [our support server](https://discord.gg/fmbot) and run your import in #commands. Our server is boosted and has an upload limit of 100mb.
+
 #### It's adding less plays to my .fmbot account then expected
 
 Try switching modes with the `/import manage` command. This changes how your imports are combined with your Last.fm scrobbles.
