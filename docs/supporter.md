@@ -40,6 +40,9 @@ You can get supporter either directly through Discord or through OpenCollective.
 </a>
 </div>
 
+!!! quote ""
+    <i>Please note that .fmbot is not affiliated with Last.fm. Supporter does not grant Last.fm Pro, or the other way around.</i>
+
 |             | Free        | Supporter |
 | ----------- | ----------- |----------- |
 | Help us pay for hosting, development and other costs  | ❌  | ✅ |

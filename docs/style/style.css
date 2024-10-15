@@ -77,6 +77,11 @@ table {
     width: 1%;
 }
 
+.quote {
+    font-size: 0.8em !important;
+    border: .05rem solid var(--md-typeset-table-color) !important;
+}
+
 @media screen and (max-width: 40em) {
     .getsupporter-button {
         width: 100%;
