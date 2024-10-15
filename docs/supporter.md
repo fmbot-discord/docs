@@ -94,17 +94,13 @@ If you purchase through Discord it should get automatically activated within a m
 
 If you have purchased through OpenCollective it needs to be added manually. Join [our Discord](https://discord.gg/6y3jJjtDqK) and create a thread in #help. A staff member will apply it to your account as soon as possible.
 
-#### What is OpenCollective?
+#### Does being an .fmbot supporter give me Last.fm Pro? Or the other way around?
 
-OpenCollective is like Patreon, except for open source projects. It's also more transparent and easier when working with multiple people.
-
-They manage our funds and allow us to focus on development while they handle the financial side of things.
-
-OpenCollective relies on Stripe to handle their payments, which is one of the worlds biggest payment providers. You can read more about their [security here](https://docs.opencollective.com/help/product/security).
+No, .fmbot is not affiliated with Last.fm. 
 
 #### Can I cancel or change my subscription?
 
-If you have purchased through Discord, you can go to settings and then 'Subscriptions'.
+If you have purchased through Discord, you can go to your Discord settings and then 'Subscriptions'. This is only available on Discord desktop and browser, not on mobile.
 
 If you have puchased through OpenCollective, you can cancel a recurring contribution at any time. To do so, go to [OpenCollective](https://opencollective.com/) and sign in. After signing in go to 'Manage Contributions' where you can change your subscription.
 
@@ -114,10 +110,6 @@ Importing in .fmbot is a service that adjusts your Last.fm stats on the fly and 
 If your supporter subscription expires, this service is no longer available and the bot will only use your Last.fm stats.
 
 Your imported plays are however saved and will be available again if you resubscribe in the future.
-
-#### Does being an .fmbot supporter give me Last.fm Pro? Or the other way around?
-
-No, .fmbot is not affiliated with Last.fm. 
 
 #### I have a question that isn't listed here
 
