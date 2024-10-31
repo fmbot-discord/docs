@@ -318,3 +318,27 @@ Time periods:
 
 ---
 
+### .iceberg (`.ice`)
+
+Generates an iceberg, based on artist popularity.
+
+Options:
+
+* Time period - Timeframe of top artists. Defaults to alltime.
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
+Time periods: 
+
+* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+* Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
+
+!!! note "Examples"
+    `.ice`
+
+    `.iceberg`
+
+    `.ice w`
+    
+    `.iceberg weekly @user`
+
+    `.iceberg alltime @frikandel`

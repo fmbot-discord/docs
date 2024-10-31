@@ -4,7 +4,7 @@ The bot uses Last.fm by default for all your music data. We now also offer a way
 
 The bot will adjust your Last.fm stats on the fly and dynamically add your imports on top.
 
-This feature is only available for .fmbot supporters. Dont have supporter yet? <a href="/supporter/">Get it here.</a>
+Importing is only available for .fmbot supporters with an <a href="/supporter/">active subscription</a>.
 
 ---
 
