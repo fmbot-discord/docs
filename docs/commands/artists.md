@@ -342,3 +342,6 @@ Time periods:
     `.iceberg weekly @user`
 
     `.iceberg alltime @frikandel`
+
+!!! info ""
+    Iceberg artwork provided by  <a href="https://timschaap.com/">Tim Schaap.</a>
