@@ -37,8 +37,8 @@ This command only supports the 'Extended Streaming History' package. You can eit
 !!! note "Examples"
     `/import Spotify`
 
-!!! warning "Using Discord on your phone?"
-    Discord mobile currently has a bug where it might return `Not a valid value`. Please try importing your files through Discord desktop. We've reported this bug, sorry for the inconvenience.
+!!! warning "Files fail to upload?"
+    Discord recently decreased max file size limits to 10mb, and most data packages exceed this size. [Our support server](https://discord.gg/fmbot) has increased file size limits, please try running your import there in #commands.
 
 ---
 
@@ -71,6 +71,9 @@ Shows the instructions on how to get started if you attach no files. These instr
 
 !!! note "Examples"
     `/import applemusic`
+
+!!! warning "Files fail to upload?"
+    Discord recently decreased max file size limits to 10mb, and most data packages exceed this size. [Our support server](https://discord.gg/fmbot) has increased file size limits, please try running your import there in #commands.
 
 ---
 
