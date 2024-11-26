@@ -300,17 +300,15 @@ Time periods:
 * Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
 
 !!! note "Examples"
-    `.ta`
+    `.d`
 
-    `.artists`
+    `.discoveries`
 
-    `.topartists billboard`
+    `.discoveries 2024`
 
-    `.ta w bb`
+    `.d q`
     
-    `.topartists weekly @user`
-
-    `.topartists alltime @drasil`
+    `.discoveries monthly @user`
 
 
 !!! info ""
