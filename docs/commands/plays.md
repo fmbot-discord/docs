@@ -133,7 +133,7 @@ Options:
     
 ---
 
-### .year (`.wrapped`)
+### .year
 
 Shows you an overview of you or someone else their year.
 
@@ -149,5 +149,31 @@ Options:
 
     `.year 2024`
 
-    `.wrapped @frikandel`
+    `.year @frikandel`
+    
+
+---
+
+### .recap
+
+Shows all commands with a specific timeframe into one recap.
+
+[Supporters](/supporter/) get two extra pages with their Discoveries and listening time overview.
+
+Options:
+
+* Time period - Timeframe of recap. Defaults to current year
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
+Time periods: 
+
+* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+* Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
+
+!!! note "Examples"
+    `.recap`
+
+    `.recap 2024`
+
+    `.recap @frikandel`
     
