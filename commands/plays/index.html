@@ -637,9 +637,18 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#year-wrapped" class="md-nav__link">
+  <a href="#year" class="md-nav__link">
     <span class="md-ellipsis">
-      .year (.wrapped)
+      .year
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recap" class="md-nav__link">
+    <span class="md-ellipsis">
+      .recap
     </span>
   </a>
   
@@ -1231,9 +1240,18 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#year-wrapped" class="md-nav__link">
+  <a href="#year" class="md-nav__link">
     <span class="md-ellipsis">
-      .year (.wrapped)
+      .year
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recap" class="md-nav__link">
+    <span class="md-ellipsis">
+      .recap
     </span>
   </a>
   
@@ -1358,7 +1376,7 @@
 <p><code>.milestone rnd</code></p>
 </div>
 <hr />
-<h3 id="year-wrapped">.year (<code>.wrapped</code>)<a class="headerlink" href="#year-wrapped" title="Permanent link">&para;</a></h3>
+<h3 id="year">.year<a class="headerlink" href="#year" title="Permanent link">&para;</a></h3>
 <p>Shows you an overview of you or someone else their year.</p>
 <p><a href="/supporter/">Supporters</a> get an extra page with Artist Discoveries and a monthly overview.</p>
 <p>Options:</p>
@@ -1370,7 +1388,27 @@
 <p class="admonition-title">Examples</p>
 <p><code>.year</code></p>
 <p><code>.year 2024</code></p>
-<p><code>.wrapped @frikandel</code></p>
+<p><code>.year @frikandel</code></p>
+</div>
+<hr />
+<h3 id="recap">.recap<a class="headerlink" href="#recap" title="Permanent link">&para;</a></h3>
+<p>Shows all commands with a specific timeframe into one recap.</p>
+<p><a href="/supporter/">Supporters</a> get two extra pages with their Discoveries and listening time overview.</p>
+<p>Options:</p>
+<ul>
+<li>Time period - Timeframe of recap. Defaults to current year</li>
+<li>User - Select another user by mention, Discord ID or Last.fm username (<code>lfm:username</code>)</li>
+</ul>
+<p>Time periods: </p>
+<ul>
+<li><code>weekly</code>, <code>monthly</code>, <code>quarterly</code>, <code>half</code>, <code>yearly</code> or <code>alltime</code>. (<code>w</code>, <code>m</code>, <code>q</code>, <code>h</code>, <code>y</code> or <code>a</code>)</li>
+<li>Also supports year/month timeframes: <code>2023</code>, <code>Mar 2020</code>, <code>August</code></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Examples</p>
+<p><code>.recap</code></p>
+<p><code>.recap 2024</code></p>
+<p><code>.recap @frikandel</code></p>
 </div>
 
 
