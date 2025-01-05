@@ -2,39 +2,42 @@
 
 .fmbot is open-source and free to use. Optionally you can get supporter to help support the development of the bot and receive the following extra features and benefits.
 
-You can get supporter either directly through Discord or through OpenCollective.
+You can get supporter either directly through .fmbot or through the Discord store.
+
 
 <hr class="divider">
 <div>
+<p class="purchase-option">.fmbot</p>
+
+<button  class="md-button md-button--primary getsupporter-button"> 
+  <h4 class="title">Monthly</h3>
+  <h3>$3.99</h3>
+</button>
+
+<h4 class="getsupporter-text"></h4>
+
+<button class="md-button md-button--primary getsupporter-button"> 
+  <h4>Yearly</h3>
+  <h3>$23.99</h3>
+</button>
+</div>
+
+!!! note ""
+    Use the `/getsupporter` command to purchase supporter in .fmbot. This will guide you through the options and directly activate your supporter after purchase.
+
+<div>
+<hr class="divider">
+<div>
 <p class="purchase-option">Discord</p>
-<a href="https://discord.com/application-directory/356268235697553409/store" class="md-button md-button--primary getsupporter-button getsupporter-button-discord"> 
+<a href="https://discord.com/application-directory/356268235697553409/store" class="md-button md-button--secondary getsupporter-button getsupporter-button-discord"> 
   <h4>Monthly</h3>
   <h3>$3.99</h3>
 </a>
 </div>
 
-
-<hr class="divider">
-
-<div>
-
-<p class="purchase-option">OpenCollective</p>
-
-<a href="https://opencollective.com/fmbot/contribute/fmbot-monthly-supporter-45504/checkout?interval=month&amount=3.99" class="md-button md-button--secondary getsupporter-button"> 
-  <h4 class="title">Monthly</h3>
-  <h3>$3.99</h3>
-</a>
-
-<h4 class="getsupporter-text"></h4>
-
-<a href="https://opencollective.com/fmbot/contribute/fmbot-yearly-supporter-53612/checkout?interval=year&amount=25.99" class="md-button md-button--secondary getsupporter-button"> 
-  <h4>Yearly</h3>
-  <h3>$25.99</h3>
-</a>
-
-<h4 class="getsupporter-text"></h4>
-
 </div>
+
+---
 
 !!! quote ""
     <i>Please note that .fmbot is not affiliated with Last.fm. Supporter does not grant Last.fm Pro, or the other way around.</i>
@@ -67,12 +70,6 @@ You can get supporter either directly through Discord or through OpenCollective.
 
 --- 
 
-<h4 align="center"><strong>Thank you to all our generous supporters.</strong></h4>
-
-<a rel="noreferrer noopener" href="https://opencollective.com/fmbot" target="_blank"><img src="https://opencollective.com/fmbot/backers.svg?width=890&avatarHeight=36&button=false"></a>
-
----
-
 
 ### Frequently asked
 
@@ -98,6 +95,8 @@ No, .fmbot is not affiliated with Last.fm.
 
 If you have purchased through Discord, you can go to your Discord settings and then 'Subscriptions'. This is only available on Discord desktop and browser, not on mobile.
 
+If you have purchased directly with .fmbot, you can go to the [Stripe customer portal](https://billing.stripe.com/p/login/3cs7ww1tR6ay6t28ww) and authenticate with the email you used during purchase.
+
 If you have puchased through OpenCollective, you can cancel a recurring contribution at any time. To do so, go to [OpenCollective](https://opencollective.com/) and sign in. After signing in go to 'Manage Contributions' where you can change your subscription.
 
 #### What happens if I cancel my subscription and have imported my plays?
@@ -110,3 +109,10 @@ Your imported plays are however saved and will be available again if you resubsc
 #### I have a question that isn't listed here
 
 Please join [our server](https://discord.gg/fmbot) and make a thread in the #help channel. A staff member will try to help you as soon as possible.
+
+
+---
+
+<h4 align="center"><strong>Thank you to all our generous supporters.</strong></h4>
+
+<a rel="noreferrer noopener" href="https://opencollective.com/fmbot" target="_blank"><img src="https://opencollective.com/fmbot/backers.svg?width=890&avatarHeight=36&button=false"></a>
