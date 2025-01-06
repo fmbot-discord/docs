@@ -1,8 +1,8 @@
 # 🎉 Thank you for getting .fmbot supporter!
 
-Your purchase was successful, you can now close this window and return to Discord. 
+Your purchase was successful. You can now close this window and return to Discord.
 
-Your supporter should automatically apply within a minute, and you should receive a dm from the bot with extra information.
+Your supporter benefits should apply automatically within a minute, and you should receive a DM from the bot with additional information.
 
 Need more information? 
 
