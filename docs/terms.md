@@ -1,6 +1,6 @@
 # Terms of Use
 
-Last updated: October 12, 2023
+Last updated: January 6, 2025
 
 ## Agreement to Terms
 These Terms of Use constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and .fmbot (".fmbot" “fmbot”, “we”, “us”, or “our”), concerning your access to and use of .fmbot as well as any other media form, website, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Bot”). You agree that by accessing the Bot, you have read, understood, and agree to be bound by all of these Terms of Use. IF YOU DO NOT AGREE WITH ALL OF THESE TERMS OF USE, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE BOT AND YOU MUST DISCONTINUE USE IMMEDIATELY.
@@ -13,7 +13,7 @@ The Bot is intended for users who are at least 13 years of age. All users who ar
 By using the Bot, you represent and warrant that: (1) you have the legal capacity and you agree to comply with these Terms of Use; (2) you are not under the age of 13; (3) you are not a minor in the jurisdiction in which you reside, or if a minor, you have received parental permission to use the Bot; (4) you will not access the Discord Bot through automated or non-human means, whether through a bot, script or otherwise; (5) you will not use the Bot for any illegal or unauthorized purpose; and (6) your use of the Bot will not violate any applicable law or regulation.
 
 ## Fees and Payment
-We use OpenCollective and Discord for payments.
+We use OpenCollective, Discord and Stripe for payments.
 
 When you use Discord for any purchases, you must agree to their Paid Services Terms:
 
@@ -30,6 +30,14 @@ When you use OpenCollective, you must agree to their Terms of Service and Privac
 <https://opencollective.com/privacypolicy>
 
 If you have payment issues with OpenCollective, try contacting them. fmbot has limited access to help you resolve issues.
+
+When you use Stripe, you must agree with their terms and privacy policy:
+
+<https://stripe.com/legal/consumer>
+
+<https://stripe.com/privacy>
+
+If you have a payment issue with Stripe you can contact us on our [support server](https://discord.gg/fmbot) or via email: [billing-support@fm.bot](mailto:billing-support@fm.bot). Only billing and payment related emails will be answered.
 
 ## Prohibited Activities
 You may not access or use the Bot for any purpose other than that for which we make the Bot available. The Bot may not be used in connection with any commercial endeavors except those that are specifically endorsed or approved by us.
@@ -108,3 +116,5 @@ These Terms of Use and any policies or operating rules posted by us on the websi
 
 ## Contact Us
 Discord: <https://discord.gg/fmbot>
+
+Email (Only billing and payment related emails will be answered): [billing-support@fm.bot](mailto:billing-support@fm.bot)

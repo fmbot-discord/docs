@@ -1,8 +1,8 @@
 What data .fmbot collects, how we use it and how you can manage it.
 
-Last update: 2023-10-12
+Last update: January 6, 2025
 
-Changelog: Update command log storage policy
+Changelog: Added note about Stripe
 
 ## What does your application do?
 .fmbot is an open-source Last.fm Discord bot. Last.fm is a service that tracks what people listen to. 
@@ -66,6 +66,8 @@ If a server has Premium Server, the following data will be stored for every logg
 No data is stored from users that are not logged into the bot.
 
 'Logged in' means that a user has connected their Last.fm account to .fmbot with the 'login' command.
+
+When you make a purchase in the bot, [Stripe](https://stripe.com/privacy) might also store additional data about you. In this case we will also store what Stripe account belongs to what user, along with additional purchase metadata. This is to make sure a user can access the premium functionality.
 
 ## Music bot scrobbling
 If you have logged into the bot the bot will scrobble (store) songs music bots play to your Last.fm profile by default. 
