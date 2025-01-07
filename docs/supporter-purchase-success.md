@@ -1,7 +1,6 @@
 # 🎉 Thank you for getting .fmbot supporter!
 
-
-Your subscription allows us to keep the bot running and continuously add improvements. You can now close this window and return to Discord.
+You can now close this window and return to Discord.
 
 Your supporter benefits should apply automatically within a minute, and you should receive a DM from the bot with additional information.
 
