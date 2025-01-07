@@ -13,7 +13,7 @@ Need more information?
 
 ---
 
-<details style="font-size: .7rem;" open><summary>Overview of all your new perks</summary>
+<details style="font-size: .7rem;" open><summary>Overview of your new perks</summary>
 
 
 <h4>📈 <strong>Expanded commands with more statistics</strong></h4>
