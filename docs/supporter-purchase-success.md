@@ -27,7 +27,7 @@ Need more information?
 </ul>
 <p>🎮 <strong>Enhanced commands</strong></p>
 <ul>
-<li><code>.featured</code> — Chance to get featured on Supporter Sunday (next in 25 days)</li>
+<li><code>.featured</code> — Chance to get featured on Supporter Sunday (First sunday of each month)</li>
 <li><code>.judge</code> — Better output and ability to use the command on others</li>
 <li><code>.jumble</code> — Play unlimited Jumble games</li>
 <li><code>.pixel</code> — Play unlimited Pixel Jumble games</li>
