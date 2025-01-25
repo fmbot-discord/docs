@@ -95,7 +95,7 @@ No, .fmbot is not affiliated with Last.fm.
 
 If you have purchased through Discord, you can go to your Discord settings and then 'Subscriptions'. This is only available on Discord desktop and browser, not on mobile.
 
-If you have purchased directly with .fmbot, you can go to the [Stripe customer portal](https://billing.stripe.com/p/login/3cs7ww1tR6ay6t28ww) and authenticate with the email you used during purchase.
+If you have purchased directly with .fmbot, you can go to the [Stripe customer portal](https://billing.stripe.com/p/login/3cs7ww1tR6ay6t28ww) and authenticate with the email you used during purchase. If you are unable to login to the customer portal, please contact us at [billing-support@fm.bot](mailto:billing-support@fm.bot).
 
 If you have puchased through OpenCollective, you can cancel a recurring contribution at any time. To do so, go to [OpenCollective](https://opencollective.com/) and sign in. After signing in go to 'Manage Contributions' where you can change your subscription.
 
