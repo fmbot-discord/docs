@@ -1,5 +1,5 @@
 # Discord account authorized
 
-You can now return to Discord and press the 'Update roles' button.
+You can now return to Discord and use .fmbot slash commands everywhere. 
 
-Linked roles is currently in testing, this page will be expanded with a guide for server owners in the future.
+If a server has any linked roles available, you can claim them by clicking on the server name and going to 'Linked roles'.
