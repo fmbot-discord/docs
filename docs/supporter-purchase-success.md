@@ -30,6 +30,13 @@ Need more information?
 <li><code>.jumble</code> — Play unlimited Jumble games</li>
 <li><code>.pixel</code> — Play unlimited Pixel Jumble games</li>
 </ul>
+<p>🔎 <strong>Go back in time</strong></p>
+<ul>
+<li><code>.discoveries</code> — View your recently discovered artists</li>
+<li><code>.gaps</code> — View music you returned to after a gap in listening</li>
+<li><code>.discoverydate</code>/<code>.dd</code> — View when you discovered an artist, album and track</li>
+<li><code>.artist</code>, <code>.album</code>, <code>.track</code> — See discovery dates</li>
+</ul>
 <p>🗄️ <strong>Import your Spotify and/or Apple Music</strong></p>
 <ul>
 <li><code>/import spotify</code> — Import your full Spotify History</li>
@@ -41,11 +48,6 @@ Need more information?
 <li><code>/fmmode</code> — Expand your <code>fm</code> footer with more and exclusive options</li>
 <li><code>.userreactions</code> — Set your own emote reactions used globally</li>
 <li><code>.addfriends</code> — Add up to 18 friends, up from 12</li>
-</ul>
-<p>🔎 <strong>Go back in time</strong></p>
-<ul>
-<li><code>.discoveries</code> — View your recently discovered artists</li>
-<li><code>.artist</code>, <code>.album</code>, <code>.track</code> — See discovery dates</li>
 </ul>
 <p>🌎 <strong>Community perks</strong></p>
 <ul>
