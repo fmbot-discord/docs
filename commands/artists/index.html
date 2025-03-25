@@ -562,18 +562,27 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#discoveries-d" class="md-nav__link">
+  <a href="#iceberg-ice" class="md-nav__link">
     <span class="md-ellipsis">
-      .discoveries (.d)
+      .iceberg (.ice)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#iceberg-ice" class="md-nav__link">
+  <a href="#discoveries-d" class="md-nav__link">
     <span class="md-ellipsis">
-      .iceberg (.ice)
+      .discoveries (.d) ⭐
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gaps" class="md-nav__link">
+    <span class="md-ellipsis">
+      .gaps ⭐
     </span>
   </a>
   
@@ -1358,18 +1367,27 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#discoveries-d" class="md-nav__link">
+  <a href="#iceberg-ice" class="md-nav__link">
     <span class="md-ellipsis">
-      .discoveries (.d)
+      .iceberg (.ice)
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#iceberg-ice" class="md-nav__link">
+  <a href="#discoveries-d" class="md-nav__link">
     <span class="md-ellipsis">
-      .iceberg (.ice)
+      .discoveries (.d) ⭐
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gaps" class="md-nav__link">
+    <span class="md-ellipsis">
+      .gaps ⭐
     </span>
   </a>
   
@@ -1571,7 +1589,7 @@
 <hr />
 <h3 id="globalwhoknows-gwk-gw">.globalwhoknows (<code>.gwk</code>, <code>.gw</code>)<a class="headerlink" href="#globalwhoknows-gwk-gw" title="Permanent link">&para;</a></h3>
 <p>Shows who in .fmbot listened to current artist or the one you're searching for.</p>
-<p>This searches through all registered .fmbot users. Note that some users with fake playcounts might be excluded.</p>
+<p>This searches through all registered .fmbot users. Note that users that sleep scrobble or manipulate their playcounts otherwise might be excluded.</p>
 <p>Options:</p>
 <ul>
 <li>Artist - An artist you want to search for.</li>
@@ -1602,7 +1620,31 @@
 <p><code>.serverartists listeners weekly</code></p>
 </div>
 <hr />
-<h3 id="discoveries-d">.discoveries (<code>.d</code>)<a class="headerlink" href="#discoveries-d" title="Permanent link">&para;</a></h3>
+<h3 id="iceberg-ice">.iceberg (<code>.ice</code>)<a class="headerlink" href="#iceberg-ice" title="Permanent link">&para;</a></h3>
+<p>Generates an iceberg, based on artist popularity.</p>
+<p>Options:</p>
+<ul>
+<li>Time period - Timeframe of top artists. Defaults to alltime.</li>
+<li>User - Select another user by mention, Discord ID or Last.fm username (<code>lfm:username</code>)</li>
+</ul>
+<p>Time periods: </p>
+<ul>
+<li><code>weekly</code>, <code>monthly</code>, <code>quarterly</code>, <code>half</code>, <code>yearly</code> or <code>alltime</code>. (<code>w</code>, <code>m</code>, <code>q</code>, <code>h</code>, <code>y</code> or <code>a</code>)</li>
+<li>Also supports year/month timeframes: <code>2023</code>, <code>Mar 2020</code>, <code>August</code></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Examples</p>
+<p><code>.ice</code></p>
+<p><code>.iceberg</code></p>
+<p><code>.ice w</code></p>
+<p><code>.iceberg weekly @user</code></p>
+<p><code>.iceberg alltime @frikandel</code></p>
+</div>
+<div class="admonition info">
+<p>Iceberg artwork provided by  <a href="https://timschaap.com/">Tim Schaap.</a></p>
+</div>
+<hr />
+<h3 id="discoveries-d">.discoveries (<code>.d</code>) ⭐<a class="headerlink" href="#discoveries-d" title="Permanent link">&para;</a></h3>
 <p>Shows a list of when you discovered artists, together with their alltime playcount.</p>
 <p>Options:</p>
 <ul>
@@ -1626,28 +1668,19 @@
 <p>This command requires .fmbot to store your full listening history, which we only do for supporters. <a href="/supporter/">Get .fmbot supporter here.</a></p>
 </div>
 <hr />
-<h3 id="iceberg-ice">.iceberg (<code>.ice</code>)<a class="headerlink" href="#iceberg-ice" title="Permanent link">&para;</a></h3>
-<p>Generates an iceberg, based on artist popularity.</p>
+<h3 id="gaps">.gaps ⭐<a class="headerlink" href="#gaps" title="Permanent link">&para;</a></h3>
+<p>Shows when you rediscovered artists after a while.</p>
 <p>Options:</p>
 <ul>
-<li>Time period - Timeframe of top artists. Defaults to alltime.</li>
 <li>User - Select another user by mention, Discord ID or Last.fm username (<code>lfm:username</code>)</li>
-</ul>
-<p>Time periods: </p>
-<ul>
-<li><code>weekly</code>, <code>monthly</code>, <code>quarterly</code>, <code>half</code>, <code>yearly</code> or <code>alltime</code>. (<code>w</code>, <code>m</code>, <code>q</code>, <code>h</code>, <code>y</code> or <code>a</code>)</li>
-<li>Also supports year/month timeframes: <code>2023</code>, <code>Mar 2020</code>, <code>August</code></li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
-<p><code>.ice</code></p>
-<p><code>.iceberg</code></p>
-<p><code>.ice w</code></p>
-<p><code>.iceberg weekly @user</code></p>
-<p><code>.iceberg alltime @frikandel</code></p>
+<p><code>.gaps</code></p>
+<p><code>.gaps @user</code></p>
 </div>
 <div class="admonition info">
-<p>Iceberg artwork provided by  <a href="https://timschaap.com/">Tim Schaap.</a></p>
+<p>This command requires .fmbot to store your full listening history, which we only do for supporters. <a href="/supporter/">Get .fmbot supporter here.</a></p>
 </div>
 
 
