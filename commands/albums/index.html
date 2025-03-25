@@ -530,6 +530,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#albumgaps" class="md-nav__link">
+    <span class="md-ellipsis">
+      .albumgaps ⭐
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1321,6 +1330,15 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#albumgaps" class="md-nav__link">
+    <span class="md-ellipsis">
+      .albumgaps ⭐
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1340,6 +1358,10 @@
 <h1 id="albums">Albums<a class="headerlink" href="#albums" title="Permanent link">&para;</a></h1>
 <h3 id="album-ab">.album (<code>.ab</code>)<a class="headerlink" href="#album-ab" title="Permanent link">&para;</a></h3>
 <p>Gets information about current album or the one you're searching for.</p>
+<p>Options:</p>
+<ul>
+<li>Album - An album you want to search for. You can either use the built-in Last.fm search or seperate the artist and album yourself using a | as seperator.</li>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
 <p><code>.ab</code></p>
@@ -1352,8 +1374,9 @@
 <hr />
 <h3 id="albumplays-abp">.albumplays (<code>.abp</code>)<a class="headerlink" href="#albumplays-abp" title="Permanent link">&para;</a></h3>
 <p>Shows you your playcount for current album or the one you're searching for.</p>
-<p>Options: </p>
+<p>Options:</p>
 <ul>
+<li>Album - An album you want to search for. You can either use the built-in Last.fm search or seperate the artist and album yourself using a | as seperator.</li>
 <li>User - Select another user by mention, Discord ID or Last.fm username (<code>lfm:username</code>)</li>
 </ul>
 <div class="admonition note">
@@ -1424,6 +1447,7 @@
 <p>Note that Last.fm or Spotify will sometimes not return the tracks within an album.</p>
 <p>Options:</p>
 <ul>
+<li>Album - An album you want to search for. You can either use the built-in Last.fm search or seperate the artist and album yourself using a | as seperator.</li>
 <li>User - Select another user by mention, Discord ID or Last.fm username (<code>lfm:username</code>)</li>
 </ul>
 <div class="admonition note">
@@ -1435,6 +1459,10 @@
 <hr />
 <h3 id="cover-co">.cover (<code>.co</code>)<a class="headerlink" href="#cover-co" title="Permanent link">&para;</a></h3>
 <p>Shows the cover for current album or the one you're searching for.</p>
+<p>Options:</p>
+<ul>
+<li>Album - An album you want to search for. You can either use the built-in Last.fm search or seperate the artist and album yourself using a | as seperator.</li>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
 <p><code>.co</code></p>
@@ -1447,7 +1475,7 @@
 <p>Shows who in your server listened to current album or the one you're searching for.</p>
 <p>Options:</p>
 <ul>
-<li>Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.</li>
+<li>Album - An album you want to search for. You can either use the built-in Last.fm search or seperate the artist and album yourself using a | as seperator.</li>
 <li>Mode - Response mode. <code>embed</code> or <code>image</code></li>
 </ul>
 <div class="admonition note">
@@ -1462,7 +1490,7 @@
 <p>Shows who from your friends listened to current album or the one you're searching for.</p>
 <p>Options:</p>
 <ul>
-<li>Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.</li>
+<li>Album - An album you want to search for. You can either use the built-in Last.fm search or seperate the artist and album yourself using a | as seperator.</li>
 <li>Mode - Response mode. <code>embed</code> or <code>image</code></li>
 </ul>
 <div class="admonition note">
@@ -1475,10 +1503,10 @@
 <hr />
 <h3 id="globalwhoknowsalbum-gwka-gwa">.globalwhoknowsalbum (<code>.gwka</code>, <code>.gwa</code>)<a class="headerlink" href="#globalwhoknowsalbum-gwka-gwa" title="Permanent link">&para;</a></h3>
 <p>Shows who in .fmbot listened to current album or the one you're searching for.</p>
-<p>This searches through all registered .fmbot users. Note that some users with fake playcounts might be excluded.</p>
+<p>This searches through all registered .fmbot users. Note that users that sleep scrobble or manipulate their playcounts otherwise might be excluded.</p>
 <p>Options:</p>
 <ul>
-<li>Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.</li>
+<li>Album - An album you want to search for. You can either use the built-in Last.fm search or seperate the artist and album yourself using a | as seperator.</li>
 <li>Mode - Response mode. <code>embed</code> or <code>image</code></li>
 </ul>
 <div class="admonition note">
@@ -1502,6 +1530,21 @@
 <p><code>.serveralbums a p</code></p>
 <p><code>.serveralbums alltime plays</code></p>
 <p><code>.serveralbums listeners weekly</code></p>
+</div>
+<hr />
+<h3 id="albumgaps">.albumgaps ⭐<a class="headerlink" href="#albumgaps" title="Permanent link">&para;</a></h3>
+<p>Shows when you rediscovered albums after a while.</p>
+<p>Options:</p>
+<ul>
+<li>User - Select another user by mention, Discord ID or Last.fm username (<code>lfm:username</code>)</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Examples</p>
+<p><code>.agaps</code></p>
+<p><code>.albumgaps @user</code></p>
+</div>
+<div class="admonition info">
+<p>This command requires .fmbot to store your full listening history, which we only do for supporters. <a href="/supporter/">Get .fmbot supporter here.</a></p>
 </div>
 
 

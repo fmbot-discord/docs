@@ -743,6 +743,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#trackgaps" class="md-nav__link">
+    <span class="md-ellipsis">
+      .trackgaps ⭐
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1400,6 +1409,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#trackgaps" class="md-nav__link">
+    <span class="md-ellipsis">
+      .trackgaps ⭐
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -1425,6 +1443,10 @@
 <h2 id="viewing-your-tracks">Viewing your tracks<a class="headerlink" href="#viewing-your-tracks" title="Permanent link">&para;</a></h2>
 <h3 id="track-tr">.track (<code>.tr</code>)<a class="headerlink" href="#track-tr" title="Permanent link">&para;</a></h3>
 <p>Gets information about the track you're currently listening to or searching for.</p>
+<p>Options:</p>
+<ul>
+<li>Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.</li>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
 <p><code>.tr</code></p>
@@ -1439,6 +1461,7 @@
 <p>Shows you your playcount for current track or the one you're searching for.</p>
 <p>Options:</p>
 <ul>
+<li>Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.</li>
 <li>User - Select another user by mention, Discord ID or Last.fm username (<code>lfm:username</code>)</li>
 </ul>
 <div class="admonition note">
@@ -1450,6 +1473,10 @@
 <hr />
 <h3 id="trackdetailstd">.trackdetails(<code>.td</code>)<a class="headerlink" href="#trackdetailstd" title="Permanent link">&para;</a></h3>
 <p>Shows metadata for current track or the one you're searching for.</p>
+<p>Options:</p>
+<ul>
+<li>Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.</li>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
 <p><code>.td</code></p>
@@ -1520,7 +1547,7 @@
 <p>Note that the playcount for the user that requested the command will always be up to date.</p>
 <p>Options:</p>
 <ul>
-<li>Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.</li>
+<li>Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.</li>
 <li>Mode - Response mode. <code>embed</code> or <code>image</code></li>
 </ul>
 <div class="admonition note">
@@ -1535,7 +1562,7 @@
 <p>Shows who from your friends listened to current track or the one you're searching for.</p>
 <p>Options:</p>
 <ul>
-<li>Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.</li>
+<li>Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.</li>
 <li>Mode - Response mode. <code>embed</code> or <code>image</code></li>
 </ul>
 <div class="admonition note">
@@ -1548,10 +1575,10 @@
 <hr />
 <h3 id="globalwhoknowstrack-gwkt-gwt">.globalwhoknowstrack (<code>.gwkt</code>, <code>.gwt</code>)<a class="headerlink" href="#globalwhoknowstrack-gwkt-gwt" title="Permanent link">&para;</a></h3>
 <p>Shows who in .fmbot listened to current track or the one you're searching for.</p>
-<p>This searches through all registered .fmbot users. Note that some users with fake playcounts might be excluded.</p>
+<p>This searches through all registered .fmbot users. Note that users that sleep scrobble or manipulate their playcounts otherwise might be excluded.</p>
 <p>Options:</p>
 <ul>
-<li>Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.</li>
+<li>Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.</li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Examples</p>
@@ -1612,7 +1639,7 @@
 <p>Scrobbles the track you're searching for. You can only scrobble tracks that already exist on Last.fm.</p>
 <p>Options:</p>
 <ul>
-<li>Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.</li>
+<li>Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.</li>
 <li>Album - Specify the album you want by using a second seperator. <code>Artist | Track | Album</code></li>
 <li>Discogs - Instead of searching a track, scrobble an entire Discogs album into the future</li>
 </ul>
@@ -1624,6 +1651,21 @@
 <p><code>.scrobble Mac DeMarco | Chamber of Reflection</code></p>
 <p><code>.scrobble Home | Climbing Out | Falling into Place</code></p>
 <p><code>.scrobble https://www.discogs.com/release/249504-Rick-Astley-Never-Gonna-Give-You-Up</code></p>
+</div>
+<hr />
+<h3 id="trackgaps">.trackgaps ⭐<a class="headerlink" href="#trackgaps" title="Permanent link">&para;</a></h3>
+<p>Shows when you rediscovered tracks after a while.</p>
+<p>Options:</p>
+<ul>
+<li>User - Select another user by mention, Discord ID or Last.fm username (<code>lfm:username</code>)</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Examples</p>
+<p><code>.tgaps</code></p>
+<p><code>.trackgaps @user</code></p>
+</div>
+<div class="admonition info">
+<p>This command requires .fmbot to store your full listening history, which we only do for supporters. <a href="/supporter/">Get .fmbot supporter here.</a></p>
 </div>
 
 
