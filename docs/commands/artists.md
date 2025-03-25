@@ -244,7 +244,7 @@ Options:
 
 Shows who in .fmbot listened to current artist or the one you're searching for.
 
-This searches through all registered .fmbot users. Note that some users with fake playcounts might be excluded.
+This searches through all registered .fmbot users. Note that users that sleep scrobble or manipulate their playcounts otherwise might be excluded.
 
 Options:
 
@@ -285,7 +285,37 @@ Options:
 
 ---
 
-### .discoveries (`.d`)
+### .iceberg (`.ice`)
+
+Generates an iceberg, based on artist popularity.
+
+Options:
+
+* Time period - Timeframe of top artists. Defaults to alltime.
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
+Time periods: 
+
+* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+* Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
+
+!!! note "Examples"
+    `.ice`
+
+    `.iceberg`
+
+    `.ice w`
+    
+    `.iceberg weekly @user`
+
+    `.iceberg alltime @frikandel`
+
+!!! info ""
+    Iceberg artwork provided by  <a href="https://timschaap.com/">Tim Schaap.</a>
+
+---
+
+### .discoveries (`.d`) ⭐
 
 Shows a list of when you discovered artists, together with their alltime playcount.
 
@@ -316,30 +346,19 @@ Time periods:
 
 ---
 
-### .iceberg (`.ice`)
+### .gaps ⭐
 
-Generates an iceberg, based on artist popularity.
+Shows when you rediscovered artists after a while.
 
 Options:
 
-* Time period - Timeframe of top artists. Defaults to alltime.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
-Time periods: 
-
-* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
-* Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
-
 !!! note "Examples"
-    `.ice`
-
-    `.iceberg`
-
-    `.ice w`
+    `.gaps`
     
-    `.iceberg weekly @user`
+    `.gaps @user`
 
-    `.iceberg alltime @frikandel`
 
 !!! info ""
-    Iceberg artwork provided by  <a href="https://timschaap.com/">Tim Schaap.</a>
+    This command requires .fmbot to store your full listening history, which we only do for supporters. <a href="/supporter/">Get .fmbot supporter here.</a>
