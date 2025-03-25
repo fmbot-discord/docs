@@ -4,7 +4,7 @@ To view a list of all available commands, use the sidebar. The basic commands to
 
 .fmbot uses Last.fm to get information about your music taste. Don't have a Last.fm account? You can create one [here](https://www.last.fm/join).
 
-For more information on connecting Last.fm to Spotify other music services, please [click here](https://www.last.fm/about/trackmymusic).
+For more information on connecting Last.fm to Spotify or other music services, please [click here](https://www.last.fm/about/trackmymusic).
 
 Note that .fmbot is not associated with Last.fm, we simply use their API. For issues with Last.fm you can check out their [support forums](https://support.last.fm/).
 

@@ -37,6 +37,7 @@ Shows your latest plays.
 Options:
 
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* Artist ⭐ - Filter by artist name (supporter exclusive option)
 
 !!! note "Examples"
     `.r`
@@ -92,7 +93,7 @@ Shows you an estimate of when you will reach a certain amount of plays.
 Options:
 
 * Amount - Number of plays you want to reach
-* Time period - Time you want to base the estimate on. Defaults to your last.fm register date.
+* Time period - Time you want to base the estimate on. Defaults to your Last.fm register date.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
@@ -177,3 +178,25 @@ Time periods:
 
     `.recap @frikandel`
     
+---
+
+### .discoverydate (`.dd`) ⭐
+
+Shows when you discovered the artist, album and track you're listening to or searching for.
+
+Options:
+
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
+!!! note "Examples"
+    `.dd`
+    
+    `.dd the beatles yesterday`
+        
+    `.discoverydate @user`
+
+
+!!! info ""
+    This command requires .fmbot to store your full listening history, which we only do for supporters. <a href="/supporter/">Get .fmbot supporter here.</a>
+
+---

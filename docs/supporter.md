@@ -1,4 +1,4 @@
-# Become a supporter
+# Become a supporter ⭐
 
 .fmbot is open-source and free to use. Optionally you can get supporter to help support the development of the bot and receive the following extra features and benefits.
 
@@ -51,7 +51,8 @@ You can get supporter either directly through .fmbot or through the Discord stor
 | Personal automatic emoji reactions with `.userreactions` | ❌ | ✅ |
 | Custom `fm` footer options | 4 | 9 |
 | Get a better GPT-4o powered `.judge` command with higher limits and the ability to use the command on others | ❌ | ✅ |
-| View when you discovered artists with the `.discoveries` command | ❌ | ✅ |
+| View when you discovered artists with the `.discoveries` and `.discoverydate` command | ❌ | ✅ |
+| <span class="new">New</span> View when you re-discovered music with the `.gaps` command | ❌ | ✅ |
 | <span class="new">New</span> Play unlimited jumble games | ❌ | ✅ |
 | Discovery dates in `artist`, `album` and `track` | ❌ | ✅ |
 | Years and listening time overview in `profile` | ❌ | ✅ |
@@ -109,10 +110,3 @@ Your imported plays are however saved and will be available again if you resubsc
 #### I have a question that isn't listed here
 
 Please join [our server](https://discord.gg/fmbot) and make a thread in the #help channel. A staff member will try to help you as soon as possible.
-
-
----
-
-<h4 align="center"><strong>Thank you to all our generous supporters.</strong></h4>
-
-<a rel="noreferrer noopener" href="https://opencollective.com/fmbot" target="_blank"><img src="https://opencollective.com/fmbot/backers.svg?width=890&avatarHeight=36&button=false"></a>

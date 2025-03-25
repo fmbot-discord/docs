@@ -6,6 +6,10 @@
 
 Gets information about the track you're currently listening to or searching for.
 
+Options:
+
+* Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.
+
 !!! note "Examples"
     `.tr`
 
@@ -24,6 +28,7 @@ Shows you your playcount for current track or the one you're searching for.
 
 Options:
 
+* Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"
@@ -39,6 +44,10 @@ Options:
 ### .trackdetails(`.td`)
 
 Shows metadata for current track or the one you're searching for.
+
+Options:
+
+* Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.
 
 !!! note "Examples"
     `.td`
@@ -134,7 +143,7 @@ Note that the playcount for the user that requested the command will always be u
 
 Options:
 
-* Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
+* Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.
 * Mode - Response mode. `embed` or `image`
 
 !!! note "Examples"
@@ -155,7 +164,7 @@ Shows who from your friends listened to current track or the one you're searchin
 
 Options:
 
-* Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
+* Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.
 * Mode - Response mode. `embed` or `image`
 
 !!! note "Examples"
@@ -174,11 +183,11 @@ Options:
 
 Shows who in .fmbot listened to current track or the one you're searching for.
 
-This searches through all registered .fmbot users. Note that some users with fake playcounts might be excluded.
+This searches through all registered .fmbot users. Note that users that sleep scrobble or manipulate their playcounts otherwise might be excluded.
 
 Options:
 
-* Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
+* Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.
 
 !!! note "Examples"
     `.gwt`
@@ -264,7 +273,7 @@ Scrobbles the track you're searching for. You can only scrobble tracks that alre
 
 Options:
 
-* Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
+* Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.
 * Album - Specify the album you want by using a second seperator. `Artist | Track | Album`
 * Discogs - Instead of searching a track, scrobble an entire Discogs album into the future
 
@@ -280,3 +289,23 @@ Options:
     `.scrobble Home | Climbing Out | Falling into Place`
 
     `.scrobble https://www.discogs.com/release/249504-Rick-Astley-Never-Gonna-Give-You-Up`
+
+---
+
+### .trackgaps ⭐
+
+Shows when you rediscovered tracks after a while.
+
+Options:
+
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
+!!! note "Examples"
+    `.tgaps`
+    
+    `.trackgaps @user`
+
+
+!!! info ""
+    This command requires .fmbot to store your full listening history, which we only do for supporters. <a href="/supporter/">Get .fmbot supporter here.</a>
+

@@ -91,7 +91,7 @@ Shows who from your friends listened to an album you're currently listening to o
 
 Options:
 
-* Album - An album you want to search for. You can either use the built-in last.fm search or seperate the artist and album yourself using a | as seperator.
+* Album - An album you want to search for. You can either use the built-in Last.fm search or seperate the artist and album yourself using a | as seperator.
 
 !!! note "Examples"
     `.fwa`
@@ -111,7 +111,7 @@ Shows who from your friends listened to an track you're currently listening to o
 
 Options:
 
-* Track - A track you want to search for. You can either use the built-in last.fm search or seperate the artist and trackname yourself using a | as separator.
+* Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.
 
 !!! note "Examples"
     `.fwt`

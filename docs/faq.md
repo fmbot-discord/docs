@@ -124,7 +124,7 @@ If you are familiar with C# / .NET you can also help us out and pick up one of t
 
 ### Why does this bot exist?
 
-This bot was made by [BitL](https://twitter.com/BitlDev) back in September 2017 and was inspired by [UB3R Bot](https://ub3r-b0t.com/). Back then the bot just had `.fm`, the charts, featuring and `.fmyoutube`. 
+This bot was made by [BitL](https://bsky.app/profile/bitldev.bsky.social) back in September 2017 and was inspired by [UB3R Bot](https://ub3r-b0t.com/). Back then the bot just had `.fm`, the charts, featuring and `.fmyoutube`. 
 
 Frikandel joined in when he had the idea of `.friends`, but was too lazy to make his own bot. Together they moved the bot from text files to an actual database and made various other improvements.
 
