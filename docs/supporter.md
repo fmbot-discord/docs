@@ -75,39 +75,41 @@ You can get supporter either directly through .fmbot or through the Discord stor
 
 ### Frequently asked
 
-#### Why a supporter program?
+??? info "Why a supporter program?"
 
-In order to help us pay for hosting, fund development and deal with other expenses we've added a way for people to donate. In return for your support you get some cool exclusive perks.
+    In order to help us pay for hosting, fund development and deal with other expenses we've added a way for people to donate. In return for your support you get some cool exclusive perks.
 
-We're dedicated to making sure the bot remains free and independent. That's why most supporter features are simply features that are nice but would be difficult to roll out to everyone. For example some of the extra statistics require us to store your full listening history, which would be difficult to do for all our users.
+    We're dedicated to making sure the bot remains free and independent. That's why most supporter features are simply features that are nice but would be difficult to roll out to everyone. For example some of the extra statistics require us to store your full listening history, which would be difficult to do for all our users.
 
-By getting supporter you help us to be able to spend more time working on new features and fixes, which in return improves the user experience for everyone.
+    By getting supporter you help us to be able to spend more time working on new features and fixes, which in return improves the user experience for everyone.
 
-#### How do I activate my subscription?
+??? info "How do I activate my subscription?"
 
-If you purchase through Discord it should get automatically activated within a minute.
+    If you purchase through Discord or with us through Stripe it should get automatically activated within a minute.
 
-If you have purchased through OpenCollective it needs to be added manually. Join [our Discord](https://discord.gg/6y3jJjtDqK) and create a thread in #help. A staff member will apply it to your account as soon as possible.
+    The bot will send you a welcome DM with instructions. It could be that you don't get this DM if you have strict Discord settings.
 
-#### Does being an .fmbot supporter give me Last.fm Pro? Or the other way around?
+    Having issues? Please join [our Discord](https://discord.gg/6y3jJjtDqK) and create a thread in #help. We'll take a look as soon as possible.
 
-No, .fmbot is not affiliated with Last.fm. 
+??? info "Does being an .fmbot supporter give me Last.fm Pro? Or the other way around?"
 
-#### Can I cancel or change my subscription?
+    No, .fmbot is not affiliated with Last.fm. 
 
-If you have purchased through Discord, you can go to your Discord settings and then 'Subscriptions'. This is only available on Discord desktop and browser, not on mobile.
+??? info "Can I cancel or change my subscription?"
 
-If you have purchased directly with .fmbot, you can go to the [Stripe customer portal](https://billing.stripe.com/p/login/3cs7ww1tR6ay6t28ww) and authenticate with the email you used during purchase. If you are unable to login to the customer portal, double check if you're using the right email. Otherwise, please contact us at [billing-support@fm.bot](mailto:billing-support@fm.bot).
+    If you have purchased through Discord, you can go to your Discord settings and then 'Subscriptions'. This is only available on Discord desktop and browser, not on mobile.
 
-If you have puchased through OpenCollective, you can cancel a recurring contribution at any time. To do so, go to [OpenCollective](https://opencollective.com/) and sign in. After signing in go to 'Manage Contributions' where you can change your subscription.
+    If you have purchased directly with .fmbot, you can go to the [Stripe customer portal](https://billing.stripe.com/p/login/3cs7ww1tR6ay6t28ww) and authenticate with the email you used during purchase. If you are unable to login to the customer portal, double check if you're using the right email. Otherwise, please contact us at [billing-support@fm.bot](mailto:billing-support@fm.bot).
 
-#### What happens if I cancel my subscription and have imported my plays?
+    If you have puchased through OpenCollective, you can cancel a recurring contribution at any time. To do so, go to [OpenCollective](https://opencollective.com/) and sign in. After signing in go to 'Manage Contributions' where you can change your subscription.
 
-Importing in .fmbot is a service that adjusts your Last.fm stats on the fly and adds your imported plays on top. 
-If your supporter subscription expires, this service is no longer available and the bot will only use your Last.fm stats.
+??? info "What happens if I cancel my subscription and have imported my plays?"
 
-Your imported plays are however saved and will be available again if you resubscribe in the future.
+    Importing in .fmbot is a service that adjusts your Last.fm stats on the fly and adds your imported plays on top. 
+    If your supporter subscription expires, this service is no longer available and the bot will only use your Last.fm stats.
 
-#### I have a question that isn't listed here
+    Your imported plays are however saved and will be available again if you resubscribe in the future.
 
-Please join [our server](https://discord.gg/fmbot) and make a thread in the #help channel. A staff member will try to help you as soon as possible.
+??? info "I have a question that isn't listed here"
+
+    Please join [our server](https://discord.gg/fmbot) and make a thread in the #help channel. A staff member will try to help you as soon as possible.

@@ -29,6 +29,7 @@ theme:
     - announce.dismiss
 markdown_extensions:
   - admonition
+  - pymdownx.details
   - attr_list
   - toc:
       permalink: true
