@@ -309,3 +309,24 @@ Options:
 !!! info ""
     This command requires .fmbot to store your full listening history, which we only do for supporters. <a href="/supporter/">Get .fmbot supporter here.</a>
 
+---
+
+### .lyrics ⭐
+
+Shows lyrics for track you're currently listening to or searching for.
+
+Options:
+
+* Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.
+
+!!! note "Examples"
+    `.lr`
+    
+    `.lyrics`
+    
+    `.lyrics around the world`
+
+
+!!! info ""
+    Viewing track lyrics in .fmbot is only available for .fmbot supporters. <a href="/supporter/">Get .fmbot supporter here.</a>
+
