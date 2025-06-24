@@ -83,6 +83,12 @@ You can get supporter either directly through .fmbot or through the Discord stor
 
     By getting supporter you help us to be able to spend more time working on new features and fixes, which in return improves the user experience for everyone.
 
+??? info "Can I gift someone else supporter?"
+
+    Yes. To gift supporter on Discord desktop, right-click a user, go to 'Apps' and click 'Gift supporter'.
+
+    On mobile, open their profile, go to 'Apps' and press 'Gift supporter'.
+
 ??? info "How do I activate my subscription?"
 
     If you purchase through Discord or with us through Stripe it should get automatically activated within a minute.
