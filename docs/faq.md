@@ -5,7 +5,13 @@
     This bot uses your music history for various commands. For this we use a website called Last.fm. 
     This site allows you to track your music history [from various platforms](https://www.last.fm/about/trackmymusic).
 
-    To get started you need [to create a Last.fm account](https://www.last.fm/join). After you've setup your account there you can connect your account to our bot by using `/login` within Discord.
+    New to Last.fm?
+
+    1. Create a [Last.fm account](https://last.fm/join)
+    2. Connect it to [your music platform](https://www.last.fm/about/trackmymusic) - Quick link [for Spotify here](https://www.last.fm/settings/applications)
+    3. Use any .fmbot command, like `.fm` or `.whoknows`
+    4. Press 'Connect Last.fm account' and follow the instructions
+    5. Done! You can now use .fmbot.
 
     While we require a Last.fm account the bot is not affiliated with Last.fm.
 
@@ -93,9 +99,9 @@
 
     The develop bot is used to test new fixes and functionality before they go to the normal bot. This is usually announced in #beta-changelog on [our server](https://discord.gg/fmbot).
 
-    This bot can have more downtime and bugs than the normal bot, so that is something to keep in mind. The bots currently share the same database, so switching is easy.
-
     Note that if either bot leaves your server all your server data and settings will be cleared.
+
+    Invites for the develop bot are currently closed until further notice. You can use it on [our support server](https://discord.gg/fmbot) in #commands or on the unofficial [Last.fm server](https://discord.gg/lastfm).
 
 
 ??? info "Is there any way to support the bot?"

@@ -1,12 +1,10 @@
 # Getting started
 
-To view a list of all available commands, use the sidebar. The basic commands to get started are listed below.
-
 .fmbot uses Last.fm to get information about your music taste. Don't have a Last.fm account? You can create one [here](https://www.last.fm/join).
 
 For more information on connecting Last.fm to Spotify or other music services, please [click here](https://www.last.fm/about/trackmymusic).
 
-Note that .fmbot is not associated with Last.fm, we simply use their API. For issues with Last.fm you can check out their [support forums](https://support.last.fm/).
+Note that .fmbot is not associated with Last.fm, we simply use their API. For issues with Last.fm you can check out their [support forums](https://support.last.fm/) or their unofficial [Discord server](https://discord.gg/lastfm).
 
 Have an issue with the bot you need help with? Please check the [Frequently Asked](/faq/) section first.
 
@@ -14,18 +12,14 @@ Have an issue with the bot you need help with? Please check the [Frequently Aske
 
 ### .login
 
-This command connects your Last.fm account to .fmbot.
+Allows you to sign up for Last.fm or to connect an existing Last.fm account to .fmbot.
 
-After using this command the bot will DM you a link where you can allow access to your Last.fm account.
-
-Not receiving a DM from .fmbot when using this command? Please check if you have DMs enabled in the servers privacy settings.
-
+If you changed your Last.fm account or username, you can also change it by simply connecting again.
 
 !!! note "Examples"
     `.login`
 
-    `/login` (responds in-channel)
-
+    `/login`
     
 !!! info ""
     Please note that users in shared servers will be able to see and request your Last.fm username.
