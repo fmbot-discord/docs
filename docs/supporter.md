@@ -45,15 +45,16 @@ You can get supporter either directly through .fmbot or through the Discord stor
 |             | Free        | Supporter |
 | ----------- | ----------- |----------- |
 | Help us pay for hosting, development and other costs  | ❌  | ✅ |
-| Import and use your full Spotify history | ❌  | ✅ |
-| Import and use your full Apple Music history | ❌  | ✅ |
+| Import and access your full Spotify history | ❌  | ✅ |
+| Import and access your full Apple Music history | ❌  | ✅ |
 | <span class="new">New</span> View `.lyrics` directly in .fmbot | ❌ | ✅ |
 | Added friends limit | 12 | 18 |
 | Personal automatic emoji reactions with `.userreactions` | ❌ | ✅ |
-| Custom `fm` footer options | 4 | 9 |
-| Get a better GPT-4o powered `.judge` command with higher limits and the ability to use the command on others | ❌ | ✅ |
+| <span class="new">New</span> Configure up to 10 bot-wide command `.shortcuts` | ❌ | ✅ |
+| Custom `fm` footer options | 4 | 10 |
+| Get an improved `.judge` command with higher limits and the ability to use the command on others | ❌ | ✅ |
 | View when you discovered artists with the `.discoveries` and `.discoverydate` command | ❌ | ✅ |
-| <span class="new">New</span> View when you re-discovered music with the `.gaps` command | ❌ | ✅ |
+| View when you re-discovered music with the `.gaps` command | ❌ | ✅ |
 | Play unlimited jumble games | ❌ | ✅ |
 | Discovery dates in `artist`, `album` and `track` | ❌ | ✅ |
 | Years and listening time overview in `profile` | ❌ | ✅ |

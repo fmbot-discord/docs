@@ -11,6 +11,7 @@ You can set how your `.fm` embed looks with the [`.mode` command](/commands#mode
 Options:
 
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* Mode - Override your selected mode `embedtiny`/`embedmini`/`embedfull`/`textmini`/`textfull`/`oneline`
 
 !!! note "Examples"
     `.fm`

@@ -8,6 +8,7 @@ Options:
 
 * Artist - An artist you want to search for.
 * Random - Use `random`/`rnd` to view a random artist you've listened to
+* Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
 
 !!! note "Examples"
     `.a`
@@ -50,6 +51,7 @@ Options:
 
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Random - Use `random`/`rnd` to view a random artist you've listened to
+* Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
 
 !!! note "Examples"
     `.ap`
@@ -99,6 +101,7 @@ Shows you your all-time top tracks for current artist or the one you're searchin
 Options:
 
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
 
 !!! note "Examples"
     `.at`
@@ -117,6 +120,7 @@ Shows you your all-time top albums for current artist or the one you're searchin
 Options:
 
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
 
 !!! note "Examples"
     `.aa`
@@ -200,6 +204,7 @@ Options:
 * Artist - An artist you want to search for.
 * Mode - Response mode. `embed` or `image`
 * Random - Use `random`/`rnd` to view a random artist you've listened to
+* Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
 
 !!! note "Examples"
     `.w`
@@ -224,6 +229,7 @@ Options:
 * Artist - An artist you want to search for.
 * Mode - Response mode. `embed` or `image`
 * Random - Use `random`/`rnd` to view a random artist you've listened to
+* Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
 
 !!! note "Examples"
     `.fw`
@@ -251,6 +257,7 @@ Options:
 * Artist - An artist you want to search for.
 * Mode - Response mode. `embed` or `image`
 * Random - Use `random`/`rnd` to view a random artist you've listened to
+* Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
 
 !!! note "Examples"
     `.gw`
