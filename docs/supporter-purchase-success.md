@@ -19,7 +19,8 @@ Need more information?
 <ul>
 <li><code>.profile</code> — Expanded profile with more insights and a yearly overview</li>
 <li><code>.recap</code> — Extra pages with discoveries and listening time</li>
-<li><code>.recent</code> — See your lifetime listening history and filter to specific artists</li>
+<li><code>.overview</code> — See your lifetime listening history day to day</li>
+<li><code>.recent</code> — See your lifetime listening history</li>
 <li><code>.artisttracks</code> — See all tracks, even those outside of your top 6000</li>
 <li><code>.artistalbums</code> — See all albums, even those outside of your top 5000</li>
 </ul>
@@ -27,7 +28,7 @@ Need more information?
 <ul>
 <li><code>.lyrics</code> — View lyrics directly inside of .fmbot</li>
 <li><code>.featured</code> — Chance to get featured on Supporter Sunday (First sunday of each month)</li>
-<li><code>.judge</code> — Better output and ability to use the command on others</li>
+<li><code>.judge</code> — Better output and increased usage limits</li>
 <li><code>.jumble</code> — Play unlimited Jumble games</li>
 <li><code>.pixel</code> — Play unlimited Pixel Jumble games</li>
 </ul>
@@ -47,6 +48,7 @@ Need more information?
 </ul>
 <p>⚙️ <strong>More customization</strong></p>
 <ul>
+<li><code>.shortcuts</code> — Configure shortcuts to easily access your favorite commands</li>
 <li><code>/fmmode</code> — Expand your <code>fm</code> footer with more and exclusive options</li>
 <li><code>.userreactions</code> — Set your own emote reactions used globally</li>
 <li><code>.addfriends</code> — Add up to 18 friends, up from 12</li>

@@ -26,7 +26,7 @@ Options:
     Tip: You can click the embed title to go to the users Last.fm profile.
 
 !!! tip ""
-    If you want .fmbot to add reactions to this command, please see [`.serverreactions`](/guildsettings/#serverreactions).
+    If you want .fmbot to add reactions to this command, please see [`.serverreactions`](/guildsettings/#serverreactions) and [`.userreactions`](/commands/#userreactions).
 
 ---
 
@@ -38,16 +38,18 @@ Shows your latest plays.
 Options:
 
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
-* Artist ⭐ - Filter by artist name (supporter exclusive option)
+* Artist - Filter by artist name
 
 !!! note "Examples"
     `.r`
 
     `.recent`
+
+    `.recent moby`
     
 
 !!! info ""
-    For supporters this command expands to your full listening history. Supporters can also filter to specific artists. [Get .fmbot supporter here.](/supporter)
+    For supporters this command expands to your full listening history. [Get .fmbot supporter here.](/supporter)
 
     
 ---

@@ -52,7 +52,7 @@ You can get supporter either directly through .fmbot or through the Discord stor
 | Personal automatic emoji reactions with `.userreactions` | ❌ | ✅ |
 | <span class="new">New</span> Configure up to 10 bot-wide command `.shortcuts` | ❌ | ✅ |
 | Custom `fm` footer options | 4 | 10 |
-| Get an improved `.judge` command with higher limits and the ability to use the command on others | ❌ | ✅ |
+| Get an improved `.judge` command with sharper outputs and increased usage limits | ❌ | ✅ |
 | View when you discovered artists with the `.discoveries` and `.discoverydate` command | ❌ | ✅ |
 | View when you re-discovered music with the `.gaps` command | ❌ | ✅ |
 | Play unlimited jumble games | ❌ | ✅ |

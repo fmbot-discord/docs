@@ -24,14 +24,14 @@ Example below:
 
 Judges your music taste using AI. You can pick between either a compliment or a roast.
 
-Free users can use this command 3 times a day, <a href="/supporter/">supporters up to 15.</a>
+Free users can use this command 6 times a day, <a href="/supporter/">supporters up to 25.</a>
 
-Supporters also get access to higher quality GPT-4o powered compliments and roasts.
+Supporters also get access to higher quality compliments and roasts, generated with a better language model.
 
 Options:
 
 * Time period - Time period of your top artists. Defaults to weekly.
-* User - Supporter only - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"
     `.judge`
