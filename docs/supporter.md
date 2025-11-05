@@ -112,7 +112,9 @@ You can get supporter either directly through .fmbot or through the Discord stor
     - Through the 'Manage subscription' button in the receipt emails
     - In the [Stripe customer portal](https://billing.stripe.com/p/login/3cs7ww1tR6ay6t28ww) where you can login with the email you used during purchase
 
-    If these methods didn't work for you, please contact us at [billing-support@fm.bot](mailto:billing-support@fm.bot).
+    To switch from monthly to yearly billing, use the 'Manage' button. To cancel, use the 'Cancel' button. 
+
+    If the above methods didn't work for you, please contact us at [billing-support@fm.bot](mailto:billing-support@fm.bot).
 
     If you have purchased through Discord, you can go to your Discord settings and then 'Subscriptions'. This is only available on Discord desktop and browser, not on mobile.
 
