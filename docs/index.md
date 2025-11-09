@@ -44,7 +44,7 @@ The bot will also change it's profile picture to the album cover of the feature.
 
 ### Extra information
 
-.fmbot is trusted by over 700k servers, has over one million registered users, and is used more than 600k times every day.
+.fmbot is trusted by over 800k servers, has over 1.5 million registered users, and is used more than 600k times every day.
 
 Even since the bot was created in 2017 we've been hard at work at providing the best and easiest to use music statistics.
 
