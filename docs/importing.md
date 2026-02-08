@@ -50,7 +50,7 @@ This command only supports the 'Extended Streaming History' package. You can eit
 4. De-select the other options
 5. Press request data
 6. Confirm your data request through your email
-7. Wait up to 30 days for Spotify to deliver your files
+7. Wait up to 30 days for Spotify to deliver your files (usually sent within a few days)
 
 #### Importing your data into .fmbot
 1. Download the file Spotify provided

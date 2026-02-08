@@ -49,7 +49,7 @@ Need more information?
 <p>⚙️ <strong>More customization</strong></p>
 <ul>
 <li><code>.shortcuts</code> — Configure shortcuts to easily access your favorite commands</li>
-<li><code>/fmmode</code> — Expand your <code>fm</code> footer with more and exclusive options</li>
+<li><code>/fmmode</code> — Customize your <code>fm</code> command with more and exclusive options</li>
 <li><code>.userreactions</code> — Set your own emote reactions used globally</li>
 <li><code>.addfriends</code> — Add up to 18 friends, up from 12</li>
 </ul>
