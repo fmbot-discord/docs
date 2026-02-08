@@ -19,7 +19,7 @@ Play the new Jumble game! Guess the artist out of your all-time top artists toge
     Server staff and want to restrict jumble to specific channels? Use `.togglecommand`
 
 !!! info ""
-    Want to play unlimited jumbles every day? <a href="/supporter/">Get .fmbot supporter here.</a>
+    Want to play unlimited jumbles every day? [Get .fmbot supporter here.](../supporter.md)
 
 ---
 
@@ -42,4 +42,4 @@ Play the new Pixel jumble game! Guess the album out of your all-time top albums 
     Server staff and want to restrict pixel jumble to specific channels? Use `.togglecommand`
 
 !!! info ""
-    Want to play unlimited pixel jumbles every day? <a href="/supporter/">Get .fmbot supporter here.</a>
+    Want to play unlimited pixel jumbles every day? [Get .fmbot supporter here.](../supporter.md)

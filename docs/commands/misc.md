@@ -16,7 +16,7 @@ You can reply to any fmbot command or response that contains an artist, album or
 
 Example below:
 
-![Reply context example](/img/reply_context_example.png){ loading=lazy }
+![Reply context example](../img/reply_context_example.png){ loading=lazy }
 
 ---
 
@@ -24,7 +24,7 @@ Example below:
 
 Judges your music taste using AI. You can pick between either a compliment or a roast.
 
-Free users can use this command 6 times a day, <a href="/supporter/">supporters up to 25.</a>
+Free users can use this command 6 times a day, [supporters up to 25.](../supporter.md)
 
 Supporters also get access to higher quality compliments and roasts, generated with a better language model.
 

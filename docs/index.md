@@ -6,24 +6,24 @@ The bot connects to a Last.fm account to see your listening history. To get star
 ### 📋Main features:
 
 - Show your friends what you're listening to by using `/fm`
-- Customize your `/fm` to make it unique with [`/mode`](/commands/#mode)
-- Generate advanced [**image charts**](/commands/albums/#chart-c) based on your listening history
+- Customize your `/fm` to make it unique with [`/mode`](./commands/index.md#fmmode)
+- Generate advanced [**image charts**](./commands/albums.md#chart-c) based on your listening history
 - Easily see **genre and country info** for your favorite artists
 - Get the Spotify, Youtube, or Genius link for any song
 - View all your Last.fm statistics through **deep integration with Last.fm**
-- Scrobble songs that other Discord bots are playing to your Last.fm account with our [**Music Bot Scrobbling**](/botscrobbling/)
-- View and show off your **[Discogs collection](/commands/discogs/)**
+- Scrobble songs that other Discord bots are playing to your Last.fm account with our [**Music Bot Scrobbling**](./botscrobbling.md)
+- View and show off your **[Discogs collection](./commands/discogs.md)**
 
 ---
 ### 👥Social features:
 
-- Use [**`/WhoKnows`**](/commands/artists/#whoknows-wk-w) in your server to see top listeners for artists and compete for crowns!
+- Use [**`/WhoKnows`**](./commands/artists.md#whoknows-wk-w) in your server to see top listeners for artists and compete for crowns!
 - See **what music is trending in your server** for various time periods with our `/server` commands
-- [Compare your taste](/commands/artists/#taste-t) with others and see who has the most similar music taste
-- [**Add friends**](/commands/friends/)  and see what they've been listening to in `/friends`
+- [Compare your taste](./commands/artists.md#taste-t) with others and see who has the most similar music taste
+- [**Add friends**](./commands/friends.md)  and see what they've been listening to in `/friends`
 - See how you stack up against anyone in the bot with our **global commands**
-- Use the [affinity command](/commands/artists/#affinity-aff) to see who's taste is most similar to you
-- Play the [jumble games](/commands/games/) together with friends
+- Use the [affinity command](./commands/artists.md#affinity-aff) to see who's taste is most similar to you
+- Play the [jumble games](./commands/games.md) together with friends
 
 ---
 ### ✨Featured
@@ -50,4 +50,4 @@ Even since the bot was created in 2017 we've been hard at work at providing the 
 
 --- 
 
-<h4 align="center">Thank you to all our generous supporters. <a href="/supporter">Support .fmbot too and get some nice perks in return.</a></h4> 
+<h4 align="center">Thank you to all our generous supporters. <a href="./supporter">Support .fmbot too and get some nice perks in return.</a></h4> 

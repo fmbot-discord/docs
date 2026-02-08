@@ -6,9 +6,9 @@ Your supporter benefits should apply automatically within a minute, and you shou
 
 Need more information? 
 
-- [Importing](/importing)
-- [Supporter - Frequently Asked](/supporter/#frequently-asked)
-- [Frequently Asked](/faq)
+- [Importing](./importing.md)
+- [Supporter - Frequently Asked](./supporter.md#frequently-asked)
+- [Frequently Asked](./faq.md)
 - [Support server](https://discord.gg/fmbot)
 
 

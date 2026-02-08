@@ -4,7 +4,7 @@ The bot uses Last.fm by default for all your music data. We now also offer a way
 
 The bot will adjust your Last.fm stats on the fly and dynamically add your imports on top everywhere in .fmbot.
 
-Using your imported history together with your Last.fm scrobbles is only available for .fmbot supporters with an <a href="/supporter/">active .fmbot subscription</a>.
+Using your imported history together with your Last.fm scrobbles is only available for .fmbot supporters with an [active .fmbot subscription](./supporter.md).
 
 ---
 
@@ -155,7 +155,7 @@ Shows the instructions on how to get started if you attach no files. These instr
     - YouTube music exports are unfortunately too inconsistent in their artist and track names, so support will not be added.
     - Listenbrainz export support is planned and will be added in the future.
 
-    Want a different platform to be supported? Open a help thread in [our server](discord.gg/fmbot). It helps if you have a data export ready for the developers, so that way they can test a possible integration.
+    Want a different platform to be supported? Open a help thread in [our server](https://discord.gg/fmbot). It helps if you have a data export ready for the developers, so that way they can test a possible integration.
 
     Each platform should have some way for you to request your listening data. This is legally required in Europe, California and various other places around the world.
 

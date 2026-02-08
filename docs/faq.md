@@ -35,9 +35,9 @@
 
 ??? info "How do I import my Spotify or Apple Music history into .fmbot?"
 
-    Check out the [importing page](/importing) for more info.
+    Check out the [importing page](./importing.md) for more info.
 
-    Using imports requires an active [supporter subscription](/supporter).
+    Using imports requires an active [supporter subscription](./supporter.md).
 
 ??? info "Can I use the bot in DM's or group chats?"
 
@@ -51,11 +51,11 @@
 
     The bot randomly picks any user that has used .fmbot in the last day.
 
-    For more information, check out [Featured](/commands/featured/).
+    For more information, check out [Featured](./commands/featured.md).
 
 ??? info "How do I remove someone from WhoKnows?"
 
-    Please check the server [WhoKnows settings](/guildsettings/whoknowsettings/).
+    Please check the server [WhoKnows settings](./guildsettings/whoknowsettings.md).
 
 ??? info "I'm not visible in Global WhoKnows"
 
@@ -106,7 +106,7 @@
 
 ??? info "Is there any way to support the bot?"
 
-    To support us financially, check out [.fmbot supporter](/supporter/). You help us with the hosting and development of the bot while getting some nice perks in return.
+    To support us financially, check out [.fmbot supporter](./supporter.md). You help us with the hosting and development of the bot while getting some nice perks in return.
 
 ??? info "Why does this bot exist?"
 

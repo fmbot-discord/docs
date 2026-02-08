@@ -72,7 +72,7 @@ nav:
     - 'Genius': 'commands/genius.md'
     - 'Spotify': 'commands/spotify.md'
     - 'YouTube': 'commands/youtube.md'
-    - 'Updating': 'commands/whoknows.md'
+    - 'Updating': 'commands/updating.md'
     - 'Miscellaneous': 'commands/misc.md'
   - 'Server configuration':
     - 'General': 'guildsettings/index.md'
