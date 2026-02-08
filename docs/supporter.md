@@ -47,11 +47,13 @@ You can get supporter either directly through .fmbot or through the Discord stor
 | Help us pay for hosting, development and other costs  | ❌  | ✅ |
 | Import and access your full Spotify history | ❌  | ✅ |
 | Import and access your full Apple Music history | ❌  | ✅ |
-| <span class="new">New</span> View `.lyrics` directly in .fmbot | ❌ | ✅ |
+| View `.lyrics` directly in .fmbot | ❌ | ✅ |
 | Added friends limit | 12 | 18 |
 | Personal automatic emoji reactions with `.userreactions` | ❌ | ✅ |
-| <span class="new">New</span> Configure up to 10 bot-wide command `.shortcuts` | ❌ | ✅ |
-| Custom `fm` footer options | 4 | 10 |
+| Configure up to 10 bot-wide command `.shortcuts` | ❌ | ✅ |
+| Max custom `fm` footer options | 4 | 10 |
+| <span class="new">New</span> Max custom `fm` buttons | 1 | 5 |
+| <span class="new">New</span> Custom `fm` accent colors | ❌ | ✅ |
 | Get an improved `.judge` command with sharper outputs and increased usage limits | ❌ | ✅ |
 | View when you discovered artists with the `.discoveries` and `.discoverydate` command | ❌ | ✅ |
 | View when you re-discovered music with the `.gaps` command | ❌ | ✅ |
@@ -92,14 +94,6 @@ You can get supporter either directly through .fmbot or through the Discord stor
 
     You can also use the slash command `/giftsupporter`.
 
-??? info "How do I activate my subscription?"
-
-    If you purchase through Discord or with us through Stripe it should get automatically activated within a minute.
-
-    The bot will send you a welcome DM with instructions. It could be that you don't get this DM if you have strict Discord settings.
-
-    Having issues? Please join [our Discord](https://discord.gg/6y3jJjtDqK) and create a thread in #help. We'll take a look as soon as possible.
-
 ??? info "Does being an .fmbot supporter give me Last.fm Pro? Or the other way around?"
 
     No, .fmbot is not affiliated with Last.fm. 
@@ -127,6 +121,14 @@ You can get supporter either directly through .fmbot or through the Discord stor
 
     Your imported plays are however saved and will be available again if you resubscribe in the future.
 
+??? info "How do I activate my subscription?"
+
+    If you purchase through Discord or with us through Stripe it should get automatically activated within a minute.
+
+    The bot will send you a welcome DM with instructions. It could be that you don't get this DM if you have strict Discord settings.
+
+    Having issues? Please join [our Discord](https://discord.gg/6y3jJjtDqK) and create a thread in #help. We'll take a look as soon as possible.
+
 ??? info "I have a question that isn't listed here"
 
-    Please join [our server](https://discord.gg/fmbot) and make a thread in the #help channel. A staff member will try to help you as soon as possible.
+    Please join [our server](https://discord.gg/fmbot) and make a thread in the #help channel. A staff member will try to help you as soon as they're available.
