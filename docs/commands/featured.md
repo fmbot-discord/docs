@@ -24,7 +24,7 @@ If your top album doesn't have a picture, no worries. The bot will just grab the
         
 !!! info ""
     Every first Sunday of each month is Supporter Sunday. On this day .fmbot picks featured from .fmbot supporters, as a thank you for supporting the bot.
-    [Get .fmbot supporter here.](/supporter)
+    [Get .fmbot supporter here.](../supporter.md)
 
 
 ---

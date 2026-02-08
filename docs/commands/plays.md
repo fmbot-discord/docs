@@ -6,7 +6,7 @@
 
 Shows your last 1 or 2 scrobbles, either in embed or text format.
 
-You can set how your `.fm` embed looks with the [`.mode` command](/commands#mode).
+You can set how your `.fm` embed looks with the [`.mode` command](./index.md#fmmode).
 
 Options:
 
@@ -26,7 +26,7 @@ Options:
     Tip: You can click the embed title to go to the users Last.fm profile.
 
 !!! tip ""
-    If you want .fmbot to add reactions to this command, please see [`.serverreactions`](/guildsettings/#serverreactions) and [`.userreactions`](/commands/#userreactions).
+    If you want .fmbot to add reactions to this command, please see [`.serverreactions`](../guildsettings/index.md#serverreactions) and [`.userreactions`](./index.md#userreactions).
 
 ---
 
@@ -49,7 +49,7 @@ Options:
     
 
 !!! info ""
-    For supporters this command expands to your full listening history. [Get .fmbot supporter here.](/supporter)
+    For supporters this command expands to your full listening history. [Get .fmbot supporter here.](../supporter.md)
 
     
 ---
@@ -141,7 +141,7 @@ Options:
 
 Shows you an overview of you or someone else their year.
 
-[Supporters](/supporter/) get an extra page with Artist Discoveries and a monthly overview.
+[Supporters](../supporter.md) get an extra page with Artist Discoveries and a monthly overview.
 
 Options:
 
@@ -162,7 +162,7 @@ Options:
 
 Shows all commands with a specific timeframe into one recap.
 
-[Supporters](/supporter/) get two extra pages with their Discoveries and listening time overview.
+[Supporters](../supporter.md) get two extra pages with their Discoveries and listening time overview.
 
 Options:
 
@@ -200,6 +200,5 @@ Options:
 
 
 !!! info ""
-    This command requires .fmbot to store your full listening history, which we only do for supporters. <a href="/supporter/">Get .fmbot supporter here.</a>
-
+    This command requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)
 ---

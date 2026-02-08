@@ -22,7 +22,7 @@ One can also search by format type, include `cassette`, `cd` or `vinyl` in the c
 
 This command updates your stored collection in .fmbot. Your collection can only be updated once per hour. 
 
-Some places where your collection can also be visible are the [`profile`](/commands#profile), [`artist`](/commands/artists#artist-a), [`album`](/commands/albums#album-ab) as well as [`taste`](/commands/artists#taste-t) commands if both you and the other user have run [`.discogs`](#discogs).
+Some places where your collection can also be visible are the [`profile`](./index.md#profile), [`artist`](./artists.md#artist-a), [`album`](./albums.md#album-ab) as well as [`taste`](./artists.md#taste-t) commands if both you and the other user have run [`.discogs`](#discogs).
 
 Options:
 
@@ -38,6 +38,6 @@ Options:
 !!! info ""
     Only the last 100 items you've added to Discogs can be viewed and stored. 
     
-    Want to view your whole collection? <a href="/supporter/">Get .fmbot supporter here.</a>
+    Want to view your whole collection? [Get .fmbot supporter here.](../supporter.md)
 
 

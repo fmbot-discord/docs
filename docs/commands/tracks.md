@@ -18,7 +18,7 @@ Options:
     `.track Kaytranada You're The One`
 
 !!! info ""
-    Want this command to also show the date you discovered a track? <a href="/supporter/">Get .fmbot supporter here.</a>
+    Want this command to also show the date you discovered a track? [Get .fmbot supporter here.](../supporter.md)
     
 ---
 
@@ -75,7 +75,7 @@ Options:
     
 
 !!! info ""
-    For supporters this command expands to your full listening history. <a href="/supporter/">Get .fmbot supporter here.</a>
+    For supporters this command expands to your full listening history. [Get .fmbot supporter here.](../supporter.md)
 
 ---
 
@@ -307,7 +307,7 @@ Options:
 
 
 !!! info ""
-    This command requires .fmbot to store your full listening history, which we only do for supporters. <a href="/supporter/">Get .fmbot supporter here.</a>
+    This command requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)
 
 ---
 
@@ -328,5 +328,5 @@ Options:
 
 
 !!! info ""
-    Viewing track lyrics in .fmbot is only available for .fmbot supporters. <a href="/supporter/">Get .fmbot supporter here.</a>
+    Viewing track lyrics in .fmbot is only available for .fmbot supporters. [Get .fmbot supporter here.](../supporter.md)
 

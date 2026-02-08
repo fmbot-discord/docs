@@ -16,7 +16,7 @@ Options:
     `.album Ventura Anderson .Paak`
 
 !!! info ""
-    Want this command to also show the date you discovered an album? [Get .fmbot supporter here.](/supporter)
+    Want this command to also show the date you discovered an album? [Get .fmbot supporter here.](../supporter.md)
     
 ---
 
@@ -252,5 +252,5 @@ Options:
 
 
 !!! info ""
-    This command requires .fmbot to store your full listening history, which we only do for supporters. <a href="/supporter/">Get .fmbot supporter here.</a>
+    This command requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)
 

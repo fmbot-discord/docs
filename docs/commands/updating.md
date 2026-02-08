@@ -27,10 +27,10 @@ This command updates your playcount cache in the bot. This works by fetching you
     `.update full`
 
 !!! info ""
-    If you want .fmbot to store more then just your top 4/5/6k artist/albums/tracks, check out [.fmbot supporter](/supporter/)!
+    If you want .fmbot to store more then just your top 4/5/6k artist/albums/tracks, check out [.fmbot supporter](../supporter.md)!
 
 !!! info ""
-    Having issues with the bot not picking up what you're playing on Spotify? Check out the [FAQ entry](/faq/#commands-are-showing-the-wrong-songs-its-not-showing-what-i-listen-to-on-spotify).
+    Having issues with the bot not picking up what you're playing on Spotify? Check out the [FAQ](../faq.md).
 
 ---
 

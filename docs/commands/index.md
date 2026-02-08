@@ -6,7 +6,7 @@ For more information on connecting Last.fm to Spotify or other music services, p
 
 Note that .fmbot is not associated with Last.fm, we simply use their API. For issues with Last.fm you can check out their [support forums](https://support.last.fm/) or their unofficial [Discord server](https://discord.gg/lastfm).
 
-Have an issue with the bot you need help with? Please check the [Frequently Asked](/faq/) section first.
+Have an issue with the bot you need help with? Please check the [Frequently Asked](../faq.md) section first.
 
 ---
 
@@ -53,7 +53,7 @@ Options:
     `.stats`
 
 !!! info ""
-    Want to see a yearly overview on your profile? [Get .fmbot supporter here.](/supporter)
+    Want to see a yearly overview on your profile? [Get .fmbot supporter here.](../supporter.md)
 
 ---
 
@@ -94,7 +94,7 @@ Use the provided dropdowns to select and de-select which options you want.
 
 !!! info ""
     Supporters can select up 9 options, and have access to some exclusive options like first artist listen. 
-    <a href="/supporter/">Get .fmbot supporter here.</a>
+    [Get .fmbot supporter here.](../supporter.md)
 
 ---
 
@@ -132,7 +132,7 @@ Max amount of emojis is 5. Please put a space between every emoji.
 
 !!! info ""
     This setting is supporter only.
-    <a href="/supporter/">Get .fmbot supporter here.</a>
+    [Get .fmbot supporter here.](../supporter.md)
 
 !!! note "Examples"
     `.userreactions :PagChomp: :PensiveBlob:`

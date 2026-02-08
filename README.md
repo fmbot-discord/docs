@@ -1,25 +1,21 @@
 # FMbot documentation
 Documentation website for fmbot
 
-https://fmbot.xyz/
+https://fm.bot/
 
 To edit the documentation:
 
-1. Install mkdocs: https://www.mkdocs.org/
+1. Install `uv`: https://docs.astral.sh/uv/getting-started/installation/
 
-2. Install mkdocs-material: https://squidfunk.github.io/mkdocs-material/getting-started/
+2. Clone the repo
 
-3. Clone the repo
+3. Install dependencies using `uv sync`
 
-4. See a live preview using `mkdocs serve`
-
-5. Deploy using `mkdocs gh-deploy`
+4. See a live preview using `uv run zensical serve`
 
 
-## Updating your local installation (Windows)
+## Updating your local installation
 
-1. Pip (as admin!): `python -m pip install -U pip`
+1. Upgrade `uv`: https://docs.astral.sh/uv/getting-started/installation/#upgrading-uv
 
-2. Upgrade mkdocs: `pip install -U mkdocs`
-
-3. Update mkdocs-material: `pip install --upgrade mkdocs-material`
+2. Upgrade dependencies: `uv lock --upgrade`
