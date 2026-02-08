@@ -6,7 +6,7 @@ The bot connects to a Last.fm account to see your listening history. To get star
 ### 📋Main features:
 
 - Show your friends what you're listening to by using `/fm`
-- Customize your `/fm` to make it unique with [`/mode`](./commands/index.md#fmmode)
+- Customize your `/fm` to make it unique with [`/fmmode`](./commands/index.md#fmmode)
 - Generate advanced [**image charts**](./commands/albums.md#chart-c) based on your listening history
 - Easily see **genre and country info** for your favorite artists
 - Get the Spotify, Youtube, or Genius link for any song
