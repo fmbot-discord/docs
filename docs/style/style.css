@@ -1,6 +1,11 @@
 [data-md-color-scheme="default"] {
-  --md-code-bg-color: #e6e6e6;
+  --md-code-bg-color: #d9e4f7;
 }
+
+[data-md-color-scheme="slate"] {
+  --md-code-bg-color: hsla(var(--md-hue),35%,20%,1);;
+}
+
 
 h1 {
     margin: 0 0 0.8em !important;
