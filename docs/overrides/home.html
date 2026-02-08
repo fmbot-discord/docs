@@ -38,6 +38,7 @@
     flex: 1 0 48%;
     gap: 0.6rem;
     margin: 0;
+    position: relative;
     transition:
       transform 0.75s cubic-bezier(0.075, 0.85, 0.175, 1),
       opacity 0.75s;
@@ -69,6 +70,18 @@
   .mdx-title {
     padding-top: 1.5rem;
   }
+
+  .subtitle {
+            position: absolute;
+            display: flex;
+            gap: 0.5rem;
+            bottom: -0.5rem;
+            right: 50%;
+            transform: translateX(50%);
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.6);
+            border-radius: 9px;
+            z-index: 10;
+        }
 </style>
 <section class="mdx-container">
     <div class="md-hero">
@@ -112,27 +125,28 @@
                         <li class="mdx-expect__item md-typeset">
                             <div class="mdx-expect__description">
                                 <p>
-                                    Show your friends what you're listening to by using
-                                    <code>/fm</code>
+                                    Posts your currently playing track
                                 </p>
                             </div>
+                            <code class="subtitle">/fm</code>
                         </li>
                         <li class="mdx-expect__item md-typeset">
                             <div class="mdx-expect__description">
                                 <p>
-                                    Customize your <code>/fm</code> to make it unique with
-                                    <a href="./commands#fmmode"><code>/fmmode</code></a>
+                                    Customize your <code>/fm</code> to make it unique</a>
                                 </p>
                             </div>
+                            <code class="subtitle"><a href="./commands#fmmode">.fmmode</a></code>
                         </li>
                         <li class="mdx-expect__item md-typeset">
                             <div class="mdx-expect__description">
                                 <p>
                                     Generate advanced
-                                    <a href="./commands/albums#chart-c"><strong>image charts</strong></a>
+                                    <strong>image charts</strong>
                                     based on your listening history
                                 </p>
                             </div>
+                            <code class="subtitle"><a href="./commands/albums#chart-c">.chart</a></code>
                         </li>
                         <li class="mdx-expect__item md-typeset">
                             <div class="mdx-expect__description">
@@ -141,10 +155,13 @@
                                     favorite artists
                                 </p>
                             </div>
-                        </li>
-                        <li class="mdx-expect__item md-typeset">
-                            <div class="mdx-expect__description">
-                                <p>Get the Spotify, Youtube, or Genius link for any song</p>
+                            <div class="subtitle">
+                                <code>
+                                    <a href="./commands/countries#country-from">.from</a>
+                                </code>
+                                <code>
+                                    <a href="./commands/genres#genre-g">.genre</a>
+                                </code>
                             </div>
                         </li>
                         <li class="mdx-expect__item md-typeset">
@@ -154,6 +171,7 @@
                                     <strong>deep integration with Last.fm</strong>
                                 </p>
                             </div>
+                            <code class="subtitle"><a href="./commands/#profile">.profile</a></code>
                         </li>
                         <li class="mdx-expect__item md-typeset">
                             <div class="mdx-expect__description">
@@ -163,14 +181,16 @@
                                     <a href="./botscrobbling"><strong>Music Bot Scrobbling</strong></a>
                                 </p>
                             </div>
+                            <code class="subtitle"><a href="./botscrobbling/#botscrobbling">/botscrobbling</a></code>
                         </li>
                         <li class="mdx-expect__item md-typeset">
                             <div class="mdx-expect__description">
                                 <p>
                                     View and show off your
-                                    <a href="./commands/discogs"><strong>Discogs collection</strong></a>
+                                    <strong>Discogs collection</strong>
                                 </p>
                             </div>
+                            <code class="subtitle"><a href="./commands/discogs#collection">/collection</a></code>
                         </li>
                     </ul>
                 </div>
