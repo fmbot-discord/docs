@@ -1,0 +1,337 @@
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
+<style>
+  .md-header {
+    position: initial;
+  }
+
+  .md-main__inner {
+    margin: 0;
+  }
+
+  .md-content {
+    display: none;
+  }
+
+  .md-sidebar--secondary {
+    display: none !important;
+  }
+
+  .md-sidebar--primary {
+    display: none;
+  }
+
+  .md-section {
+    margin: 2.4rem 0;
+  }
+
+  .mdx-expect__list {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1.6rem;
+    padding: 0;
+  }
+
+  .mdx-expect__item {
+    display: flex;
+    flex: 1 0 48%;
+    gap: 0.6rem;
+    margin: 0;
+    transition:
+      transform 0.75s cubic-bezier(0.075, 0.85, 0.175, 1),
+      opacity 0.75s;
+    transition-delay: 0s, 0s;
+    background: #448aff1a;
+    padding: 1.6rem;
+    border-radius: .4rem;
+  }
+
+  .mdx-container {
+    padding: 0 2.4rem ;
+  }
+
+  .md-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+  }
+
+  .md-centered {
+    text-align: center;
+  }
+
+  .md-button--sized {
+    width: 13rem;
+  }
+
+  .mdx-title {
+    padding-top: 1.5rem;
+  }
+</style>
+<section class="mdx-container">
+    <div class="md-hero">
+        <div class="md-grid md-typeset">
+            <h1 class="md-centered mdx-title">.fmbot</h1>
+            <div class="mdx-expect__list">
+                <a href="/commands" class="md-button md-button--primary md-button--sized">
+                    <p class="title">Get started</p>
+                </a>
+                <a
+                    href="https://discord.com/oauth2/authorize?client_id=356268235697553409&permissions=275415092288&scope=applications.commands%20bot"
+                    class="md-button md-button--secondary md-button--sized">
+                    <p class="title">Add .fmbot to your server</p>
+                </a>
+                <a href="https://discord.gg/fmbot" class="md-button md-button--secondary md-button--sized">
+                    <p class="title">Join the .fmbot server</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="md-grid md-typeset">
+            <p>
+                .fmbot is a social Discord bot that provides music statistics for you,
+                your friends, and your fellow server members. Easily see who listens to
+                your favorite artist in a server and make new friends. Or discover new
+                artists within your favorite genres.
+            </p>
+
+            <p>
+                The bot connects to a Last.fm account to see your listening history. To
+                get started and join over a million other users,
+                <a href="https://www.last.fm/join" target="_blank">sign up for Last.fm</a>
+                and use <code>/login</code> in the bot afterwards.
+            </p>
+        </div>
+
+        <div class="md-grid">
+            <div class="md-typeset">
+                <h2 class="md-centered md-typeset">Main features</h2>
+            </div>
+            <div class="md-content__inner">
+                <div class="mdx-expect">
+                    <ul class="mdx-expect__list">
+                        <li class="mdx-expect__item md-typeset">
+                            <div class="mdx-expect__description">
+                                <p>
+                                    Show your friends what you're listening to by using
+                                    <code>/fm</code>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="mdx-expect__item md-typeset">
+                            <div class="mdx-expect__description">
+                                <p>
+                                    Customize your <code>/fm</code> to make it unique with
+                                    <a href="./commands#fmmode"><code>/fmmode</code></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="mdx-expect__item md-typeset">
+                            <div class="mdx-expect__description">
+                                <p>
+                                    Generate advanced
+                                    <a href="./commands/albums#chart-c"><strong>image charts</strong></a>
+                                    based on your listening history
+                                </p>
+                            </div>
+                        </li>
+                        <li class="mdx-expect__item md-typeset">
+                            <div class="mdx-expect__description">
+                                <p>
+                                    Easily see <strong>genre and country info</strong> for your
+                                    favorite artists
+                                </p>
+                            </div>
+                        </li>
+                        <li class="mdx-expect__item md-typeset">
+                            <div class="mdx-expect__description">
+                                <p>Get the Spotify, Youtube, or Genius link for any song</p>
+                            </div>
+                        </li>
+                        <li class="mdx-expect__item md-typeset">
+                            <div class="mdx-expect__description">
+                                <p>
+                                    View all your Last.fm statistics through
+                                    <strong>deep integration with Last.fm</strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="mdx-expect__item md-typeset">
+                            <div class="mdx-expect__description">
+                                <p>
+                                    Scrobble songs that other Discord bots are playing to your
+                                    Last.fm account with our
+                                    <a href="./botscrobbling"><strong>Music Bot Scrobbling</strong></a>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="mdx-expect__item md-typeset">
+                            <div class="mdx-expect__description">
+                                <p>
+                                    View and show off your
+                                    <a href="./commands/discogs"><strong>Discogs collection</strong></a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="md-grid">
+            <div class="md-typeset">
+                <h2 class="md-centered">Social features</h2>
+            </div>
+            <div class="md-content__inner">
+                <div class="mdx-expect">
+                    <ul class="mdx-expect__list">
+                        <li class="mdx-expect__item md-typeset">
+                            <div class="mdx-expect__description">
+                                <p>
+                                    Use
+                                    <a href="./commands/artists#whoknows-wk-w"><code>/WhoKnows</code></a>
+                                    in your server to see top listeners for artists and compete
+                                    for crowns!
+                                </p>
+                            </div>
+                        </li>
+                        <li class="mdx-expect__item md-typeset">
+                            <div class="mdx-expect__description">
+                                <p>
+                                    See <strong>what music is trending in your server</strong> for
+                                    various time periods with our <code>/server</code> commands
+                                </p>
+                            </div>
+                        </li>
+                        <li class="mdx-expect__item md-typeset">
+                            <div class="mdx-expect__description">
+                                <p>
+                                    <a href="./commands/artists#taste-t">Compare your taste</a>
+                                    with others and see who has the most similar music taste
+                                </p>
+                            </div>
+                        </li>
+                        <li class="mdx-expect__item md-typeset">
+                            <div class="mdx-expect__description">
+                                <p>
+                                    <a href="./commands/friends">Add friends</a>
+                                    and see what they've been listening to in
+                                    <code>/friends</code>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="mdx-expect__item md-typeset">
+                            <div class="mdx-expect__description">
+                                <p>
+                                    See how you stack up against anyone in the bot with our
+                                    <strong>global commands</strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="mdx-expect__item md-typeset">
+                            <div class="mdx-expect__description">
+                                <p>
+                                    Use the
+                                    <a href="./commands/artists#affinity-aff">affinity command</a>
+                                    to see who's taste is most similar to you
+                                </p>
+                            </div>
+                        </li>
+                        <li class="mdx-expect__item md-typeset">
+                            <div class="mdx-expect__description">
+                                <p>
+                                    Play the <a href="./commands/games">jumble games</a> together
+                                    with friends
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="md-grid md-typeset">
+            <h2 class="md-centered">Featured</h2>
+            <p>
+                Every hour we feature a random user with something they've recently
+                listened to. Everyone is able to see this using the
+                <code>/featured</code> command, and anyone who recently used the bot
+                gets a chance to become featured!
+            </p>
+
+            <p>
+                The bot will also change it's profile picture to the album cover of the
+                feature. Want to be alerted when you get featured? Join
+                <a href="https://discord.gg/fmbot">our server</a> and you'll get a ping.
+            </p>
+        </div>
+        <div class="md-grid">
+            <div class="md-typeset">
+                <h2 class="md-centered">Links</h2>
+            </div>
+            <div class="md-content__inner">
+                <div class="mdx-expect">
+                    <ul class="mdx-expect__list">
+                        <li class="mdx-expect__item md-typeset">
+                            <div class="mdx-expect__description">
+                                <p>
+                                    <strong>You can invite .fmbot to your own server
+                                        <a
+                                            href="https://discord.com/oauth2/authorize?client_id=356268235697553409&permissions=275415092288&scope=applications.commands%20bot">by
+                                            clicking here</a></strong>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="mdx-expect__item md-typeset">
+                            <div class="mdx-expect__description">
+                                <p>
+                                    New: Install fmbot as a user app
+                                    <a
+                                        href="https://discord.com/oauth2/authorize?client_id=356268235697553409&scope=applications.commands&integration_type=1">by
+                                        clicking here</a>
+                                </p>
+                            </div>
+                        </li>
+                        <li class="mdx-expect__item md-typeset">
+                            <div class="mdx-expect__description">
+                                <p>
+                                    Join the
+                                    <a href="https://discord.gg/fmbot">.fmbot server</a> for
+                                    support and updates.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="mdx-expect__item md-typeset">
+                            <div class="mdx-expect__description">
+                                <p>
+                                    Follow us on Bluesky:
+                                    <a href="https://bsky.app/profile/fm.bot">@fm.bot</a>
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="md-grid md-typeset">
+            <p>
+                .fmbot is trusted by over 800k servers, has over 1.5 million registered
+                users, and is used more than 600k times every day.
+            </p>
+
+            <p>
+                Even since the bot was created in 2017 we've been hard at work at
+                providing the best and easiest to use music statistics.
+            </p>
+
+            <p>
+                <strong>Thank you to all our generous supporters.
+                    <a href="/supporter">Support .fmbot too and get some nice perks in return.</a></strong>
+            </p>
+        </div>
+    </div>
+</section>
+{% endblock %}
+{% block footer %}
+{% include "partials/footer.html" %}
+{% endblock %}

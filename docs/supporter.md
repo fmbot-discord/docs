@@ -5,19 +5,18 @@
 You can get supporter either directly through .fmbot or through the Discord store.
 
 
-<hr class="divider">
 <div>
 <p class="purchase-option">.fmbot</p>
 
 <button  class="md-button md-button--primary getsupporter-button"> 
-  <h4 class="title">Monthly</h3>
+  <h4 class="title">Monthly</h4>
   <h3>$3.99</h3>
 </button>
 
 <h4 class="getsupporter-text"></h4>
 
 <button class="md-button md-button--primary getsupporter-button"> 
-  <h4>Yearly</h3>
+  <h4>Yearly</h4>
   <h3>$27.99</h3>
 </button>
 </div>
@@ -26,11 +25,10 @@ You can get supporter either directly through .fmbot or through the Discord stor
     Use the `/getsupporter` command to purchase supporter in .fmbot. This will guide you through the options and directly activate your supporter after purchase.
 
 <div>
-<hr class="divider">
 <div>
 <p class="purchase-option">Discord</p>
 <a href="https://discord.com/application-directory/356268235697553409/store" class="md-button md-button--secondary getsupporter-button getsupporter-button-discord"> 
-  <h4>Monthly</h3>
+  <h4>Monthly</h4>
   <h3>$3.99</h3>
 </a>
 </div>
