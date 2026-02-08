@@ -1,3 +1,7 @@
+[data-md-color-scheme="default"] {
+  --md-code-bg-color: #e6e6e6;
+}
+
 h1 {
     margin: 0 0 0.8em !important;
 }
