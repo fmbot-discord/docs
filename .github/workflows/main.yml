@@ -9,6 +9,7 @@ jobs:
   build:
     permissions:
       id-token: write
+      pages: write
     name: Build and Deploy Documentation
     runs-on: ubuntu-latest
     steps:
