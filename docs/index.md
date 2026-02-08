@@ -1,3 +1,5 @@
+# Introduction
+
 .fmbot is a social Discord bot that provides music statistics for you, your friends, and your fellow server members. Easily see who listens to your favorite artist in a server and make new friends. Or discover new artists within your favorite genres.
 
 The bot connects to a Last.fm account to see your listening history. To get started and join over a million other users, <a href="https://www.last.fm/join" target="_blank">sign up for Last.fm</a> and use `/login` in the bot afterwards.
