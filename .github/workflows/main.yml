@@ -14,17 +14,21 @@ jobs:
       - name: Checkout Master
         uses: actions/checkout@v2
 
-      - name: Set up Python 3.7
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-
-      - name: Install dependencies
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+      
+      - name: Install project
         run: |
-          python -m pip install --upgrade pip
-          pip install mkdocs-material
+          uv sync --locked --all-extras --dev
+
+      - name: Build documentation
+        run: zensical build --clean
+
+      - name: Upload documentation
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
 
       - name: Deploy
-        run: |
-          git pull
-          mkdocs gh-deploy
+        uses: actions/deploy-pages@v4
+        id: deployment
