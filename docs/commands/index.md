@@ -72,18 +72,16 @@ Use the dropdown to pick what setting you want to change.
 
 ### .fmmode
 
-This command allows you to change how your .fm command looks.
+Allows you to customize your `fm` command.
 
-Available modes:
+You can set the following options:
 
-- Embed tiny - Shows last track in a compact format
-- Embed - Shows last track (default)
-- Embed full - Shows last two tracks
-- Text one-line - Shows last track in one lie, disables footer options and album
-- Text - Shows last track
-- Text full - Shows last two tracks
-
-You can also enable up to 4 custom options to show in your `.fm` footer. 
+- Embed type
+- Embed color (changes the accent color)
+- Small text (changes formatting for small text and footer options)
+- Buttons (max 1, or 5 for supporters)
+- Private button response (By default the bot picks depending on the button)
+- Footer options (max 4, or 10 for supporters)
 
 Use the provided dropdowns to select and de-select which options you want.
 
@@ -93,18 +91,16 @@ Use the provided dropdowns to select and de-select which options you want.
     `/fmmode` (responds in-channel)
 
 !!! info ""
-    Supporters can select up 9 options, and have access to some exclusive options like first artist listen. 
+    Supporters can set custom accent colors, add up to 5 buttons and 10 footer options.
     [Get .fmbot supporter here.](../supporter.md)
 
 ---
 
 ### .responsemode
 
-This command allows you to change how responses to the various whoknows and top lists commmand look.
+Configure how the bot formats responses to top list and WhoKnows commands.
 
-Modes: `embed` or `image`
-
-You can also override this preference on every invididual command. Simply add `img` or `embed` to the command.
+You can also override this preference on every invididual command. Simply add `img`, `embed` or `pagination` to the command.
 
 !!! note "Examples"
     `.responsemode`
@@ -115,7 +111,7 @@ You can also override this preference on every invididual command. Simply add `i
 
     `.toptracks 2023 img`
 
-    `.globalwhoknows mac miller embed`
+    `.globalwhoknows mac miller pagination`
 
 
 ---

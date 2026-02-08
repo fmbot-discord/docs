@@ -1,9 +1,9 @@
-# FMbot documentation
-Documentation website for fmbot
+# .fmbot documentation
+This repository contains the source code for the .fmbot documentation website
 
 https://fm.bot/
 
-To edit the documentation:
+## Running it locally
 
 1. Install `uv`: https://docs.astral.sh/uv/getting-started/installation/
 

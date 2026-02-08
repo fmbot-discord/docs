@@ -24,9 +24,7 @@ Example below:
 
 Judges your music taste using AI. You can pick between either a compliment or a roast.
 
-Free users can use this command 6 times a day, [supporters up to 25.](../supporter.md)
-
-Supporters also get access to higher quality compliments and roasts, generated with a better language model.
+[Supporters](../supporter.md) get access to higher quality compliments and roasts, generated with a better language model.
 
 Options:
 
