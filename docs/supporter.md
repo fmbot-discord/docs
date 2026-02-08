@@ -18,7 +18,7 @@ You can get supporter either directly through .fmbot or through the Discord stor
 
 <button class="md-button md-button--primary getsupporter-button"> 
   <h4>Yearly</h3>
-  <h3>$27.99</h3>
+  <h3>$23.99</h3>
 </button>
 </div>
 
