@@ -21,7 +21,7 @@ jobs:
           uv sync --frozen --all-extras --dev
 
       - name: Build documentation
-        run: zensical build --clean
+        run: uv run zensical build --clean
 
       - name: Upload documentation
         uses: actions/upload-pages-artifact@v4
