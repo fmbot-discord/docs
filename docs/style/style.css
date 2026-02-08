@@ -106,3 +106,16 @@ table {
     color: #f32c62;
     font-weight: 700;
 }
+
+/*
+    Hack to get around details having IDs
+    Adding:
+    ###### "How do I get started"? { #how-do-i-get-started }
+    into the top of an info block lets us generate TOC and jump to that section when linked
+*/
+
+details.info > h6 {
+    visibility: hidden;
+    height: 0 !important;
+    margin-top: -1em !important;
+}
