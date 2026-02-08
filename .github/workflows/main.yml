@@ -21,7 +21,7 @@ jobs:
       
       - name: Install project
         run: |
-          uv sync --frozen --all-extras --dev
+          uv sync --locked --all-extras --dev
 
       - name: Build documentation
         run: uv run zensical build --clean

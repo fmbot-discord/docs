@@ -9,7 +9,7 @@ To edit the documentation:
 
 2. Clone the repo
 
-3. Install dependencies using `uv sync --frozen`
+3. Install dependencies using `uv sync`
 
 4. See a live preview using `uv run zensical serve`
 
@@ -18,6 +18,4 @@ To edit the documentation:
 
 1. Upgrade `uv`: https://docs.astral.sh/uv/getting-started/installation/#upgrading-uv
 
-2. Upgrade dependencies: `uv lock --upgrade --exclude-newer P7D`
-    - Note: Setting an age requirement such as `--exclude-newer P7D` helps avoid potential supply chain attacks by waiting at least a week before applying an available version.
-    - Note: Dependencies will not be upgraded any other way currently, so run this command every now and then.
+2. Upgrade dependencies: `uv lock --upgrade`
