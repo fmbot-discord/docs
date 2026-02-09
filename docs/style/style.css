@@ -3,7 +3,7 @@
 }
 
 [data-md-color-scheme="slate"] {
-  --md-code-bg-color: hsla(var(--md-hue),35%,20%,1);;
+  --md-code-bg-color: hsla(var(--md-hue),35%,20%,1);
 }
 
 

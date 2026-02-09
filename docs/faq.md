@@ -73,7 +73,7 @@
 
 ??? info "I'm not visible in Global WhoKnows"
 
-    ###### I'm not visible in Global WhoKnows { #im-not-visible-in-global-whoknows}
+    ###### I'm not visible in Global WhoKnows { #im-not-visible-in-global-whoknows }
 
     We sometimes remove or filter users from Global WhoKnows for various reasons, like sleep scrobbling, manipulating scrobbles or other reasons. If you're not showing on the global charts this could be the case.
 
