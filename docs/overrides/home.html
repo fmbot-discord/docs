@@ -223,12 +223,12 @@
         social experience</p>
       <div class="mdx-hero-buttons">
         <a href="https://discord.com/oauth2/authorize?client_id=356268235697553409&permissions=275415092288&scope=applications.commands%20bot"
-          class="md-button md-button--primary md-centered">
+          class="md-button md-button--primary md-centered" target="_blank">
           Add to server
         </a>
         <a href="https://discord.com/oauth2/authorize?client_id=356268235697553409&scope=applications.commands&integration_type=1"
-          class="md-button md-button--primary md-centered">
-          Add to user
+          class="md-button md-button--primary md-centered" target="_blank" data-switch-slash>
+          Add to account
         </a>
         <a href="./commands" class="md-button md-centered">
           Docs
@@ -606,14 +606,19 @@
       buttons[0].classList.remove('active');
       buttons[1].classList.add('active');
     }
+    function setMode(mode) {
+      container.setAttribute('data-cmd-mode', mode);
+      buttons.forEach(function (b) { b.classList.remove('active'); });
+      buttons[mode === 'slash' ? 1 : 0].classList.add('active');
+      localStorage.setItem('cmd-mode', mode);
+    }
     buttons.forEach(function (btn) {
       btn.addEventListener('click', function () {
-        var mode = btn.getAttribute('data-mode');
-        container.setAttribute('data-cmd-mode', mode);
-        buttons.forEach(function (b) { b.classList.remove('active'); });
-        btn.classList.add('active');
-        localStorage.setItem('cmd-mode', mode);
+        setMode(btn.getAttribute('data-mode'));
       });
+    });
+    document.querySelector('[data-switch-slash]').addEventListener('click', function () {
+      setMode('slash');
     });
   })();
 </script>
