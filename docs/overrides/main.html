@@ -8,22 +8,6 @@
 </p>
 {% endblock %}
 
-{% block scripts %}
-
-
-{{ super() }}
-
-  <!-- Open details elements that contain the id -->
-  window.addEventListener("load", function () {
-    document.querySelectorAll("mark[data-md-highlight]").forEach(function(mark) {
-      const details = mark.closest("details");
-      if (details) {
-        details.setAttribute("open", "");
-      }
-    });
-  });
-{% endblock %}
-
 {% block analytics %}
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2NVJXMTT2N"></script>
