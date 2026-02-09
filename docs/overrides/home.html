@@ -1,22 +1,13 @@
-{% extends "main.html" %} {% block tabs %} {{ super() }}
+{% extends "main.html" %}
+{% block tabs %}
+{{ super() }}
 <style>
+  /* remove this one if you want the header to follow you down as you scroll */
   .md-header {
     position: initial;
   }
 
-  .md-main__inner {
-    margin: 0;
-  }
-
   .md-content {
-    display: none;
-  }
-
-  .md-sidebar--secondary {
-    display: none !important;
-  }
-
-  .md-sidebar--primary {
     display: none;
   }
 
@@ -81,8 +72,6 @@
     white-space: nowrap;
   }
 
-
-  /* Mobile adjustments for subtitle */
   @media screen and (max-width: 768px) {
     .subtitle {
       position: static;
@@ -281,11 +270,11 @@
                   See how you stack up against anyone in the bot with our <strong>global commands</strong>
                 </p>
               </div>
-                <div class="subtitle">
-                    <code><a href="./commands/artists#globalwhoknows-gwk-gw">.gwk</a></code>
-                    <code><a href="./commands/albums#globalwhoknowsalbum-gwka-gwa">.gwka</a></code>
-                    <code><a href="./commands/tracks#globalwhoknowstrack-gwkt-gwt">.gwkt</a></code>
-                </div>
+              <div class="subtitle">
+                <code><a href="./commands/artists#globalwhoknows-gwk-gw">.gwk</a></code>
+                <code><a href="./commands/albums#globalwhoknowsalbum-gwka-gwa">.gwka</a></code>
+                <code><a href="./commands/tracks#globalwhoknowstrack-gwkt-gwt">.gwkt</a></code>
+              </div>
             </li>
             <li class="mdx-expect__item md-typeset">
               <div class="mdx-expect__description">
@@ -357,7 +346,7 @@
             </li>
             <li class="mdx-expect__item md-typeset">
               <div class="mdx-expect__description">
-                <p>Follow us on Bluesky:<a href="https://bsky.app/profile/fm.bot">@fm.bot</a></p>
+                <p>Follow us on Bluesky: <a href="https://bsky.app/profile/fm.bot">@fm.bot</a></p>
               </div>
             </li>
           </ul>
@@ -370,7 +359,7 @@
       </p>
 
       <p>
-        Even since the bot was created in 2017 we've been hard at work at providing the best and easiest to use music statistics.
+        Ever since the bot was created in 2017 we've been hard at work at providing the best and easiest to use music statistics.
       </p>
 
       <p>
