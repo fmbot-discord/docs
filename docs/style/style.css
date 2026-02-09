@@ -1,3 +1,12 @@
+[data-md-color-scheme="default"] {
+  --md-code-bg-color: #d9e4f7;
+}
+
+[data-md-color-scheme="slate"] {
+  --md-code-bg-color: hsla(var(--md-hue),35%,20%,1);
+}
+
+
 h1 {
     margin: 0 0 0.8em !important;
 }
@@ -96,4 +105,17 @@ table {
 .new {
     color: #f32c62;
     font-weight: 700;
+}
+
+/*
+    Hack to get around details having IDs
+    Adding:
+    ###### "How do I get started"? { #how-do-i-get-started }
+    into the top of an info block lets us generate TOC and jump to that section when linked
+*/
+
+details.info > h6 {
+    visibility: hidden;
+    height: 0 !important;
+    margin-top: -1em !important;
 }
