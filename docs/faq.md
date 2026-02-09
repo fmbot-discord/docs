@@ -77,7 +77,7 @@
 
     We sometimes remove or filter users from Global WhoKnows for various reasons, like sleep scrobbling, manipulating scrobbles or other reasons. If you're not showing on the global charts this could be the case.
 
-    You can use the `.privacy` command to check your status. Set your privacy to global and it will be visible, along with all info required. If youre're removed, please fully read this as it contains all the information you need.
+    You can use the `.privacy` command to check your status. Set your privacy to global and it will be visible, along with all info required. If you're removed, please fully read this as it contains all the information you need.
 
     Users get filtered automatically for 3 months from Global WhoKnows when:
 
