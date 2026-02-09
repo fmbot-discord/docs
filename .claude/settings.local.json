@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh pr view:*)",
+      "Bash(gh pr diff:*)",
+      "Bash(ls \"C:\\\\projects\\\\fmbot\\\\docs\\\\docs\\\\img\"\" 2>/dev/null || ls \"C:/projects/fmbot/docs/docs/img/\" 2>/dev/null || echo \"img dir not found \")"
+    ]
+  }
+}
