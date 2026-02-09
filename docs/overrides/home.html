@@ -59,7 +59,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.6rem;
+    gap: 1.8rem;
     padding-bottom: 2.4rem;
   }
 
@@ -139,7 +139,7 @@
     }
   }
 
-  .subtitle > code > a {
+  .subtitle>code>a {
     color: inherit;
     text-decoration: none;
   }
@@ -170,23 +170,64 @@
     margin: 0;
     line-height: 1.5;
   }
+
+  /* Command mode toggle */
+  .cmd-slash {
+    display: none;
+  }
+
+  [data-cmd-mode="slash"] .cmd-text {
+    display: none;
+  }
+
+  [data-cmd-mode="slash"] .cmd-slash {
+    display: inline;
+  }
+
+  .mdx-cmd-toggle {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0 0.5rem;
+  }
+
+  .mdx-cmd-toggle-group {
+    display: inline-flex;
+    border-radius: 2rem;
+    overflow: hidden;
+    border: 1px solid var(--md-primary-fg-color);
+  }
+
+  .mdx-cmd-toggle-btn {
+    padding: 0.35rem 1.1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: var(--md-primary-fg-color);
+    transition-property: background-color, color;
+    transition-duration: 0.15s;
+    font-family: inherit;
+  }
+
+  .mdx-cmd-toggle-btn.active {
+    background: var(--md-primary-fg-color);
+    color: #fff;
+  }
 </style>
 <section class="mdx-container">
   <div class="md-hero">
     <div class="md-grid md-typeset">
       <h1 class="md-centered mdx-title">.fmbot</h1>
-      <p class="md-centered mdx-subtitle">Takes your music listening history to the next level and transforms it into a social experience</p>
+      <p class="md-centered mdx-subtitle">Takes your music listening history to the next level and transforms it into a
+        social experience</p>
       <div class="mdx-hero-buttons">
-        <a
-          href="https://discord.com/oauth2/authorize?client_id=356268235697553409&permissions=275415092288&scope=applications.commands%20bot"
-          class="md-button md-button--primary md-centered"
-        >
+        <a href="https://discord.com/oauth2/authorize?client_id=356268235697553409&permissions=275415092288&scope=applications.commands%20bot"
+          class="md-button md-button--primary md-centered">
           Add to server
         </a>
-        <a
-          href="https://discord.com/oauth2/authorize?client_id=356268235697553409&scope=applications.commands&integration_type=1"
-          class="md-button md-button--primary md-centered"
-        >
+        <a href="https://discord.com/oauth2/authorize?client_id=356268235697553409&scope=applications.commands&integration_type=1"
+          class="md-button md-button--primary md-centered">
           Add to user
         </a>
         <a href="./commands" class="md-button md-centered">
@@ -204,11 +245,18 @@
         Discover who listens to your favorite artists, compete for crowns, and explore new music together.
       </p>
     </div>
-
     <!-- Main features -->
     <div class="md-grid">
       <div class="md-typeset">
         <h2 class="md-centered md-typeset">Main features</h2>
+        <!-- Command mode toggle -->
+        <div class="mdx-cmd-toggle">
+          <div class="mdx-cmd-toggle-group">
+            <button class="mdx-cmd-toggle-btn active" data-mode="text"><code>.</code> Text commands</button>
+            <button class="mdx-cmd-toggle-btn" data-mode="slash"><code>/</code> Slash commands</button>
+          </div>
+        </div>
+
       </div>
       <div class="md-content__inner">
         <div class="mdx-expect">
@@ -218,8 +266,8 @@
                 <p>Share what you're currently listening to and personalize your command</p>
               </div>
               <div class="subtitle">
-                <code><a href="./commands/plays/#fm">.fm</a></code>
-                <code><a href="./commands#fmmode">.fmmode</a></code>
+                <code><a href="./commands/plays/#fm"><span class="cmd-text">.fm</span><span class="cmd-slash">/fm</span></a></code>
+                <code><a href="./commands#fmmode"><span class="cmd-text">.fmmode</span><span class="cmd-slash">/fmmode</span></a></code>
               </div>
             </li>
             <li class="mdx-expect__item md-typeset">
@@ -231,8 +279,8 @@
                 </p>
               </div>
               <div class="subtitle">
-                <code><a href="./commands/albums#chart-c">.chart</a></code>
-                <code><a href="./commands/artists#artistchart-ac">.artistchart</a></code>
+                <code><a href="./commands/albums#chart-c"><span class="cmd-text">.chart</span><span class="cmd-slash">/chart</span></a></code>
+                <code><a href="./commands/artists#artistchart-ac"><span class="cmd-text">.artistchart</span><span class="cmd-slash">/chart artists</span></a></code>
               </div>
             </li>
             <li class="mdx-expect__item md-typeset">
@@ -240,9 +288,9 @@
                 <p>See your <strong>most played artists, albums and tracks</strong> for any time period</p>
               </div>
               <div class="subtitle">
-                <code><a href="./commands/artists/#topartists-ta">.topartists</a></code>
-                <code><a href="./commands/albums/#topalbums-tab">.topalbums</a></code>
-                <code><a href="./commands/tracks/#toptracks-tt">.toptracks</a></code>
+                <code><a href="./commands/artists/#topartists-ta"><span class="cmd-text">.topartists</span><span class="cmd-slash">/top artists</span></a></code>
+                <code><a href="./commands/albums/#topalbums-tab"><span class="cmd-text">.topalbums</span><span class="cmd-slash">/top albums</span></a></code>
+                <code><a href="./commands/tracks/#toptracks-tt"><span class="cmd-text">.toptracks</span><span class="cmd-slash">/top tracks</span></a></code>
               </div>
             </li>
             <li class="mdx-expect__item md-typeset">
@@ -250,7 +298,7 @@
                 <p>Get a <strong>complete overview</strong> of your listening stats at a glance</p>
               </div>
               <div class="subtitle">
-                <code><a href="./commands/plays/#overview-o">.overview</a></code>
+                <code><a href="./commands/plays/#overview-o"><span class="cmd-text">.overview</span><span class="cmd-slash">/overview</span></a></code>
               </div>
             </li>
             <li class="mdx-expect__item md-typeset">
@@ -259,23 +307,24 @@
               </div>
               <div class="subtitle">
                 <code>
-                  <a href="./commands/countries#country-from">.from</a>
+                  <a href="./commands/countries#country-from"><span class="cmd-text">.from</span><span class="cmd-slash">/country</span></a>
                 </code>
                 <code>
-                  <a href="./commands/countries#countrychart-cc-worldmap-artistmap">.countrychart</a>
+                  <a href="./commands/countries#countrychart-cc-worldmap-artistmap"><span class="cmd-text">.countrychart</span><span class="cmd-slash">/countrychart</span></a>
                 </code>
                 <code>
-                  <a href="./commands/genres#genre-g">.genre</a>
+                  <a href="./commands/genres#genre-g"><span class="cmd-text">.genre</span><span class="cmd-slash">/genre</span></a>
                 </code>
               </div>
             </li>
             <li class="mdx-expect__item md-typeset">
               <div class="mdx-expect__description">
-                <p>Every hour a random user gets <strong>featured</strong> - the bot changes its profile picture to the album cover</p>
+                <p>Every hour a random user gets <strong>featured</strong> - the bot changes its profile picture to the
+                  album cover</p>
               </div>
               <div class="subtitle">
-                <code><a href="./commands/featured/#featured">.featured</a></code>
-                <code><a href="./commands/featured/#featuredlog">.featuredlog</a></code>
+                <code><a href="./commands/featured/#featured"><span class="cmd-text">.featured</span><span class="cmd-slash">/featured</span></a></code>
+                <code><a href="./commands/featured/#featuredlog"><span class="cmd-text">.featuredlog</span><span class="cmd-slash">/featuredlog</span></a></code>
               </div>
             </li>
             <li class="mdx-expect__item md-typeset">
@@ -283,8 +332,8 @@
                 <p>Play <strong>music guessing games</strong> together with friends</p>
               </div>
               <div class="subtitle">
-                <code><a href="./commands/games#pixel-px">.pixel</a></code>
-                <code><a href="./commands/games#jumble-j">.jumble</a></code>
+                <code><a href="./commands/games#pixel-px"><span class="cmd-text">.pixel</span><span class="cmd-slash">.pixel</span></a></code>
+                <code><a href="./commands/games#jumble-j"><span class="cmd-text">.jumble</span><span class="cmd-slash">.jumble</span></a></code>
               </div>
             </li>
             <li class="mdx-expect__item md-typeset">
@@ -292,16 +341,17 @@
                 <p>See your <strong>user profile</strong> with interesting statistics and a yearly overview</p>
               </div>
               <div class="subtitle">
-                <code><a href="./commands/#profile">.profile</a></code>
+                <code><a href="./commands/#profile"><span class="cmd-text">.profile</span><span class="cmd-slash">/profile</span></a></code>
               </div>
             </li>
             <li class="mdx-expect__item md-typeset">
               <div class="mdx-expect__description">
-                <p>Generate an <strong>iceberg</strong> based on artist popularity and a track <strong>receipt</strong></p>
+                <p>Generate an <strong>iceberg</strong> based on artist popularity and a track <strong>receipt</strong>
+                </p>
               </div>
               <div class="subtitle">
-                <code><a href="./commands/artists#iceberg-ice">.iceberg</a></code>
-                <code><a href="./commands/tracks#receipt-rcpt">.receipt</a></code>
+                <code><a href="./commands/artists#iceberg-ice"><span class="cmd-text">.iceberg</span><span class="cmd-slash">/iceberg</span></a></code>
+                <code><a href="./commands/tracks#receipt-rcpt"><span class="cmd-text">.receipt</span><span class="cmd-slash">/receipt</span></a></code>
               </div>
             </li>
           </ul>
@@ -320,24 +370,26 @@
             <li class="mdx-expect__item md-typeset">
               <div class="mdx-expect__description">
                 <p>
-                  See who in your server listens to an <strong>artist, album or track</strong> and compete for the top spot
+                  See who in your server listens to an <strong>artist, album or track</strong> and compete for the top
+                  spot
                 </p>
               </div>
               <div class="subtitle">
-                <code><a href="./commands/artists#whoknows-wk-w">.whoknows</a></code>
-                <code><a href="./commands/albums#whoknowsalbum-wkab-wa">.wkalbum</a></code>
-                <code><a href="./commands/tracks#whoknowstrack-wktr-wt">.wktrack</a></code>
+                <code><a href="./commands/artists#whoknows-wk-w"><span class="cmd-text">.whoknows</span><span class="cmd-slash">/whoknows</span></a></code>
+                <code><a href="./commands/albums#whoknowsalbum-wkab-wa"><span class="cmd-text">.wkalbum</span><span class="cmd-slash">/wkalbum</span></a></code>
+                <code><a href="./commands/tracks#whoknowstrack-wktr-wt"><span class="cmd-text">.wktrack</span><span class="cmd-slash">/wktrack</span></a></code>
               </div>
             </li>
             <li class="mdx-expect__item md-typeset">
               <div class="mdx-expect__description">
                 <p>
-                  Earn <strong>crowns</strong> by being the #1 listener of an artist in your server and build your collection
+                  Earn <strong>crowns</strong> by being the #1 listener of an artist in your server and build your
+                  collection
                 </p>
               </div>
               <div class="subtitle">
-                <code><a href="./commands/crowns/#crowns-cws">.crowns</a></code>
-                <code><a href="./commands/crowns/#crownleaderboard-cwlb">.crownleaderboard</a></code>
+                <code><a href="./commands/crowns/#crowns-cws"><span class="cmd-text">.crowns</span><span class="cmd-slash">/crowns</span></a></code>
+                <code><a href="./commands/crowns/#crownleaderboard-cwlb"><span class="cmd-text">.crownleaderboard</span><span class="cmd-slash">/crown</span></a></code>
               </div>
             </li>
             <li class="mdx-expect__item md-typeset">
@@ -347,9 +399,9 @@
                 </p>
               </div>
               <div class="subtitle">
-                <code><a href="./commands/friends/#friends-f">.friends</a></code>
-                <code><a href="./commands/friends/#addfriends">.addfriends</a></code>
-                <code><a href="./commands/friends/#removefriends">.removefriends</a></code>
+                <code><a href="./commands/friends/#friends-f"><span class="cmd-text">.friends</span><span class="cmd-slash">/friends</span></a></code>
+                <code><a href="./commands/friends/#addfriends"><span class="cmd-text">.addfriends</span><span class="cmd-slash">/addfriend</span></a></code>
+                <code><a href="./commands/friends/#removefriends"><span class="cmd-text">.removefriends</span><span class="cmd-slash">/removefriend</span></a></code>
               </div>
             </li>
             <li class="mdx-expect__item md-typeset">
@@ -359,9 +411,9 @@
                 </p>
               </div>
               <div class="subtitle">
-                <code><a href="./commands/artists#globalwhoknows-gwk-gw">.globalwhoknows</a></code>
-                <code><a href="./commands/albums#globalwhoknowsalbum-gwka-gwa">.gwalbum</a></code>
-                <code><a href="./commands/tracks#globalwhoknowstrack-gwkt-gwt">.gwtrack</a></code>
+                <code><a href="./commands/artists#globalwhoknows-gwk-gw"><span class="cmd-text">.globalwhoknows</span><span class="cmd-slash">/globalwhoknows</span></a></code>
+                <code><a href="./commands/albums#globalwhoknowsalbum-gwka-gwa"><span class="cmd-text">.gwalbum</span><span class="cmd-slash">/gwkalbum</span></a></code>
+                <code><a href="./commands/tracks#globalwhoknowstrack-gwkt-gwt"><span class="cmd-text">.gwtrack</span><span class="cmd-slash">/gwktrack</span></a></code>
               </div>
             </li>
             <li class="mdx-expect__item md-typeset">
@@ -371,9 +423,9 @@
                 </p>
               </div>
               <div class="subtitle">
-                <code><a href="./commands/artists/#serverartists">.serverartists</a></code>
-                <code><a href="./commands/albums/#serveralbums">.serveralbums</a></code>
-                <code><a href="./commands/tracks/#servertracks">.servertracks</a></code>
+                <code><a href="./commands/artists/#serverartists"><span class="cmd-text">.serverartists</span><span class="cmd-slash">/server artists</span></a></code>
+                <code><a href="./commands/albums/#serveralbums"><span class="cmd-text">.serveralbums</span><span class="cmd-slash">/server albums</span></a></code>
+                <code><a href="./commands/tracks/#servertracks"><span class="cmd-text">.servertracks</span><span class="cmd-slash">/server tracks</span></a></code>
               </div>
             </li>
             <li class="mdx-expect__item md-typeset">
@@ -383,8 +435,8 @@
                 </p>
               </div>
               <div class="subtitle">
-                <code><a href="./commands/artists#taste-t">.taste</a></code>
-                <code><a href="./commands/artists#affinity-aff">.affinity</a></code>
+                <code><a href="./commands/artists#taste-t"><span class="cmd-text">.taste</span><span class="cmd-slash">/taste</span></a></code>
+                <code><a href="./commands/artists#affinity-aff"><span class="cmd-text">.affinity</span><span class="cmd-slash">/affinity</span></a></code>
               </div>
             </li>
           </ul>
@@ -405,9 +457,9 @@
                 <p>Get <strong>direct links</strong> to your music on streaming platforms</p>
               </div>
               <div class="subtitle">
-                <code><a href="./commands/spotify#spotify-sp">.spotify</a></code>
-                <code><a href="./commands/applemusic#applemusic-am-apple">.applemusic</a></code>
-                <code><a href="./commands/youtube#youtube-yt">.youtube</a></code>
+                <code><a href="./commands/spotify#spotify-sp"><span class="cmd-text">.spotify</span><span class="cmd-slash">/spotify</span></a></code>
+                <code><a href="./commands/applemusic#applemusic-am-apple"><span class="cmd-text">.applemusic</span><span class="cmd-slash">/applemusic</span></a></code>
+                <code><a href="./commands/youtube#youtube-yt"><span class="cmd-text">.youtube</span><span class="cmd-slash">/youtube</span></a></code>
               </div>
             </li>
             <li class="mdx-expect__item md-typeset">
@@ -415,8 +467,8 @@
                 <p>Browse your <strong>Discogs</strong> vinyl collection and show it on your profile</p>
               </div>
               <div class="subtitle">
-                <code><a href="./commands/discogs#discogs">.discogs</a></code>
-                <code><a href="./commands/discogs#collection">.collection</a></code>
+                <code><a href="./commands/discogs#discogs"><span class="cmd-text">.discogs</span><span class="cmd-slash">/discogs</span></a></code>
+                <code><a href="./commands/discogs#collection"><span class="cmd-text">.collection</span><span class="cmd-slash">/collection</span></a></code>
               </div>
             </li>
             <li class="mdx-expect__item md-typeset">
@@ -424,17 +476,18 @@
                 <p>Automatically <strong>scrobble</strong> music from Discord music bots to your Last.fm</p>
               </div>
               <div class="subtitle">
-                <code><a href="./botscrobbling">.botscrobbling</a></code>
+                <code><a href="./botscrobbling"><span class="cmd-text">.botscrobbling</span><span class="cmd-slash">/botscrobbling</span></a></code>
               </div>
             </li>
             <li class="mdx-expect__item md-typeset">
               <div class="mdx-expect__description">
-                <p>Manually <strong>scrobble</strong> tracks and manage your <strong>loved tracks</strong> on Last.fm</p>
+                <p>Manually <strong>scrobble</strong> tracks and manage your <strong>loved tracks</strong> on Last.fm
+                </p>
               </div>
               <div class="subtitle">
-                <code><a href="./commands/tracks#scrobble-sb">.scrobble</a></code>
-                <code><a href="./commands/tracks#love-l">.love</a></code>
-                <code><a href="./commands/tracks#unlove-ul">.unlove</a></code>
+                <code><a href="./commands/tracks#scrobble-sb"><span class="cmd-text">.scrobble</span><span class="cmd-slash">/scrobble</span></a></code>
+                <code><a href="./commands/tracks#love-l"><span class="cmd-text">.love</span><span class="cmd-slash">/love</span></a></code>
+                <code><a href="./commands/tracks#unlove-ul"><span class="cmd-text">.unlove</span><span class="cmd-slash">/unlove</span></a></code>
               </div>
             </li>
             <li class="mdx-expect__item md-typeset">
@@ -442,8 +495,8 @@
                 <p>Look up <strong>lyrics</strong> for any track you're listening to</p>
               </div>
               <div class="subtitle">
-                <code><a href="./commands/tracks#lyrics">.lyrics</a></code>
-                <code><a href="./commands/genius#genius-gen">.genius</a></code>
+                <code><a href="./commands/tracks#lyrics"><span class="cmd-text">.lyrics</span><span class="cmd-slash">/lyrics</span></a></code>
+                <code><a href="./commands/genius#genius-gen"><span class="cmd-text">.genius</span><span class="cmd-slash">.genius</span></a></code>
               </div>
             </li>
             <li class="mdx-expect__item md-typeset">
@@ -451,7 +504,7 @@
                 <p><strong>Import</strong> your full Spotify or Apple Music listening history</p>
               </div>
               <div class="subtitle">
-                <code><a href="./importing">.import</a></code>
+                <code><a href="./importing"><span class="cmd-text">.import</span><span class="cmd-slash">/import</span></a></code>
               </div>
             </li>
           </ul>
@@ -472,8 +525,12 @@
                 <div class="mdx-step-number">1</div>
                 <p class="mdx-step-title">Add to your server</p>
                 <p class="mdx-step-desc">
-                  <a href="https://discord.com/oauth2/authorize?client_id=356268235697553409&permissions=275415092288&scope=applications.commands%20bot">Invite .fmbot</a>
-                  to your Discord server, <a href="https://discord.com/oauth2/authorize?client_id=356268235697553409&scope=applications.commands&integration_type=1">add it to your account</a> or try it out in the
+                  <a
+                    href="https://discord.com/oauth2/authorize?client_id=356268235697553409&permissions=275415092288&scope=applications.commands%20bot">Invite
+                    .fmbot</a>
+                  to your Discord server, <a
+                    href="https://discord.com/oauth2/authorize?client_id=356268235697553409&scope=applications.commands&integration_type=1">add
+                    it to your account</a> or try it out in the
                   <a href="https://discord.gg/fmbot">.fmbot server</a>
                 </p>
               </div>
@@ -484,7 +541,9 @@
                 <p class="mdx-step-title">Connect your Last.fm</p>
                 <p class="mdx-step-desc">
                   <a href="https://www.last.fm/join" target="_blank">Sign up for Last.fm</a>
-                  if you haven't already, then use <code>/login</code> in Discord to link your account
+                  if you haven't already, then use
+                  <code><span class="cmd-text">.login</span><span class="cmd-slash">/login</span></code> in Discord to
+                  link your account
                 </p>
               </div>
             </li>
@@ -493,7 +552,9 @@
                 <div class="mdx-step-number">3</div>
                 <p class="mdx-step-title">Start using commands</p>
                 <p class="mdx-step-desc">
-                  Try <code>/fm</code> to share what you're listening to, or <a href="./commands">browse all commands</a> to explore everything .fmbot can do
+                  Try <code><span class="cmd-text">.fm</span><span class="cmd-slash">/fm</span></code> to share what
+                  you're listening to, or <a href="./commands">browse all commands</a> to explore everything .fmbot can
+                  do
                 </p>
               </div>
             </li>
@@ -534,6 +595,28 @@
     </div>
   </div>
 </section>
+
+<script>
+  (function () {
+    var container = document.querySelector('.mdx-container');
+    var buttons = document.querySelectorAll('.mdx-cmd-toggle-btn');
+    var saved = localStorage.getItem('cmd-mode');
+    if (saved === 'slash') {
+      container.setAttribute('data-cmd-mode', 'slash');
+      buttons[0].classList.remove('active');
+      buttons[1].classList.add('active');
+    }
+    buttons.forEach(function (btn) {
+      btn.addEventListener('click', function () {
+        var mode = btn.getAttribute('data-mode');
+        container.setAttribute('data-cmd-mode', mode);
+        buttons.forEach(function (b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+        localStorage.setItem('cmd-mode', mode);
+      });
+    });
+  })();
+</script>
 
 {% endblock %}
 {% block footer %} {% include "partials/footer.html" %} {% endblock %}
