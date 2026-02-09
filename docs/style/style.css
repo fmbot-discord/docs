@@ -119,3 +119,8 @@ details.info > h6 {
     height: 0 !important;
     margin-top: -1em !important;
 }
+
+[data-md-color-scheme="slate"] .mdx-supporter-banner,
+[data-md-color-scheme="slate"] .mdx-featured-card {
+    background: #82b1ff1a;
+}

@@ -69,6 +69,7 @@ nav:
     - 'Games': 'commands/games.md'
     - 'Discogs': 'commands/discogs.md'
     - 'Genius': 'commands/genius.md'
+    - 'Apple Music': 'commands/applemusic.md'
     - 'Spotify': 'commands/spotify.md'
     - 'YouTube': 'commands/youtube.md'
     - 'Updating': 'commands/updating.md'
