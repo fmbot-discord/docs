@@ -59,7 +59,7 @@ This command only supports the 'Extended Streaming History' package. You can eit
 
 #### Notes
 - We filter out duplicates, so don't worry about submitting the same file twice
-- Spotify files includes plays that you skipped quickly, we filter those out as well
+- Spotify files include plays that you skipped quickly, we filter those out as well
 
 ---
 
@@ -115,11 +115,11 @@ Shows the instructions on how to get started if you attach no files. These instr
 
     Still having issues? Please open a thread on [our server](https://discord.gg/fmbot).
 
-??? info "The uploading file is larger then 10mb and I don't have Discord Nitro"
+??? info "The uploading file is larger than 10mb and I don't have Discord Nitro"
 
     Please join [our support server](https://discord.gg/fmbot) and run your import in #commands. Our server is boosted and has an upload limit of 100mb.
 
-??? info "It's adding less plays to my .fmbot account then expected"
+??? info "It's adding less plays to my .fmbot account than expected"
 
     Try switching modes with the `/import manage` command. This changes how your imports are combined with your Last.fm scrobbles.
 
@@ -135,7 +135,7 @@ Shows the instructions on how to get started if you attach no files. These instr
 
     Try putting the `Apple Music Play Activity.csv` file in a .zip and using that.
 
-    If it does't work or it's not possible, you can also try in [our support server](https://discord.gg/fmbot) which is boosted and has a higher file size limit for everyone.
+    If it doesn't work or it's not possible, you can also try in [our support server](https://discord.gg/fmbot) which is boosted and has a higher file size limit for everyone.
 
 ??? info "Does importing in .fmbot add scrobbles to my Last.fm?"
 
@@ -148,7 +148,7 @@ Shows the instructions on how to get started if you attach no files. These instr
 
     Your imported plays are however saved and will be available again if you resubscribe in the future.
 
-??? info "Are platforms other then Spotify and Apple Music also supported?"
+??? info "Are platforms other than Spotify and Apple Music also supported?"
 
     At the moment we only support Spotify and Apple Music.
 

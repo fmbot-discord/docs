@@ -41,7 +41,7 @@ Options:
 
 ### .rateyourmusic
 
-Enables/disabled an option that changes all album links to link to RateYourMusic.
+Enables/disables an option that changes all album links to link to RateYourMusic.
 
 !!! note "Examples"
     `.rym`

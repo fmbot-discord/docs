@@ -8,7 +8,7 @@ Gets information about the track you're currently listening to or searching for.
 
 Options:
 
-* Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.
+* Track - A track you want to search for. You can either use the built-in Last.fm search or separate the artist and trackname yourself using a | as separator.
 
 !!! note "Examples"
     `.tr`
@@ -28,7 +28,7 @@ Shows you your playcount for current track or the one you're searching for.
 
 Options:
 
-* Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.
+* Track - A track you want to search for. You can either use the built-in Last.fm search or separate the artist and trackname yourself using a | as separator.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"
@@ -47,7 +47,7 @@ Shows metadata for current track or the one you're searching for.
 
 Options:
 
-* Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.
+* Track - A track you want to search for. You can either use the built-in Last.fm search or separate the artist and trackname yourself using a | as separator.
 
 !!! note "Examples"
     `.td`
@@ -143,7 +143,7 @@ Note that the playcount for the user that requested the command will always be u
 
 Options:
 
-* Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.
+* Track - A track you want to search for. You can either use the built-in Last.fm search or separate the artist and trackname yourself using a | as separator.
 * Mode - Response mode. `embed` or `image`
 
 !!! note "Examples"
@@ -164,7 +164,7 @@ Shows who from your friends listened to current track or the one you're searchin
 
 Options:
 
-* Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.
+* Track - A track you want to search for. You can either use the built-in Last.fm search or separate the artist and trackname yourself using a | as separator.
 * Mode - Response mode. `embed` or `image`
 
 !!! note "Examples"
@@ -187,7 +187,7 @@ This searches through all registered .fmbot users. Note that users that sleep sc
 
 Options:
 
-* Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.
+* Track - A track you want to search for. You can either use the built-in Last.fm search or separate the artist and trackname yourself using a | as separator.
 
 !!! note "Examples"
     `.gwt`
@@ -244,7 +244,7 @@ Removes current track or the one you're searching for from your Last.fm loved tr
 
     `.unlove`
 
-    `.unlove Lou Reed Brandenburg Gate`---
+    `.unlove Lou Reed Brandenburg Gate`
 
 ---
 
@@ -273,8 +273,8 @@ Scrobbles the track you're searching for. You can only scrobble tracks that alre
 
 Options:
 
-* Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.
-* Album - Specify the album you want by using a second seperator. `Artist | Track | Album`
+* Track - A track you want to search for. You can either use the built-in Last.fm search or separate the artist and trackname yourself using a | as separator.
+* Album - Specify the album you want by using a second separator. `Artist | Track | Album`
 * Discogs - Instead of searching a track, scrobble an entire Discogs album into the future
 
 !!! note "Examples"
@@ -317,7 +317,7 @@ Shows lyrics for track you're currently listening to or searching for.
 
 Options:
 
-* Track - A track you want to search for. You can either use the built-in Last.fm search or seperate the artist and trackname yourself using a | as separator.
+* Track - A track you want to search for. You can either use the built-in Last.fm search or separate the artist and trackname yourself using a | as separator.
 
 !!! note "Examples"
     `.lr`

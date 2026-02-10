@@ -110,7 +110,7 @@ You can get supporter either directly through .fmbot or through the Discord stor
 
     If you have purchased through Discord, you can go to your Discord settings and then 'Subscriptions'. This is only available on Discord desktop and browser, not on mobile.
 
-    If you have puchased through OpenCollective, you can cancel a recurring contribution at any time. To do so, go to [OpenCollective](https://opencollective.com/) and sign in. After signing in go to 'Manage Contributions' where you can change your subscription.
+    If you have purchased through OpenCollective, you can cancel a recurring contribution at any time. To do so, go to [OpenCollective](https://opencollective.com/) and sign in. After signing in go to 'Manage Contributions' where you can change your subscription.
 
 ??? info "What happens if I cancel my subscription and have imported my plays?"
 

@@ -81,10 +81,10 @@
 
     Users get filtered automatically for 3 months from Global WhoKnows when:
 
-    - They have over 6 days of listening time in 8 days (thats less then 6 hours of sleep per night)
+    - They have over 6 days of listening time in 8 days (that's less than 6 hours of sleep per night)
     - They have an average of over 650 scrobbles / day in an 8 day period
 
-    If someone gets filtered automatically 3 times in 3 seperate months, they'll be marked as a repeat offender and any future filters will last for 6 months.
+    If someone gets filtered automatically 3 times in 3 separate months, they'll be marked as a repeat offender and any future filters will last for 6 months.
 
 ??? info "Can you change the Global WhoKnows filter or exclude me?"
 
@@ -94,7 +94,7 @@
 
     Before this automated system was created, Global WhoKnows was getting overwhelmed with sleep scrobblers and people who spammed short songs. We simply don't have the time and resources to manually moderate this. On top of that none of the staff likes playing scrobble police.
 
-    We realize the system is not perfect for everyone, but it impacts less then 1% of users while making it more fair and fun for the other 99%.
+    We realize the system is not perfect for everyone, but it impacts less than 1% of users while making it more fair and fun for the other 99%.
 
     Please note the following:
 
@@ -150,6 +150,6 @@
 
     Join [our server here](https://discord.gg/fmbot) and ask in the #help channel.
 
-    Note that since .fmbot and Last.fm are two seperate things. .fmbot is the Discord bot, Last.fm is the website.
+    Note that since .fmbot and Last.fm are two separate things. .fmbot is the Discord bot, Last.fm is the website.
 
     Need help with Last.fm? Check out their [support forums](https://support.last.fm) or their [Discord server](https://discord.gg/swrVDCBZ8H).

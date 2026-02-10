@@ -100,7 +100,7 @@ Use the provided dropdowns to select and de-select which options you want.
 
 Configure how the bot formats responses to top list and WhoKnows commands.
 
-You can also override this preference on every invididual command. Simply add `img`, `embed` or `pagination` to the command.
+You can also override this preference on every individual command. Simply add `img`, `embed` or `pagination` to the command.
 
 !!! note "Examples"
     `.responsemode`

@@ -6,7 +6,7 @@ Gets information about current album or the one you're searching for.
 
 Options:
 
-* Album - An album you want to search for. You can either use the built-in Last.fm search or seperate the artist and album yourself using a | as seperator.
+* Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
 
 !!! note "Examples"
     `.ab`
@@ -26,7 +26,7 @@ Shows you your playcount for current album or the one you're searching for.
 
 Options:
 
-* Album - An album you want to search for. You can either use the built-in Last.fm search or seperate the artist and album yourself using a | as seperator.
+* Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"
@@ -121,7 +121,7 @@ Note that Last.fm or Spotify will sometimes not return the tracks within an albu
 
 Options:
 
-* Album - An album you want to search for. You can either use the built-in Last.fm search or seperate the artist and album yourself using a | as seperator.
+* Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"
@@ -139,7 +139,7 @@ Shows the cover for current album or the one you're searching for.
 
 Options:
 
-* Album - An album you want to search for. You can either use the built-in Last.fm search or seperate the artist and album yourself using a | as seperator.
+* Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
 
 !!! note "Examples"
     `.co`
@@ -158,7 +158,7 @@ Shows who in your server listened to current album or the one you're searching f
 
 Options:
 
-* Album - An album you want to search for. You can either use the built-in Last.fm search or seperate the artist and album yourself using a | as seperator.
+* Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
 * Mode - Response mode. `embed` or `image`
 
 !!! note "Examples"
@@ -178,7 +178,7 @@ Shows who from your friends listened to current album or the one you're searchin
 
 Options:
 
-* Album - An album you want to search for. You can either use the built-in Last.fm search or seperate the artist and album yourself using a | as seperator.
+* Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
 * Mode - Response mode. `embed` or `image`
 
 !!! note "Examples"
@@ -202,7 +202,7 @@ This searches through all registered .fmbot users. Note that users that sleep sc
 
 Options:
 
-* Album - An album you want to search for. You can either use the built-in Last.fm search or seperate the artist and album yourself using a | as seperator.
+* Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
 * Mode - Response mode. `embed` or `image`
 
 !!! note "Examples"
