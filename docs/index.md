@@ -1,6 +1,6 @@
 ---
 template: home.html
-title: .fmbot
+title: Home
 ---
 
 # .fmbot
