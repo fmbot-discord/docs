@@ -29,7 +29,7 @@
       opacity 0.75s;
     transition-delay: 0s, 0s;
     background: #448aff1a;
-    padding: 1.6rem;
+    padding: 1.5rem;
     border-radius: 0.4rem;
   }
 
@@ -72,9 +72,13 @@
   }
 
   .mdx-title {
-    font-size: 2rem !important;
+    font-size: 2.5rem !important;
     padding-top: 3rem;
     margin-bottom: 0 !important;
+  }
+
+  h2{
+    font-size: 1.3rem !important;
   }
 
   .mdx-subtitle {
@@ -198,9 +202,8 @@
   }
 
   .mdx-cmd-toggle-btn {
-    padding: 0.35rem 1.1rem;
-    font-size: 0.8rem;
-    font-weight: 600;
+    padding: 0.4rem 1.0rem;
+    font-size: 0.75rem;
     cursor: pointer;
     border: none;
     background: transparent;
@@ -242,7 +245,7 @@
     <div class="md-grid md-typeset">
       <p class="mdx-hero-text">
         A social Discord bot that provides music statistics for you, your friends, and your fellow server members.
-        Discover who listens to your favorite artists, compete for crowns, and explore new music together.
+        Discover who listens to your favorite music, get new insights, and explore new music together.
       </p>
     </div>
     <!-- Main features -->
@@ -363,6 +366,13 @@
     <div class="md-grid">
       <div class="md-typeset">
         <h2 class="md-centered">Social features</h2>
+        <!-- Command mode toggle -->
+        <div class="mdx-cmd-toggle">
+          <div class="mdx-cmd-toggle-group">
+            <button class="mdx-cmd-toggle-btn active" data-mode="text"><code>.</code> Text commands</button>
+            <button class="mdx-cmd-toggle-btn" data-mode="slash"><code>/</code> Slash commands</button>
+          </div>
+        </div>
       </div>
       <div class="md-content__inner">
         <div class="mdx-expect">
@@ -448,6 +458,13 @@
     <div class="md-grid">
       <div class="md-typeset">
         <h2 class="md-centered">Integrations</h2>
+        <!-- Command mode toggle -->
+        <div class="mdx-cmd-toggle">
+          <div class="mdx-cmd-toggle-group">
+            <button class="mdx-cmd-toggle-btn active" data-mode="text"><code>.</code> Text commands</button>
+            <button class="mdx-cmd-toggle-btn" data-mode="slash"><code>/</code> Slash commands</button>
+          </div>
+        </div>
       </div>
       <div class="md-content__inner">
         <div class="mdx-expect">
@@ -579,7 +596,7 @@
             </li>
             <li class="mdx-expect__item md-typeset">
               <div class="mdx-expect__description md-centered">
-                <p class="mdx-stats__number">1 500 000+</p>
+                <p class="mdx-stats__number">1 600 000+</p>
                 <p class="mdx-stats__label">Registered users</p>
               </div>
             </li>
@@ -603,14 +620,16 @@
     var saved = localStorage.getItem('cmd-mode');
     if (saved === 'slash') {
       container.setAttribute('data-cmd-mode', 'slash');
-      buttons[0].classList.remove('active');
-      buttons[1].classList.add('active');
     }
     function setMode(mode) {
       container.setAttribute('data-cmd-mode', mode);
-      buttons.forEach(function (b) { b.classList.remove('active'); });
-      buttons[mode === 'slash' ? 1 : 0].classList.add('active');
+      buttons.forEach(function (b) {
+        b.classList.toggle('active', b.getAttribute('data-mode') === mode);
+      });
       localStorage.setItem('cmd-mode', mode);
+    }
+    if (saved === 'slash') {
+      setMode('slash');
     }
     buttons.forEach(function (btn) {
       btn.addEventListener('click', function () {

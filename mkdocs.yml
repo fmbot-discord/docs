@@ -54,6 +54,7 @@ extra:
 copyright: .fmbot is not affiliated with Last.fm
 
 nav:
+  - 'Home': 'index.md'
   - 'Frequently Asked Questions': 'faq.md'
   - 'Text Commands':
     - 'Getting started': 'commands/index.md'
