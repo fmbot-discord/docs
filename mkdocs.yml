@@ -34,9 +34,6 @@ markdown_extensions:
   - toc:
       permalink: true
 
-extra_javascript:
-  - javascript/analytics.js
-
 extra_css:
   - style/style.css
 
@@ -46,6 +43,9 @@ exclude_docs: |
 edit_uri: ""
 
 extra:
+  analytics:
+    provider: google
+    property: G-2NVJXMTT2N
   social:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/fmbotDiscord
