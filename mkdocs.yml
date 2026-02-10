@@ -30,7 +30,6 @@ theme:
     - announce.dismiss
     - navigation.instant
     - navigation.instant.prefetch
-    - navigation.tracking
 markdown_extensions:
   - admonition
   - pymdownx.details
