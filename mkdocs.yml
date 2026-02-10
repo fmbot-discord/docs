@@ -1,4 +1,5 @@
 site_name: .fmbot
+site_url: https://fm.bot/
 repo_url: https://github.com/fmbot-discord/fmbot
 repo_name: fmbot
 site_description: Welcome to .fmbot! .fmbot is a social Discord bot that provides music statistics for you, your friends, and your fellow server members.
@@ -27,6 +28,9 @@ theme:
   favicon: img/favicon.png
   features:
     - announce.dismiss
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
 markdown_extensions:
   - admonition
   - pymdownx.details
