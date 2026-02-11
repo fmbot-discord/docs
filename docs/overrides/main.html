@@ -14,6 +14,7 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   document.addEventListener("click", function (e) {
+    var page = location.pathname;
     var invite = e.target.closest('a[href*="discord.com/oauth2/authorize"]');
     if (invite) {
       gtag("event", "discord_invite_click", {
@@ -34,10 +35,10 @@
     var supporter = e.target.closest('a[href*="supporter"]');
     if (supporter && supporter.hostname === location.hostname) {
       gtag("event", "supporter_link_click", {
-        event_label: location.pathname,
+        event_label: page,
         transport_type: "beacon"
       });
     }
-  });
+  }, true);
 </script>
 {% endblock %}
