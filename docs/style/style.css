@@ -121,3 +121,12 @@ details.info > h6 {
     0%, 100% { box-shadow: none; }
     25%, 75% { box-shadow: 0 0 0 2px var(--md-primary-fg-color); }
 }
+
+.md-copyright a {
+    color: var(--md-footer-fg-color--lighter);
+    text-decoration: none;
+}
+
+.md-copyright a:hover {
+    color: var(--md-footer-fg-color);
+}

@@ -54,7 +54,9 @@ extra:
       link: https://twitter.com/fmbotDiscord
     - icon: fontawesome/brands/bluesky
       link: https://bsky.app/profile/fm.bot/
-copyright: .fmbot is not affiliated with Last.fm
+  generator: false
+copyright: <a href="/privacy/">Privacy</a>  ·  <a href="/terms/">Terms of Use</a>  ·  .fmbot is not affiliated with Last.fm 
+
 
 nav:
   - 'Home': 'index.md'
@@ -85,8 +87,6 @@ nav:
     - 'Webhooks': 'guildsettings/webhooks.md'
   - 'Spotify & Apple Music importing': 'importing.md'
   - 'Music bot scrobbling': 'botscrobbling.md'
-  - 'Privacy': 'privacy.md'
-  - 'Terms of Use': 'terms.md'
   - 'Get supporter': 'supporter.md'
   - 'Join our server': https://discord.gg/fmbot
   - 'Add to server': https://discord.com/oauth2/authorize?client_id=356268235697553409&permissions=275415092288&scope=applications.commands%20bot
