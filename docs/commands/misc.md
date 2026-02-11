@@ -24,8 +24,6 @@ Example below:
 
 Judges your music taste using AI. You can pick between either a compliment or a roast.
 
-[Supporters](../supporter.md) get access to higher quality compliments and roasts, generated with a better language model.
-
 Options:
 
 * Time period - Time period of your top artists. Defaults to weekly.
@@ -33,6 +31,9 @@ Options:
 
 !!! note "Examples"
     `.judge`
+
+!!! info ""
+    Supporters get access to higher quality compliments and roasts, generated with a better language model. [Get .fmbot supporter here.](../supporter.md)
 
 !!! note ""
     The usage limits for this command might be adjusted depending on popularity and cost.

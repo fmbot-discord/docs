@@ -41,7 +41,7 @@ Options:
     
 ---
 
-### .trackdetails(`.td`)
+### .trackdetails (`.td`)
 
 Shows metadata for current track or the one you're searching for.
 
@@ -67,12 +67,15 @@ Shows your latest plays.
 Options:
 
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* Artist - Filter by artist name
 
 !!! note "Examples"
     `.r`
 
     `.recent`
-    
+
+    `.recent moby`
+
 
 !!! info ""
     For supporters this command expands to your full listening history. [Get .fmbot supporter here.](../supporter.md)

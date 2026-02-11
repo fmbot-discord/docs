@@ -161,7 +161,7 @@ Shows the instructions on how to get started if you attach no files. These instr
 
 ??? info "Can I change or delete my imports?"
 
-    See the [/import manage](#import-manage) and /import modify command.
+    See the [/import manage](#import-manage) and `/import modify` command.
 
 ??? info "What data from my imports do you store?"
 

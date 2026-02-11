@@ -150,6 +150,6 @@
 
     Join [our server here](https://discord.gg/fmbot) and ask in the #help channel.
 
-    Note that since .fmbot and Last.fm are two separate things. .fmbot is the Discord bot, Last.fm is the website.
+    Note that .fmbot and Last.fm are two separate things. .fmbot is the Discord bot, Last.fm is the website.
 
     Need help with Last.fm? Check out their [support forums](https://support.last.fm) or their [Discord server](https://discord.gg/swrVDCBZ8H).

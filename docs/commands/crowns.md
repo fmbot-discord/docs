@@ -6,7 +6,7 @@ To get crowns you can use [`.whoknows`](./artists.md#whoknows-wk-w).
 
 Crown server settings are available [here](../guildsettings/crownsettings.md). Leaving a server resets all your crowns for that server.
 
-### .crowns  (`.cws`)
+### .crowns (`.cws`)
 
 Shows your top crowns or crowns for a user you're searching for.
 

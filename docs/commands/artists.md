@@ -318,7 +318,7 @@ Time periods:
     `.iceberg alltime @frikandel`
 
 !!! info ""
-    Iceberg artwork provided by  <a href="https://timschaap.com/">Tim Schaap.</a>
+    Iceberg artwork provided by [Tim Schaap.](https://timschaap.com/)
 
 ---
 

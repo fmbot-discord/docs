@@ -141,8 +141,6 @@ Options:
 
 Shows you an overview of you or someone else their year.
 
-[Supporters](../supporter.md) get an extra page with Artist Discoveries and a monthly overview.
-
 Options:
 
 * Year - Year number you want to view
@@ -154,15 +152,15 @@ Options:
     `.year 2024`
 
     `.year @frikandel`
-    
+
+!!! info ""
+    Supporters get an extra page with Artist Discoveries and a monthly overview. [Get .fmbot supporter here.](../supporter.md)
 
 ---
 
 ### .recap
 
 Shows all commands with a specific timeframe into one recap.
-
-[Supporters](../supporter.md) get two extra pages with their Discoveries and listening time overview.
 
 Options:
 
@@ -180,7 +178,10 @@ Time periods:
     `.recap 2024`
 
     `.recap @frikandel`
-    
+
+!!! info ""
+    Supporters get two extra pages with Discoveries and a listening time overview. [Get .fmbot supporter here.](../supporter.md)
+
 ---
 
 ### .discoverydate (`.dd`) ⭐
@@ -201,4 +202,3 @@ Options:
 
 !!! info ""
     This command requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)
----

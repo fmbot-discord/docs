@@ -4,7 +4,7 @@ Genres are sourced from Spotify.
 
 To view a list of all Spotify genres, you can use the website [everynoise.com](https://everynoise.com/)
     
-### .topgenres(`.tg`)
+### .topgenres (`.tg`)
 
 Shows a list of you or your friends top genres over a certain time period.
 

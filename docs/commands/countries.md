@@ -4,7 +4,7 @@ Countries are sourced from MusicBrainz.
 
 To enter countries, you can either enter the full name or the 2 letter ISO code.
 
-### .topcountries(`.tc`)
+### .topcountries (`.tc`)
 
 Shows a list of you or your friends top countries over a certain time period.
 
