@@ -45,24 +45,24 @@ document.querySelectorAll('.getsupporter-button-fmbot').forEach(function(btn) {
 
 |             | Free        | Supporter |
 | ----------- | ----------- |----------- |
-| Help us pay for hosting, development and other costs  | ❌  | ✅ |
-| Import and access your full Spotify history | ❌  | ✅ |
-| Import and access your full Apple Music history | ❌  | ✅ |
+| Help keep .fmbot free for everyone | ❌ | ✅ |
+| Import and access your full Spotify history | ❌ | ✅ |
+| Import and access your full Apple Music history | ❌ | ✅ |
+| View when you discovered artists with `.discoveries` and `.discoverydate` | ❌ | ✅ |
+| View when you re-discovered music with `.gaps` | ❌ | ✅ |
+| Discovery dates in `artist`, `album` and `track` | ❌ | ✅ |
+| Play unlimited pixel and jumble games | ❌ | ✅ |
 | View `.lyrics` directly in .fmbot | ❌ | ✅ |
-| Added friends limit | 12 | 18 |
+| Lifetime history in `recent` and `overview` | ❌ | ✅ |
+| Years and listening time overview in `profile` | ❌ | ✅ |
+| Artist discoveries and months in `year` | ❌ | ✅ |
+| Get an improved `.judge` command with sharper outputs and increased usage limits | ❌ | ✅ |
+| <span class="new">New</span> Custom `fm` accent colors | ❌ | ✅ |
+| <span class="new">New</span> Max custom `fm` buttons | 1 | 5 |
+| Max custom `fm` footer options | 4 | 10 |
 | Personal automatic emoji reactions with `.userreactions` | ❌ | ✅ |
 | Configure up to 10 bot-wide command `.shortcuts` | ❌ | ✅ |
-| Max custom `fm` footer options | 4 | 10 |
-| <span class="new">New</span> Max custom `fm` buttons | 1 | 5 |
-| <span class="new">New</span> Custom `fm` accent colors | ❌ | ✅ |
-| Get an improved `.judge` command with sharper outputs and increased usage limits | ❌ | ✅ |
-| View when you discovered artists with the `.discoveries` and `.discoverydate` command | ❌ | ✅ |
-| View when you re-discovered music with the `.gaps` command | ❌ | ✅ |
-| Play unlimited jumble games | ❌ | ✅ |
-| Discovery dates in `artist`, `album` and `track` | ❌ | ✅ |
-| Years and listening time overview in `profile` | ❌ | ✅ |
-| Artist Discoveries and months in `year` | ❌ | ✅ |
-| Lifetime history in `recent` and `overview` | ❌ | ✅ |
+| Added friends limit | 12 | 18 |
 | Higher chance of getting featured on Supporter Sunday | ❌ | ✅ |
 | Supporter badge ⭐ | ❌ | ✅ |
 | Chance to sponsor bot-wide charts | ❌ | ✅ |
