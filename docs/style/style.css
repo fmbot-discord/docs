@@ -113,13 +113,13 @@ details.info > h6 {
     background: #82b1ff1a;
 }
 
-.admonition.note.highlight {
+.admonition.note.flash {
     animation: note-highlight 1.5s ease-out;
 }
 
 @keyframes note-highlight {
-    0%, 100% { box-shadow: none; }
-    25%, 75% { box-shadow: 0 0 0 2px var(--md-primary-fg-color); }
+    0%, 100% { box-shadow: inset 0 0 0 0 var(--md-primary-fg-color); }
+    25%, 75% { box-shadow: inset 0 0 0 2px var(--md-primary-fg-color); }
 }
 
 .md-copyright a {
