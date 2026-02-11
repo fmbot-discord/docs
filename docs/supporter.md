@@ -1,39 +1,42 @@
 # Become a supporter ⭐
 
-.fmbot is open-source and free to use. Optionally you can get supporter to help support the development of the bot and receive the following extra features and benefits.
+Unlock your full Spotify & Apple Music listening history, discover when you first heard your favorite music, view lyrics and more. Supporter gives you access to exclusive features while supporting the continued development of the bot.
 
-You can get supporter either directly through .fmbot or through the Discord store.
-
+---
 
 <div>
-<p class="purchase-option">.fmbot</p>
-
-<button  class="md-button md-button--primary getsupporter-button"> 
+<button class="md-button md-button--primary getsupporter-button getsupporter-button-fmbot">
   <h4 class="title">Monthly</h4>
   <h3>$3.99</h3>
 </button>
 
 <h4 class="getsupporter-text"></h4>
 
-<button class="md-button md-button--primary getsupporter-button"> 
+<button class="md-button md-button--primary getsupporter-button getsupporter-button-fmbot">
   <h4>Yearly</h4>
   <h3>$23.99</h3>
 </button>
 </div>
 
 !!! note ""
-    Use the `/getsupporter` command to purchase supporter in .fmbot. This will guide you through the options and directly activate your supporter after purchase.
+    To purchase, use the `/getsupporter` command in Discord. You'll be guided through the options and your supporter will be activated instantly.
 
-<div>
-<div>
-<p class="purchase-option">Discord</p>
-<a href="https://discord.com/application-directory/356268235697553409/store" class="md-button md-button--secondary getsupporter-button getsupporter-button-discord"> 
-  <h4>Monthly</h4>
-  <h3>$3.99</h3>
-</a>
-</div>
-
-</div>
+<script>
+document.querySelectorAll('.getsupporter-button-fmbot').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    var plan = btn.querySelector('h4').textContent.trim().toLowerCase();
+    gtag("event", "supporter_plan_click", {
+      event_label: plan
+    });
+    var note = document.querySelector('.md-typeset .admonition.note');
+    if (note) {
+      note.classList.add('highlight');
+      note.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      setTimeout(function() { note.classList.remove('highlight'); }, 1500);
+    }
+  });
+});
+</script>
 
 ---
 
@@ -83,6 +86,10 @@ You can get supporter either directly through .fmbot or through the Discord stor
     We're dedicated to making sure the bot remains free and independent. That's why most supporter features are simply features that are nice but would be difficult to roll out to everyone. For example some of the extra statistics require us to store your full listening history, which would be difficult to do for all our users.
 
     By getting supporter you help us to be able to spend more time working on new features and fixes, which in return improves the user experience for everyone.
+
+??? info "Can I also purchase through the Discord store?"
+
+    Yes, supporter is also available on the [Discord App Directory store](https://discord.com/application-directory/356268235697553409/store) for $3.99/month.
 
 ??? info "Can I gift someone else supporter?"
 

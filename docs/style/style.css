@@ -49,19 +49,6 @@ table {
     margin: 0 !important;
 }
 
-.purchase-option {
-    text-align: center;
-    font-size: 0.9em !important;
-    margin-block-start: 0.5em;
-    margin-block-end: 0.3em;
-}
-
-.getsupporter-button-discord {
-    width: 100% !important;
-    display: block !important;
-    margin-block-end: 1em;
-}
-
 .getsupporter-button h4 {
     margin-top: 0.66em;
     margin-bottom: 0 !important;
@@ -89,6 +76,7 @@ table {
 .quote {
     font-size: 0.8em !important;
     border: .05rem solid var(--md-typeset-table-color) !important;
+    background: none !important;
 }
 
 @media screen and (max-width: 40em) {
@@ -123,4 +111,13 @@ details.info > h6 {
 [data-md-color-scheme="slate"] .mdx-supporter-banner,
 [data-md-color-scheme="slate"] .mdx-featured-card {
     background: #82b1ff1a;
+}
+
+.admonition.note.highlight {
+    animation: note-highlight 1.5s ease-out;
+}
+
+@keyframes note-highlight {
+    0%, 100% { box-shadow: none; }
+    25%, 75% { box-shadow: 0 0 0 2px var(--md-primary-fg-color); }
 }
