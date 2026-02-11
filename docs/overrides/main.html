@@ -7,3 +7,37 @@
   </a>
 </p>
 {% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  document.addEventListener("click", function (e) {
+    var invite = e.target.closest('a[href*="discord.com/oauth2/authorize"]');
+    if (invite) {
+      gtag("event", "discord_invite_click", {
+        event_label: invite.href.indexOf("integration_type=1") !== -1
+          ? "add_to_account"
+          : "add_to_server",
+        transport_type: "beacon"
+      });
+      return;
+    }
+    var banner = e.target.closest('.md-banner a');
+    if (banner) {
+      gtag("event", "banner_click", {
+        event_label: banner.getAttribute("href")
+      });
+      return;
+    }
+    var supporter = e.target.closest('a[href*="supporter"]');
+    if (supporter && supporter.hostname === location.hostname) {
+      gtag("event", "supporter_link_click", {
+        event_label: location.pathname,
+        transport_type: "beacon"
+      });
+    }
+  });
+</script>
+{% endblock %}
