@@ -94,6 +94,27 @@ Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `a
 
 ---
 
+### .artistoverview (`.ao`)
+
+Shows an overview of an artist you're currently listening to or searching for.
+
+Options:
+
+* Artist - An artist you want to search for.
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
+
+!!! note "Examples"
+    `.ao`
+
+    `.artistoverview`
+
+    `.ao Gorillaz`
+
+    `.artistoverview Gamma Intel`
+
+---
+
 ### .artisttracks (`.at`)
 
 Shows you your all-time top tracks for current artist or the one you're searching for.
@@ -130,6 +151,32 @@ Options:
     `.artistalbums Frank Ocean`
 
     
+---
+
+### .artistpace (`.apc`)
+
+Shows an estimate of when you'll reach a certain amount of plays on an artist.
+
+Options:
+
+* Amount - Number of plays you want to reach
+* Time period - Time you want to base the estimate on. Defaults to monthly.
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
+
+Time periods: `weekly`, `monthly`, `quarterly`, `half` or `yearly`. (`w`, `m`, `q`, `h` or `y`)
+
+!!! note "Examples"
+    `.apc`
+
+    `.apc 1k q`
+
+    `.apc 400 h @user`
+
+    `.artistpace`
+
+    `.artistpace weekly @user 2500`
+
 ---
 
 ### .topartists (`.ta`)

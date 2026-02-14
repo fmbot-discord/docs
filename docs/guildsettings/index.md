@@ -16,6 +16,16 @@ Use the dropdown to pick a setting that you want to change.
     `.serversettings`
 
 ---
+### .members (`.mb`)
+
+Shows an overview of .fmbot members in your server.
+
+!!! note "Examples"
+    `.mb`
+
+    `.members`
+
+---
 ### .serverreactions
 
 Sets automatic emoji reactions for every `.fm` and `featured` command in your server.

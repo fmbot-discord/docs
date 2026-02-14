@@ -54,6 +54,28 @@ Options:
     
 ---
 
+### .plays (`.p`)
+
+Shows your total scrobble count for a specific time period.
+
+Options:
+
+* Time period - Time period of your play count. Defaults to alltime.
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
+Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime` (`w`, `m`, `q`, `h`, `y` or `a`)
+
+!!! note "Examples"
+    `.p`
+
+    `.plays`
+
+    `.plays @frikandel`
+
+    `.plays monthly`
+
+---
+
 ### .streak (`.str`)
 
 Shows your track, album or artist streak.
@@ -67,6 +89,35 @@ Options:
 
     `.streak`
     
+---
+
+### .streakhistory (`.strs`)
+
+Shows your past streaks.
+
+Options:
+
+* Artist - Filter by artist name
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
+!!! note "Examples"
+    `.strs`
+
+    `.streakhistory`
+
+    `.streakhistory @user`
+
+---
+
+### .scrobbleleaderboard (`.sblb`)
+
+Shows users with the most plays in your server.
+
+!!! note "Examples"
+    `.sblb`
+
+    `.scrobbleleaderboard`
+
 ---
 
 ### .overview (`.o`)

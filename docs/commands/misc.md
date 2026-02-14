@@ -65,6 +65,25 @@ Gets the bot status information.
     `.status`
 
 ---
+### .eurovision (`.ev`)
+
+Shows Eurovision Song Contest information for a specific year or country.
+
+Options:
+
+* Year - Year you want to view. Defaults to current year.
+* Country - A country you want to view.
+
+!!! note "Examples"
+    `.ev`
+
+    `.eurovision`
+
+    `.eurovision 2024`
+
+    `.eurovision Sweden`
+
+---
 ### .remove
 
 Deletes all your user information, including all your friends and other settings.

@@ -75,6 +75,23 @@ Options:
 
 ---
 
+### .friendwhoknowsgenre (`.fwg`)
+
+Shows who from your friends listened to a genre you're searching for.
+
+Options:
+
+* Genre - A genre you want to search for.
+
+!!! note "Examples"
+    `.fwg`
+
+    `.fwg pop`
+
+    `.friendwhoknowsgenre techno`
+
+---
+
 ### .servergenres
 
 Shows top genres for everyone in your server.

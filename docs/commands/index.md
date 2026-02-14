@@ -57,6 +57,23 @@ Options:
 
 ---
 
+### .lastfm (`.lfm`)
+
+Shows a link to your or someone else's Last.fm profile.
+
+Options:
+
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
+!!! note "Examples"
+    `.lfm`
+
+    `.lastfm`
+
+    `.lastfm @user`
+
+---
+
 ### .settings
 
 Shows an overview of all your .fmbot settings.

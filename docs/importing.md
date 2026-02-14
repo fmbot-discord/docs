@@ -25,6 +25,17 @@ To delete your imports from .fmbot, switch to the Last.fm option and use the pro
 
 ---
 
+### /import modify
+
+Allows you to edit and delete artists, albums and tracks in your .fmbot imports.
+
+The bot will send you a DM where you can make changes.
+
+!!! note "Examples"
+    `/import modify`
+
+---
+
 ### /import spotify
 
 Allows you to import your Spotify streaming history in the bot.
