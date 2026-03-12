@@ -55,7 +55,7 @@ extra:
     - icon: fontawesome/brands/bluesky
       link: https://bsky.app/profile/fm.bot/
   generator: false
-copyright: <a href="/privacy/">Privacy</a>  ·  <a href="/terms/">Terms of Use</a>  ·  .fmbot is not affiliated with Last.fm 
+copyright: <a href="/privacy/">Privacy</a>  ·  <a href="/terms/">Terms</a>  ·  .fmbot is not affiliated with Last.fm 
 
 
 nav:

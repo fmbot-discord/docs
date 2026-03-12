@@ -6,6 +6,10 @@
   --md-code-bg-color: hsla(var(--md-hue),35%,20%,1);
 }
 
+[data-md-color-primary=blue] {
+    --md-primary-fg-color: #5674b9;
+    --md-typeset-color: rgba(255, 255, 255, 0.85);
+}
 
 h1 {
     margin: 0 0 0.8em !important;
