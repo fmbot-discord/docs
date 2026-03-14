@@ -46,9 +46,7 @@ You can optionally use the Discord slash command mention: `</botscrobbling:10189
 
 All requests require an `X-Api-Key` header with your API key.
 
-```
-X-Api-Key: your-api-key-here
-```
+    X-Api-Key: your-api-key-here
 
 Requests without a valid API key will receive a `401 Unauthorized` response.
 
@@ -68,11 +66,9 @@ Check if .fmbot is in a guild. Use this if you are unable to check guild members
 
 **Response:**
 
-```json
-{
-  "present": true
-}
-```
+    {
+        "present": true
+    }
 
 ---
 
@@ -99,32 +95,28 @@ Submit a scrobble for users in a voice channel. This must be called at the **sta
 
 **Example request:**
 
-```json
-{
-    "trackName": "Blinding Lights",
-    "artistName": "The Weeknd",
-    "trackLengthMs": 201573,
-    "startTimestamp": "2025-03-14T15:30:00Z",
-    "connectedUserDiscordIds": [
-        123456789012345678,
-        987654321012345678
-    ],
-    "albumName": "After Hours"
-}
-```
+    {
+        "trackName": "Blinding Lights",
+        "artistName": "The Weeknd",
+        "trackLengthMs": 201573,
+        "startTimestamp": "2025-03-14T15:30:00Z",
+        "connectedUserDiscordIds": [
+            123456789012345678,
+            987654321012345678
+        ],
+        "albumName": "After Hours"
+    }
 
 **Example response:**
 
-```json
-{
-    "scrobbled": true,
-    "denyReason": null,
-    "scrobbledUserDiscordIds": [
-        123456789012345678,
-        987654321012345678
-    ]
-}
-```
+    {
+        "scrobbled": true,
+        "denyReason": null,
+        "scrobbledUserDiscordIds": [
+            123456789012345678,
+            987654321012345678
+        ]
+    }
 
 When `scrobbled` is `false`, check the `denyReason` field:
 
