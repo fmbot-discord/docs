@@ -92,6 +92,7 @@ Submit a scrobble for users in a voice channel. This must be called at the **sta
 | `startTimestamp` | string | Yes | ISO 8601 timestamp of when playback started |
 | `connectedUserDiscordIds` | integer[] | Yes | Discord IDs of users in the voice channel (max 100) |
 | `albumName` | string | No | Name of the album. If not provided, .fmbot will try to look it up from its database |
+| `cleanTrackName` | boolean | No | Set to `true` to clean YouTube-style metadata from the track name before scrobbling. Defaults to `false`. See [Track name cleaning](#track-name-cleaning) below |
 
 **Example request:**
 
@@ -128,6 +129,21 @@ When `scrobbled` is `false`, check the `denyReason` field:
 
 !!! info
     The `scrobbledUserDiscordIds` field contains the users that are eligible for scrobbling. The actual scrobble to Last.fm happens in the background after the appropriate delay. This response confirms the request was accepted, not that the scrobble has been submitted to Last.fm yet.
+
+---
+
+## Track name cleaning
+
+If your bot plays music from YouTube or similar sources, track names often contain extra metadata that shouldn't be part of the scrobble, for example:
+
+- `Blinding Lights (Official Music Video)` → `Blinding Lights`
+- `Scattered Sprites (Official Audio)` → `Scattered Sprites`
+- `Get Lucky (Album Version)` → `Get Lucky`
+
+Set `cleanTrackName` to `true` in your scrobble request and .fmbot will automatically clean these suffixes using the [metadata-filter](https://github.com/web-scrobbler/metadata-filter) YouTube filter. This removes things like "(Official Music Video)", "(Official Audio)", "(Lyric Video)", "(Remastered)", version tags, and other common YouTube title suffixes.
+
+!!! tip
+    If your bot already provides clean track names (e.g. from Spotify or a music API that returns proper metadata), you don't need this — leave `cleanTrackName` as `false` or omit it entirely.
 
 ---
 
