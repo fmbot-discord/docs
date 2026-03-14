@@ -8,7 +8,7 @@ Access is currently granted on an invite basis to trusted developers only.
 
 ## How it works
 
-When a user starts listening to a track through your bot, you send a request to .fmbot with the track info and the Discord IDs of users in the voice channel. .fmbot then handles the rest — setting "now playing" on Last.fm and scrobbling the track after it has been listened to long enough.
+When a user starts listening to a track through your bot, you send a request to .fmbot with the track info and the Discord IDs of users in the voice channel. .fmbot then handles the rest, setting "now playing" on Last.fm and scrobbling the track after it has been listened to long enough.
 
 Users control whether they want bot scrobbling enabled or disabled through the `/botscrobbling` command in .fmbot.
 
@@ -17,7 +17,7 @@ Users control whether they want bot scrobbling enabled or disabled through the `
 ## Requirements
 
 ### Guild presence check
-Your bot **must** check if .fmbot is in the server before sending scrobble data. This is both for practical and legal reasons — we can't and won't process data from guilds that don't have .fmbot. If a server has .fmbot, it means they agreed to the .fmbot Terms of Service.
+Your bot **must** check if .fmbot is in the server before sending scrobble data. This is both for practical and legal reasons. We can't and won't process data from guilds that don't have .fmbot. If a server has .fmbot, it means they agreed to the .fmbot Terms of Service.
 
 We recommend caching the result of this check for a limited time (e.g. a few minutes) to avoid unnecessary requests.
 
@@ -74,7 +74,7 @@ Check if .fmbot is in a guild. Use this if you are unable to check guild members
 
 ### POST `/musicbots/{guildId}/scrobble`
 
-Submit a scrobble for users in a voice channel. This must be called at the **start of play** — .fmbot handles the timing for when to actually submit the scrobble to Last.fm.
+Submit a scrobble for users in a voice channel. This must be called at the **start of play**. .fmbot handles the timing for when to actually submit the scrobble to Last.fm.
 
 **Path parameters:**
 
@@ -91,7 +91,7 @@ Submit a scrobble for users in a voice channel. This must be called at the **sta
 | `trackLengthMs` | integer | Yes | Track duration in milliseconds |
 | `startTimestamp` | string | Yes | ISO 8601 timestamp of when playback started |
 | `connectedUserDiscordIds` | integer[] | Yes | Discord IDs of users in the voice channel (max 100) |
-| `albumName` | string | No | Name of the album. Optional — .fmbot can figure this out |
+| `albumName` | string | No | Name of the album. If not provided, .fmbot will try to look it up from its database |
 
 **Example request:**
 
@@ -127,13 +127,14 @@ When `scrobbled` is `false`, check the `denyReason` field:
 | `nobodyWithBotScrobblingEnabled` | None of the provided users have bot scrobbling enabled, or none have linked their Last.fm account |
 
 !!! info
-    The `scrobbledUserDiscordIds` field contains the users that are eligible for scrobbling. The actual scrobble to Last.fm happens in the background after the appropriate delay — this response confirms the request was accepted, not that the scrobble has been submitted to Last.fm yet.
+    The `scrobbledUserDiscordIds` field contains the users that are eligible for scrobbling. The actual scrobble to Last.fm happens in the background after the appropriate delay. This response confirms the request was accepted, not that the scrobble has been submitted to Last.fm yet.
 
 ---
 
 ## Notes
 
 - Users must have linked their Last.fm account to .fmbot using `/login` and have bot scrobbling enabled (it's enabled by default)
-- .fmbot uses the track length to determine when to submit the scrobble — it waits for roughly half the track duration before scrobbling, matching standard Last.fm scrobbling rules
+- .fmbot uses the track length to determine when to submit the scrobble. It waits for roughly half the track duration before scrobbling, matching standard Last.fm scrobbling rules
 - If a new track starts playing for the same user before the previous scrobble delay elapses, the previous scrobble is cancelled
+- If `albumName` is not provided, .fmbot will look up the track in its database and fill in the album name automatically if found
 - The `connectedUserDiscordIds` array is capped at 100 users per request
