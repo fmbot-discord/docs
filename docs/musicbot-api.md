@@ -27,14 +27,14 @@ You can check this by looking at the guild's member list yourself, or by using t
 Only send scrobble data when the track has a clear artist and track name. If the source doesn't have a well-defined artist (e.g. a YouTube video with a title like "funny cat compilation" or a meme remix without a real artist), don't send it to the scrobble API. Bad data pollutes users' Last.fm libraries.
 
 ### Scrobble messaging
-When scrobbles are sent to .fmbot, this **must** be mentioned somewhere in your now playing messages so users know what's going on. You can refer users to the `/botscrobbling` slash command of .fmbot.
+When scrobbles are sent to .fmbot, this **must** be mentioned somewhere in your now playing messages so users know that you are sending scrobbles on their behalf. You can refer users to the `/botscrobbling` slash command of .fmbot. Bot scrobbling in .fmbot is opt-out by default.
 
 Messaging examples when you await the response (recommended):
 
 - Scrobbling to Last.fm through .fmbot for 2 users. Use `/botscrobbling` to configure.
 - Sending scrobbles to Last.fm for 3 users. Configure in .fmbot with `/botscrobbling`
 
-Messaging examples when you don't wait for .fmbot to respond:
+Messaging examples when you don't wait for .fmbot to respond (don't really want this tbh, let me know if you want to use this):
 
 - Scrobbling to Last.fm for .fmbot users. Enable or disable with `/botscrobbling`
 
@@ -124,7 +124,7 @@ When `scrobbled` is `false`, check the `denyReason` field:
 |-------------|-------------|
 | `noFmbotInGuild` | .fmbot is not in this guild |
 | `invalidTrack` | Missing or invalid track data (empty name, zero length, no users) |
-| `nobodyWithBotScrobblingEnabled` | None of the provided users have bot scrobbling enabled, or none have linked their Last.fm account |
+| `nobodyWithBotScrobblingEnabled` | None of the provided users have bot scrobbling enabled, none have linked their Last.fm account, or we couldn't verify that they're in the guild |
 
 !!! info
     The `scrobbledUserDiscordIds` field contains the users that are eligible for scrobbling. The actual scrobble to Last.fm happens in the background after the appropriate delay. This response confirms the request was accepted, not that the scrobble has been submitted to Last.fm yet.
