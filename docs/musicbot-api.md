@@ -23,6 +23,9 @@ We recommend caching the result of this check for a limited time (e.g. a few min
 
 You can check this by looking at the guild's member list yourself, or by using the `/fmbot-present` endpoint described below.
 
+### Track quality
+Only send scrobble data when the track has a clear artist and track name. If the source doesn't have a well-defined artist (e.g. a YouTube video with a title like "funny cat compilation" or a meme remix without a real artist), don't send it to the scrobble API. Bad data pollutes users' Last.fm libraries.
+
 ### Scrobble messaging
 When scrobbles are sent to .fmbot, this **must** be mentioned somewhere in your now playing messages so users know what's going on. You can refer users to the `/botscrobbling` slash command of .fmbot.
 
@@ -98,22 +101,28 @@ Submit a scrobble for users in a voice channel. This must be called at the **sta
 
 ```json
 {
-  "trackName": "Blinding Lights",
-  "artistName": "The Weeknd",
-  "trackLengthMs": 201573,
-  "startTimestamp": "2025-03-14T15:30:00Z",
-  "connectedUserDiscordIds": [123456789012345678, 987654321012345678],
-  "albumName": "After Hours"
+    "trackName": "Blinding Lights",
+    "artistName": "The Weeknd",
+    "trackLengthMs": 201573,
+    "startTimestamp": "2025-03-14T15:30:00Z",
+    "connectedUserDiscordIds": [
+        123456789012345678,
+        987654321012345678
+    ],
+    "albumName": "After Hours"
 }
 ```
 
-**Response:**
+**Example response:**
 
 ```json
 {
-  "scrobbled": true,
-  "denyReason": null,
-  "scrobbledUserDiscordIds": [123456789012345678, 987654321012345678]
+    "scrobbled": true,
+    "denyReason": null,
+    "scrobbledUserDiscordIds": [
+        123456789012345678,
+        987654321012345678
+    ]
 }
 ```
 
