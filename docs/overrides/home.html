@@ -660,8 +660,8 @@
     try {
       const res = await fetch('https://api.fm.bot/status/stats');
       const data = await res.json();
-      if (data.registeredGuilds) {
-        startCounter(document.getElementById('stats-guilds'), data.registeredGuilds, 0.5);
+      if (data.connectedGuilds) {
+        startCounter(document.getElementById('stats-guilds'), data.connectedGuilds, 0.5);
       }
       if (data.registeredUsers) {
         startCounter(document.getElementById('stats-users'), data.registeredUsers, 1);
