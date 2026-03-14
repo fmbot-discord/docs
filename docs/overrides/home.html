@@ -645,15 +645,26 @@
 
 <script>
   (async () => {
+    const fmt = n => Math.floor(n).toLocaleString('en-US').replace(/,/g, ' ');
+
+    function startCounter(el, initial, perMinute) {
+      const start = Date.now();
+      const msPerIncrement = 60000 / perMinute;
+      el.textContent = fmt(initial);
+      setInterval(() => {
+        const elapsed = Date.now() - start;
+        el.textContent = fmt(initial + Math.floor(elapsed / msPerIncrement));
+      }, msPerIncrement);
+    }
+
     try {
       const res = await fetch('https://api.fm.bot/status/stats');
       const data = await res.json();
-      const fmt = n => n.toLocaleString('en-US').replace(/,/g, ' ');
       if (data.registeredGuilds) {
-        document.getElementById('stats-guilds').textContent = fmt(data.registeredGuilds);
+        startCounter(document.getElementById('stats-guilds'), data.registeredGuilds, 0.5);
       }
       if (data.registeredUsers) {
-        document.getElementById('stats-users').textContent = fmt(data.registeredUsers);
+        startCounter(document.getElementById('stats-users'), data.registeredUsers, 1);
       }
     } catch { /* keep fallback values */ }
   })();
