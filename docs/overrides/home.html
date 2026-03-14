@@ -650,10 +650,10 @@
       const data = await res.json();
       const fmt = n => n.toLocaleString('en-US').replace(/,/g, ' ');
       if (data.registeredGuilds) {
-        document.getElementById('stats-guilds').textContent = fmt(data.registeredGuilds) + '+';
+        document.getElementById('stats-guilds').textContent = fmt(data.registeredGuilds);
       }
       if (data.registeredUsers) {
-        document.getElementById('stats-users').textContent = fmt(data.registeredUsers) + '+';
+        document.getElementById('stats-users').textContent = fmt(data.registeredUsers);
       }
     } catch { /* keep fallback values */ }
   })();
