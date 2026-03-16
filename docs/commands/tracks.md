@@ -272,12 +272,13 @@ Options:
 
 ### .scrobble (`.sb`)
 
-Scrobbles the track you're searching for. You can only scrobble tracks that already exist on Last.fm.
+Scrobbles a track on Last.fm. You can search for a track, enter the exact name with separators, scrobble from a Discogs link, or scrobble along with another user.
 
 Options:
 
 * Track - A track you want to search for. You can either use the built-in Last.fm search or separate the artist and trackname yourself using a | as separator.
 * Album - Specify the album you want by using a second separator. `Artist | Track | Album`
+* User - View another user's recent tracks and scrobble from them. Select by mention, Discord ID or Last.fm username (`lfm:username`)
 * Discogs - Instead of searching a track, scrobble an entire Discogs album into the future
 
 !!! note "Examples"
@@ -290,6 +291,8 @@ Options:
     `.scrobble Mac DeMarco | Chamber of Reflection`
 
     `.scrobble Home | Climbing Out | Falling into Place`
+
+    `.scrobble @user` · `/scrobble user:username`
 
     `.scrobble https://www.discogs.com/release/249504-Rick-Astley-Never-Gonna-Give-You-Up`
 
