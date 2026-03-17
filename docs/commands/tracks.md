@@ -147,7 +147,7 @@ Note that the playcount for the user that requested the command will always be u
 Options:
 
 * Track - A track you want to search for. You can either use the built-in Last.fm search or separate the artist and trackname yourself using a | as separator.
-* Mode - Response mode. `embed` or `image`
+* Mode - Response mode. `embed`, `image` or `pages`
 
 !!! note "Examples"
     `.wt`
@@ -168,7 +168,7 @@ Shows who from your friends listened to current track or the one you're searchin
 Options:
 
 * Track - A track you want to search for. You can either use the built-in Last.fm search or separate the artist and trackname yourself using a | as separator.
-* Mode - Response mode. `embed` or `image`
+* Mode - Response mode. `embed`, `image` or `pages`
 
 !!! note "Examples"
     `.fwt`
@@ -191,6 +191,7 @@ This searches through all registered .fmbot users. Note that users that sleep sc
 Options:
 
 * Track - A track you want to search for. You can either use the built-in Last.fm search or separate the artist and trackname yourself using a | as separator.
+* Mode - Response mode. `embed`, `image` or `pages`
 
 !!! note "Examples"
     `.gwt`
@@ -211,6 +212,7 @@ Options:
 
 * Time period - `alltime`, `monthly` or `weekly`
 * Sorting - `listeners` or `plays`
+* Artist - Filter by artist name
 
 !!! note "Examples"
     `.st`
@@ -220,6 +222,8 @@ Options:
     `.servertracks alltime plays`
 
     `.servertracks listeners weekly`
+
+    `.servertracks the beatles listeners`
 
 
 ---
@@ -304,12 +308,20 @@ Shows when you rediscovered tracks after a while.
 
 Options:
 
+* Time period - Timeframe of gaps. Defaults to quarterly.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
+Time periods:
+
+* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+* Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
 
 !!! note "Examples"
     `.tgaps`
-    
+
     `.trackgaps @user`
+
+    `.trackgaps yearly`
 
 
 !!! info ""

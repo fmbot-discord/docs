@@ -164,14 +164,14 @@ Options:
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
 
-Time periods: `weekly`, `monthly`, `quarterly`, `half` or `yearly`. (`w`, `m`, `q`, `h` or `y`)
+Time periods: `weekly` or `monthly`. (`w` or `m`)
 
 !!! note "Examples"
     `.apc`
 
-    `.apc 1k q`
+    `.apc 1k`
 
-    `.apc 400 h @user`
+    `.apc 400 m @user`
 
     `.artistpace`
 
@@ -242,7 +242,7 @@ Shows who in your server listened to current artist or the one you're searching 
 Options:
 
 * Artist - An artist you want to search for.
-* Mode - Response mode. `embed` or `image`
+* Mode - Response mode. `embed`, `image` or `pages`
 * Random - Use `random`/`rnd` to view a random artist you've listened to
 * Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
 
@@ -267,7 +267,7 @@ Shows who from your friends listened to current artist or the one you're searchi
 Options:
 
 * Artist - An artist you want to search for.
-* Mode - Response mode. `embed` or `image`
+* Mode - Response mode. `embed`, `image` or `pages`
 * Random - Use `random`/`rnd` to view a random artist you've listened to
 * Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
 
@@ -295,7 +295,7 @@ This searches through all registered .fmbot users. Note that users that sleep sc
 Options:
 
 * Artist - An artist you want to search for.
-* Mode - Response mode. `embed` or `image`
+* Mode - Response mode. `embed`, `image` or `pages`
 * Random - Use `random`/`rnd` to view a random artist you've listened to
 * Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
 
@@ -399,12 +399,20 @@ Shows when you rediscovered artists after a while.
 
 Options:
 
+* Time period - Timeframe of gaps. Defaults to quarterly.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
+Time periods:
+
+* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+* Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
 
 !!! note "Examples"
     `.gaps`
-    
+
     `.gaps @user`
+
+    `.gaps yearly`
 
 
 !!! info ""

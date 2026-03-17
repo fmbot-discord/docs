@@ -120,6 +120,17 @@ Shows users with the most plays in your server.
 
 ---
 
+### .timeleaderboard (`.tlb`)
+
+Shows users with the most listening time in your server.
+
+!!! note "Examples"
+    `.tlb`
+
+    `.timeleaderboard`
+
+---
+
 ### .overview (`.o`)
 
 Shows you an overview of your top track, album and artist for the last few days.

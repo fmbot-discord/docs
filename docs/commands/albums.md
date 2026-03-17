@@ -45,10 +45,12 @@ Creates a chart of your top albums over a certain time period.
 Options:
 
 * Chart size - `2x2`, `3x5` all the way up to `10x10`.
-* Filter - Filter albums to the year they released (`r:2023`)
+* Filter - Filter albums to the year they released (`r:2023`, `released:2023`)
+* Decade - Filter albums to a release decade (`d:80s`, `decade:1990`)
 * Time period - Time period of your top albums. Defaults to weekly.
 * `notitles` - Don't display album titles. (`nt`)
 * `skipemptyalbums` - Skips albums without images. (`s` or `skip`)
+* `sfw` - Skip NSFW album covers
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime` (`w`, `m`, `q`, `h`, `y` or `a`)
@@ -88,7 +90,9 @@ Shows a list of you or your friends top albums over a certain time period.
 Options:
 
 * Time period - Time period of your top albums. Defaults to weekly
-* Filter - Filter albums to the year they released (`r:2023`)
+* Filter - Filter albums to the year they released (`r:2023`, `released:2023`)
+* Decade - Filter albums to a release decade (`d:80s`, `decade:1990`)
+* Hide singles - Hide singles from the list (`ns`, `nosingles`)
 * Billboard - Show recent changes in your top list in a billboard style
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Mode - Response mode. `embed` or `image`
@@ -123,6 +127,7 @@ Options:
 
 * Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* Order by plays - Order tracks by playcount instead of album order (`plays`)
 
 !!! note "Examples"
     `.abt`
@@ -130,6 +135,8 @@ Options:
     `.albumtracks`
 
     `.albumtracks the beatles yesterday`
+
+    `.abt plays`
 
 ---
 
@@ -159,7 +166,7 @@ Shows who in your server listened to current album or the one you're searching f
 Options:
 
 * Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
-* Mode - Response mode. `embed` or `image`
+* Mode - Response mode. `embed`, `image` or `pages`
 
 !!! note "Examples"
     `.wa`
@@ -179,7 +186,7 @@ Shows who from your friends listened to current album or the one you're searchin
 Options:
 
 * Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
-* Mode - Response mode. `embed` or `image`
+* Mode - Response mode. `embed`, `image` or `pages`
 
 !!! note "Examples"
     `.fwa`
@@ -203,7 +210,7 @@ This searches through all registered .fmbot users. Note that users that sleep sc
 Options:
 
 * Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
-* Mode - Response mode. `embed` or `image`
+* Mode - Response mode. `embed`, `image` or `pages`
 
 !!! note "Examples"
     `.gwa`
@@ -224,6 +231,7 @@ Options:
 
 * Time period - `alltime`, `monthly` or `weekly`
 * Sorting - `listeners` or `plays`
+* Artist - Filter by artist name
 
 !!! note "Examples"
     `.sab`
@@ -234,6 +242,8 @@ Options:
 
     `.serveralbums listeners weekly`
 
+    `.serveralbums the beatles monthly`
+
 
 ---
 
@@ -243,12 +253,20 @@ Shows when you rediscovered albums after a while.
 
 Options:
 
+* Time period - Timeframe of gaps. Defaults to quarterly.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
+Time periods:
+
+* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+* Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
 
 !!! note "Examples"
     `.agaps`
-    
+
     `.albumgaps @user`
+
+    `.albumgaps yearly`
 
 
 !!! info ""

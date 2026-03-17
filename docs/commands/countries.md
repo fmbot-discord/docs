@@ -37,6 +37,10 @@ Time periods:
 
 Shows country information for your current artist or your top artists for the country you're searching for.
 
+Options:
+
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
 !!! note "Examples"
     `.from`
 

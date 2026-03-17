@@ -71,6 +71,7 @@ Shows who from your friends listened to an artist you're currently listening to 
 Options:
 
 * Artist - An artist you want to search for.
+* Mode - Response mode. `embed`, `image` or `pages`
 
 !!! note "Examples"
     `.fw`
@@ -92,6 +93,7 @@ Shows who from your friends listened to an album you're currently listening to o
 Options:
 
 * Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
+* Mode - Response mode. `embed`, `image` or `pages`
 
 !!! note "Examples"
     `.fwa`
@@ -112,6 +114,7 @@ Shows who from your friends listened to a track you're currently listening to or
 Options:
 
 * Track - A track you want to search for. You can either use the built-in Last.fm search or separate the artist and trackname yourself using a | as separator.
+* Mode - Response mode. `embed`, `image` or `pages`
 
 !!! note "Examples"
     `.fwt`

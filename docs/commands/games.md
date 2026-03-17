@@ -10,10 +10,16 @@ Play the new Jumble game! Guess the artist out of your all-time top artists toge
 - Difficulty gradually increases
 - Play up to 30 jumbles a day or unlimited for supporters
 
+Options:
+
+* Stats - View your game statistics with `stats`
+
 !!! note "Examples"
     `.j`
 
     `.jumble`
+
+    `.jumble stats`
 
 !!! info ""
     Server staff and want to restrict jumble to specific channels? Use `.togglecommand`
@@ -33,10 +39,16 @@ Play the new Pixel jumble game! Guess the album out of your all-time top albums 
 - Difficulty gradually increases
 - Play up to 30 pixel jumbles a day or unlimited for supporters
 
+Options:
+
+* Stats - View your game statistics with `stats`
+
 !!! note "Examples"
     `.px`
 
     `.pixel`
+
+    `.pixel stats`
 
 !!! info ""
     Server staff and want to restrict pixel jumble to specific channels? Use `.togglecommand`
