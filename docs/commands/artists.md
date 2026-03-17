@@ -217,17 +217,12 @@ Compares your top artists, genres, countries and Discogs to those of someone els
 Options:
 
 * User - Select another user by mention, Discord ID or Last.fm username
-* Options - Options like taste display mode or time period.
+* Time period
 
-Time periods: 
+Time periods:
 
 * `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
 * Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
-
-Modes:
-
-* Table (`t`): Default. Works on all platforms, might not properly outline non-unicode characters
-* Embed (`e`): Looks better, but is unreadable on mobile.
 
 !!! note "Examples"
     `.t frikandel_`
@@ -236,9 +231,7 @@ Modes:
 
     `.taste bitldev`
 
-    `.taste @user monthly embed`
-
-    `.t @user m e`
+    `.taste @user monthly`
 
 ---
 
