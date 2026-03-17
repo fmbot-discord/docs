@@ -1,116 +1,135 @@
 What data .fmbot collects, how we use it and how you can manage it.
 
-Last update: January 6, 2025
+Last updated: March 17, 2026
 
-Changelog: Added note about Stripe
+## What does .fmbot do?
+.fmbot is an open-source Last.fm Discord bot. Last.fm is a service that tracks what people listen to.
 
-## What does your application do?
-.fmbot is an open-source Last.fm Discord bot. Last.fm is a service that tracks what people listen to. 
+With the bot you can do various things to analyze your and your friends' music taste, like see your recent plays or see who in a server listens to a certain artist.
 
-In our bot you can do various things to analyze your and your friends music taste, like see your recent plays or see who in a server listens to a certain artist.
+To use the bot, you need to log in with a Last.fm account. After that you can optionally also log in with a Discogs account.
 
-To use the bot, you have to log in with a Last.fm account. After that you can optionally also login with a Discogs account.
+## What data do we store?
 
-## What data do you store?
-When someone logins to the bot, we store the following Discord data:
+### User data
+When you log in to the bot, we store the following:
 
-- Discord user ID
-- That they are in that server
-- Their nickname or name on that server
+**Discord data:**
 
-We store the following Last.fm data for every user:
+- Your Discord user ID
+- That you are in a server
+- Your nickname or display name on that server
 
-- Username
-- Scrobbles (plays), top artists, top albums and top tracks
-- Registration date
-- Total scrobble count
+**Last.fm data:**
 
-If a user logs in with Discogs, we store the following data:
+- Your Last.fm username
+- Your scrobbles (plays), top artists, top albums and top tracks
+- Your registration date
+- Your total scrobble count
+- Your Last.fm session key (for authenticated actions)
 
-- What releases they have in their collection
+**Optional integrations:**
 
-When the bot joins a server, the following data from that server is stored:
+- If you log in with Discogs, we store your collection releases
+- If you import your Spotify listening history, we store: artist name, album name, track name, time played, and duration listened
+- If you import your Apple Music listening history, we store: artist name, album name, track name, and time played
 
-- Server name
-- Server ID
-- Members in the server that have been logged into .fmbot
-- Nickname or username of members in the server that have logged into .fmbot
+### Server data
+When the bot joins a server, we store:
 
-When specific settings for a server channel are set, the following data from that channel is stored:
+- Server name and ID
+- Members in the server who are logged into .fmbot
+- Nickname or username of those members
 
-- Channel name
-- Channel ID
+If a server has Premium Server, we additionally store for every logged-in user:
 
-When someone uses a command, the command log stores this:
+- The date they last sent a message in that server
+- Their Discord roles
 
-- Discord name or nickname of the user executing the command
-- Discord user id
-- Server name
-- Discord server id
-- Discord channel id
-- The text and options in the command
+### Channel data
+When specific settings for a server channel are set, we store:
 
-If someone imports their Spotify history, we store the following data of their import files:
+- Channel name and ID
 
-- Artist name
-- Album name
-- Track name
-- Time played
-- Length listened
+### Command logs
+When you use a command, we log:
 
-If a server has Premium Server, the following data will be stored for every logged-in user in the server:
+- Your Discord name or nickname and user ID
+- The server name and ID
+- The Discord channel ID
+- The command text and options used
+- The resolved artist, album, or track name (if applicable)
 
-- The date a user has last sent a message in that server
-- Their roles
+Command logs containing command message content are stored for up to 30 days for debugging purposes, in accordance with Discord's terms. Logs without command message content are retained longer for usage statistics.
 
-No data is stored from users that are not logged into the bot.
+### AI features
+If you use AI-powered features in the bot, we store a record of the generation linked to your user ID.
 
-'Logged in' means that a user has connected their Last.fm account to .fmbot with the 'login' command.
+### Payment data
+When you make a purchase, [Stripe](https://stripe.com/privacy) processes the payment. We store which Stripe account belongs to which user, along with purchase metadata, to provide premium functionality.
 
-When you make a purchase in the bot, [Stripe](https://stripe.com/privacy) might also store additional data about you. In this case we will also store what Stripe account belongs to what user, along with additional purchase metadata. This is to make sure a user can access the premium functionality.
+### What we don't store
+No data is stored from users who are not logged into the bot. "Logged in" means you have connected your Last.fm account to .fmbot with the `/login` command.
 
 ## Music bot scrobbling
-If you have logged into the bot the bot will scrobble (store) songs music bots play to your Last.fm profile by default. 
-You can opt-out of this feature by using the `/botscrobbling` command. 
+If you are logged into the bot, it will scrobble (record) songs that music bots play to your Last.fm profile by default. You can opt out using the `/botscrobbling` command.
 
-For this feature the bot tries to fetch the artist and track name from messages music bots send in your server. 
-If a song is successfully found, it will be send to Last.fm. No message content is stored or processed otherwise.
+There are two ways this feature works:
 
-## For what purpose do you store it?
-To identify who is calling the command and get the appropriate parameters to customize their command.
+- **Message-based**: The bot reads messages from music bots in your server to find the artist and track name. No message content is stored or processed otherwise.
+- **API-based**: Music bots can submit scrobbles directly to .fmbot through our scrobbling API. The music bot sends the track name, artist, and which users are listening, and .fmbot scrobbles it to their Last.fm accounts.
 
-Music data and server data is used for commands that provide server-wide leaderboards and statistics.
+In both cases, if a song is successfully found, it is sent to Last.fm on behalf of eligible users.
 
-This data is stored for caching purposes and to ensure our commands are performant. It is not possible to fetch data like playcounts for thousands of users real-time.
+## How do we use your data?
 
-Command logs are used for statistics, debugging and helping people with bug reports.
+- **Identification**: To identify who is running a command and retrieve the right data
+- **Commands**: To power server-wide leaderboards, statistics, and other features
+- **Performance**: Music data is cached locally because fetching playcounts for thousands of users in real-time is not feasible
+- **Debugging**: Command logs help us investigate bug reports and monitor usage
 
-## For how long do you store it?
-Settings data and command logs: Forever, or until deleted.
+## How long do we keep your data?
 
-Server data: Forever, or until the bot is kicked from the server.
+- **User settings and music data**: Until you delete your account
+- **Command logs with command message content**: Up to 30 days, in accordance with Discord's terms
+- **Command logs without command message content**: Retained for usage statistics
+- **Server data**: Until the bot is removed from the server
 
-## What is the process for users to request deletion of their data?
-For user data we have a command (`/remove`).
+## How can you delete your data?
 
-For server data people can remove the bot and all the data related to that server will be deleted.
+- **User data**: Use the `/remove` command to delete your account and all associated data
+- **Server data**: Remove the bot from your server and all related server data will be deleted
+- **Manual requests**: You can also request deletion in our [support server](https://discord.gg/fmbot)
 
-Users can also request deletion of their data in our [support server](https://discord.gg/fmbot).
+## Infrastructure and security
+.fmbot is hosted on Hetzner servers in Finland. All data is stored in a PostgreSQL database with regular backups.
 
-## What systems and infrastructure do you use?
-.fmbot is currently hosted on a Hetzner VPS in Germany.
+## Third-party services
+We provide authentication through:
 
-## How can users contact you with security issues?
-Through our server and DMs, or through Github issues. We are visibly identified as developers on [the server](https://discord.gg/fmbot).
+- [Last.fm](https://www.last.fm/legal/terms)
+- [Discogs](https://www.discogs.com/settings/developers)
 
-## Does your app utilize other third-party auth services or connections?
-We provide auth services to the following services:
+We use [Stripe](https://stripe.com/privacy) for payment processing.
 
-- Last.fm
-- Discogs
+## Analytics
+Our website at [fm.bot](https://fm.bot) uses Google Analytics to understand how visitors use the site.
 
-## Extra info
+## Your rights
+Under the GDPR and similar data protection laws, you have the right to:
 
-Personal .fmbot data will never be shared with any 3rd party services unless explicitly specified.
+- Access the personal data we hold about you
+- Request correction of inaccurate data
+- Request deletion of your data
+- Object to or restrict processing of your data
 
-If you have any questions after reading all this feel free to contact us on [our Discord](https://discord.gg/fmbot) or open an issue on [our Github](https://github.com/fmbot-discord/fmbot/issues/new/choose).
+To exercise any of these rights, contact us through our [support server](https://discord.gg/fmbot).
+
+## Data sharing
+Your .fmbot data will never be shared with any third-party services unless explicitly specified in this policy.
+
+## Contact
+If you have questions about this privacy policy or want to report a security issue:
+
+- Discord: [discord.gg/fmbot](https://discord.gg/fmbot) (developers are identified on the server)
+- GitHub: [fmbot-discord/fmbot](https://github.com/fmbot-discord/fmbot/issues/new/choose)
