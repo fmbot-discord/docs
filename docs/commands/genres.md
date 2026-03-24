@@ -98,7 +98,7 @@ Shows top genres for everyone in your server.
 
 Options:
 
-* Time period - `alltime`, `monthly` or `weekly`
+* Time period - `alltime`, `monthly`, `weekly` or last two months (e.g. `march`)
 * Sorting - `listeners` or `plays`
 
 !!! note "Examples"
@@ -109,4 +109,6 @@ Options:
     `.servergenres alltime plays`
 
     `.servergenres listeners weekly`
+
+    `.servergenres march`
 

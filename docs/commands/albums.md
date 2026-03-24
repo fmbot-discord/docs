@@ -229,7 +229,7 @@ Shows top albums for everyone in your server.
 
 Options:
 
-* Time period - `alltime`, `monthly` or `weekly`
+* Time period - `alltime`, `monthly`, `weekly` or last two months (e.g. `march`)
 * Sorting - `listeners` or `plays`
 * Artist - Filter by artist name
 
@@ -243,6 +243,8 @@ Options:
     `.serveralbums listeners weekly`
 
     `.serveralbums the beatles monthly`
+
+    `.serveralbums march`
 
 
 ---

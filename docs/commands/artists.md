@@ -318,7 +318,7 @@ Shows top artists for everyone in your server.
 
 Options:
 
-* Time period - `alltime`, `monthly` or `weekly`
+* Time period - `alltime`, `monthly`, `weekly` or last two months (e.g. `march`)
 * Sorting - `listeners` or `plays`
 
 !!! note "Examples"
@@ -329,6 +329,8 @@ Options:
     `.serverartists alltime plays`
 
     `.serverartists listeners weekly`
+
+    `.serverartists march`
 
 ---
 
