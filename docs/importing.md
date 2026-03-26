@@ -1,10 +1,10 @@
 # Importing your music history
 
-The bot uses Last.fm by default for all your music data. We now also offer a way to import your listening history from Spotify and Apple Music and combine that together with your scrobbles.
+.fmbot builds on your Last.fm profile and lets you extend it with listening history imports from Spotify and Apple Music.
 
-The bot will adjust your Last.fm stats on the fly and dynamically add your imports on top everywhere in .fmbot.
+Imported plays are dynamically applied into your stats across the bot, creating a complete listening history in one place.
 
-Using your imported history together with your Last.fm scrobbles is only available for .fmbot supporters with an [active .fmbot subscription](./supporter.md).
+This combined view is available to supporters with an [active subscription](./supporter.md).
 
 ---
 
