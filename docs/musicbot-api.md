@@ -89,7 +89,6 @@ Submit a scrobble for users in a voice channel. This must be called at the **sta
 | `trackName` | string | Yes | Name of the track |
 | `artistName` | string | Yes | Name of the artist |
 | `trackLengthMs` | integer | Yes | Track duration in milliseconds |
-| `startTimestamp` | string | Yes | ISO 8601 timestamp of when playback started |
 | `connectedUserDiscordIds` | integer[] | Yes | Discord IDs of users in the voice channel (max 100) |
 | `albumName` | string | No | Name of the album. If not provided, .fmbot will try to look it up from its database |
 | `cleanTrackName` | boolean | No | Set to `true` to clean YouTube-style metadata from the track name before scrobbling. Defaults to `false`. See [Track name cleaning](#track-name-cleaning) below |
@@ -100,7 +99,6 @@ Submit a scrobble for users in a voice channel. This must be called at the **sta
         "trackName": "Blinding Lights",
         "artistName": "The Weeknd",
         "trackLengthMs": 201573,
-        "startTimestamp": "2025-03-14T15:30:00Z",
         "connectedUserDiscordIds": [
             123456789012345678,
             987654321012345678
@@ -129,6 +127,64 @@ When `scrobbled` is `false`, check the `denyReason` field:
 
 !!! info
     The `scrobbledUserDiscordIds` field contains the users that are eligible for scrobbling. The actual scrobble to Last.fm happens in the background after the appropriate delay. This response confirms the request was accepted, not that the scrobble has been submitted to Last.fm yet.
+
+---
+
+### POST `/musicbots/{guildId}/url-scrobble`
+
+Submit a scrobble using a Spotify or Apple Music track URL instead of providing track metadata manually. .fmbot resolves the URL to track info from its database and handles the rest the same way as the regular scrobble endpoint.
+
+**Path parameters:**
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `guildId` | integer | The Discord guild ID |
+
+**Request body:**
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `trackUrl` | string | Yes | A Spotify or Apple Music track URL |
+| `connectedUserDiscordIds` | integer[] | Yes | Discord IDs of users in the voice channel (max 100) |
+
+**Supported URL formats:**
+
+- Spotify: `https://open.spotify.com/track/{id}` or `spotify:track:{id}` (including `intl-` variants)
+- Apple Music: `https://music.apple.com/{country}/song/{name}/{id}` or album URLs with `?i={songId}`
+
+**Example request:**
+
+    {
+        "trackUrl": "https://open.spotify.com/track/0VjIjW4GlUZAMYd2vXMi3b",
+        "connectedUserDiscordIds": [
+            123456789012345678,
+            987654321012345678
+        ]
+    }
+
+**Example response:**
+
+    {
+        "scrobbled": true,
+        "denyReason": null,
+        "scrobbledUserDiscordIds": [
+            123456789012345678,
+            987654321012345678
+        ]
+    }
+
+When `scrobbled` is `false`, check the `denyReason` field:
+
+| Deny reason | Description |
+|-------------|-------------|
+| `noFmbotInGuild` | .fmbot is not in this guild |
+| `invalidUrlRequest` | Missing URL or no users provided |
+| `invalidUrl` | The URL is not a valid Spotify or Apple Music track link |
+| `trackNotFound` | The track was not found in .fmbot's database |
+| `nobodyWithBotScrobblingEnabled` | None of the provided users have bot scrobbling enabled |
+
+!!! info
+    This endpoint resolves the URL to track metadata from .fmbot's database. If the track hasn't been indexed by .fmbot yet, you'll get a `trackNotFound` response.
 
 ---
 
