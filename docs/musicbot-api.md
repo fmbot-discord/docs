@@ -2,11 +2,11 @@
 
 This page documents the .fmbot API for music bot developers who want to integrate scrobbling into their bot. With this integration, users listening to music through your bot can automatically have their plays scrobbled to Last.fm through .fmbot.
 
-Access is currently granted on an invite basis to trusted developers only.
+Access is currently granted on an invite basis to trusted developers only. 
 
 ---
 
-## How it works
+# How it works
 
 When a user starts listening to a track through your bot, you send a request to .fmbot with the track info and the Discord IDs of users in the voice channel. .fmbot then handles the rest, setting "now playing" on Last.fm and scrobbling the track after it has been listened to long enough.
 
@@ -14,7 +14,13 @@ Users control whether they want bot scrobbling enabled or disabled through the `
 
 ---
 
-## Requirements
+# Requirements
+
+- You must check if fmbot is in the server
+- You must only send actual music tracks
+- You must indicate in your now playing message when you are scrobbling
+
+These points are described in detail below:
 
 ### Guild presence check
 Your bot **must** check if .fmbot is in the server before sending scrobble data. This is both for practical and legal reasons. We can't and won't process data from guilds that don't have .fmbot. If a server has .fmbot, it means they agreed to the .fmbot Terms of Service.
@@ -42,7 +48,7 @@ You can optionally use the Discord slash command mention: `</botscrobbling:10189
 
 ---
 
-## Authentication
+# Authentication
 
 All requests require an `X-Api-Key` header with your API key.
 
@@ -52,7 +58,13 @@ Requests without a valid API key will receive a `401 Unauthorized` response.
 
 ---
 
-## Endpoints
+# Endpoints
+
+The goal for all endpoints is that they should respond in around 200ms. 
+
+Note that there is currently an issue with the `cleanTrackName` parameter where it might take a second, this will be fixed soon.
+
+---
 
 ### POST `/musicbots/{guildId}/fmbot-present`
 
