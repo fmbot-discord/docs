@@ -44,7 +44,7 @@ Messaging examples when you don't wait for .fmbot to respond (don't really want 
 
 - Scrobbling to Last.fm for .fmbot users. Enable or disable with `/botscrobbling`
 
-You can optionally use the Discord slash command mention: `</botscrobbling:1018922344909131863>`
+If we don't return any users (meaning it's not scrobbling for anyone), you can leave this messaging out since it's no longer relevant.
 
 ---
 
