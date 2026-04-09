@@ -8,9 +8,12 @@ The feature works fully automatically. Simply start listening to music using a s
 
 ## Recommended bots:
 
-- [Maki](https://maki.gg?utm_source=fm.bot&utm_medium=docs&utm_campaign=scrobbling)
+- [Flavi](https://flavibot.xyz/)
+- [Maki](https://maki.gg?utm_source=fm.bot&utm_medium=docs&utm_campaign=scrobbling)*
 
-Recommended bots have a native and reliable integration with .fmbot bot scrobbling. Just make sure you enable the .fmbot integration in the bots dashboard.
+Recommended bots have a native and reliable integration with .fmbot bot scrobbling. 
+
+*To use bot scrobbling, enable it in the bots dashboard first.
 
 ---
 
