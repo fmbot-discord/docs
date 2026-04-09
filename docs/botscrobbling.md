@@ -8,7 +8,7 @@ The feature works fully automatically. Simply start listening to music using a s
 
 ## Recommended bots:
 
-- [Flavi](https://flavibot.xyz/)
+- [FlaviBot](https://flavibot.xyz/)
 - [Maki](https://maki.gg?utm_source=fm.bot&utm_medium=docs&utm_campaign=scrobbling)*
 
 Recommended bots have a native and reliable integration with .fmbot bot scrobbling. 
