@@ -85,6 +85,8 @@ document.querySelectorAll('.getsupporter-button-fmbot').forEach(function(btn) {
 
 ??? info "Why a supporter program?"
 
+    ###### Why a supporter program? { #why-a-supporter-program }
+
     In order to help us pay for hosting, fund development and deal with other expenses we've added a way for people to donate. In return for your support you get some cool exclusive perks.
 
     We're dedicated to making sure the bot remains free and independent. That's why most supporter features are simply features that are nice but would be difficult to roll out to everyone. For example some of the extra statistics require us to store your full listening history, which would be difficult to do for all our users.
@@ -93,9 +95,13 @@ document.querySelectorAll('.getsupporter-button-fmbot').forEach(function(btn) {
 
 ??? info "Can I also purchase through the Discord store?"
 
+    ###### Can I also purchase through the Discord store? { #can-i-also-purchase-through-the-discord-store }
+
     Yes, supporter is also available on the [Discord App Directory store](https://discord.com/application-directory/356268235697553409/store) for $3.99/month.
 
 ??? info "Can I gift someone else supporter?"
+
+    ###### Can I gift someone else supporter? { #can-i-gift-someone-else-supporter }
 
     To gift supporter on Discord desktop, right-click a user, go to 'Apps' and click 'Gift supporter'.
 
@@ -105,9 +111,13 @@ document.querySelectorAll('.getsupporter-button-fmbot').forEach(function(btn) {
 
 ??? info "Does being an .fmbot supporter give me Last.fm Pro? Or the other way around?"
 
+    ###### Does being an .fmbot supporter give me Last.fm Pro? Or the other way around? { #does-being-an-fmbot-supporter-give-me-last-fm-pro-or-the-other-way-around }
+
     No, .fmbot is not affiliated with Last.fm. 
 
 ??? info "Can I cancel or change my subscription?"
+
+    ###### Can I cancel or change my subscription? { #can-i-cancel-or-change-my-subscription }
 
     There are three ways to manage a subscription made directly with us:
 
@@ -125,12 +135,16 @@ document.querySelectorAll('.getsupporter-button-fmbot').forEach(function(btn) {
 
 ??? info "What happens if I cancel my subscription and have imported my plays?"
 
+    ###### What happens if I cancel my subscription and have imported my plays? { #what-happens-if-i-cancel-my-subscription-and-have-imported-my-plays }
+
     Importing in .fmbot is a service that adjusts your Last.fm stats on the fly and adds your imported plays on top. 
     If your supporter subscription expires, this service is no longer available and the bot will only use your Last.fm stats.
 
     Your imported plays are however saved and will be available again if you resubscribe in the future.
 
 ??? info "How do I activate my subscription?"
+
+    ###### How do I activate my subscription? { #how-do-i-activate-my-subscription }
 
     If you purchase through Discord or with us through Stripe it should get automatically activated within a minute.
 
@@ -139,5 +153,7 @@ document.querySelectorAll('.getsupporter-button-fmbot').forEach(function(btn) {
     Having issues? Please join [our Discord](https://discord.gg/6y3jJjtDqK) and create a thread in #help. We'll take a look as soon as possible.
 
 ??? info "I have a question that isn't listed here"
+
+    ###### I have a question that isn't listed here { #i-have-a-question-that-isnt-listed-here }
 
     Please join [our server](https://discord.gg/fmbot) and make a thread in the #help channel. A staff member will try to help you as soon as they're available.
