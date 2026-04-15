@@ -1,3 +1,5 @@
+<style>.md-banner { display: none; }</style>
+
 # 🎉 Thank you for getting .fmbot supporter!
 
 You can now close this window and return to Discord.
@@ -10,6 +12,11 @@ Need more information?
 - [Supporter - Frequently Asked](./supporter.md#frequently-asked)
 - [Frequently Asked](./faq.md)
 - [Support server](https://discord.gg/fmbot)
+
+---
+
+!!! quote ""
+    <i>Please note that .fmbot is not affiliated with Last.fm. Supporter does not grant Last.fm Pro, or the other way around.</i>
 
 
 <details style="font-size: .7rem;" open><summary>Overview of your new perks</summary>
@@ -61,6 +68,3 @@ Need more information?
 </ul>
 
 </details>
-
-!!! quote ""
-    <i>Please note that .fmbot is not affiliated with Last.fm. Supporter does not grant Last.fm Pro, or the other way around.</i>
