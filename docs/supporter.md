@@ -119,19 +119,25 @@ document.querySelectorAll('.getsupporter-button-fmbot').forEach(function(btn) {
 
     ###### Can I cancel or change my subscription? { #can-i-cancel-or-change-my-subscription }
 
-    There are three ways to manage a subscription made directly with us:
+    You can cancel or change your subscription yourself at any time. The steps depend on how you originally purchased:
 
-    - Through the `/getsupporter` command
-    - Through the 'Manage subscription' button in the receipt emails
-    - In the [Stripe customer portal](https://billing.stripe.com/p/login/3cs7ww1tR6ay6t28ww) where you can login with the email you used during purchase
+    **Purchased through the bot (Stripe)**
 
-    To switch from monthly to yearly billing, use the 'Manage' button. To cancel, use the 'Cancel' button. 
+    Use any of these options to cancel, switch between monthly/yearly billing, or update your payment method:
 
-    If the above methods didn't work for you, please contact us at [billing-support@fm.bot](mailto:billing-support@fm.bot).
+    - Run `/getsupporter` in Discord - this is the easiest way
+    - Click the 'Manage subscription' link in the Stripe receipt emails you get every month
+    - Log in to the [Stripe customer portal](https://billing.stripe.com/p/login/3cs7ww1tR6ay6t28ww) with the email you used during purchase. If you don't receive an email, double check you are actually providing the email you used during purchase.
 
-    If you have purchased through Discord, you can go to your Discord settings and then 'Subscriptions'. This is only available on Discord desktop and browser, not on mobile.
+    If none of these work for you, email [billing-support@fm.bot](mailto:billing-support@fm.bot). Keep in mind that Last.fm and .fmbot are seperate services.
 
-    If you have purchased through OpenCollective, you can cancel a recurring contribution at any time. To do so, go to [OpenCollective](https://opencollective.com/) and sign in. After signing in go to 'Manage Contributions' where you can change your subscription.
+    **Purchased through Discord**
+
+    Go to your Discord **Settings → Subscriptions** to manage or cancel. Note: this page is only available on Discord desktop and browser, not on mobile.
+
+    **Purchased through OpenCollective (deprecated)**
+
+    Sign in at [OpenCollective](https://opencollective.com/) and go to **Manage Contributions** to change or cancel your subscription.
 
 ??? info "What happens if I cancel my subscription and have imported my plays?"
 

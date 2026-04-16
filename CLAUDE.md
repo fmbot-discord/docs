@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Is
 
-Documentation website for **.fmbot**, a Discord bot for Last.fm music statistics. The site is published at https://fm.bot/ and built with Zensical (a Python-based static site generator using Material for MkDocs theme). Zensical docs: https://zensical.org/docs/
+Documentation website for **.fmbot**, a Discord bot for Last.fm music statistics. The site is published at https://fm.bot/ and built with Zensical. Zensical is made by the Material for MkDocs team — it's largely compatible with Material for MkDocs config and plugins, but it's not the same project and has its own documentation at https://zensical.org/docs/. Do not assume Material for MkDocs docs apply 1:1.
 
 ## Development Commands
 
