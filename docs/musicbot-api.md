@@ -101,7 +101,7 @@ Submit a scrobble for users in a voice channel. This must be called at the **sta
 | `trackName` | string | Yes | Name of the track |
 | `artistName` | string | Yes | Name of the artist |
 | `trackLengthMs` | integer | Yes | Track duration in milliseconds |
-| `connectedUserDiscordIds` | integer[] | Yes | Discord IDs of users in the voice channel (max 100) |
+| `connectedUserDiscordIds` | integer[] | Yes | Discord IDs of non-deafened users in the voice channel (max 100) |
 | `albumName` | string | No | Name of the album. If not provided, .fmbot will try to look it up from its database |
 | `cleanTrackName` | boolean | No | Set to `true` to clean YouTube-style metadata from the track name before scrobbling. Defaults to `false`. See [Track name cleaning](#track-name-cleaning) below |
 
@@ -157,7 +157,7 @@ Submit a scrobble using a Spotify or Apple Music track URL instead of providing 
 | Field | Type | Required | Description |
 |-------|------|----------|-------------|
 | `trackUrl` | string | Yes | A Spotify or Apple Music track URL |
-| `connectedUserDiscordIds` | integer[] | Yes | Discord IDs of users in the voice channel (max 100) |
+| `connectedUserDiscordIds` | integer[] | Yes | Discord IDs of non-deafened users in the voice channel (max 100) |
 
 **Supported URL formats:**
 
