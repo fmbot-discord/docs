@@ -9,6 +9,7 @@ The feature works fully automatically. Simply start listening to music using a s
 ## Recommended bots:
 
 - [FlaviBot](https://flavibot.xyz/)
+- [Betty & Nero](https://betty.bot/)
 - [Maki](https://maki.gg?utm_source=fm.bot&utm_medium=docs&utm_campaign=scrobbling)*
 
 Recommended bots have a native and reliable integration with .fmbot bot scrobbling. 
@@ -24,10 +25,8 @@ Recommended bots have a native and reliable integration with .fmbot bot scrobbli
 - Tempo Bot
 - Green-Bot
 - Cakey Bot
-- Betty
 - Bleed
 - Uzox
-- FlaviBot
 
 For these bots we read their 'Now playing' message, try to figure out the track, see who's connected to the voice channel and try to scrobble it. This will usually work but can break in case the applicable bot makes any changes.
 
