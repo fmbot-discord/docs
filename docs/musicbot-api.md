@@ -192,11 +192,11 @@ When `scrobbled` is `false`, check the `denyReason` field:
 | `noFmbotInGuild` | .fmbot is not in this guild |
 | `invalidUrlRequest` | Missing URL or no users provided |
 | `invalidUrl` | The URL is not a valid Spotify or Apple Music track link |
-| `trackNotFound` | The track was not found in .fmbot's database |
+| `trackNotFound` | The track could not be resolved. For Apple Music URLs this means the track isn't in .fmbot's database. For Spotify URLs this only happens if the Spotify API also doesn't return the track (or returns incomplete data) |
 | `nobodyWithBotScrobblingEnabled` | None of the provided users have bot scrobbling enabled |
 
 !!! info
-    This endpoint resolves the URL to track metadata from .fmbot's database. If the track hasn't been indexed by .fmbot yet, you'll get a `trackNotFound` response.
+    For Spotify URLs, .fmbot first checks its own database and falls back to the Spotify API if the track isn't cached yet - new tracks are fetched on demand and saved for future lookups. Apple Music URLs still require the track to already be in .fmbot's database.
 
 ---
 
