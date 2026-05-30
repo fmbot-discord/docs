@@ -1,3 +1,7 @@
+---
+icon: simple/spotify
+---
+
 # Spotify commands
 
 ### .spotify (`.sp`)

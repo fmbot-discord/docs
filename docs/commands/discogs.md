@@ -1,3 +1,7 @@
+---
+icon: simple/discogs
+---
+
 # Discogs commands
 
 ### .discogs 

@@ -1,3 +1,7 @@
+---
+icon: lucide/radio
+---
+
 # Music bot scrobbling
 
 Bot scrobbling is a feature from .fmbot that allows you to automatically scrobble music from other Discord music bots to your Last.fm account. 

@@ -1,3 +1,7 @@
+---
+icon: lucide/gamepad-2
+---
+
 # Games
 
 ### .jumble (`.j`)

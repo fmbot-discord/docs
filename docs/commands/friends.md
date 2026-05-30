@@ -1,3 +1,7 @@
+---
+icon: lucide/users
+---
+
 # Friend commands
 
 ### .friends (`.f`)

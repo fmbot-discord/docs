@@ -1,3 +1,7 @@
+---
+icon: lucide/crown
+---
+
 # Crowns
 
 A crown is an award that you get if you're the #1 listener for a certain artist in a server.

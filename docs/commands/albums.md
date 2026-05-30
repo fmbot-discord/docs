@@ -1,3 +1,7 @@
+---
+icon: lucide/disc-3
+---
+
 # Albums
 
 ### .album (`.ab`)

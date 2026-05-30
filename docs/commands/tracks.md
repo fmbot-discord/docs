@@ -1,3 +1,7 @@
+---
+icon: lucide/music
+---
+
 # Track commands
 
 ## Viewing your tracks

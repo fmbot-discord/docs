@@ -1,3 +1,7 @@
+---
+icon: lucide/play
+---
+
 # Play commands
 
 ## Getting your latest scrobbles

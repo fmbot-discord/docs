@@ -1,3 +1,7 @@
+---
+icon: lucide/star
+---
+
 # Become a supporter ⭐
 
 Unlock your full Spotify & Apple Music listening history, discover when you first heard your favorite music, view lyrics and more. Supporter gives you access to exclusive features while supporting the continued development of the bot.

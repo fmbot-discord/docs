@@ -1,3 +1,7 @@
+---
+icon: lucide/settings
+---
+
 # Server settings    
 
 Server settings can only be changed by admins, users with the 'Ban Members' permission or .fmbot admins.

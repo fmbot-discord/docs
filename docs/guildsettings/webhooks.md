@@ -1,3 +1,7 @@
+---
+icon: lucide/webhook
+---
+
 # Webhook settings    
 
 You can use .fmbot webhooks to automatically post the featured music to your own channel.

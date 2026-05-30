@@ -1,3 +1,7 @@
+---
+icon: lucide/crown
+---
+
 # Crown settings    
 
 You can change what users are able to gain crowns, configure other crown settings or completely disable crowns.

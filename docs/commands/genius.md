@@ -1,3 +1,7 @@
+---
+icon: lucide/quote
+---
+
 # Genius commands
 
 ### .genius (`.gen`)

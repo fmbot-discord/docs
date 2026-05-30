@@ -1,3 +1,7 @@
+---
+icon: lucide/globe
+---
+
 # Country commands
 
 Countries are sourced from MusicBrainz.

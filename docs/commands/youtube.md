@@ -1,3 +1,7 @@
+---
+icon: simple/youtube
+---
+
 # Youtube commands
 
 ### .youtube (`.yt`)

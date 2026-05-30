@@ -1,3 +1,7 @@
+---
+icon: lucide/circle-help
+---
+
 # Frequently Asked
 
 ??? info "How do I get started?"
@@ -61,7 +65,7 @@
 
     ###### Who picks what is featured? { #who-picks-what-is-featured }
 
-    The bot randomly picks any user that has used .fmbot in the last day.
+    The bot randomly picks any user that has used .fmbot in the last day. The album cover will then be set as the bots avatar for an hour and it will be shown in the `.featured` command.
 
     For more information, check out [Featured](./commands/featured.md).
 

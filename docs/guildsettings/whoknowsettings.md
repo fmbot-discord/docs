@@ -1,3 +1,7 @@
+---
+icon: lucide/search
+---
+
 # WhoKnows settings    
 
 You can change what users appear in the whoknows commands and other commands that use all server members

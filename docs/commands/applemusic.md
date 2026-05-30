@@ -1,3 +1,7 @@
+---
+icon: simple/applemusic
+---
+
 # Apple Music commands
 
 ### .applemusic (`.am`, `.apple`)

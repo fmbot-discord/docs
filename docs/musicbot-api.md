@@ -52,7 +52,9 @@ If we don't return any users (meaning it's not scrobbling for anyone), you can l
 
 All requests require an `X-Api-Key` header with your API key.
 
-    X-Api-Key: your-api-key-here
+```text
+X-Api-Key: your-api-key-here
+```
 
 Requests without a valid API key will receive a `401 Unauthorized` response.
 
@@ -78,9 +80,11 @@ Check if .fmbot is in a guild. Use this if you are unable to check guild members
 
 **Response:**
 
-    {
-        "present": true
-    }
+```json
+{
+    "present": true
+}
+```
 
 ---
 
@@ -107,27 +111,31 @@ Submit a scrobble for users in a voice channel. This must be called at the **sta
 
 **Example request:**
 
-    {
-        "trackName": "Blinding Lights",
-        "artistName": "The Weeknd",
-        "trackLengthMs": 201573,
-        "connectedUserDiscordIds": [
-            123456789012345678,
-            987654321012345678
-        ],
-        "albumName": "After Hours"
-    }
+```json
+{
+    "trackName": "Blinding Lights",
+    "artistName": "The Weeknd",
+    "trackLengthMs": 201573,
+    "connectedUserDiscordIds": [
+        123456789012345678,
+        987654321012345678
+    ],
+    "albumName": "After Hours"
+}
+```
 
 **Example response:**
 
-    {
-        "scrobbled": true,
-        "denyReason": null,
-        "scrobbledUserDiscordIds": [
-            123456789012345678,
-            987654321012345678
-        ]
-    }
+```json
+{
+    "scrobbled": true,
+    "denyReason": null,
+    "scrobbledUserDiscordIds": [
+        123456789012345678,
+        987654321012345678
+    ]
+}
+```
 
 When `scrobbled` is `false`, check the `denyReason` field:
 
@@ -166,24 +174,28 @@ Submit a scrobble using a Spotify or Apple Music track URL instead of providing 
 
 **Example request:**
 
-    {
-        "trackUrl": "https://open.spotify.com/track/0VjIjW4GlUZAMYd2vXMi3b",
-        "connectedUserDiscordIds": [
-            123456789012345678,
-            987654321012345678
-        ]
-    }
+```json
+{
+    "trackUrl": "https://open.spotify.com/track/0VjIjW4GlUZAMYd2vXMi3b",
+    "connectedUserDiscordIds": [
+        123456789012345678,
+        987654321012345678
+    ]
+}
+```
 
 **Example response:**
 
-    {
-        "scrobbled": true,
-        "denyReason": null,
-        "scrobbledUserDiscordIds": [
-            123456789012345678,
-            987654321012345678
-        ]
-    }
+```json
+{
+    "scrobbled": true,
+    "denyReason": null,
+    "scrobbledUserDiscordIds": [
+        123456789012345678,
+        987654321012345678
+    ]
+}
+```
 
 When `scrobbled` is `false`, check the `denyReason` field:
 

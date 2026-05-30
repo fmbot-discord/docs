@@ -1,3 +1,7 @@
+---
+icon: lucide/import
+---
+
 # Importing your music history
 
 .fmbot builds on your Last.fm profile and lets you extend it with listening history imports from Spotify and Apple Music.

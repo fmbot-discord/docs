@@ -1,3 +1,7 @@
+---
+icon: lucide/refresh-cw
+---
+
 # Caching
 
 .fmbot uses various ways of making sure all commands are fast and smooth.

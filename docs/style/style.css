@@ -134,3 +134,56 @@ details.info > h6 {
 .md-copyright a:hover {
     color: var(--md-footer-fg-color);
 }
+
+.md-nav__link[href$="supporter/"] svg {
+    color: #f5b50a !important;
+}
+
+/* Sidebar nav icons. Per-page icons come from each page's `icon:` frontmatter, which the
+   bundled theme renders natively. These rules cover the only two cases frontmatter can't
+   reach: the external sidebar links and the two section dropdowns. */
+
+/* Shared icon box — matches the theme's inline nav SVGs (1.3em, 50% opacity, currentColor).
+   mask-image + background-color is used so the icon follows the text colour in light/dark. */
+.md-nav__link[href*="//discord."]::before,
+.md-nav__link[for="__nav_3"]::before,
+.md-nav__link[for="__nav_6"]::before {
+    content: "";
+    flex-shrink: 0;
+    width: 1.3em;
+    height: 1.3em;
+    opacity: 0.5;
+    background-color: currentColor;
+    -webkit-mask-image: var(--nav-icon);
+    mask-image: var(--nav-icon);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
+
+/* External links in the sidebar (Join our server, Add to server, Add user app) — all point
+   to Discord. Keyed on the destination host rather than on "href contains ://", because
+   internal links also render absolute (scheme-bearing) URLs under `zensical serve`, which
+   would otherwise put this icon on every link. Add hosts here if other external links appear. */
+.md-nav__link[href*="//discord."]::before {
+    --nav-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20fill%3D%27none%27%20stroke%3D%27white%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%20stroke-width%3D%272%27%20viewBox%3D%270%200%2024%2024%27%3E%3Cpath%20d%3D%27M15%203h6v6M10%2014%2021%203M18%2013v6a2%202%200%200%201-2%202H5a2%202%200%200%201-2-2V8a2%202%200%200%201%202-2h6%27%2F%3E%3C%2Fsvg%3E");
+}
+
+/* Section dropdowns. NOTE: keyed by the theme's positional toggle ids — `__nav_<n>` is the
+   n-th top-level item under `nav:` in mkdocs.yml. Text commands is #3, Server configuration
+   is #6. Reordering the top-level nav means updating these two numbers. */
+.md-nav__link[for="__nav_3"]::before { /* Text commands → terminal */
+    --nav-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20fill%3D%27none%27%20stroke%3D%27white%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%20stroke-width%3D%272%27%20viewBox%3D%270%200%2024%2024%27%3E%3Cpath%20d%3D%27M12%2019h8M4%2017l6-6-6-6%27%2F%3E%3C%2Fsvg%3E");
+}
+.md-nav__link[for="__nav_6"]::before { /* Server configuration → server-cog */
+    --nav-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20fill%3D%27none%27%20stroke%3D%27white%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%20stroke-width%3D%272%27%20viewBox%3D%270%200%2024%2024%27%3E%3Cpath%20d%3D%27m10.852%2014.772-.383.923M13.148%2014.772a3%203%200%201%200-2.296-5.544l-.383-.923M13.148%209.228l.383-.923%27%2F%3E%3Cpath%20d%3D%27m13.53%2015.696-.382-.924a3%203%200%201%201-2.296-5.544M14.772%2010.852l.923-.383M14.772%2013.148l.923.383%27%2F%3E%3Cpath%20d%3D%27M4.5%2010H4a2%202%200%200%201-2-2V4a2%202%200%200%201%202-2h16a2%202%200%200%201%202%202v4a2%202%200%200%201-2%202h-.5M4.5%2014H4a2%202%200%200%200-2%202v4a2%202%200%200%200%202%202h16a2%202%200%200%200%202-2v-4a2%202%200%200%200-2-2h-.5M6%2018h.01M6%206h.01M9.228%2010.852l-.923-.383M9.228%2013.148l-.923.383%27%2F%3E%3C%2Fsvg%3E");
+}
+
+/* Match the theme: the active section's icon goes to full opacity. */
+.md-nav__item--active > .md-nav__link[for="__nav_3"]::before,
+.md-nav__item--active > .md-nav__link[for="__nav_6"]::before {
+    opacity: 1;
+}

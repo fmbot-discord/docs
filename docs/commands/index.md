@@ -1,3 +1,7 @@
+---
+icon: lucide/rocket
+---
+
 # Getting started
 
 .fmbot uses Last.fm to get information about your music taste. Don't have a Last.fm account? You can create one [here](https://www.last.fm/join).

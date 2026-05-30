@@ -1,3 +1,7 @@
+---
+icon: lucide/tags
+---
+
 # Genre commands
 
 Genres are sourced from Spotify.

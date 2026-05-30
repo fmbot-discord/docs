@@ -33,6 +33,7 @@ theme:
 markdown_extensions:
   - admonition
   - pymdownx.details
+  - pymdownx.superfences
   - attr_list
   - toc:
       permalink: true
@@ -60,8 +61,8 @@ copyright: <a href="/privacy/">Privacy</a>  ·  <a href="/terms/">Terms</a>  · 
 
 nav:
   - 'Home': 'index.md'
-  - 'Frequently Asked Questions': 'faq.md'
-  - 'Text Commands':
+  - 'Frequently Asked': 'faq.md'
+  - 'Text commands':
     - 'Getting started': 'commands/index.md'
     - 'Albums': 'commands/albums.md'
     - 'Artists': 'commands/artists.md'
@@ -80,14 +81,14 @@ nav:
     - 'YouTube': 'commands/youtube.md'
     - 'Updating': 'commands/updating.md'
     - 'Miscellaneous': 'commands/misc.md'
+  - 'Spotify & Apple Music importing': 'importing.md'
+  - 'Get supporter': 'supporter.md'
   - 'Server configuration':
     - 'General': 'guildsettings/index.md'
     - 'WhoKnows': 'guildsettings/whoknowsettings.md'
     - 'Crowns': 'guildsettings/crownsettings.md'
     - 'Webhooks': 'guildsettings/webhooks.md'
-  - 'Spotify & Apple Music importing': 'importing.md'
   - 'Music bot scrobbling': 'botscrobbling.md'
-  - 'Get supporter': 'supporter.md'
   - 'Join our server': https://discord.gg/fmbot
   - 'Add to server': https://discord.com/oauth2/authorize?client_id=356268235697553409&permissions=275415092288&scope=applications.commands%20bot
   - 'Add user app': https://discord.com/oauth2/authorize?client_id=356268235697553409&scope=applications.commands&integration_type=1

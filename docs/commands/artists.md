@@ -1,3 +1,7 @@
+---
+icon: lucide/mic
+---
+
 # Artist commands
     
 ### .artist (`.a`)

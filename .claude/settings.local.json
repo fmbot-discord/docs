@@ -5,5 +5,8 @@
       "Bash(gh pr diff:*)",
       "WebFetch(domain:zensical.org)"
     ]
-  }
+  },
+  "disabledMcpjsonServers": [
+    "jetbrains"
+  ]
 }
