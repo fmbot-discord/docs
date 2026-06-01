@@ -78,7 +78,7 @@ Options:
 * `skip` - Skips artists without images. (`s`)
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
-Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime` (`w`, `m`, `q`, `h`, `y` or `a`)
+Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two-year` or `alltime` (`w`, `m`, `q`, `h`, `y`, `2y` or `a`)
 
 !!! note "Examples"
     `.ac`
@@ -196,7 +196,7 @@ Options:
 
 Time periods: 
 
-* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+* `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two-year` or `alltime`. (`w`, `m`, `q`, `h`, `y`, `2y` or `a`)
 * Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
 
 !!! note "Examples"
@@ -225,7 +225,7 @@ Options:
 
 Time periods:
 
-* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+* `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two-year` or `alltime`. (`w`, `m`, `q`, `h`, `y`, `2y` or `a`)
 * Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
 
 !!! note "Examples"
@@ -349,7 +349,7 @@ Options:
 
 Time periods: 
 
-* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+* `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two-year` or `alltime`. (`w`, `m`, `q`, `h`, `y`, `2y` or `a`)
 * Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
 
 !!! note "Examples"
@@ -379,7 +379,7 @@ Options:
 
 Time periods: 
 
-* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+* `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two-year` or `alltime`. (`w`, `m`, `q`, `h`, `y`, `2y` or `a`)
 * Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
 
 !!! note "Examples"
@@ -403,22 +403,19 @@ Time periods:
 
 Shows when you rediscovered artists after a while.
 
+Gaps are calculated over your full listening history.
+
 Options:
 
-* Time period - Timeframe of gaps. Defaults to quarterly.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
-
-Time periods:
-
-* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
-* Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
+* Size - Amount shown. `extralarge` / `xl` or `extrasmall` / `xs`
 
 !!! note "Examples"
     `.gaps`
 
     `.gaps @user`
 
-    `.gaps yearly`
+    `.gaps xl`
 
 
 !!! info ""

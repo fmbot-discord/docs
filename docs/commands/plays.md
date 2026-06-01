@@ -58,6 +58,23 @@ Options:
     
 ---
 
+### .search (`.sr`, `.find`)
+
+Searches through your stored .fmbot library — your tracks, albums, artists, and scrobbles — for a given query.
+
+Options:
+
+* Query - The text to search your library for.
+
+!!! note "Examples"
+    `.search daft punk`
+
+    `.sr radiohead creep`
+
+    `.find in rainbows`
+
+---
+
 ### .plays (`.p`)
 
 Shows your total scrobble count for a specific time period.
@@ -67,7 +84,7 @@ Options:
 * Time period - Time period of your play count. Defaults to alltime.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
-Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime` (`w`, `m`, `q`, `h`, `y` or `a`)
+Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two-year` or `alltime` (`w`, `m`, `q`, `h`, `y`, `2y` or `a`)
 
 !!! note "Examples"
     `.p`
@@ -165,7 +182,7 @@ Options:
 * Time period - Time you want to base the estimate on. Defaults to your Last.fm register date.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
-Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two-year` or `alltime`. (`w`, `m`, `q`, `h`, `y`, `2y` or `a`)
 
 !!! note "Examples"
     `.pc`
@@ -235,7 +252,7 @@ Options:
 
 Time periods: 
 
-* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+* `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two-year` or `alltime`. (`w`, `m`, `q`, `h`, `y`, `2y` or `a`)
 * Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
 
 !!! note "Examples"

@@ -21,7 +21,7 @@ Options:
 
 Time periods: 
 
-* `weekly`, `monthly`, `quarterly`, `half`, `yearly` or `alltime`. (`w`, `m`, `q`, `h`, `y` or `a`)
+* `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two-year` or `alltime`. (`w`, `m`, `q`, `h`, `y`, `2y` or `a`)
 * Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
 
 !!! note "Examples"

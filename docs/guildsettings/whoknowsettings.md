@@ -10,14 +10,14 @@ These settings can only be changed by admins, users with the 'Ban Members' permi
 
 ---
 
-### .activitythreshold
+### .fmbotactivitythreshold
 
 Allows you to filter users from commands that have not been active in a certain amount of days.
 
 A user is counted as active once they use .fmbot.
 
 !!! note "Examples"
-    `.activitythreshold`
+    `.fmbotactivitythreshold`
 
 ---
 ### .block
