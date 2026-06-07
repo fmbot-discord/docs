@@ -11,14 +11,14 @@ Unlock your full Spotify & Apple Music listening history, discover when you firs
 <div>
 <button class="md-button md-button--primary getsupporter-button getsupporter-button-fmbot">
   <h4 class="title">Monthly</h4>
-  <h3>$3.99</h3>
+  <h3>$4.99</h3>
 </button>
 
 <h4 class="getsupporter-text"></h4>
 
 <button class="md-button md-button--primary getsupporter-button getsupporter-button-fmbot">
   <h4>Yearly</h4>
-  <h3>$23.99</h3>
+  <h3>$29.99</h3>
 </button>
 </div>
 
