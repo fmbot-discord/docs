@@ -70,7 +70,9 @@ document.querySelectorAll('.getsupporter-button-fmbot').forEach(function(btn) {
 | Max custom `fm` footer options | 4 | 10 |
 | Personal automatic emoji reactions with `.userreactions` | ❌ | ✅ |
 | Configure up to 10 bot-wide command `.shortcuts` | ❌ | ✅ |
-| Added friends limit | 12 | 18 |
+| <span class="new">New</span> Close friends, always shown in `whoknows` no matter their rank | ❌ | 4 |
+| <span class="new">New</span> Friends shown in your `friends` now playing list | 12 | 24 |
+| Added friends limit | 80 | 240 |
 | Higher chance of getting featured on Supporter Sunday | ❌ | ✅ |
 | Supporter badge ⭐ | ❌ | ✅ |
 | Chance to sponsor bot-wide charts | ❌ | ✅ |
