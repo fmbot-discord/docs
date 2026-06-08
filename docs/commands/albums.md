@@ -48,7 +48,7 @@ Creates a chart of your top albums over a certain time period.
 
 Options:
 
-* Chart size - `2x2`, `3x5` all the way up to `10x10`.
+* Chart size - `WidthxHeight` such as `2x2`, `3x5` or `20x4`, up to 100 images total.
 * Filter - Filter albums to the year they released (`r:2023`, `released:2023`)
 * Decade - Filter albums to a release decade (`d:80s`, `decade:1990`)
 * Time period - Time period of your top albums. Defaults to weekly.

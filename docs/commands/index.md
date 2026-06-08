@@ -160,4 +160,41 @@ Max amount of emojis is 5. Please put a space between every emoji.
 
     `.userreactions`
 
+---
+
+### /localization
+
+Configure your timezone and number format in .fmbot.
+
+Setting your timezone makes sure the dates and times the bot shows match your local time. The number format changes how large numbers are displayed (for example `1,000` versus `1.000`).
+
+Options:
+
+* Timezone - The timezone you want to set
+* Number format - The number formatting you want to use
+
+!!! note "Examples"
+    `/localization`
+
+    `/localization timezone:Europe/Amsterdam`
+
+---
+
+### .shortcuts (`.sc`) ⭐
+
+Lets you set custom text command shortcuts. Your input is converted to the output you set, and any extra parameters you add are preserved. Shortcuts still use the normal text command prefix.
+
+Use `.shortcuts` to view and manage your shortcuts.
+
+!!! info ""
+    This feature is supporter only. Shortcuts are stored in-memory across all bot instances to keep command handling fast, so availability is limited.
+    [Get .fmbot supporter here.](../supporter.md)
+
+!!! note "Examples"
+    `.shortcuts`
+
+    A shortcut `yo` set to `fm textoneline` — typing `.yo` then runs `.fm textoneline`.
+
+    A shortcut `progress` set to `chart 5x5 2025 skip` — typing `.progress` runs that chart.
+
     

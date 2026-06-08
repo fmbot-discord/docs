@@ -30,7 +30,7 @@ Judges your music taste using AI. You can pick between either a compliment or a 
 
 Options:
 
-* Time period - Time period of your top artists. Defaults to weekly.
+* Time period - Time period of your top artists. Defaults to quarterly (last 90 days).
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"

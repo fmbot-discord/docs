@@ -285,3 +285,24 @@ Options:
 
 !!! info ""
     This command requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)
+
+---
+
+### .lastlistened (`.last`) ⭐
+
+Shows the date you last listened to the artist, album, and track you're listening to or searching for.
+
+Options:
+
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
+!!! note "Examples"
+    `.last`
+
+    `.last the beatles yesterday`
+
+    `.lastlistened @user`
+
+
+!!! info ""
+    This command requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)
