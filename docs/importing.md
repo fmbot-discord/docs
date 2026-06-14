@@ -21,6 +21,7 @@ You can pick between the following modes:
 - Last.fm: Use only Last.fm
 - Full imports, then Last.fm: Use your full import history and add Last.fm afterwards
 - Imports until full Last.fm: Use your import history up until you started scrobbling
+- Smart deduplication (Beta): Combine both sources and remove imported plays you already scrobbled to Last.fm, keeping your Last.fm scrobble whenever an import is a duplicate
 
 To delete your imports from .fmbot, switch to the Last.fm option and use the provided button.
 
