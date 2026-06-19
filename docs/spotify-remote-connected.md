@@ -4,7 +4,11 @@
 
 You can now close this window and return to Discord.
 
-Use `/remote` (or `.remote`) to open your playback panel, or jump straight in with commands like `queue`, `skip`, `play` and `pause`.
+Available commands
+- `.remote`
+- `.play` and `.pause`
+- `.skip`
+- `.queue`
 
 !!! tip "Reply context"
     With the `queue` command you can **reply** to a message instead of typing a track. Reply to any fmbot response containing a track, or to a message with a Spotify track link, and that track is used automatically.
@@ -13,7 +17,7 @@ Use `/remote` (or `.remote`) to open your playback panel, or jump straight in wi
 
 **It's a remote only. It does not scrobble or track your listening** - that's handled by Last.fm, which .fmbot uses for your stats. Connecting won't change how your music is tracked.
 
-Controlling playback (queue, skip, play/pause, previous) requires **Spotify Premium**. This is a Spotify limitation.
+Controlling playback requires **Spotify Premium**. This is a Spotify limitation.
 
 To disconnect, use `.remote disconnect`.
 
