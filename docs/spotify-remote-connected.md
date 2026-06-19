@@ -4,8 +4,9 @@
 
 You can now close this window and return to Discord.
 
-Available commands
-- `.remote`
+Available commands:
+
+- `.remote` / `.rc`
 - `.play` and `.pause`
 - `.skip`
 - `.queue`
