@@ -103,7 +103,7 @@ document.querySelectorAll('.getsupporter-button-fmbot').forEach(function(btn) {
 
     ###### Can I also purchase through the Discord store? { #can-i-also-purchase-through-the-discord-store }
 
-    Yes, supporter is also available on the [Discord App Directory store](https://discord.com/application-directory/356268235697553409/store) for $3.99/month.
+    Yes, supporter is also available on the [Discord App Directory store](https://discord.com/application-directory/356268235697553409/store) for $4.99/month.
 
 ??? info "Can I gift someone else supporter?"
 
