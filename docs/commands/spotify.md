@@ -49,7 +49,7 @@ Gets the Spotify link for the artist you're currently listening to, or the one y
 
 ---
 
-## Spotify Remote control
+## Spotify remote
 
 Control your own Spotify playback straight from Discord. Queue tracks, skip, pause, play and like songs without leaving the chat.
 
