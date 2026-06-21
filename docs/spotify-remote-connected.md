@@ -12,7 +12,7 @@ Available commands:
 - `.queue`
 
 !!! tip "Reply context"
-    With the `play` and `queue` command you can **reply** to a message instead of typing a track. Reply to any fmbot response containing a track, or to a message with a Spotify track link, and that track is used automatically.
+    With the `play` and `queue` commands you can **reply** to a message instead of typing a search. Reply to any fmbot response (a track, album or artist), or to a message with a Spotify link, and it's used automatically.
 
 ---
 

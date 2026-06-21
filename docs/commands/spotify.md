@@ -51,7 +51,7 @@ Gets the Spotify link for the artist you're currently listening to, or the one y
 
 ## Spotify remote
 
-Control your own Spotify playback straight from Discord. Queue tracks, skip, pause, play and like songs without leaving the chat.
+Control your own Spotify playback straight from Discord. Queue and play tracks, albums or artists, skip, pause and like songs without leaving the chat.
 
 !!! info "Connecting"
     Run [`.remote`](#remote-rc) and click **Connect Spotify** to link your account.
@@ -63,8 +63,8 @@ Control your own Spotify playback straight from Discord. Queue tracks, skip, pau
     To unlink, use `.remote disconnect`.
 
 !!! tip "Reply context"
-    With the `play` and `queue` commands you can **reply** to a message instead of typing a track. Reply to any .fmbot response containing a track, or to a message with a Spotify track link, and that track is used automatically.
-
+    With the `play` and `queue` commands you can **reply** to a message instead of typing a search. Reply to any .fmbot response (a track, album or artist), or to a message with a Spotify link, and it's used automatically.
+    
 ---
 
 ### .remote (`.rc`)
@@ -84,9 +84,9 @@ Use `.remote disconnect` to unlink your Spotify account.
 
 ### .play
 
-Plays a track on your Spotify, or resumes playback when no track is given.
+Plays a track on your Spotify, or resumes playback when no input is given.
 
-Reply to any message or .fmbot command containing a track to use that track as input.
+Search for, or reply to, a track, album or artist (or a Spotify link). Albums play from the start, artists start their popular songs.
 
 !!! note "Examples"
     `.play`
@@ -103,7 +103,7 @@ Reply to any message or .fmbot command containing a track to use that track as i
 
 Queues a track on your Spotify. Defaults to the track you're currently listening to, or search for the one you want.
 
-Reply to any message or .fmbot command containing a track to use that track as input.
+Search for, or reply to, a track, album or artist (or a Spotify link). Albums queue every track, artists queue their top track.
 
 !!! note "Examples"
     `.queue`
