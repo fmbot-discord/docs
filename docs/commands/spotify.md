@@ -64,7 +64,7 @@ Control your own Spotify playback straight from Discord. Queue and play tracks, 
 
 !!! tip "Reply context"
     With the `play` and `queue` commands you can **reply** to a message instead of typing a search. Reply to any .fmbot response (a track, album or artist), or to a message with a Spotify link, and it's used automatically.
-    
+
 ---
 
 ### .remote (`.rc`)
@@ -86,7 +86,7 @@ Use `.remote disconnect` to unlink your Spotify account.
 
 Plays a track on your Spotify, or resumes playback when no input is given.
 
-Search for, or reply to, a track, album or artist (or a Spotify link). Albums play from the start, artists start their popular songs.
+Search for, or reply to, a track, album or artist (or a Spotify link). 
 
 !!! note "Examples"
     `.play`
@@ -103,7 +103,7 @@ Search for, or reply to, a track, album or artist (or a Spotify link). Albums pl
 
 Queues a track on your Spotify. Defaults to the track you're currently listening to, or search for the one you want.
 
-Search for, or reply to, a track, album or artist (or a Spotify link). Albums queue every track, artists queue their top track.
+Search for, or reply to, a track, album or artist (or a Spotify link). 
 
 !!! note "Examples"
     `.queue`
