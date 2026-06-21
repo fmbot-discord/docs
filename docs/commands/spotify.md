@@ -49,7 +49,7 @@ Gets the Spotify link for the artist you're currently listening to, or the one y
 
 ---
 
-## Spotify Remote
+## Spotify Remote control
 
 Control your own Spotify playback straight from Discord. Queue tracks, skip, pause, play and like songs without leaving the chat.
 
@@ -58,7 +58,7 @@ Control your own Spotify playback straight from Discord. Queue tracks, skip, pau
 
     It's a **remote only**. It does not scrobble or track your listening. That's handled by Last.fm, which .fmbot uses for your stats. Connecting won't change how your music is tracked.
 
-    Controlling playback (play, pause, skip, previous, queue) requires **Spotify Premium** — this is a Spotify limitation. Liking and unliking songs works on free accounts too.
+    Controlling playback (play, pause, skip, previous, queue) requires **Spotify Premium**. This is a Spotify limitation.
 
     To unlink, use `.remote disconnect`.
 
