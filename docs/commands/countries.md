@@ -60,6 +60,7 @@ Options:
 
 * Time period - Time period of your top artists. Defaults to alltime
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* Theme - Color theme for the map: `dark` (default), `light`, `ocean` or `synthwave`
 
 Time periods:
 
@@ -76,3 +77,9 @@ Time periods:
     `.countrychart alltime @user`
 
     `.worldmap monthly lfm:fm-bot`
+
+    `.cc synthwave`
+
+    `.worldmap ocean yearly`
+
+    `.countrychart light @user`
