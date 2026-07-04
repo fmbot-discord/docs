@@ -8,15 +8,15 @@ Server settings can only be changed by admins, users with the 'Ban Members' perm
 
 ---
 
-### .configuration
+### .serversettings
 
 Shows all server settings in an easy overview.
 
 Use the dropdown to pick a setting that you want to change.
 
-!!! note "Examples"
-    `.config`
+You can also get here through `/settings` by switching to the 'Server settings' tab with the buttons at the bottom.
 
+!!! note "Examples"
     `.serversettings`
 
 ---

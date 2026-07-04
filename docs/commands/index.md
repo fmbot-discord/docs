@@ -84,6 +84,8 @@ Shows an overview of all your .fmbot settings.
 
 Use the dropdown to pick what setting you want to change.
 
+If you can manage the server, you can switch to the 'Server settings' tab with the buttons at the bottom.
+
 !!! note "Examples"
     `.settings`
 
