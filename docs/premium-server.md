@@ -82,6 +82,8 @@ Supporter is a personal subscription that follows you everywhere. Premium server
 ??? question "Who can buy Premium server?"
     Anyone in the server can purchase Premium server, you don't need to be an admin. Configuring the premium features afterwards does require server management permissions or a configured bot management role.
 
+    After purchasing server staff can use `.botmanagementroles` to allow specific roles to configure .fmbot.
+
 ??? question "How do I manage or cancel the subscription?"
     The person who purchased the subscription can manage or cancel it through `/premiumserver` in the server. If you purchased through Discord, manage it in your Discord server settings instead.
 
