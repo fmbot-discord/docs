@@ -2,7 +2,45 @@
 
 Improve the .fmbot experience for everyone in your community. Premium server unlocks server-wide perks and automation for everyone in one Discord server.
 
-Get it with the `/premiumserver` command in your server. Anyone can purchase Premium server, but configuring the features requires server management permissions.
+---
+
+<div>
+<button class="md-button md-button--primary getsupporter-button premiumserver-button">
+  <h4 class="title">Monthly</h4>
+  <h3>$9.99</h3>
+</button>
+
+<h4 class="getsupporter-text"></h4>
+
+<button class="md-button md-button--primary getsupporter-button premiumserver-button">
+  <h4>Yearly</h4>
+  <h3>$59.99</h3>
+</button>
+</div>
+
+!!! note ""
+    Get it with the `/premiumserver` command in your server. Anyone can purchase Premium server and it activates instantly, but configuring the features requires server management permissions.
+
+<script>
+var psNote = document.querySelector('.md-typeset .admonition.note');
+if (psNote) {
+  psNote.addEventListener('animationend', function() {
+    psNote.classList.remove('flash');
+  });
+}
+document.querySelectorAll('.premiumserver-button').forEach(function(btn) {
+  btn.addEventListener('click', function() {
+    gtag("event", "premiumserver_plan_click", {
+      event_label: btn.querySelector('h4').textContent.trim().toLowerCase()
+    });
+    if (psNote) {
+      psNote.classList.remove('flash');
+      void psNote.offsetWidth;
+      psNote.classList.add('flash');
+    }
+  });
+});
+</script>
 
 ---
 
