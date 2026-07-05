@@ -14,7 +14,7 @@ Here's a quick checklist to get the most out of Premium server:
 2. **Schedule server recaps** — Run `.serverrecap`, pick a channel and get your server's weekly or monthly top charts posted automatically
 3. **Give the bot your server's look** — Run `.botbranding` with an image attached for a custom avatar, or switch to a featured rotation based on your own members
 4. **Create server shortcuts** — Run `.servershortcuts` to add shortcuts for everyone
-5. **Tell your members** — Everyone now has 100 daily games and lyrics access
+5. **Tell your members** — Everyone now has 60 daily games and lyrics access
 6. **Fine-tune WhoKnows** — Configure `.allowedroles`, `.blockedroles` or `.serveractivitythreshold` if your server needs filtering
 
 If you don't have server permissions, you can ask server staff to run `.botmanagementroles` to setup roles that are allowed to configure .fmbot.
