@@ -49,6 +49,18 @@ Max amount of emojis is 3. Please put a space between every emoji.
 
     `.serverreactions`
 
+---
+### .serverrecap
+
+Automatically posts a recap of your server's listening to a channel of your choice. Includes the top artists, albums and tracks, the most popular new releases from that period, plus the total plays and listeners.
+
+Pick a weekly or monthly schedule: weekly recaps cover the previous week and post every Monday, monthly recaps cover the previous month and post on the 1st. You can also post a recap on demand with the "Post recap now" button.
+
+Requires [Premium server](../premium-server.md).
+
+!!! note "Examples"
+    `.serverrecap`
+
 ---   
 ### .togglecommand
 

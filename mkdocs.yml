@@ -83,6 +83,7 @@ nav:
     - 'Miscellaneous': 'commands/misc.md'
   - 'Spotify & Apple Music importing': 'importing.md'
   - 'Get supporter': 'supporter.md'
+  - 'Premium server': 'premium-server.md'
   - 'Server configuration':
     - 'General': 'guildsettings/index.md'
     - 'WhoKnows': 'guildsettings/whoknowsettings.md'

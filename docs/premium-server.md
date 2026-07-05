@@ -1,3 +1,7 @@
+---
+icon: lucide/sparkles
+---
+
 # Premium server
 
 Improve the .fmbot experience for everyone in your community. Premium server unlocks server-wide perks and automation for everyone in one Discord server.
