@@ -35,9 +35,9 @@ With server featured, the hourly picks can also post automatically to a channel,
 
 Sponsored supporter messages under charts are also hidden in Premium servers.
 
-### 🎮 100 daily games for everyone
+### 🎮 60 daily games for everyone
 
-Every member gets 100 daily Jumble and Pixel Jumble games, up from 30. Individual supporters keep unlimited plays.
+Every member gets 60 daily Jumble and Pixel Jumble games, up from 30. Individual supporters keep unlimited plays.
 
 ### 📜 Lyrics for everyone
 
@@ -64,7 +64,7 @@ Create up to 10 text command shortcuts that work for every member in your server
 | Who is it for | You, everywhere | One server, everyone in it |
 | Where it works | All servers and DMs | The server it's purchased for |
 | Imports, expanded stats, discoveries | ✅ | ❌ |
-| Unlimited games | ✅ (you) | 100/day (everyone) |
+| Unlimited games | ✅ (you) | 60/day (everyone) |
 | Lyrics | ✅ (you) | ✅ (everyone) |
 | Shortcuts | ✅ (personal) | ✅ (server-wide) |
 | Automatic crownseeder | ❌ | ✅ |
