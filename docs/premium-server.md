@@ -23,7 +23,7 @@ Improve the .fmbot experience for everyone in your community. Premium server unl
 </div>
 
 !!! note ""
-    Get it with the `/premiumserver` command in your server. Anyone can purchase Premium server and it activates instantly, but configuring the features requires server management permissions.
+    Get it with the `/premiumserver` command in your server. Anyone can purchase Premium server and it activates instantly, but configuring the features requires server management permissions — or you can give specific roles access with `.botmanagementroles`.
 
 <script>
 var psNote = document.querySelector('.md-typeset .admonition.note');
@@ -89,13 +89,13 @@ Create up to 10 text command shortcuts that work for every member in your server
 
 The crownseeder generates and updates all WhoKnows crowns at once. With Premium server you can schedule it to run automatically daily, weekly or monthly, so crowns always stays up to date. 
 
-### ⚙️ Advanced filtering
+### ⚙️ Filter inactive users serverwide
 
-- `.allowedroles` — Only show specific roles in WhoKnows and server-wide charts
-- `.blockedroles` — Hide specific roles from WhoKnows and server-wide charts
+- `.serveractivitythreshold` — Filter out members from commands based on server activity
+- `.allowedroles` — Only show users with specific roles in commands
+- `.blockedroles` — Hide users with specific roles from commands
 - `.botmanagementroles` — Let specific roles manage and configure .fmbot
-- `.serveractivitythreshold` — Filter out members who haven't talked in your server recently
-- Role filtering with the `rf` option in WhoKnows and in server artist, album and track charts
+- Interactive role filtering with the `rf` option in WhoKnows and in server artist, album and track charts
 
 ---
 
