@@ -236,6 +236,7 @@ Options:
 * Time period - `alltime`, `monthly`, `weekly` or last two months (e.g. `march`)
 * Sorting - `listeners` or `plays`
 * Artist - Filter by artist name
+* `rf` - Filter to specific roles ([Premium server](../premium-server.md))
 
 !!! note "Examples"
     `.sab`
@@ -249,6 +250,8 @@ Options:
     `.serveralbums the beatles monthly`
 
     `.serveralbums march`
+
+    `.serveralbums rf`
 
 
 ---

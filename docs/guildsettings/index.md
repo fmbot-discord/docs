@@ -50,16 +50,22 @@ Max amount of emojis is 3. Please put a space between every emoji.
     `.serverreactions`
 
 ---
-### .serverrecap
+### .autoposter
 
-Automatically posts a recap of your server's listening to a channel of your choice. Includes the top artists, albums and tracks, the most popular new releases from that period, plus the total plays and listeners.
+Automatically posts your server's listening to a channel on a schedule. Configure up to 10 autoposts per server, one per channel.
 
-Pick a weekly or monthly schedule: weekly recaps cover the previous week and post every Monday, monthly recaps cover the previous month and post on the 1st. You can also post a recap on demand with the "Post recap now" button.
+Each autopost can be a full **server recap** (top artists, albums and tracks, the most popular new releases from that period, plus total plays and listeners) or a focused **top artists**, **top albums** or **top tracks** chart.
+
+- Pick a weekly or monthly schedule: weekly posts cover the previous week and post every Monday, monthly posts cover the previous month and post on the 1st
+- Chart autoposts can cover the period or your server's all-time totals
+- Filter any autopost to specific roles, or filter album and track charts to a specific artist
+- Posts are stored and shown as a billboard with movement versus the previous post, and a "Full list" button opens the complete top 100
+- Post any autopost for the current period on demand with the "Post now" button
 
 Requires [Premium server](../premium-server.md).
 
 !!! note "Examples"
-    `.serverrecap`
+    `.autoposter`
 
 ---   
 ### .togglecommand

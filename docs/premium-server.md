@@ -11,7 +11,7 @@ Improve the .fmbot experience for everyone in your community. Premium server unl
 <div>
 <button class="md-button md-button--primary getsupporter-button premiumserver-button">
   <h4 class="title">Monthly</h4>
-  <h3>$9.99</h3>
+  <h3>$8.99</h3>
 </button>
 
 <h4 class="getsupporter-text"></h4>
@@ -54,16 +54,23 @@ document.querySelectorAll('.premiumserver-button').forEach(function(btn) {
 
 The crownseeder generates and updates all WhoKnows crowns at once. With Premium server you can schedule it to run automatically daily, weekly or monthly, so crowns always stays up to date. Configure it under the crown settings in `/configuration`.
 
-### 📊 Scheduled server recaps
+### 📊 Server autoposter
 
-Automatically post a recap of your server's listening to a channel of your choice. Every recap includes the server's top artists, albums and tracks, the most popular new releases from that period, plus the total plays and listeners.
+Automatically post your server's listening to a channel of your choice. Each autopost can be a full **server recap** (top artists, albums and tracks, the most popular new releases from that period, plus total plays and listeners) or a focused **top artists**, **top albums** or **top tracks** chart.
 
-Set it up with `.serverrecap` or through `/configuration`:
+Set them up with `.autoposter` or through `/configuration`:
 
-- **Weekly** recaps cover the previous week and post every Monday
-- **Monthly** recaps cover the previous month and post on the 1st
+- Configure up to **10 autoposts per server**, one per channel
+- **Weekly** posts cover the previous week and go out every Monday; **monthly** posts cover the previous month and go out on the 1st
+- Chart autoposts can cover the period or your server's **all-time** totals
+- Filter any autopost to specific **roles**, or filter album and track charts to a specific **artist**
+- Posts are stored and shown as a **billboard** with movement versus the previous post (needs at least one earlier post), and a **Full list** button opens the complete top 100
+- Post any autopost for the current period on demand with the "Post now" button
 
-You can also post a recap for the previous period on demand with the "Post recap now" button.
+A few things this unlocks:
+
+- Post a recap for everyone with the `electronic` role straight to your `#electronic` channel
+- Artist communities can post billboard-style top albums or tracks for a specific artist every week
 
 ### 🤖 Custom bot branding and server featured
 
@@ -71,9 +78,9 @@ Give .fmbot a custom look in your server with the `.botbranding` command. Three 
 
 - **Global featured** — The default look, where the bot avatar follows the global hourly featured
 - **Custom avatar** — Your own fixed logo or image, set by running `.botbranding` with an image attached
-- **Server featured** — The bot avatar follows an hourly featured rotation based on the members of *your* server
+- **Server featured** — The bot avatar follows a featured rotation based on the members of *your* server
 
-With server featured, the hourly picks can also post automatically to a channel, just like the normal featured. Set that up with `.addwebhook`.
+With server featured you can set how often a new pick rotates in, anywhere from every hour up to once a day. The picks can also post automatically to a channel, just like the normal featured. Set that up with `.addwebhook`.
 
 Sponsored supporter messages under charts are also hidden in Premium servers.
 
@@ -95,7 +102,7 @@ Create up to 10 text command shortcuts that work for every member in your server
 - `.blockedroles` — Hide specific roles from WhoKnows and server-wide charts
 - `.botmanagementroles` — Let specific roles manage and configure .fmbot
 - `.serveractivitythreshold` — Filter out members who haven't talked in your server recently
-- Role filtering in WhoKnows with the `rf` option
+- Role filtering with the `rf` option in WhoKnows and in server artist, album and track charts
 
 ---
 
@@ -110,7 +117,7 @@ Create up to 10 text command shortcuts that work for every member in your server
 | Lyrics | ✅ (you) | ✅ (everyone) |
 | Shortcuts | ✅ (personal) | ✅ (server-wide) |
 | Automatic crownseeder | ❌ | ✅ |
-| Scheduled server recaps | ❌ | ✅ |
+| Server autoposter (recaps and charts) | ❌ | ✅ |
 | Custom avatar and server featured | ❌ | ✅ |
 | Role filters and activity threshold | ❌ | ✅ |
 | Get it with | `/getsupporter` | `/premiumserver` |
