@@ -50,39 +50,28 @@ document.querySelectorAll('.premiumserver-button').forEach(function(btn) {
 
 ## Features
 
-### 👑 Automatic crownseeder
-
-The crownseeder generates and updates all WhoKnows crowns at once. With Premium server you can schedule it to run automatically daily, weekly or monthly, so crowns always stays up to date. Configure it under the crown settings in `/configuration`.
-
-### 📊 Server autoposter
+### 📊 Chart autoposter
 
 Automatically post your server's listening to a channel of your choice. Each autopost can be a full **server recap** (top artists, albums and tracks, the most popular new releases from that period, plus total plays and listeners) or a focused **top artists**, **top albums** or **top tracks** chart.
 
-Set them up with `.autoposter` or through `/configuration`:
+Recaps are available for weeks and for months. You can also filter to users with specific roles or to a specific artist.
 
-- Configure up to **10 autoposts per server**
-- **Weekly** posts cover the previous week and go out every Monday; **monthly** posts cover the previous month and go out on the 1st
-- Chart autoposts can cover the period or your server's **all-time** totals
-- Filter any autopost to specific **roles**, or filter album and track charts to a specific **artist**
-- Posts are stored and shown as a **billboard** with movement versus the previous post (needs at least one earlier post), and a **Full list** button opens the complete top 100
-- Post any autopost for the current period on demand with the "Post now" button
-
-A few things this unlocks:
+Some examples of how you could use this:
 
 - Post a recap for everyone with the `electronic` role straight to your `#electronic` channel
 - Artist communities can post billboard-style top albums or tracks for a specific artist every week
 
+Set it up with the [`.autoposter`](guildsettings/index.md#autoposter) command.
+
 ### 🤖 Custom bot branding and server featured
 
-Give .fmbot a custom look in your server with the `.botbranding` command. Three modes are available:
+Give .fmbot a custom look in your server with the [`.botbranding`](guildsettings/index.md#botbranding) command. Three modes are available:
 
 - **Global featured** — The default look, where the bot avatar follows the global hourly featured
 - **Custom avatar** — Your own fixed logo or image, set by running `.botbranding` with an image attached
 - **Server featured** — The bot avatar follows a featured rotation based on the members of *your* server
 
-With server featured you can set how often a new pick rotates in, anywhere from every hour up to once a day. The picks can also post automatically to a channel, just like the normal featured. Set that up with `.addwebhook`.
-
-Sponsored supporter messages under charts are also hidden in Premium servers.
+With server featured you can set how often a new pick rotates in, anywhere from every hour up to once a day. The picks can also post automatically to a channel, just like the normal featured.
 
 ### 🎮 60 daily games for everyone
 
@@ -95,6 +84,10 @@ Every member can use the `.lyrics` command, no individual supporter subscription
 ### ⌨️ Server-wide shortcuts
 
 Create up to 10 text command shortcuts that work for every member in your server with `.servershortcuts`. Great for server-specific favorites like `.today` → `chart today 2x2`.
+
+### 👑 Automatic crownseeder
+
+The crownseeder generates and updates all WhoKnows crowns at once. With Premium server you can schedule it to run automatically daily, weekly or monthly, so crowns always stays up to date. 
 
 ### ⚙️ Advanced filtering
 
@@ -138,9 +131,6 @@ Supporter is a personal subscription that follows you everywhere. Premium server
 
 ??? question "What happens if the purchaser leaves the server?"
     The subscription keeps working until it's cancelled. The purchaser can always manage it through the Stripe billing portal link they received, or contact us on the [support server](https://discord.gg/fmbot).
-
-??? question "Can I move Premium server to a different server?"
-    Contact us on the [support server](https://discord.gg/fmbot) and we'll help you out.
 
 ??? question "Does Premium server grant Last.fm Pro?"
     No. .fmbot is not affiliated with Last.fm. Premium server does not grant Last.fm Pro, or the other way around.

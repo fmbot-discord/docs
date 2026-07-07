@@ -68,6 +68,22 @@ Requires [Premium server](../premium-server.md).
     `.autoposter`
 
 ---   
+### .botbranding
+
+Give .fmbot a custom look in your server. Three modes are available:
+
+- **Global featured** — The default look, where the bot avatar follows the global hourly featured
+- **Custom avatar** — Your own fixed logo or image, set by running `.botbranding` with an image attached
+- **Server featured** — The bot avatar follows a featured rotation based on the members of *your* server
+
+With server featured you can set how often a new pick rotates in, anywhere from every hour up to once a day, and optionally post each pick to a channel.
+
+Requires [Premium server](../premium-server.md).
+
+!!! note "Examples"
+    `.botbranding`
+
+---   
 ### .togglecommand
 
 Enable/disable commands per channel, or completely disable the bot in a channel.
