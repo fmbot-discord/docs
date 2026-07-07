@@ -60,7 +60,7 @@ Automatically post your server's listening to a channel of your choice. Each aut
 
 Set them up with `.autoposter` or through `/configuration`:
 
-- Configure up to **10 autoposts per server**, one per channel
+- Configure up to **10 autoposts per server**
 - **Weekly** posts cover the previous week and go out every Monday; **monthly** posts cover the previous month and go out on the 1st
 - Chart autoposts can cover the period or your server's **all-time** totals
 - Filter any autopost to specific **roles**, or filter album and track charts to a specific **artist**
