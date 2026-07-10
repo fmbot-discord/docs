@@ -119,6 +119,7 @@ Shows your past streaks.
 Options:
 
 * Artist - Filter by artist name
+* `edit` - Enable editmode to delete individual streaks or all your streaks
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
 !!! note "Examples"
@@ -126,7 +127,14 @@ Options:
 
     `.streakhistory`
 
+    `.strs radiohead`
+
+    `.streakhistory edit`
+
     `.streakhistory @user`
+
+!!! info ""
+    The "Restore past streaks" button scans your lifetime listening history and adds streaks that were never saved. This requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)
 
 ---
 

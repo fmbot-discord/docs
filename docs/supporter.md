@@ -62,6 +62,7 @@ document.querySelectorAll('.getsupporter-button-fmbot').forEach(function(btn) {
 | Play unlimited pixel and jumble games | ❌ | ✅ |
 | View `.lyrics` directly in .fmbot | ❌ | ✅ |
 | Lifetime history in `recent` and `overview` | ❌ | ✅ |
+| <span class="new">New</span> Restore past streaks from your lifetime history in `.streaks` | ❌ | ✅ |
 | Years and listening time overview in `profile` | ❌ | ✅ |
 | Artist discoveries and months in `year` | ❌ | ✅ |
 | Get an improved `.judge` command with sharper outputs and increased usage limits | ❌ | ✅ |
