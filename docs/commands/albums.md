@@ -171,6 +171,7 @@ Options:
 
 * Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
 * Mode - Response mode. `embed`, `image` or `pages`
+* Nofilter - Disable server filters with `nofilter`/`nf`
 
 !!! note "Examples"
     `.wa`

@@ -152,6 +152,7 @@ Options:
 
 * Track - A track you want to search for. You can either use the built-in Last.fm search or separate the artist and trackname yourself using a | as separator.
 * Mode - Response mode. `embed`, `image` or `pages`
+* Nofilter - Disable server filters with `nofilter`/`nf`
 
 !!! note "Examples"
     `.wt`

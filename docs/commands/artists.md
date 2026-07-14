@@ -249,6 +249,7 @@ Options:
 * Mode - Response mode. `embed`, `image` or `pages`
 * Random - Use `random`/`rnd` to view a random artist you've listened to
 * Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
+* Nofilter - Disable server filters and crowns with `nofilter`/`nf`
 
 !!! note "Examples"
     `.w`
