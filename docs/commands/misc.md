@@ -32,9 +32,12 @@ Options:
 
 * Time period - Time period of your top artists. Defaults to quarterly (last 90 days).
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* Language - One-time language override, by name or code (`french`, `Français`, `fr`). Defaults to the server language.
 
 !!! note "Examples"
     `.judge`
+
+    `.judge french`
 
 !!! info ""
     Supporters get access to higher quality compliments and roasts, generated with a better language model. [Get .fmbot supporter here.](../supporter.md)
