@@ -27,8 +27,9 @@ icon: lucide/circle-help
 
     We get what you're playing directly from your Last.fm profile, so please check there first to see what is showing on [your profile](https://www.last.fm/user/_). 
 
-    Last.fm often has issues with their Spotify connection. 
-    For most people it helps to reconnect Spotify in their [Last.fm application settings](https://www.last.fm/settings/applications). 
+    Spotify expires the Last.fm connection every 6 months. 
+    Press **Disconnect** and then **Connect** next to 'Spotify Scrobbling' in your [Last.fm application settings](https://www.last.fm/settings/applications). 
+    This also fixes most other issues with the Spotify connection.
 
     Last.fm also has [an official guide](https://support.last.fm/t/spotify-has-stopped-scrobbling-what-can-i-do/3184) on how to fix this.
 
