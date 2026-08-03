@@ -15,7 +15,7 @@ The feature works fully automatically. Simply start listening to music using a s
 - [FlaviBot](https://flavibot.xyz/)
 - [Betty & Nero](https://betty.bot/)
 - [Cakey Bot](https://cakey.bot/)
-- [Scrump](https://scrumpbot.com/invite?utm_source=fmbot)
+- [Scrump](https://scrumpbot.com/?utm_source=fmbot)
 - [Maki](https://maki.gg?utm_source=fm.bot&utm_medium=docs&utm_campaign=scrobbling)*
 - [JukeBot](https://top.gg/bot/249303797371895820)*
 
