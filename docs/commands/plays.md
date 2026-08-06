@@ -95,6 +95,9 @@ Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two
 
     `.plays monthly`
 
+!!! info ""
+    Want to see a graph of your listening history? [Get .fmbot supporter here.](../supporter.md)
+
 ---
 
 ### .streak (`.str`)

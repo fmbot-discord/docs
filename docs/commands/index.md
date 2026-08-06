@@ -57,7 +57,7 @@ Options:
     `.stats`
 
 !!! info ""
-    Want to see a yearly overview on your profile? [Get .fmbot supporter here.](../supporter.md)
+    Want to see a graph of your listening history and a yearly overview on your profile? [Get .fmbot supporter here.](../supporter.md)
 
 ---
 

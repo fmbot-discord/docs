@@ -22,7 +22,7 @@ Options:
     `.track Kaytranada You're The One`
 
 !!! info ""
-    Want this command to also show the date you discovered a track? [Get .fmbot supporter here.](../supporter.md)
+    Want this command to also show the date you discovered a track and a graph of your listening history? [Get .fmbot supporter here.](../supporter.md)
     
 ---
 
@@ -41,6 +41,9 @@ Options:
     `.trackplays`
 
     `.trackplays Infected Mushroom Can't Stop`
+
+!!! info ""
+    Want to see a graph of your listening history for the track? [Get .fmbot supporter here.](../supporter.md)
 
     
 ---

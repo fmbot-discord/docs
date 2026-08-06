@@ -24,7 +24,7 @@ Options:
     `.artist David Vunk`
 
 !!! info ""
-    Want this command to also show the date you discovered an artist? [Get .fmbot supporter here.](../supporter.md)
+    Want this command to also show the date you discovered an artist and a graph of your listening history? [Get .fmbot supporter here.](../supporter.md)
 
 
 ---
@@ -63,6 +63,9 @@ Options:
     `.artistplays`
 
     `.artistplays Mall Grab`
+
+!!! info ""
+    Want to see a graph of your listening history for the artist? [Get .fmbot supporter here.](../supporter.md)
     
 ---
 

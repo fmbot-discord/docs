@@ -20,7 +20,7 @@ Options:
     `.album Ventura Anderson .Paak`
 
 !!! info ""
-    Want this command to also show the date you discovered an album? [Get .fmbot supporter here.](../supporter.md)
+    Want this command to also show the date you discovered an album and a graph of your listening history? [Get .fmbot supporter here.](../supporter.md)
     
 ---
 
@@ -39,6 +39,9 @@ Options:
     `.albumplays`
     
     `.albumplays The Slow Rush`
+
+!!! info ""
+    Want to see a graph of your listening history for the album? [Get .fmbot supporter here.](../supporter.md)
     
 ---
 

@@ -59,6 +59,7 @@ document.querySelectorAll('.getsupporter-button-fmbot').forEach(function(btn) {
 | View when you discovered artists with `.discoveries` and `.discoverydate` | ❌ | ✅ |
 | View when you re-discovered music with `.gaps` | ❌ | ✅ |
 | Discovery dates in `artist`, `album` and `track` | ❌ | ✅ |
+| <span class="new">New</span> Listening history graphs in `artist`, `album`, `track`, `plays`, `profile` and more | ❌ | ✅ |
 | Play unlimited pixel and jumble games | ❌ | ✅ |
 | View `.lyrics` directly in .fmbot | ❌ | ✅ |
 | Lifetime history in `recent` and `overview` | ❌ | ✅ |
