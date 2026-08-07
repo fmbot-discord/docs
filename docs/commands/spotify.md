@@ -166,4 +166,3 @@ Removes a track from your Spotify liked songs. Defaults to the track you're curr
     `.rul`
 
     `.rul Green Day Basket Case`
-
