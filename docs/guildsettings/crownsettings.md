@@ -33,6 +33,21 @@ A user is counted as active once they use .fmbot.
 
 ---
 
+### .crownroles
+
+Allows you to restrict crowns to members with specific roles. Only members who have at least one of the picked roles can claim or keep a crown.
+
+Members without one of these roles still appear in WhoKnows, they just can't earn crowns.
+
+Leave the role picker empty to turn the restriction off again, which lets everyone earn crowns.
+
+Requires [Premium server](../premium-server.md).
+
+!!! note "Examples"
+    `.crownroles`
+
+---
+
 ### .killcrown
 
 Allows you to remove a crown and all crown history for a certain artist.

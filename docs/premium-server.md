@@ -94,6 +94,7 @@ The crownseeder generates and updates all WhoKnows crowns at once. With Premium 
 - `.serveractivitythreshold` — Filter out members from commands based on server activity
 - `.allowedroles` — Only show users with specific roles in commands
 - `.blockedroles` — Hide users with specific roles from commands
+- `.crownroles` — Only let users with specific roles earn crowns
 - `.botmanagementroles` — Let trusted roles manage and configure .fmbot
 - Interactive role filtering with the `rf` option in WhoKnows and in server artist, album and track charts
 
