@@ -11,6 +11,7 @@ Gets information about current album or the one you're searching for.
 Options:
 
 * Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
+* Featured - Check for the currently featured album with `featured`
 
 !!! note "Examples"
     `.ab`
@@ -19,7 +20,7 @@ Options:
 
     `.album Ventura Anderson .Paak`
 
-!!! info ""
+!!! tip "⭐ Additional Supporter Feature"
     Want this command to also show the date you discovered an album and a graph of your listening history? [Get .fmbot supporter here.](../supporter.md)
     
 ---
@@ -32,6 +33,7 @@ Options:
 
 * Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* Featured - Check for the currently featured album with `featured`
 
 !!! note "Examples"
     `.abp`
@@ -40,7 +42,7 @@ Options:
     
     `.albumplays The Slow Rush`
 
-!!! info ""
+!!! tip "⭐ Additional Supporter Feature"
     Want to see a graph of your listening history for the album? [Get .fmbot supporter here.](../supporter.md)
     
 ---
@@ -135,6 +137,7 @@ Options:
 * Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Order by plays - Order tracks by playcount instead of album order (`plays`)
+* Featured - Check for the currently featured album with `featured`
 
 !!! note "Examples"
     `.abt`
@@ -154,6 +157,7 @@ Shows the cover for current album or the one you're searching for.
 Options:
 
 * Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
+* Featured - Check for the currently featured album cover with `featured`
 
 !!! note "Examples"
     `.co`
@@ -174,7 +178,8 @@ Options:
 
 * Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
 * Mode - Response mode. `embed`, `image` or `pages`
-* Nofilter - Disable server filters with `nofilter`/`nf`
+* Nofilter - Disable server filters with `nofilter`/`nf`* 
+* Featured - Check for the currently featured album with `featured`
 
 !!! note "Examples"
     `.wa`
@@ -240,7 +245,7 @@ Options:
 * Time period - `alltime`, `monthly`, `weekly` or last two months (e.g. `march`)
 * Sorting - `listeners` or `plays`
 * Artist - Filter by artist name
-* `rf` - Filter to specific roles ([Premium server](../premium-server.md))
+* `rf` - Filter to specific roles (✨ [Premium server](../premium-server.md) required)
 
 !!! note "Examples"
     `.sab`
@@ -279,6 +284,6 @@ Options:
     `.agaps xl`
 
 
-!!! info ""
+!!! info "⭐ Supporter Only Feature"
     This command requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)
 

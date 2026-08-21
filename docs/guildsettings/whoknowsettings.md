@@ -6,13 +6,14 @@ icon: lucide/search
 
 You can change what users appear in the whoknows commands and other commands that use all server members
 
-These settings can only be changed by admins, users with the 'Ban Members' permission or .fmbot admins.
+These settings can only be changed by admins, users with the 'Ban Members' permission, users with the roles set in [`.botmanagementroles`](index.md#botmanagementroles), or .fmbot admins.
 
 ---
 
 ### .fmbotactivitythreshold
 
-Allows you to filter users from commands that have not been active in a certain amount of days.
+Allows you to filter users from commands that have not been active in a certain amount of days. Also prevents them from
+claiming crowns.
 
 A user is counted as active once they use .fmbot.
 
@@ -20,9 +21,25 @@ A user is counted as active once they use .fmbot.
     `.fmbotactivitythreshold`
 
 ---
+### .serveractivitythreshold ✨
+
+Allows you to filter users from commands that have not been active in the server since a certain amount of days. 
+Also prevents them from claiming crowns.
+
+A user is counted as inactive if they haven't sent in the server in 30 days.
+
+!!! note "Examples"
+`.serveractivitythreshold`
+
+!!! info "✨ Premium Server Feature"
+    This feature is available with Premium server. [Get premium server here.](../premium-server.md)
+
+---
 ### .block
 
 Blocks a user from appearing in whoknows and from being in any server-wide statistic.
+
+Also prevents them from claiming crowns.
 
 !!! note "Examples"
     `.block 748900688129687642`
@@ -32,7 +49,7 @@ Blocks a user from appearing in whoknows and from being in any server-wide stati
 ---
 ### .unblock
 
-Unblocks a user from appearing in whoknows and from being in any server-wide statistic.
+Unblocks a user from appearing in whoknows and from being in any server-wide statistic. 
 
 Also unblocks a user in case of any crown bans.
 
@@ -49,4 +66,31 @@ View all blocked members on your server.
 !!! note "Examples"
     `.blockedmembers`
 
+### .blockedmembers
 
+View all blocked members on your server.
+
+!!! note "Examples"
+    `.blockedmembers`
+
+---
+### .allowedroles ✨
+
+Shows only users with these specific roles.
+
+!!! note "Examples"
+    `.allowedroles`
+
+!!! info "✨ Premium Server Feature"
+    This feature is available with Premium server. [Get premium server here.](../premium-server.md)
+
+---
+### .blockedroles ✨
+
+Always hides users with these specific roles.
+
+!!! note "Examples"
+    `.blockedroles`
+
+!!! info "✨ Premium Server Feature"
+    This feature is available with Premium server. [Get premium server here.](../premium-server.md)

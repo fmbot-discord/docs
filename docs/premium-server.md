@@ -68,7 +68,7 @@ Set it up with the [`.autoposter`](guildsettings/index.md#autoposter) command.
 Give .fmbot a custom look in your server with the [`.botbranding`](guildsettings/index.md#botbranding) command. Three modes are available:
 
 - **Global featured** — The default look, where the bot avatar follows the global hourly featured
-- **Custom avatar** — Your own fixed logo or image, set by running `.botbranding` with an image attached
+- **Custom avatar** — Your own fixed logo or image, set by running [`.botbranding`](guildsettings/index.md#botbranding) with an image attached
 - **Server featured** — The bot avatar follows a featured rotation based on the members of *your* server
 
 With server featured you can set how often a new pick rotates in, anywhere from every hour up to once a day. The picks can also post automatically to a channel, just like the normal featured.
@@ -79,42 +79,44 @@ Every member gets 60 daily Jumble and Pixel Jumble games, up from 30. Individual
 
 ### 📜 Lyrics for everyone
 
-Every member can use the `.lyrics` command, no individual supporter subscription required.
+Every member can use the [`.lyrics`](commands/tracks.md#lyrics) command, no individual supporter subscription required.
 
 ### ⌨️ Server-wide shortcuts
 
-Create up to 10 text command shortcuts that work for every member in your server with `.servershortcuts`. Great for server-specific favorites like `.today` → `chart today 2x2`.
+Create up to 10 text command shortcuts that work for every member in your server with [`.servershortcuts`](guildsettings/index.md#servershortcuts). Great for server-specific favorites like `.today` → `chart today 2x2`.
 
-### 👑 Automatic crownseeder
+### 👑 More control over crowns
 
-The crownseeder generates and updates all WhoKnows crowns at once. With Premium server you can schedule it to run automatically daily, weekly or monthly, so crowns always stays up to date. 
+- **Automatic crownseeder**: The crownseeder generates and updates all WhoKnows crowns at once. With Premium server you can schedule it to run automatically daily, weekly or monthly, so crowns always stays up to date.
+- [`.crownroles`](./guildsettings/crownsettings.md#crownroles) — Only let users with specific roles earn crowns
 
 ### ⚙️ Filter inactive users serverwide
 
-- `.serveractivitythreshold` — Filter out members from commands based on server activity
-- `.allowedroles` — Only show users with specific roles in commands
-- `.blockedroles` — Hide users with specific roles from commands
-- `.crownroles` — Only let users with specific roles earn crowns
-- `.botmanagementroles` — Let trusted roles manage and configure .fmbot
+- [`.serveractivitythreshold`](./guildsettings/whoknowsettings.md#serveractivitythreshold) — Filter out members from commands and crowns based on server activity instead of fmbot activity
+- [`.allowedroles`](./guildsettings/whoknowsettings.md#allowedroles) — Only show users with specific roles in commands
+- [`.blockedroles`](./guildsettings/whoknowsettings.md#blockedroles) — Hide users with specific roles from commands
+- [`.botmanagementroles`](./guildsettings/index.md#botmanagementroles) — Let trusted roles manage and configure .fmbot
 - Interactive role filtering with the `rf` option in WhoKnows and in server artist, album and track charts
 
 ---
 
 ## Premium server or supporter?
 
-|  | ⭐ Supporter | ✨ Premium server |
-|---|---|---|
-| Who is it for | You, everywhere | One server, everyone in it |
-| Where it works | All servers and DMs | The server it's purchased for |
-| Imports, expanded stats, discoveries | ✅ | ❌ |
-| Unlimited games | ✅ (you) | 60/day (everyone) |
-| Lyrics | ✅ (you) | ✅ (everyone) |
-| Shortcuts | ✅ (personal) | ✅ (server-wide) |
-| Automatic crownseeder | ❌ | ✅ |
+|                                       | ⭐ Supporter | ✨ Premium server |
+|---------------------------------------|---|---|
+| Who is it for                         | You, everywhere | One server, everyone in it |
+| Where it works                        | All servers and DMs | The server it's purchased for |
+| Imports, expanded stats, discoveries  | ✅ | ❌ |
+| Unlimited games                       | ✅ (you) | 60/day (everyone) |
+| Lyrics                                | ✅ (you) | ✅ (everyone) |
+| Shortcuts                             | ✅ (personal) | ✅ (server-wide) |
+| Automatic crownseeder                 | ❌ | ✅ |
+| Custom crown roles                    | ❌ | ✅ |
 | Server autoposter (recaps and charts) | ❌ | ✅ |
-| Custom avatar and server featured | ❌ | ✅ |
-| Role filters and activity threshold | ❌ | ✅ |
-| Get it with | `/getsupporter` | `/premiumserver` |
+| Custom avatar and server featured     | ❌ | ✅ |
+| Role filters and activity threshold   | ❌ | ✅ |
+| Custom bot manager roles              | ❌ | ✅ |
+| Get it with                           | `/getsupporter` | `/premiumserver` |
 
 Supporter is a personal subscription that follows you everywhere. Premium server upgrades one server for all of its members. They complement each other and neither includes the other.
 

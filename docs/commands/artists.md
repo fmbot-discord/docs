@@ -23,7 +23,7 @@ Options:
 
     `.artist David Vunk`
 
-!!! info ""
+!!! tip "⭐ Additional Supporter Feature"
     Want this command to also show the date you discovered an artist and a graph of your listening history? [Get .fmbot supporter here.](../supporter.md)
 
 
@@ -56,6 +56,7 @@ Options:
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Random - Use `random`/`rnd` to view a random artist you've listened to
 * Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
+* Featured - Check for the currently featured artist with `featured`
 
 !!! note "Examples"
     `.ap`
@@ -64,7 +65,7 @@ Options:
 
     `.artistplays Mall Grab`
 
-!!! info ""
+!!! tip "⭐ Additional Supporter Feature"
     Want to see a graph of your listening history for the artist? [Get .fmbot supporter here.](../supporter.md)
     
 ---
@@ -253,6 +254,7 @@ Options:
 * Random - Use `random`/`rnd` to view a random artist you've listened to
 * Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
 * Nofilter - Disable server filters and crowns with `nofilter`/`nf`
+* Featured - Check for the currently featured artist with `featured`
 
 !!! note "Examples"
     `.w`
@@ -278,6 +280,7 @@ Options:
 * Mode - Response mode. `embed`, `image` or `pages`
 * Random - Use `random`/`rnd` to view a random artist you've listened to
 * Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
+* Featured - Check for the currently featured artist with `featured`
 
 !!! note "Examples"
     `.fw`
@@ -306,6 +309,7 @@ Options:
 * Mode - Response mode. `embed`, `image` or `pages`
 * Random - Use `random`/`rnd` to view a random artist you've listened to
 * Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
+* Featured - Check for the currently featured artist with `featured`
 
 !!! note "Examples"
     `.gw`
@@ -328,7 +332,7 @@ Options:
 
 * Time period - `alltime`, `monthly`, `weekly` or last two months (e.g. `march`)
 * Sorting - `listeners` or `plays`
-* `rf` - Filter to specific roles ([Premium server](../premium-server.md))
+* `rf` - Filter to specific roles (✨ [Premium server](../premium-server.md) required)
 
 !!! note "Examples"
     `.sa`
@@ -401,7 +405,7 @@ Time periods:
     `.discoveries monthly @user`
 
 
-!!! info ""
+!!! info "⭐ Supporter Only Feature"
     This command requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)
 
 ---
@@ -425,5 +429,5 @@ Options:
     `.gaps xl`
 
 
-!!! info ""
+!!! info "⭐ Supporter Only Feature"
     This command requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)

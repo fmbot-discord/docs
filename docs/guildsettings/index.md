@@ -2,9 +2,10 @@
 icon: lucide/settings
 ---
 
+
 # Server settings    
 
-Server settings can only be changed by admins, users with the 'Ban Members' permission or .fmbot admins.
+Server settings can only be changed by admins, users with the 'Ban Members' permission, users with the roles set in [`.botmanagementroles`](#botmanagementroles), or .fmbot admins.
 
 ---
 
@@ -50,7 +51,7 @@ Max amount of emojis is 3. Please put a space between every emoji.
     `.serverreactions`
 
 ---
-### .autoposter
+### .autoposter ✨
 
 Automatically posts your server's listening to a channel on a schedule. Configure up to 10 autoposts per server.
 
@@ -62,13 +63,14 @@ Each autopost can be a full **server recap** (top artists, albums and tracks, th
 - Posts are stored and shown as a billboard with movement versus the previous post, and a "Full list" button opens the full results
 - Post any autopost for the current period on demand with the "Post now" button
 
-Requires [Premium server](../premium-server.md).
-
 !!! note "Examples"
     `.autoposter`
 
+!!! info "✨ Premium Server Feature"
+    This feature is available with Premium server. [Get premium server here.](../premium-server.md)
+
 ---   
-### .botbranding
+### .botbranding ✨
 
 Give .fmbot a custom look in your server. Three modes are available:
 
@@ -76,12 +78,15 @@ Give .fmbot a custom look in your server. Three modes are available:
 - **Custom avatar** — Your own fixed logo or image, set by running `.botbranding` with an image attached
 - **Server featured** — The bot avatar follows a featured rotation based on the members of *your* server
 
-With server featured you can set how often a new pick rotates in, anywhere from every hour up to once a day, and optionally post each pick to a channel.
-
-Requires [Premium server](../premium-server.md).
+With server featured you can set how often a new pick rotates in, anywhere from every hour up to once a day, and optionally post each pick to a channel. 
+It also respects the server activity threshold setting if enabled (user has to have messaged in the server in the last 5 days), 
+otherwise they have to have used .fmbot once in the last 5 days.
 
 !!! note "Examples"
     `.botbranding`
+
+!!! info "✨ Premium Server Feature"
+    This feature is available with Premium server. [Get premium server here.](../premium-server.md)
 
 ---   
 ### .togglecommand
@@ -128,3 +133,29 @@ Note that you can always mention the bot, this will work regardless of prefix.
     
     `!prefix`
 
+### .botmanagementroles ✨
+
+Sets one or multiple roles who are allowed to configure .fmbot.
+These roles can change every setting except this one, block members and manage crowns. Only members with Administrator 
+or Ban Members can change this list.
+
+!!! note "Examples"
+    `.botmanagementroles`
+
+!!! info "✨ Premium Server Feature"
+    This feature is available with Premium server. [Get premium server here.](../premium-server.md)
+
+### .servershortcuts ✨
+
+Set server-wide shortcuts (up to 10). Server shortcuts work for every member of this server, supporter or not.
+
+Some examples of what you can use as input and output:
+- `today` > `chart today 2x2`
+- `gamble` > `milestone random`
+- `gm` > `fm oneline`
+
+!!! note "Examples"
+`.servershortcuts`
+
+!!! info "✨ Premium Server Feature"
+    This feature is available with Premium server. [Get premium server here.](../premium-server.md)

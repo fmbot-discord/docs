@@ -56,7 +56,7 @@ Options:
 
     `.stats`
 
-!!! info ""
+!!! tip "⭐ Additional Supporter Feature"
     Want to see a graph of your listening history and a yearly overview on your profile? [Get .fmbot supporter here.](../supporter.md)
 
 ---
@@ -113,7 +113,7 @@ Use the provided dropdowns to select and de-select which options you want.
 
     `/fmmode` (responds in-channel)
 
-!!! info ""
+!!! tip "⭐ Additional Supporter Feature"
     Supporters can set custom accent colors, add up to 5 buttons and 10 footer options.
     [Get .fmbot supporter here.](../supporter.md)
 
@@ -139,7 +139,7 @@ You can also override this preference on every individual command. Simply add `i
 
 ---
 
-### .userreactions
+### .userreactions ⭐
 
 Sets automatic emoji reactions for every `.fm` and `featured` command you use.
 
@@ -148,10 +148,7 @@ To disable, simply use `.userreactions` without any emojis.
 Make sure the emojis you enable are in a server that .fmbot is also in.
 
 Max amount of emojis is 5. Please put a space between every emoji.
-
-!!! info ""
-    This setting is supporter only.
-    [Get .fmbot supporter here.](../supporter.md)
+    
 
 !!! note "Examples"
     `.userreactions :PagChomp: :PensiveBlob:`
@@ -161,6 +158,9 @@ Max amount of emojis is 5. Please put a space between every emoji.
     `.userreactions 😀 😯 :PensiveBlob:`
 
     `.userreactions`
+
+!!! info "⭐ Supporter Only Feature"
+    This setting is supporter only. [Get .fmbot supporter here.](../supporter.md)
 
 ---
 
@@ -188,15 +188,15 @@ Lets you set custom text command shortcuts. Your input is converted to the outpu
 
 Use `.shortcuts` to view and manage your shortcuts.
 
-!!! info ""
-    This feature is supporter only. Shortcuts are stored in-memory across all bot instances to keep command handling fast, so availability is limited.
-    [Get .fmbot supporter here.](../supporter.md)
-
 !!! note "Examples"
     `.shortcuts`
 
     A shortcut `yo` set to `fm textoneline` — typing `.yo` then runs `.fm textoneline`.
 
     A shortcut `progress` set to `chart 5x5 2025 skip` — typing `.progress` runs that chart.
+
+!!! info "⭐ Supporter Only Feature"
+    This feature is supporter only. Shortcuts are stored in-memory across all bot instances to keep command handling fast, so availability is limited.
+    [Get .fmbot supporter here.](../supporter.md)
 
     

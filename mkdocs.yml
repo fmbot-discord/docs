@@ -55,6 +55,8 @@ extra:
       link: https://twitter.com/fmbotDiscord
     - icon: fontawesome/brands/bluesky
       link: https://bsky.app/profile/fm.bot/
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/fmbot
   generator: false
 copyright: <a href="/privacy/">Privacy</a>  ·  <a href="/terms/">Terms</a>  ·  .fmbot is not affiliated with Last.fm 
 
@@ -81,15 +83,15 @@ nav:
     - 'YouTube': 'commands/youtube.md'
     - 'Updating': 'commands/updating.md'
     - 'Miscellaneous': 'commands/misc.md'
+  - 'Server configuration':
+      - 'General': 'guildsettings/index.md'
+      - 'WhoKnows': 'guildsettings/whoknowsettings.md'
+      - 'Crowns': 'guildsettings/crownsettings.md'
+      - 'Webhooks': 'guildsettings/webhooks.md'
   - 'Spotify & Apple Music importing': 'importing.md'
+  - 'Music bot scrobbling': 'botscrobbling.md'
   - 'Get supporter': 'supporter.md'
   - 'Premium server': 'premium-server.md'
-  - 'Server configuration':
-    - 'General': 'guildsettings/index.md'
-    - 'WhoKnows': 'guildsettings/whoknowsettings.md'
-    - 'Crowns': 'guildsettings/crownsettings.md'
-    - 'Webhooks': 'guildsettings/webhooks.md'
-  - 'Music bot scrobbling': 'botscrobbling.md'
   - 'Join our server': https://discord.gg/fmbot
   - 'Add to server': https://discord.com/oauth2/authorize?client_id=356268235697553409&permissions=275415092288&scope=applications.commands%20bot
   - 'Add user app': https://discord.com/oauth2/authorize?client_id=356268235697553409&scope=applications.commands&integration_type=1
