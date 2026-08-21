@@ -11,6 +11,7 @@ Gets information about current album or the one you're searching for.
 Options:
 
 * Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
+* Featured - Check for the currently featured album with `featured`
 
 !!! note "Examples"
     `.ab`
@@ -32,6 +33,7 @@ Options:
 
 * Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* Featured - Check for the currently featured album with `featured`
 
 !!! note "Examples"
     `.abp`
@@ -135,6 +137,7 @@ Options:
 * Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Order by plays - Order tracks by playcount instead of album order (`plays`)
+* Featured - Check for the currently featured album with `featured`
 
 !!! note "Examples"
     `.abt`
@@ -154,6 +157,7 @@ Shows the cover for current album or the one you're searching for.
 Options:
 
 * Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
+* Featured - Check for the currently featured album cover with `featured`
 
 !!! note "Examples"
     `.co`
@@ -174,7 +178,8 @@ Options:
 
 * Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
 * Mode - Response mode. `embed`, `image` or `pages`
-* Nofilter - Disable server filters with `nofilter`/`nf`
+* Nofilter - Disable server filters with `nofilter`/`nf`* 
+* Featured - Check for the currently featured album with `featured`
 
 !!! note "Examples"
     `.wa`

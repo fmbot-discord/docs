@@ -6,7 +6,7 @@ icon: lucide/crown
 
 You can change what users are able to gain crowns, configure other crown settings or completely disable crowns.
 
-These settings can only be changed by admins, users with the 'Ban Members' permission or .fmbot admins.
+These settings can only be changed by admins, users with the 'Ban Members' permission, users with the roles set in [`.botmanagementroles`](index.md#botmanagementroles), or .fmbot admins.
 
 
 ---
@@ -36,6 +36,7 @@ A user is counted as active once they use .fmbot.
 ### .crownroles
 
 Allows you to restrict crowns to members with specific roles. Only members who have at least one of the picked roles can claim or keep a crown.
+Currently held crowns remain if the role is removed from the user until they are claimed by someone else.
 
 Members without one of these roles still appear in WhoKnows, they just can't earn crowns.
 

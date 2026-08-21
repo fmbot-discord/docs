@@ -4,7 +4,7 @@ icon: lucide/settings
 
 # Server settings    
 
-Server settings can only be changed by admins, users with the 'Ban Members' permission or .fmbot admins.
+Server settings can only be changed by admins, users with the 'Ban Members' permission, users with the roles set in [`.botmanagementroles`](#botmanagementroles), or .fmbot admins.
 
 ---
 
@@ -76,7 +76,9 @@ Give .fmbot a custom look in your server. Three modes are available:
 - **Custom avatar** — Your own fixed logo or image, set by running `.botbranding` with an image attached
 - **Server featured** — The bot avatar follows a featured rotation based on the members of *your* server
 
-With server featured you can set how often a new pick rotates in, anywhere from every hour up to once a day, and optionally post each pick to a channel.
+With server featured you can set how often a new pick rotates in, anywhere from every hour up to once a day, and optionally post each pick to a channel. 
+It also respects the server activity threshold setting if enabled (user has to have messaged in the server in the last 5 days), 
+otherwise they have to have used .fmbot once in the last 5 days.
 
 Requires [Premium server](../premium-server.md).
 
@@ -128,3 +130,29 @@ Note that you can always mention the bot, this will work regardless of prefix.
     
     `!prefix`
 
+### .botmanagementroles
+
+Sets one or multiple roles who are allowed to configure .fmbot.
+These roles can change every setting except this one, block members and manage crowns. Only members with Administrator 
+or Ban Members can change this list.
+
+!!! note "Examples"
+    `.botmanagementroles`
+
+!!! info ""
+    This feature is available with Premium server. [Get Premium server here.](../premium-server.md)
+
+### .servershortcuts
+
+Set server-wide shortcuts (up to 10). Server shortcuts work for every member of this server, supporter or not.
+
+Some examples of what you can use as input and output:
+- `today` > `chart today 2x2`
+- `gamble` > `milestone random`
+- `gm` > `fm oneline`
+
+!!! note "Examples"
+`.servershortcuts`
+
+!!! info ""
+    This feature is available with Premium server. [Get Premium server here.](../premium-server.md)

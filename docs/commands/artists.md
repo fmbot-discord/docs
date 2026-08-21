@@ -56,6 +56,7 @@ Options:
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Random - Use `random`/`rnd` to view a random artist you've listened to
 * Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
+* Featured - Check for the currently featured artist with `featured`
 
 !!! note "Examples"
     `.ap`
@@ -253,6 +254,7 @@ Options:
 * Random - Use `random`/`rnd` to view a random artist you've listened to
 * Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
 * Nofilter - Disable server filters and crowns with `nofilter`/`nf`
+* Featured - Check for the currently featured artist with `featured`
 
 !!! note "Examples"
     `.w`
@@ -278,6 +280,7 @@ Options:
 * Mode - Response mode. `embed`, `image` or `pages`
 * Random - Use `random`/`rnd` to view a random artist you've listened to
 * Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
+* Featured - Check for the currently featured artist with `featured`
 
 !!! note "Examples"
     `.fw`
@@ -306,6 +309,7 @@ Options:
 * Mode - Response mode. `embed`, `image` or `pages`
 * Random - Use `random`/`rnd` to view a random artist you've listened to
 * Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
+* Featured - Check for the currently featured artist with `featured`
 
 !!! note "Examples"
     `.gw`

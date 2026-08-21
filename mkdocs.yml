@@ -55,6 +55,8 @@ extra:
       link: https://twitter.com/fmbotDiscord
     - icon: fontawesome/brands/bluesky
       link: https://bsky.app/profile/fm.bot/
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/fmbot
   generator: false
 copyright: <a href="/privacy/">Privacy</a>  ·  <a href="/terms/">Terms</a>  ·  .fmbot is not affiliated with Last.fm 
 

@@ -4,11 +4,13 @@ icon: lucide/sparkles
 
 # Featured commands     
 
-### .featured
+### .featured (.feat)
 
-Shows the user that is currently featured.
+Shows the user that is currently featured. Can also be used as an option on other commands. Shows the server featured
+if you have it set with [`.botbranding`](../guildsettings/index.md#botbranding).
 
-Anyone that is registered in fmbot can get featured, on one condition: They must have used .fmbot in the last day.
+Anyone that is registered in fmbot can get featured, on one condition: They must have used .fmbot in the last day. The last 20 users and albums from the past 14
+days are filtered out.
 
 Want to be notified when you're featured? Join [our server](https://discord.gg/JaHj26hHGk) and you'll get a ping.
 
@@ -33,9 +35,10 @@ If your top album doesn't have a picture, no worries. The bot will just grab the
 
 ---
 
-### .featuredlog
+### .featuredlog (.fl)
 
-Shows your or someone else their featured history.
+Shows your or someone else their featured history. Shows the server featured
+if you have it set with [`.botbranding`](../guildsettings/index.md#botbranding).
 
 Options:
 

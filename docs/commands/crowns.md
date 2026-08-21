@@ -48,7 +48,9 @@ Options:
     `.crown tame impala @frikandel`
 
 !!! info "Crowns always go to the server's #1 listener"
-    The crown is awarded to whoever genuinely has the most plays in the server, so running `.crown` can hand the crown to a third member who is ahead of both you and the current holder. Every server crown setting still applies - [crown settings](../guildsettings/crownsettings.md) such as the minimum playcount, the activity threshold and crown blocks are all respected.
+    The crown is awarded to whoever genuinely has the most plays in the server, so running `.crown` can hand the crown to another member who is ahead of both you and the current holder. Every server crown setting still applies - [crown settings](../guildsettings/crownsettings.md) such as the minimum playcount, the activity threshold and crown blocks are all respected.
+
+    You can change this behavior with [`.crownroles`](../guildsettings/crownsettings.md#crownroles) (Premium server required)
 
 ---   
 ### .crownleaderboard (`.cwlb`)
