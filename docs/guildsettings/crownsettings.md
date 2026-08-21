@@ -33,7 +33,7 @@ A user is counted as active once they use .fmbot.
 
 ---
 
-### .crownroles
+### .crownroles ✨
 
 Allows you to restrict crowns to members with specific roles. Only members who have at least one of the picked roles can claim or keep a crown.
 Currently held crowns remain if the role is removed from the user until they are claimed by someone else.
@@ -42,10 +42,11 @@ Members without one of these roles still appear in WhoKnows, they just can't ear
 
 Leave the role picker empty to turn the restriction off again, which lets everyone earn crowns.
 
-Requires [Premium server](../premium-server.md).
-
 !!! note "Examples"
     `.crownroles`
+
+!!! info "✨ Premium Server Feature"
+    This feature is available with Premium server. [Get premium server here.](../premium-server.md)
 
 ---
 
@@ -122,6 +123,9 @@ Crown seeding again only updates automatically seeded crowns, not manually claim
 
 !!! note "Examples"
     `.crownseeder`
+
+!!! tip "✨ Additional Premium Server Feature"
+    Want your crowns to be seeded automatically on a schedule? This is available with Premium Server. [Get premium server here.](../premium-server.md)
     
 ---
 

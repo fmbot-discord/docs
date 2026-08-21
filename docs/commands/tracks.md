@@ -21,7 +21,7 @@ Options:
 
     `.track Kaytranada You're The One`
 
-!!! info ""
+!!! tip "⭐ Additional Supporter Feature"
     Want this command to also show the date you discovered a track and a graph of your listening history? [Get .fmbot supporter here.](../supporter.md)
     
 ---
@@ -42,7 +42,7 @@ Options:
 
     `.trackplays Infected Mushroom Can't Stop`
 
-!!! info ""
+!!! tip "⭐ Additional Supporter Feature"
     Want to see a graph of your listening history for the track? [Get .fmbot supporter here.](../supporter.md)
 
     
@@ -84,7 +84,7 @@ Options:
     `.recent moby`
 
 
-!!! info ""
+!!! tip "⭐ Additional Supporter Feature"
     For supporters this command expands to your full listening history. [Get .fmbot supporter here.](../supporter.md)
 
 ---
@@ -221,7 +221,7 @@ Options:
 * Time period - `alltime`, `monthly`, `weekly` or last two months (e.g. `march`)
 * Sorting - `listeners` or `plays`
 * Artist - Filter by artist name
-* `rf` - Filter to specific roles ([Premium server](../premium-server.md))
+* `rf` - Filter to specific roles (✨ [Premium server](../premium-server.md) required)
 
 !!! note "Examples"
     `.st`
@@ -334,7 +334,7 @@ Options:
     `.tgaps xl`
 
 
-!!! info ""
+!!! info "⭐ Supporter Only Feature"
     This command requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)
 
 ---
@@ -355,6 +355,6 @@ Options:
     `.lyrics around the world`
 
 
-!!! info ""
+!!! info "⭐ Supporter Only Feature"
     Viewing track lyrics in .fmbot is only available for .fmbot supporters. [Get .fmbot supporter here.](../supporter.md)
 

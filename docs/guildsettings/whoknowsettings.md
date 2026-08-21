@@ -21,17 +21,18 @@ A user is counted as active once they use .fmbot.
     `.fmbotactivitythreshold`
 
 ---
-### .serveractivitythreshold
+### .serveractivitythreshold ✨
 
 Allows you to filter users from commands that have not been active in the server since a certain amount of days. 
 Also prevents them from claiming crowns.
 
 A user is counted as inactive if they haven't sent in the server in 30 days.
 
-Requires [Premium server](../premium-server.md).
-
 !!! note "Examples"
 `.serveractivitythreshold`
+
+!!! info "✨ Premium Server Feature"
+    This feature is available with Premium server. [Get premium server here.](../premium-server.md)
 
 ---
 ### .block
@@ -73,21 +74,23 @@ View all blocked members on your server.
     `.blockedmembers`
 
 ---
-### .allowedroles
+### .allowedroles ✨
 
 Shows only users with these specific roles.
-
-Requires [Premium server](../premium-server.md).
 
 !!! note "Examples"
     `.allowedroles`
 
+!!! info "✨ Premium Server Feature"
+    This feature is available with Premium server. [Get premium server here.](../premium-server.md)
+
 ---
-### .blockedroles
+### .blockedroles ✨
 
 Always hides users with these specific roles.
 
-Requires [Premium server](../premium-server.md).
-
 !!! note "Examples"
     `.blockedroles`
+
+!!! info "✨ Premium Server Feature"
+    This feature is available with Premium server. [Get premium server here.](../premium-server.md)

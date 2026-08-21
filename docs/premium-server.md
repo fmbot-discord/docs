@@ -92,7 +92,7 @@ Create up to 10 text command shortcuts that work for every member in your server
 
 ### ⚙️ Filter inactive users serverwide
 
-- [`.serveractivitythreshold`](./guildsettings/whoknowsettings.md#serveractivitythreshold) — Filter out members from commands and crowns based on server activity
+- [`.serveractivitythreshold`](./guildsettings/whoknowsettings.md#serveractivitythreshold) — Filter out members from commands and crowns based on server activity instead of fmbot activity
 - [`.allowedroles`](./guildsettings/whoknowsettings.md#allowedroles) — Only show users with specific roles in commands
 - [`.blockedroles`](./guildsettings/whoknowsettings.md#blockedroles) — Hide users with specific roles from commands
 - [`.botmanagementroles`](./guildsettings/index.md#botmanagementroles) — Let trusted roles manage and configure .fmbot

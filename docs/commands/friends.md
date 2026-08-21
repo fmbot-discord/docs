@@ -29,10 +29,10 @@ Select other users by mention, Discord ID or Last.fm username
     `.addfriends 356268235697553409`
 
 
-!!! info ""
-    Did you know there's also another way to add friends? Simply rightclick their profile > `Apps` > `Add Friend`
+!!! tip
+    Did you know there's also another way to add friends? Simply right-click their profile > `Apps` > `Add Friend`
 
-!!! info ""
+!!! tip "⭐ Additional Supporter Feature"
     Want to be able to add more friends (up to 240) and set close friends that always show up in `whoknows`? [Get .fmbot supporter here.](../supporter.md)
 
 ---
@@ -52,7 +52,7 @@ Select other users by mention, Discord ID or Last.fm username
 
     `.removefriends 356268235697553409`
 
-!!! info ""
+!!! tip
     Did you know there's also another way to add friends? Simply rightclick their profile > `Apps` > `Remove Friend`
 
 ---

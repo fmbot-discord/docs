@@ -50,7 +50,7 @@ Options:
 !!! info "Crowns always go to the server's #1 listener"
     The crown is awarded to whoever genuinely has the most plays in the server, so running `.crown` can hand the crown to another member who is ahead of both you and the current holder. Every server crown setting still applies - [crown settings](../guildsettings/crownsettings.md) such as the minimum playcount, the activity threshold and crown blocks are all respected.
 
-    You can change this behavior with [`.crownroles`](../guildsettings/crownsettings.md#crownroles) (Premium server required)
+    You can change this behavior with [`.crownroles`](../guildsettings/crownsettings.md#crownroles) (✨ [Premium server](../premium-server.md) required)
 
 ---   
 ### .crownleaderboard (`.cwlb`)
@@ -63,7 +63,7 @@ Shows the users with the most crowns on your server.
     `.crownleaderboard`
 
     
-!!! info ""
+!!! tip
     Looking for automatic crowns, crown settings and ways to moderate crowns on your server? That's [available here](../guildsettings/crownsettings.md) in the server setting section.
 
 

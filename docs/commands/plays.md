@@ -26,10 +26,10 @@ Options:
 
     `.fm this is a nice song`
 
-!!! info ""
-    Tip: You can click the embed title to go to the users Last.fm profile.
+!!! tip
+    You can click the embed title to go to the users Last.fm profile.
 
-!!! tip ""
+!!! tip
     If you want .fmbot to add reactions to this command, please see [`.serverreactions`](../guildsettings/index.md#serverreactions) and [`.userreactions`](./index.md#userreactions).
 
 ---
@@ -52,7 +52,7 @@ Options:
     `.recent moby`
     
 
-!!! info ""
+!!! tip "⭐ Additional Supporter Feature"
     For supporters this command expands to your full listening history. [Get .fmbot supporter here.](../supporter.md)
 
     
@@ -95,7 +95,7 @@ Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two
 
     `.plays monthly`
 
-!!! info ""
+!!! tip "⭐ Additional Supporter Feature"
     Want to see a graph of your listening history? [Get .fmbot supporter here.](../supporter.md)
 
 ---
@@ -136,7 +136,7 @@ Options:
 
     `.streakhistory @user`
 
-!!! info ""
+!!! tip "⭐ Additional Supporter Feature"
     The "Restore past streaks" button scans your lifetime listening history and adds streaks that were never saved. This requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)
 
 ---
@@ -247,7 +247,7 @@ Options:
 
     `.year @frikandel`
 
-!!! info ""
+!!! tip "⭐ Additional Supporter Feature"
     Supporters get an extra page with Artist Discoveries and a monthly overview. [Get .fmbot supporter here.](../supporter.md)
 
 ---
@@ -273,7 +273,7 @@ Time periods:
 
     `.recap @frikandel`
 
-!!! info ""
+!!! tip "⭐ Additional Supporter Feature"
     Supporters get two extra pages with Discoveries and a listening time overview. [Get .fmbot supporter here.](../supporter.md)
 
 ---
@@ -294,7 +294,7 @@ Options:
     `.discoverydate @user`
 
 
-!!! info ""
+!!! info "⭐ Supporter Only Feature"
     This command requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)
 
 ---
@@ -315,5 +315,5 @@ Options:
     `.lastlistened @user`
 
 
-!!! info ""
+!!! info "⭐ Supporter Only Feature"
     This command requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)

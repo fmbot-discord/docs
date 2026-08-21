@@ -1,10 +1,10 @@
 ---
-icon: lucide/sparkles
+icon: lucide/mailbox
 ---
 
 # Featured commands     
 
-### .featured (.feat)
+### .featured (`.feat`)
 
 Shows the user that is currently featured. Can also be used as an option on other commands. Shows the server featured
 if you have it set with [`.botbranding`](../guildsettings/index.md#botbranding).
@@ -27,18 +27,19 @@ If your top album doesn't have a picture, no worries. The bot will just grab the
 !!! note "Examples"
     `.featured`
 
-        
-!!! info ""
+
+!!! tip "⭐ Additional Supporter Feature"
     Every first Sunday of each month is Supporter Sunday. On this day .fmbot picks featured from .fmbot supporters, as a thank you for supporting the bot.
     [Get .fmbot supporter here.](../supporter.md)
 
+!!! tip " ✨ Additional Premium Server Feature"
+    Want to have your very own featured cycle for only your server and its members? This is available with Premium Server and `.botbranding`. [Get premium server here.](../premium-server.md)
 
 ---
 
-### .featuredlog (.fl)
+### .featuredlog (`.fl`)
 
-Shows your or someone else their featured history. Shows the server featured
-if you have it set with [`.botbranding`](../guildsettings/index.md#botbranding).
+Shows your or someone else their featured history.
 
 Options:
 
