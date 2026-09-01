@@ -28,7 +28,7 @@ Options:
 !!! tip
     You're server staff and want to restrict jumble to specific channels? Use `.togglecommand`
 
-!!! tip "⭐ Additional Supporter Feature"
+!!! tip "⭐ Enhanced for .fmbot supporters"
     Want to play unlimited jumbles every day? [Get .fmbot supporter here.](../supporter.md)
 
 ---
@@ -57,5 +57,5 @@ Options:
 !!! tip
     You're server staff and want to restrict pixel jumble to specific channels? Use `.togglecommand`
 
-!!! tip "⭐ Additional Supporter Feature"
+!!! tip "⭐ Enhanced for .fmbot supporters"
     Want to play unlimited pixel jumbles every day? [Get .fmbot supporter here.](../supporter.md)

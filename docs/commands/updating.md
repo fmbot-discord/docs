@@ -30,7 +30,7 @@ This command updates your playcount cache in the bot. This works by fetching you
 
     `.update full`
 
-!!! tip "⭐ Additional Supporter Feature"
+!!! tip "⭐ Enhanced for .fmbot supporters"
     If you want .fmbot to store more than just your top 4/5/6k artist/albums/tracks, check out [.fmbot supporter](../supporter.md)!
 
 !!! bug ""

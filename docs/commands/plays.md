@@ -52,7 +52,7 @@ Options:
     `.recent moby`
     
 
-!!! tip "⭐ Additional Supporter Feature"
+!!! tip "⭐ Enhanced for .fmbot supporters"
     For supporters this command expands to your full listening history. [Get .fmbot supporter here.](../supporter.md)
 
     
@@ -95,7 +95,7 @@ Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two
 
     `.plays monthly`
 
-!!! tip "⭐ Additional Supporter Feature"
+!!! tip "⭐ Enhanced for .fmbot supporters"
     Want to see a graph of your listening history? [Get .fmbot supporter here.](../supporter.md)
 
 ---
@@ -136,7 +136,7 @@ Options:
 
     `.streakhistory @user`
 
-!!! tip "⭐ Additional Supporter Feature"
+!!! tip "⭐ Enhanced for .fmbot supporters"
     The "Restore past streaks" button scans your lifetime listening history and adds streaks that were never saved. This requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)
 
 ---
@@ -247,7 +247,7 @@ Options:
 
     `.year @frikandel`
 
-!!! tip "⭐ Additional Supporter Feature"
+!!! tip "⭐ Enhanced for .fmbot supporters"
     Supporters get an extra page with Artist Discoveries and a monthly overview. [Get .fmbot supporter here.](../supporter.md)
 
 ---
@@ -273,7 +273,7 @@ Time periods:
 
     `.recap @frikandel`
 
-!!! tip "⭐ Additional Supporter Feature"
+!!! tip "⭐ Enhanced for .fmbot supporters"
     Supporters get two extra pages with Discoveries and a listening time overview. [Get .fmbot supporter here.](../supporter.md)
 
 ---
@@ -294,7 +294,7 @@ Options:
     `.discoverydate @user`
 
 
-!!! info "⭐ Supporter Only Feature"
+!!! info "⭐ Exclusive for .fmbot supporters"
     This command requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)
 
 ---
@@ -315,5 +315,5 @@ Options:
     `.lastlistened @user`
 
 
-!!! info "⭐ Supporter Only Feature"
+!!! info "⭐ Exclusive for .fmbot supporters"
     This command requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)

@@ -23,7 +23,7 @@ Options:
 
     `.artist David Vunk`
 
-!!! tip "⭐ Additional Supporter Feature"
+!!! tip "⭐ Enhanced for .fmbot supporters"
     Want this command to also show the date you discovered an artist and a graph of your listening history? [Get .fmbot supporter here.](../supporter.md)
 
 
@@ -65,7 +65,7 @@ Options:
 
     `.artistplays Mall Grab`
 
-!!! tip "⭐ Additional Supporter Feature"
+!!! tip "⭐ Enhanced for .fmbot supporters"
     Want to see a graph of your listening history for the artist? [Get .fmbot supporter here.](../supporter.md)
     
 ---
@@ -405,7 +405,7 @@ Time periods:
     `.discoveries monthly @user`
 
 
-!!! info "⭐ Supporter Only Feature"
+!!! info "⭐ Exclusive for .fmbot supporters"
     This command requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)
 
 ---
@@ -429,5 +429,5 @@ Options:
     `.gaps xl`
 
 
-!!! info "⭐ Supporter Only Feature"
+!!! info "⭐ Exclusive for .fmbot supporters"
     This command requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)

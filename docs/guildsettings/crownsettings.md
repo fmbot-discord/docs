@@ -45,7 +45,7 @@ Leave the role picker empty to turn the restriction off again, which lets everyo
 !!! note "Examples"
     `.crownroles`
 
-!!! info "✨ Premium Server Feature"
+!!! info "✨ Exclusive for Premium servers"
     This feature is available with Premium server. [Get premium server here.](../premium-server.md)
 
 ---
@@ -124,7 +124,7 @@ Crown seeding again only updates automatically seeded crowns, not manually claim
 !!! note "Examples"
     `.crownseeder`
 
-!!! tip "✨ Additional Premium Server Feature"
+!!! tip "✨ Enhanced for Premium servers"
     Want your crowns to be seeded automatically on a schedule? This is available with Premium Server. [Get premium server here.](../premium-server.md)
     
 ---

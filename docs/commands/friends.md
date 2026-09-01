@@ -32,7 +32,7 @@ Select other users by mention, Discord ID or Last.fm username
 !!! tip
     Did you know there's also another way to add friends? Simply right-click their profile > `Apps` > `Add Friend`
 
-!!! tip "⭐ Additional Supporter Feature"
+!!! tip "⭐ Enhanced for .fmbot supporters"
     Want to be able to add more friends (up to 240) and set close friends that always show up in `whoknows`? [Get .fmbot supporter here.](../supporter.md)
 
 ---

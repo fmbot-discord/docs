@@ -66,7 +66,7 @@ Each autopost can be a full **server recap** (top artists, albums and tracks, th
 !!! note "Examples"
     `.autoposter`
 
-!!! info "✨ Premium Server Feature"
+!!! info "✨ Exclusive for Premium servers"
     This feature is available with Premium server. [Get premium server here.](../premium-server.md)
 
 ---   
@@ -85,7 +85,7 @@ otherwise they have to have used .fmbot once in the last 5 days.
 !!! note "Examples"
     `.botbranding`
 
-!!! info "✨ Premium Server Feature"
+!!! info "✨ Exclusive for Premium servers"
     This feature is available with Premium server. [Get premium server here.](../premium-server.md)
 
 ---   
@@ -142,7 +142,7 @@ or Ban Members can change this list.
 !!! note "Examples"
     `.botmanagementroles`
 
-!!! info "✨ Premium Server Feature"
+!!! info "✨ Exclusive for Premium servers"
     This feature is available with Premium server. [Get premium server here.](../premium-server.md)
 
 ### .servershortcuts ✨
@@ -157,5 +157,5 @@ Some examples of what you can use as input and output:
 !!! note "Examples"
 `.servershortcuts`
 
-!!! info "✨ Premium Server Feature"
+!!! info "✨ Exclusive for Premium servers"
     This feature is available with Premium server. [Get premium server here.](../premium-server.md)

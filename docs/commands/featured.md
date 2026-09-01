@@ -28,11 +28,11 @@ If your top album doesn't have a picture, no worries. The bot will just grab the
     `.featured`
 
 
-!!! tip "⭐ Additional Supporter Feature"
+!!! tip "⭐ Enhanced for .fmbot supporters"
     Every first Sunday of each month is Supporter Sunday. On this day .fmbot picks featured from .fmbot supporters, as a thank you for supporting the bot.
     [Get .fmbot supporter here.](../supporter.md)
 
-!!! tip " ✨ Additional Premium Server Feature"
+!!! tip " ✨ Enhanced for Premium servers"
     Want to have your very own featured cycle for only your server and its members? This is available with Premium Server and `.botbranding`. [Get premium server here.](../premium-server.md)
 
 ---

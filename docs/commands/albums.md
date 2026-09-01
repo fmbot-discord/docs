@@ -20,7 +20,7 @@ Options:
 
     `.album Ventura Anderson .Paak`
 
-!!! tip "⭐ Additional Supporter Feature"
+!!! tip "⭐ Enhanced for .fmbot supporters"
     Want this command to also show the date you discovered an album and a graph of your listening history? [Get .fmbot supporter here.](../supporter.md)
     
 ---
@@ -42,7 +42,7 @@ Options:
     
     `.albumplays The Slow Rush`
 
-!!! tip "⭐ Additional Supporter Feature"
+!!! tip "⭐ Enhanced for .fmbot supporters"
     Want to see a graph of your listening history for the album? [Get .fmbot supporter here.](../supporter.md)
     
 ---
@@ -284,6 +284,6 @@ Options:
     `.agaps xl`
 
 
-!!! info "⭐ Supporter Only Feature"
+!!! info "⭐ Exclusive for .fmbot supporters"
     This command requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)
 

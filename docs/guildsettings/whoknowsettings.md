@@ -31,7 +31,7 @@ A user is counted as inactive if they haven't sent in the server in 30 days.
 !!! note "Examples"
 `.serveractivitythreshold`
 
-!!! info "✨ Premium Server Feature"
+!!! info "✨ Exclusive for Premium servers"
     This feature is available with Premium server. [Get premium server here.](../premium-server.md)
 
 ---
@@ -81,7 +81,7 @@ Shows only users with these specific roles.
 !!! note "Examples"
     `.allowedroles`
 
-!!! info "✨ Premium Server Feature"
+!!! info "✨ Exclusive for Premium servers"
     This feature is available with Premium server. [Get premium server here.](../premium-server.md)
 
 ---
@@ -92,5 +92,5 @@ Always hides users with these specific roles.
 !!! note "Examples"
     `.blockedroles`
 
-!!! info "✨ Premium Server Feature"
+!!! info "✨ Exclusive for Premium servers"
     This feature is available with Premium server. [Get premium server here.](../premium-server.md)

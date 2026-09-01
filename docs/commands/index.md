@@ -56,7 +56,7 @@ Options:
 
     `.stats`
 
-!!! tip "⭐ Additional Supporter Feature"
+!!! tip "⭐ Enhanced for .fmbot supporters"
     Want to see a graph of your listening history and a yearly overview on your profile? [Get .fmbot supporter here.](../supporter.md)
 
 ---
@@ -113,7 +113,7 @@ Use the provided dropdowns to select and de-select which options you want.
 
     `/fmmode` (responds in-channel)
 
-!!! tip "⭐ Additional Supporter Feature"
+!!! tip "⭐ Enhanced for .fmbot supporters"
     Supporters can set custom accent colors, add up to 5 buttons and 10 footer options.
     [Get .fmbot supporter here.](../supporter.md)
 
@@ -159,8 +159,8 @@ Max amount of emojis is 5. Please put a space between every emoji.
 
     `.userreactions`
 
-!!! info "⭐ Supporter Only Feature"
-    This setting is supporter only. [Get .fmbot supporter here.](../supporter.md)
+!!! info "⭐ Exclusive for .fmbot supporters"
+    Only supporters can set global emote reactions that override server settings. [Get .fmbot supporter here.](../supporter.md)
 
 ---
 
@@ -195,8 +195,8 @@ Use `.shortcuts` to view and manage your shortcuts.
 
     A shortcut `progress` set to `chart 5x5 2025 skip` — typing `.progress` runs that chart.
 
-!!! info "⭐ Supporter Only Feature"
-    This feature is supporter only. Shortcuts are stored in-memory across all bot instances to keep command handling fast, so availability is limited.
+!!! info "⭐ Exclusive for .fmbot supporters"
+    Shortcuts are stored in-memory across all bot instances to keep command handling fast, so availability is limited.
     [Get .fmbot supporter here.](../supporter.md)
 
     
