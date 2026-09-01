@@ -39,7 +39,7 @@ Options:
 
     `.judge french`
 
-!!! info ""
+!!! tip "⭐ Enhanced for .fmbot supporters"
     Supporters get access to higher quality compliments and roasts, generated with a better language model. [Get .fmbot supporter here.](../supporter.md)
 
 !!! note ""

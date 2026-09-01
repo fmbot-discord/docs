@@ -114,7 +114,7 @@ icon: lucide/circle-help
 
     We are not affiliated with Last.fm. This bot only uses their API to show you and your friends their statistics.
 
-    If you have issues with Last.fm, we'd suggest you check out their [support forums](https://support.last.fm) or their [Discord server](https://discord.gg/swrVDCBZ8H).
+    If you have issues with Last.fm, we'd suggest you check out their [support forums](https://support.last.fm) or their [community Discord server](https://discord.gg/lastfm).
 
 ??? info "The bot is offline"
 
@@ -157,4 +157,4 @@ icon: lucide/circle-help
 
     Note that .fmbot and Last.fm are two separate things. .fmbot is the Discord bot, Last.fm is the website.
 
-    Need help with Last.fm? Check out their [support forums](https://support.last.fm) or their [Discord server](https://discord.gg/swrVDCBZ8H).
+    Need help with Last.fm? Check out their [support forums](https://support.last.fm) or their [community Discord server](https://discord.gg/swrVDCBZ8H).

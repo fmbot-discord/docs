@@ -39,9 +39,10 @@ Options:
 
     `.collection cd`
 
-!!! info ""
+!!! info "Caching Limit"
     Only the last 100 items you've added to Discogs can be viewed and stored. 
-    
+
+!!! tip "⭐ Enhanced for .fmbot supporters" 
     Want to view your whole collection? [Get .fmbot supporter here.](../supporter.md)
 
 
