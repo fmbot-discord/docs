@@ -75,7 +75,7 @@ Creates a chart of your top artists over a certain time period.
 
 Options:
 
-* Chart size - `WidthxHeight` such as `2x2`, `3x5` or `20x4`, up to 100 images total.
+* Chart size - `WidthxHeight` such as `2x2`, `3x5` or `20x4`, up to 225 images total.
 * Time period - Time period of your top artists. Defaults to weekly.
 * `notitles` - Don't display artist names. (`nt`)
 * `skip` - Skips artists without images. (`s`)

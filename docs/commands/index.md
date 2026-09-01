@@ -111,7 +111,7 @@ Use the provided dropdowns to select and de-select which options you want.
 !!! note "Examples"
     `.fmmode`
 
-    `/fmmode` (responds in-channel)
+    `/mode` (responds in-channel)
 
 !!! info ""
     Supporters can set custom accent colors, add up to 5 buttons and 10 footer options.
