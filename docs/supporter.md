@@ -84,7 +84,6 @@ document.querySelectorAll('.getsupporter-button-fmbot').forEach(function(btn) {
 | Cached artists | Top 4000 | Unlimited |
 | Cached albums | Top 5000 | Unlimited |
 | Cached tracks | Top 6000 | Unlimited |
-| Cached Discogs collection | Last 100 | Unlimited |
 
 --- 
 
