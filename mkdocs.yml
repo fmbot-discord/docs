@@ -41,6 +41,9 @@ markdown_extensions:
 extra_css:
   - style/style.css
 
+extra_javascript:
+  - js/cmd-mode.js
+
 exclude_docs: |
   !.well-known
 
@@ -64,7 +67,7 @@ copyright: <a href="/privacy/">Privacy</a>  ·  <a href="/terms/">Terms</a>  · 
 nav:
   - 'Home': 'index.md'
   - 'Frequently Asked': 'faq.md'
-  - 'Text commands':
+  - 'Commands':
     - 'Getting started': 'commands/index.md'
     - 'Albums': 'commands/albums.md'
     - 'Artists': 'commands/artists.md'

@@ -4,7 +4,7 @@ icon: lucide/mailbox
 
 # Featured commands     
 
-### .featured (`.feat`)
+### .featured (`.feat`) { data-slash="/featured" }
 
 Shows the user that is currently featured. Can also be used as an option on other commands. Shows the server featured
 if you have it set with [`.botbranding`](../guildsettings/index.md#botbranding).
@@ -24,8 +24,11 @@ Possible featured modes:
 
 If your top album doesn't have a picture, no worries. The bot will just grab the next album that has a picture. The album cover will also be used as the bot's profile picture.
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.featured`
+
+!!! note cmd-slash "Examples"
+    `/featured`
 
 
 !!! tip "⭐ Enhanced for .fmbot supporters"
@@ -37,7 +40,7 @@ If your top album doesn't have a picture, no worries. The bot will just grab the
 
 ---
 
-### .featuredlog (`.fl`)
+### .featuredlog (`.fl`) { data-slash="/featuredlog" }
 
 Shows your or someone else their featured history.
 
@@ -45,12 +48,21 @@ Options:
 
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * View - `Global`, `Members`, `Friends` or `User` — global featured history
-* View - `ServerFeatured` or `ServerFeaturedUser` — server featured history, available on [premium servers](../premium-server.md) with server featured enabled
+* View - `Server featured` or `Server featured user` — server featured history, available on [premium servers](../premium-server.md) with server featured enabled
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.featuredlog`
 
     `.featuredlog @user`
 
     `.featuredlog server`
+
+!!! note cmd-slash "Examples"
+    `/featuredlog`
+
+    `/featuredlog user:frikandel_`
+
+    `/featuredlog view:Members`
+
+    `/featuredlog view:Server featured`
 

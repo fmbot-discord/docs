@@ -1,5 +1,23 @@
 {% extends "base.html" %}
 
+{% block extrahead %}
+<script>
+  (function () {
+    var mode = null;
+    try {
+      var param = new URLSearchParams(location.search).get("mode");
+      if (param === "slash" || param === "text") {
+        mode = param;
+        localStorage.setItem("cmd-mode", mode);
+      } else {
+        mode = localStorage.getItem("cmd-mode");
+      }
+    } catch (e) { /* storage unavailable */ }
+    document.documentElement.setAttribute("data-cmd-mode", mode === "text" ? "text" : "slash");
+  })();
+</script>
+{% endblock %}
+
 {% block announce %}
 <p style="text-align: center">
   Using Spotify with Last.fm? Make sure

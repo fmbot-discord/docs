@@ -4,7 +4,7 @@ icon: simple/discogs
 
 # Discogs commands
 
-### .discogs 
+### .discogs { data-slash="/discogs" }
 
 Allows you to connect or manage the connection with your Discogs account.
 
@@ -12,12 +12,15 @@ The bot will send you a DM where you can configure this.
 
 You can also show/hide the display of your collection value on your profile.
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.discogs`
+
+!!! note cmd-slash "Examples"
+    `/discogs`
 
 ---
 
-### .collection
+### .collection { data-slash="/collection" }
 
 Shows you or someone else their Discogs collection.
 
@@ -30,12 +33,21 @@ Some places where your collection can also be visible are the [`profile`](./inde
 
 Options:
 
+* Search - Search through artist or album title
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+* Format - `Cassette`, `Cd` or `Vinyl`
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.collection`
 
     `.collection mall grab`
 
     `.collection cd`
+
+!!! note cmd-slash "Examples"
+    `/collection`
+
+    `/collection search:mall grab`
+
+    `/collection format:Cd`
 

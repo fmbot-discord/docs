@@ -8,6 +8,9 @@ You can use .fmbot webhooks to automatically post the featured music to your own
 
 To see more information about how featured works, [click here](../commands/featured.md).
 
+!!! info cmd-slash "Using slash commands?"
+    Webhooks are set up with text commands. Type `.addwebhook` in the channel you want featured posts in, or use `@.fmbot addwebhook` if your server uses a different prefix.
+
 ---   
 
 ### .addwebhook

@@ -14,7 +14,7 @@ Desktop: Right-click message > Apps > Delete response
 
 ---
 
-### Reply context
+### Reply context { .text-only }
 
 You can reply to any fmbot command or response that contains an artist, album or track to directly use that as context for your new command.
 
@@ -24,7 +24,7 @@ Example below:
 
 ---
 
-### .judge
+### .judge { data-slash="/judge" }
 
 Judges your music taste using AI. You can pick between either a compliment or a roast.
 
@@ -34,10 +34,17 @@ Options:
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Language - One-time language override, by name or code (`french`, `Français`, `fr`). Defaults to the server language.
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.judge`
 
     `.judge french`
+
+!!! note cmd-slash "Examples"
+    `/judge`
+
+    `/judge language:French`
+
+    `/judge time-period:yearly user:frikandel_`
 
 !!! tip "⭐ Enhanced for .fmbot supporters"
     Supporters get access to higher quality compliments and roasts, generated with a better language model. [Get .fmbot supporter here.](../supporter.md)
@@ -47,7 +54,7 @@ Options:
 
 ---
 
-### .rateyourmusic
+### .rateyourmusic { .text-only }
 
 Enables/disables an option that changes all album links to link to RateYourMusic.
 
@@ -56,7 +63,7 @@ Enables/disables an option that changes all album links to link to RateYourMusic
 
 ---
 
-### .info
+### .info { .text-only }
 
 Shows all the information and links related to the bot.
 
@@ -64,7 +71,7 @@ Shows all the information and links related to the bot.
     `.info`
 
 ---
-### .status
+### .status { .text-only }
 
 Gets the bot status information.
 
@@ -72,7 +79,7 @@ Gets the bot status information.
     `.status`
 
 ---
-### .eurovision (`.ev`)
+### .eurovision (`.ev`) { data-slash="/eurovision" }
 
 Shows Eurovision Song Contest information for a specific year or country.
 
@@ -81,7 +88,7 @@ Options:
 * Year - Year you want to view. Defaults to current year.
 * Country - A country you want to view.
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.ev`
 
     `.eurovision`
@@ -90,12 +97,22 @@ Options:
 
     `.eurovision Sweden`
 
+!!! note cmd-slash "Examples"
+    `/eurovision`
+
+    `/eurovision year:2024`
+
+    `/eurovision country:Sweden`
+
 ---
-### .remove
+### .remove { data-slash="/remove" }
 
 Deletes all your user information, including all your friends and other settings.
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.remove`
+
+!!! note cmd-slash "Examples"
+    `/remove`
 
 

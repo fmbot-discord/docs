@@ -7,6 +7,9 @@ icon: lucide/settings
 
 Server settings can only be changed by admins, users with the 'Ban Members' permission, users with the roles set in [`.botmanagementroles`](#botmanagementroles), or .fmbot admins.
 
+!!! info cmd-slash "Using slash commands?"
+    Server settings are configured through text commands or the settings menu. With slash commands, run `/settings` and switch to the **Server settings** tab with the buttons at the bottom. Every setting on this page can be changed from there.
+
 ---
 
 ### .serversettings
@@ -21,14 +24,23 @@ You can also get here through `/settings` by switching to the 'Server settings' 
     `.serversettings`
 
 ---
-### .members (`.mb`)
+### .members (`.mb`) { data-slash="/members" }
 
 Shows an overview of .fmbot members in your server.
 
-!!! note "Examples"
+Options:
+{ .cmd-slash }
+
+* View - The statistic you want to view
+{ .cmd-slash }
+
+!!! note cmd-text "Examples"
     `.mb`
 
     `.members`
+
+!!! note cmd-slash "Examples"
+    `/members view:Overview`
 
 ---
 ### .serverreactions

@@ -49,3 +49,17 @@ GitHub Actions builds and deploys to GitHub Pages on every push to `master`. The
 - Custom CSS uses Material theme CSS variables (e.g., `--md-primary-fg-color`) for theme consistency
 - The `docs/overrides/` directory uses Jinja2 template inheritance (`{% extends "base.html" %}` / `{% extends "main.html" %}`)
 - Light mode palette: indigo primary; Dark mode palette: blue primary on slate scheme
+
+## Text / slash command mode
+
+Every page can be viewed as text commands (`.fm`) or slash commands (`/fm`). The toggle lives in the header (injected by `docs/js/cmd-mode.js`), the homepage section pills use the same mechanism, state is `data-cmd-mode` on `<html>` (default `slash`; set before paint by `overrides/main.html`, persisted in localStorage `cmd-mode`, overridable with `?mode=slash|text`). Styling is in `docs/style/style.css` under "Text / slash command mode".
+
+Markdown conventions (Python-Markdown `attr_list`; the attribute list must be on its own line after list items/paragraphs):
+
+- `### .whoknows (`.wk`, `.w`) { data-slash="/wk" }` — heading and TOC entry swap to `/wk` in slash mode. Never change the text before `{` (anchors are generated from it and the bot links to them).
+- `### .jumble (`.j`) { .text-only }` — "text command only" badge in slash mode. `### /localization { .slash-only }` — "slash command only" badge in text mode.
+- `!!! note cmd-text "Examples"` / `!!! note cmd-slash "Examples"` — per-mode example blocks. Text-only commands keep a plain `!!! note "Examples"` so both modes show it.
+- `{ .cmd-text }` / `{ .cmd-slash }` on the line after a list item or paragraph for per-mode options.
+- Inline: `` `.update full`{ .cmd-text }`` `` `/update type:Full`{ .cmd-slash } ``.
+- Slash parameter names and choices must match the bot; the catalog in `HelpService.cs` (fmbot repo) is the source of truth. Slash example style: `/wk artist:COMA mode:Image`, booleans `True`/`False`, users as `user:lastfmusername`.
+- Server settings pages don't badge every command; they carry one `!!! info cmd-slash` note pointing at `/settings`.

@@ -15,7 +15,7 @@ icon: lucide/circle-help
 
     1. Create a [Last.fm account](https://last.fm/join)
     2. Connect it to [your music platform](https://www.last.fm/about/trackmymusic) - Quick link [for Spotify here](https://www.last.fm/settings/applications)
-    3. Use any .fmbot command, like `.fm` or `.whoknows`
+    3. Use any .fmbot command, like `.fm`{ .cmd-text }`/fm`{ .cmd-slash } or `.whoknows`{ .cmd-text }`/wk`{ .cmd-slash }
     4. Press 'Connect Last.fm account' and follow the instructions
     5. Done! You can now use .fmbot.
 
@@ -42,7 +42,7 @@ icon: lucide/circle-help
 
     Because we rely heavily on caching your playcounts to keep our commands fast it can sometimes happen that you don't get updated properly.
 
-    In this case, try to use `.update full`. This completely re-builds the stored playcounts the bot has for you. 
+    In this case, try to use `.update full`{ .cmd-text }`/update type:Full`{ .cmd-slash }. This completely re-builds the stored playcounts the bot has for you. 
 
 ??? info "How do I import my Spotify or Apple Music history into .fmbot?"
 
@@ -104,7 +104,7 @@ icon: lucide/circle-help
     Please note the following:
 
     - You're still visible if you use the commands yourself
-    - You can disable the filter with nofilter/nf, for example `.gw bts nf`
+    - Text commands can disable the filter with `nofilter`/`nf`, for example `.gw bts nf`
     - It's a temporary removal (unless it happens again)
     - It's just a bunch of numbers on a list
 

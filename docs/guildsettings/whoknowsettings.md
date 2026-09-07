@@ -8,6 +8,9 @@ You can change what users appear in the whoknows commands and other commands tha
 
 These settings can only be changed by admins, users with the 'Ban Members' permission, users with the roles set in [`.botmanagementroles`](index.md#botmanagementroles), or .fmbot admins.
 
+!!! info cmd-slash "Using slash commands?"
+    With slash commands, run `/settings` and switch to the **Server settings** tab with the buttons at the bottom to change these settings. Blocking and unblocking members also works directly with `/block` and `/unblock`.
+
 ---
 
 ### .fmbotactivitythreshold
@@ -35,37 +38,36 @@ A user is counted as inactive if they haven't sent in the server in 30 days.
     This feature is available with Premium server. [Get premium server here.](../premium-server.md)
 
 ---
-### .block
+### .block { data-slash="/block" }
 
 Blocks a user from appearing in whoknows and from being in any server-wide statistic.
 
 Also prevents them from claiming crowns.
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.block 748900688129687642`
 
     `.block lastfmsupport`
 
+!!! note cmd-slash "Examples"
+    `/block user:lastfmsupport`
+
 ---
-### .unblock
+### .unblock { data-slash="/unblock" }
 
 Unblocks a user from appearing in whoknows and from being in any server-wide statistic. 
 
 Also unblocks a user in case of any crown bans.
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.unblock 748900688129687642`
 
     `.unblock lastfmsupport`
 
+!!! note cmd-slash "Examples"
+    `/unblock user:lastfmsupport`
+
 ---
-### .blockedmembers
-
-View all blocked members on your server.
-
-!!! note "Examples"
-    `.blockedmembers`
-
 ### .blockedmembers
 
 View all blocked members on your server.

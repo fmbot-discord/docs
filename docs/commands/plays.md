@@ -6,18 +6,21 @@ icon: lucide/play
 
 ## Getting your latest scrobbles
 
-### .fm
+### .fm { data-slash="/fm" }
 
 Shows your last 1 or 2 scrobbles, either in embed or text format.
 
-You can set how your `.fm` embed looks with the [`.mode` command](./index.md#fmmode).
+You can set how your `.fm` embed looks with the [`.mode` command](./index.md#mode-md-customize).
 
 Options:
 
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Mode - Override your selected mode `embedtiny`/`embedmini`/`embedfull`/`textmini`/`textfull`/`oneline`
+{ .cmd-text }
+* Embed-type - Override your selected mode for this response
+{ .cmd-slash }
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.fm`
 
     `.fm @user`
@@ -25,6 +28,13 @@ Options:
     `.fm lfm:lastfmusername`
 
     `.fm this is a nice song`
+
+!!! note cmd-slash "Examples"
+    `/fm`
+
+    `/fm user:frikandel_`
+
+    `/fm embed-type:EmbedFull`
 
 !!! tip
     You can click the embed title to go to the users Last.fm profile.
@@ -35,7 +45,7 @@ Options:
 ---
 
 
-### .recent (`.r`)
+### .recent (`.r`) { data-slash="/recent" }
 
 Shows your latest plays.
 
@@ -44,12 +54,19 @@ Options:
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Artist - Filter by artist name
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.r`
 
     `.recent`
 
     `.recent moby`
+
+!!! note cmd-slash "Examples"
+    `/recent`
+
+    `/recent artist:moby`
+
+    `/recent user:frikandel_`
     
 
 !!! tip "⭐ Enhanced for .fmbot supporters"
@@ -58,7 +75,7 @@ Options:
     
 ---
 
-### .search (`.sr`, `.find`)
+### .search (`.sr`, `.find`) { data-slash="/search" }
 
 Searches through your stored .fmbot library — your tracks, albums, artists, and scrobbles — for a given query.
 
@@ -66,16 +83,23 @@ Options:
 
 * Query - The text to search your library for.
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.search daft punk`
 
     `.sr radiohead creep`
 
     `.find in rainbows`
 
+!!! note cmd-slash "Examples"
+    `/search query:daft punk`
+
+    `/search query:radiohead creep`
+
+    `/search query:in rainbows`
+
 ---
 
-### .plays (`.p`)
+### .plays (`.p`) { data-slash="/plays" }
 
 Shows your total scrobble count for a specific time period.
 
@@ -86,7 +110,7 @@ Options:
 
 Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two-year` or `alltime` (`w`, `m`, `q`, `h`, `y`, `2y` or `a`)
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.p`
 
     `.plays`
@@ -95,12 +119,19 @@ Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two
 
     `.plays monthly`
 
+!!! note cmd-slash "Examples"
+    `/plays`
+
+    `/plays user:frikandel_`
+
+    `/plays time-period:monthly`
+
 !!! tip "⭐ Enhanced for .fmbot supporters"
     Want to see a graph of your listening history? [Get .fmbot supporter here.](../supporter.md)
 
 ---
 
-### .streak (`.str`)
+### .streak (`.str`) { data-slash="/streak" }
 
 Shows your track, album or artist streak.
 
@@ -108,14 +139,19 @@ Options:
 
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.str`
 
     `.streak`
+
+!!! note cmd-slash "Examples"
+    `/streak`
+
+    `/streak user:frikandel_`
     
 ---
 
-### .streakhistory (`.strs`)
+### .streakhistory (`.strs`) { data-slash="/streaks" }
 
 Shows your past streaks.
 
@@ -123,9 +159,12 @@ Options:
 
 * Artist - Filter by artist name
 * `edit` - Enable editmode to delete individual streaks or all your streaks
+{ .cmd-text }
+* Editmode - Enable editmode to delete individual streaks or all your streaks
+{ .cmd-slash }
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.strs`
 
     `.streakhistory`
@@ -136,12 +175,21 @@ Options:
 
     `.streakhistory @user`
 
+!!! note cmd-slash "Examples"
+    `/streaks`
+
+    `/streaks artist:Radiohead`
+
+    `/streaks editmode:True`
+
+    `/streaks user:frikandel_`
+
 !!! tip "⭐ Enhanced for .fmbot supporters"
     The "Restore past streaks" button scans your lifetime listening history and adds streaks that were never saved. This requires .fmbot to store your full listening history, which we only do for supporters. [Get .fmbot supporter here.](../supporter.md)
 
 ---
 
-### .scrobbleleaderboard (`.sblb`)
+### .scrobbleleaderboard (`.sblb`) { .text-only }
 
 Shows users with the most plays in your server.
 
@@ -152,7 +200,7 @@ Shows users with the most plays in your server.
 
 ---
 
-### .timeleaderboard (`.tlb`)
+### .timeleaderboard (`.tlb`) { .text-only }
 
 Shows users with the most listening time in your server.
 
@@ -163,7 +211,7 @@ Shows users with the most listening time in your server.
 
 ---
 
-### .overview (`.o`)
+### .overview (`.o`) { data-slash="/overview" }
 
 Shows you an overview of your top track, album and artist for the last few days.
 
@@ -172,18 +220,25 @@ Options:
 * Amount - Number of days to show. Can only be between 1 and 8. Defaults to 4.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.o`
 
     `.overview`
 
     `.overview 8`
+
+!!! note cmd-slash "Examples"
+    `/overview`
+
+    `/overview amount:8`
+
+    `/overview amount:8 user:frikandel_`
     
     
 
 ---
 
-### .pace (`.pc`)
+### .pace (`.pc`) { data-slash="/pace" }
 
 Shows you an estimate of when you will reach a certain amount of plays.
 
@@ -195,7 +250,7 @@ Options:
 
 Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two-year` or `alltime`. (`w`, `m`, `q`, `h`, `y`, `2y` or `a`)
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.pc`
 
     `.pace`
@@ -203,10 +258,17 @@ Time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two-year` or 
     `.pace a 73k`
 
     `.pace 50000 quarterly`
+
+!!! note cmd-slash "Examples"
+    `/pace`
+
+    `/pace amount:73000 time-period:alltime`
+
+    `/pace amount:50000 time-period:quarterly`
     
 ---
 
-### .milestone (`.ms`)
+### .milestone (`.ms`) { data-slash="/milestone" }
 
 Shows you your latest scrobble milestones.
 
@@ -215,8 +277,9 @@ Options:
 * Amount - Milestone you want to check
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Random - Use `random`/`rnd` to view a random milestone
+{ .cmd-text }
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.ms`
 
     `.ms 30k`
@@ -228,10 +291,17 @@ Options:
     `.milestone 1337 @frikandel`
 
     `.milestone rnd`
+
+!!! note cmd-slash "Examples"
+    `/milestone`
+
+    `/milestone amount:30000`
+
+    `/milestone amount:1337 user:frikandel_`
     
 ---
 
-### .year
+### .year { data-slash="/year" }
 
 Shows you an overview of you or someone else their year.
 
@@ -240,19 +310,26 @@ Options:
 * Year - Year number you want to view
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.year`
 
     `.year 2024`
 
     `.year @frikandel`
 
+!!! note cmd-slash "Examples"
+    `/year`
+
+    `/year year:2024`
+
+    `/year user:frikandel_`
+
 !!! tip "⭐ Enhanced for .fmbot supporters"
     Supporters get an extra page with Artist Discoveries and a monthly overview. [Get .fmbot supporter here.](../supporter.md)
 
 ---
 
-### .recap
+### .recap { data-slash="/recap" }
 
 Shows all commands with a specific timeframe into one recap.
 
@@ -266,32 +343,47 @@ Time periods:
 * `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two-year` or `alltime`. (`w`, `m`, `q`, `h`, `y`, `2y` or `a`)
 * Also supports year/month timeframes: `2023`, `Mar 2020`, `August`
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.recap`
 
     `.recap 2024`
 
     `.recap @frikandel`
 
+!!! note cmd-slash "Examples"
+    `/recap`
+
+    `/recap time-period:2024`
+
+    `/recap user:frikandel_`
+
 !!! tip "⭐ Enhanced for .fmbot supporters"
     Supporters get two extra pages with Discoveries and a listening time overview. [Get .fmbot supporter here.](../supporter.md)
 
 ---
 
-### .discoverydate (`.dd`) ⭐
+### .discoverydate (`.dd`) ⭐ { data-slash="/discoverydate" }
 
 Shows when you discovered the artist, album and track you're listening to or searching for.
 
 Options:
 
+* Track - A track you want to search for
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.dd`
     
     `.dd the beatles yesterday`
         
     `.discoverydate @user`
+
+!!! note cmd-slash "Examples"
+    `/discoverydate`
+
+    `/discoverydate track:The Beatles | Yesterday`
+
+    `/discoverydate user:frikandel_`
 
 
 !!! info "⭐ Exclusive for .fmbot supporters"
@@ -299,20 +391,28 @@ Options:
 
 ---
 
-### .lastlistened (`.last`) ⭐
+### .lastlistened (`.last`) ⭐ { data-slash="/lastlistened" }
 
 Shows the date you last listened to the artist, album, and track you're listening to or searching for.
 
 Options:
 
+* Track - A track you want to search for
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.last`
 
     `.last the beatles yesterday`
 
     `.lastlistened @user`
+
+!!! note cmd-slash "Examples"
+    `/lastlistened`
+
+    `/lastlistened track:The Beatles | Yesterday`
+
+    `/lastlistened user:frikandel_`
 
 
 !!! info "⭐ Exclusive for .fmbot supporters"

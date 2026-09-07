@@ -4,7 +4,7 @@ icon: lucide/gamepad-2
 
 # Games
 
-### .jumble (`.j`)
+### .jumble (`.j`) { .text-only }
 
 Play the new Jumble game! Guess the artist out of your all-time top artists together with your friends.
 
@@ -33,7 +33,7 @@ Options:
 
 ---
 
-### .pixel (`.px`)
+### .pixel (`.px`) { .text-only }
 
 Play the new Pixel jumble game! Guess the album out of your all-time top albums together with your friends.
 

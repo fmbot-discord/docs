@@ -10,9 +10,12 @@ Imported plays are dynamically applied into your stats across the bot, creating 
 
 This combined view is available to supporters with an [active subscription](./supporter.md).
 
+!!! info cmd-text "Importing uses slash commands"
+    Imports need file attachments, so they are only available as slash commands. Typing `.import` in a server explains the same steps. Use the toggle at the top of the page to view the docs as slash commands.
+
 ---
 
-### /import manage
+### /import manage { .slash-only }
 
 Allows you to manage your imports and pick the source for your playcounts.
 
@@ -30,18 +33,21 @@ To delete your imports from .fmbot, switch to the Last.fm option and use the pro
 
 ---
 
-### /import modify
+### .importmodify { data-slash="/import modify" }
 
 Allows you to edit and delete artists, albums and tracks in your .fmbot imports.
 
 The bot will send you a DM where you can make changes.
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
+    `.importmodify`
+
+!!! note cmd-slash "Examples"
     `/import modify`
 
 ---
 
-### /import spotify
+### /import spotify { .slash-only }
 
 Allows you to import your Spotify streaming history in the bot.
 
@@ -79,7 +85,7 @@ This command only supports the 'Extended Streaming History' package. You can eit
 
 ---
 
-### /import applemusic
+### /import applemusic { .slash-only }
 
 Allows you to import your Apple Music streaming history in the bot.
 

@@ -41,15 +41,18 @@ If you are using other bots, make sure:
 
 * That .fmbot can see the voice channel
 * That .fmbot can see the 'Now playing' messages
-* That you've logged in at least once using `/login`
+* That you've logged in at least once using `.login`{ .cmd-text }`/login`{ .cmd-slash }
 
 ---
 
-### /botscrobbling
+### .botscrobbling { data-slash="/botscrobbling" }
 
 Use this command to disable/enable bot scrobbling for your account or to check if you are ready for scrobbling.
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
+    `.botscrobbling`
+
+!!! note cmd-slash "Examples"
     `/botscrobbling`
     
 !!! info

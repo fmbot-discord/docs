@@ -12,7 +12,7 @@ Most of this is done automatically behind the scenes, but you can also adjust th
 
 ---
 
-### .update
+### .update { data-slash="/update" }
 
 This command updates your playcount cache in the bot. This works by fetching your latest scrobbles from Last.fm and updating our cache accordingly.
 
@@ -20,15 +20,26 @@ This command updates your playcount cache in the bot. This works by fetching you
 
 - Most commands update you automatically
 - .fmbot will also update you automatically every 48-72 hours
-- Deleted some scrobbles? The bot should pick it up if it's in your latest ~500 scrobbles. Otherwise please use `.update full` to rebuild your playcount cache.
+- Deleted some scrobbles? The bot should pick it up if it's in your latest ~500 scrobbles. Otherwise please use `.update full`{ .cmd-text }`/update type:Full`{ .cmd-slash } to rebuild your playcount cache.
+
+Options:
+{ .cmd-slash }
+
+* Type - What to update: `Full`, `RecentPlays`, `AllPlays`, `Artists`, `Albums` or `Tracks`
+{ .cmd-slash }
 
     
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.u`
 
     `.update`
 
     `.update full`
+
+!!! note cmd-slash "Examples"
+    `/update`
+
+    `/update type:Full`
 
 !!! tip "⭐ Enhanced for .fmbot supporters"
     If you want .fmbot to store more than just your top 4/5/6k artist/albums/tracks, check out [.fmbot supporter](../supporter.md)!
@@ -38,7 +49,7 @@ This command updates your playcount cache in the bot. This works by fetching you
 
 ---
 
-### .refreshmembers
+### .refreshmembers { data-slash="/refreshmembers" }
 
 Refreshes the cache of which .fmbot users are in your server for server-wide commands.
 
@@ -47,6 +58,9 @@ Refreshes the cache of which .fmbot users are in your server for server-wide com
 - If a user joins your server they will automatically get added to the cached memberlist
 - Want the bot to remove all your server data? Simply kick it from your server.
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.refreshmembers`
+
+!!! note cmd-slash "Examples"
+    `/refreshmembers`
 

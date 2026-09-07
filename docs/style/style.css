@@ -174,9 +174,9 @@ details.info > h6 {
 }
 
 /* Section dropdowns. NOTE: keyed by the theme's positional toggle ids — `__nav_<n>` is the
-   n-th top-level item under `nav:` in mkdocs.yml. Text commands is #3, Server configuration
+   n-th top-level item under `nav:` in mkdocs.yml. Commands is #3, Server configuration
    is #4. Reordering the top-level nav means updating these two numbers. */
-.md-nav__link[for="__nav_3"]::before { /* Text commands → terminal */
+.md-nav__link[for="__nav_3"]::before { /* Commands → terminal */
     --nav-icon: url("data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%20fill%3D%27none%27%20stroke%3D%27white%27%20stroke-linecap%3D%27round%27%20stroke-linejoin%3D%27round%27%20stroke-width%3D%272%27%20viewBox%3D%270%200%2024%2024%27%3E%3Cpath%20d%3D%27M12%2019h8M4%2017l6-6-6-6%27%2F%3E%3C%2Fsvg%3E");
 }
 .md-nav__link[for="__nav_4"]::before { /* Server configuration → server-cog */
@@ -187,4 +187,114 @@ details.info > h6 {
 .md-nav__item--active > .md-nav__link[for="__nav_3"]::before,
 .md-nav__item--active > .md-nav__link[for="__nav_4"]::before {
     opacity: 1;
+}
+/* ---------------------------------------------------------------------------
+   Text / slash command mode
+   Mode lives in data-cmd-mode on <html> (set before paint by main.html, driven
+   by js/cmd-mode.js). Markdown conventions are documented at the top of that
+   script. */
+
+html:not([data-cmd-mode="slash"]) .cmd-slash,
+html[data-cmd-mode="slash"] .cmd-text {
+    display: none;
+}
+
+/* Segmented toggle (header + homepage section headings) */
+.cmd-toggle {
+    display: inline-flex;
+    border-radius: 2rem;
+    overflow: hidden;
+    border: 1px solid var(--md-primary-fg-color);
+    font-size: 0.7rem;
+    line-height: 1;
+}
+
+.cmd-toggle__btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.35rem 0.75rem;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: var(--md-primary-fg-color);
+    font-family: inherit;
+    font-size: inherit;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.cmd-toggle__btn code {
+    background: none;
+    padding: 0;
+    color: inherit;
+    font-weight: 700;
+    font-size: 1em !important;
+}
+
+.cmd-toggle__btn.active {
+    background: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
+}
+
+/* In the header the pill sits on the primary colour, so it inverts. */
+.md-header .cmd-toggle--header {
+    display: flex;
+    align-items: center;
+    margin: 0 0.2rem;
+}
+
+.md-header .cmd-toggle {
+    border-color: var(--md-primary-bg-color--light);
+}
+
+.md-header .cmd-toggle__btn {
+    color: var(--md-primary-bg-color);
+}
+
+.md-header .cmd-toggle__btn.active {
+    background: var(--md-primary-bg-color);
+    color: var(--md-primary-fg-color);
+}
+
+@media screen and (max-width: 44.9375em) {
+    .md-header .cmd-toggle__label {
+        display: none;
+    }
+
+    .md-header .cmd-toggle__btn {
+        padding: 0.35rem 0.55rem;
+    }
+}
+
+/* Headings swapped to their slash name */
+.cmd-slash-name + .cmd-slash-name {
+    margin-left: 0.4em;
+}
+
+/* Availability badges on command headings */
+html[data-cmd-mode="slash"] h3.text-only::after,
+html:not([data-cmd-mode="slash"]) h3.slash-only::after {
+    display: inline-block;
+    margin-left: 0.6em;
+    padding: 0.15em 0.55em;
+    border-radius: 1em;
+    background: var(--md-code-bg-color);
+    color: var(--md-default-fg-color--light);
+    font-size: 0.5em;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+html[data-cmd-mode="slash"] h3.text-only::after {
+    content: "Text command only";
+}
+
+html:not([data-cmd-mode="slash"]) h3.slash-only::after {
+    content: "Slash command only";
+}
+
+.md-typeset .headerlink {
+    margin-left: 0.3em;
 }

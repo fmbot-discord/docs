@@ -4,11 +4,21 @@ icon: simple/spotify
 
 # Spotify commands
 
-### .spotify (`.sp`)
+### .spotify (`.sp`) { data-slash="/spotify" }
 
 Gets the Spotify link for the song you're currently listening to, or the one you're searching for.
 
-!!! note "Examples"
+Options:
+{ .cmd-slash }
+
+* Search - What to search for. Defaults to what you're currently listening to
+{ .cmd-slash }
+* Type - `Track`, `Album` or `Artist`
+{ .cmd-slash }
+* Private - Only show the response to you
+{ .cmd-slash }
+
+!!! note cmd-text "Examples"
     `.sp`
 
     `.spotify`
@@ -17,11 +27,23 @@ Gets the Spotify link for the song you're currently listening to, or the one you
 
     `.spotify Delta Sleep Camp Adventure`
 
+!!! note cmd-slash "Examples"
+    `/spotify`
+
+    `/spotify search:C418 Sweden`
+
+    `/spotify search:Delta Sleep Camp Adventure type:Track`
+
+    `/spotify search:Green Day type:Artist private:True`
+
 ---
     
-### .spotifyalbum (`.spab`)
+### .spotifyalbum (`.spab`) { .text-only }
 
 Gets the Spotify link for the album you're currently listening to, or the one you're searching for.
+
+With slash commands use `/spotify type:Album`.
+{ .cmd-slash }
 
 !!! note "Examples"
     `.spab`
@@ -34,9 +56,12 @@ Gets the Spotify link for the album you're currently listening to, or the one yo
 
 ---
     
-### .spotifyartist (`.spa`)
+### .spotifyartist (`.spa`) { .text-only }
 
 Gets the Spotify link for the artist you're currently listening to, or the one you're searching for.
+
+With slash commands use `/spotify type:Artist`.
+{ .cmd-slash }
 
 !!! note "Examples"
     `.spa`
@@ -67,26 +92,36 @@ Control your own Spotify playback straight from Discord. Queue and play tracks, 
 
 ---
 
-### .remote (`.rc`)
+### .remote (`.rc`) { data-slash="/remote" }
 
 Opens the Spotify remote panel, with live buttons for previous, play/pause, skip, like and refresh.
 
 Use `.remote disconnect` to unlink your Spotify account.
+{ .cmd-text }
 
-!!! note "Examples"
+Use the disconnect button on the remote panel to unlink your Spotify account.
+{ .cmd-slash }
+
+!!! note cmd-text "Examples"
     `.remote`
 
     `.rc`
 
     `.remote disconnect`
 
+!!! note cmd-slash "Examples"
+    `/remote`
+
 ---
 
-### .play
+### .play { .text-only }
 
 Plays a track on your Spotify, or resumes playback when no input is given.
 
-Search for, or reply to, a track, album or artist (or a Spotify link). 
+Search for a track, album or artist (or a Spotify link).
+
+You can also reply to a message that contains one.
+{ .cmd-text }
 
 !!! note "Examples"
     `.play`
@@ -99,13 +134,16 @@ Search for, or reply to, a track, album or artist (or a Spotify link).
 
 ---
 
-### .queue (`.rq`, `.q`)
+### .queue (`.rq`, `.q`) { data-slash="/queue" }
 
 Queues a track on your Spotify. Defaults to the track you're currently listening to, or search for the one you want.
 
-Search for, or reply to, a track, album or artist (or a Spotify link). 
+Search for a track, album or artist (or a Spotify link).
 
-!!! note "Examples"
+You can also reply to a message that contains one.
+{ .cmd-text }
+
+!!! note cmd-text "Examples"
     `.queue`
 
     `.rq`
@@ -114,9 +152,16 @@ Search for, or reply to, a track, album or artist (or a Spotify link).
 
     `.queue Delta Sleep Camp Adventure`
 
+!!! note cmd-slash "Examples"
+    `/queue`
+
+    `/queue search:C418 Sweden`
+
+    `/queue search:Delta Sleep Camp Adventure`
+
 ---
 
-### .pause
+### .pause { .text-only }
 
 Pauses playback on your Spotify.
 
@@ -125,18 +170,21 @@ Pauses playback on your Spotify.
 
 ---
 
-### .skip (`.rs`)
+### .skip (`.rs`) { data-slash="/skip" }
 
 Skips to the next track on your Spotify.
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.skip`
 
     `.rs`
 
+!!! note cmd-slash "Examples"
+    `/skip`
+
 ---
 
-### .previous (`.prev`)
+### .previous (`.prev`) { .text-only }
 
 Goes back to the previous track on your Spotify.
 
@@ -147,18 +195,23 @@ Goes back to the previous track on your Spotify.
 
 ---
 
-### .rclike (`.rl`, `.spotifylike`)
+### .rclike (`.rl`, `.spotifylike`) { data-slash="/like" }
 
 Adds a track to your Spotify liked songs. Defaults to the track you're currently listening to, or search for the one you want.
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.rl`
 
     `.rl Green Day Basket Case`
 
+!!! note cmd-slash "Examples"
+    `/like`
+
+    `/like search:Green Day Basket Case`
+
 ---
 
-### .rcunlike (`.rcul`, `.spotifyunlike`)
+### .rcunlike (`.rcul`, `.spotifyunlike`) { .text-only }
 
 Removes a track from your Spotify liked songs. Defaults to the track you're currently listening to, or search for the one you want.
 

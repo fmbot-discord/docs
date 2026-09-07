@@ -10,23 +10,32 @@ To get crowns you can use [`.whoknows`](./artists.md#whoknows-wk-w) or [`.crown`
 
 Crown server settings are available [here](../guildsettings/crownsettings.md). Leaving a server resets all your crowns for that server.
 
-### .crowns (`.cws`)
+### .crowns (`.cws`) { data-slash="/crowns" }
 
 Shows your top crowns or crowns for a user you're searching for.
 
 Options:
 
+* View - `Playcount`, `Recent` or `Stolen`
+{ .cmd-slash }
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.cws`
 
     `.crowns`
 
     `.crowns @frikandel`
+
+!!! note cmd-slash "Examples"
+    `/crowns`
+
+    `/crowns user:frikandel_`
+
+    `/crowns view:Recent`
     
 ---
-### .crown (`.cw`)
+### .crown (`.cw`) { data-slash="/crown" }
 
 Shows who currently holds the crown for the artist you're listening to or searching for, head-to-head against a challenger, followed by the crown history.
 
@@ -34,9 +43,10 @@ By default the challenger is you. If you have more plays than the current holder
 
 Options:
 
+* Artist - An artist you want to search for.
 * User - Compare another user against the crown holder by mention, Discord ID or Last.fm username (`lfm:username`)
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.cw`
 
     `.crown`
@@ -47,13 +57,20 @@ Options:
 
     `.crown tame impala @frikandel`
 
+!!! note cmd-slash "Examples"
+    `/crown`
+
+    `/crown artist:the beatles`
+
+    `/crown artist:tame impala user:frikandel_`
+
 !!! info "Crowns always go to the server's #1 listener"
     The crown is awarded to whoever genuinely has the most plays in the server, so running `.crown` can hand the crown to another member who is ahead of both you and the current holder. Every server crown setting still applies - [crown settings](../guildsettings/crownsettings.md) such as the minimum playcount, the activity threshold and crown blocks are all respected.
 
     You can change this behavior with [`.crownroles`](../guildsettings/crownsettings.md#crownroles) (✨ [Premium server](../premium-server.md) required)
 
 ---   
-### .crownleaderboard (`.cwlb`)
+### .crownleaderboard (`.cwlb`) { .text-only }
 
 Shows the users with the most crowns on your server.
 

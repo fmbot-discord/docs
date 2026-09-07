@@ -8,6 +8,8 @@ You can change what users are able to gain crowns, configure other crown setting
 
 These settings can only be changed by admins, users with the 'Ban Members' permission, users with the roles set in [`.botmanagementroles`](index.md#botmanagementroles), or .fmbot admins.
 
+!!! info cmd-slash "Using slash commands?"
+    With slash commands, run `/settings` and switch to the **Server settings** tab with the buttons at the bottom to change these crown settings. Unblocking members also works directly with `/unblock`.
 
 ---
 
@@ -94,14 +96,17 @@ Blocks a user from getting any crowns. They will still be visible in the whoknow
 
 ---
 
-### .unblock
+### .unblock { data-slash="/unblock" }
 
 Unblocks a user and allows them to gain crowns again.
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.unblock 748900688129687642`
 
     `.unblock lastfmsupport`
+
+!!! note cmd-slash "Examples"
+    `/unblock user:lastfmsupport`
 
 ---
 
