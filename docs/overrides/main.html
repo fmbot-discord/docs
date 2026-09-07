@@ -4,16 +4,22 @@
 <script>
   (function () {
     var mode = null;
+    var origin = "default";
     try {
       var param = new URLSearchParams(location.search).get("mode");
       if (param === "slash" || param === "text") {
         mode = param;
+        origin = "url";
         localStorage.setItem("cmd-mode", mode);
       } else {
         mode = localStorage.getItem("cmd-mode");
+        if (mode === "slash" || mode === "text") {
+          origin = "stored";
+        }
       }
     } catch (e) { /* storage unavailable */ }
     document.documentElement.setAttribute("data-cmd-mode", mode === "text" ? "text" : "slash");
+    document.documentElement.setAttribute("data-cmd-mode-origin", origin);
   })();
 </script>
 {% endblock %}

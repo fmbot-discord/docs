@@ -63,3 +63,4 @@ Markdown conventions (Python-Markdown `attr_list`; the attribute list must be on
 - Inline: `` `.update full`{ .cmd-text }`` `` `/update type:Full`{ .cmd-slash } ``.
 - Slash parameter names and choices must match the bot; the catalog in `HelpService.cs` (fmbot repo) is the source of truth. Slash example style: `/wk artist:COMA mode:Image`, booleans `True`/`False`, users as `user:lastfmusername`.
 - Server settings pages don't badge every command; they carry one `!!! info cmd-slash` note pointing at `/settings`.
+- Analytics: `cmd-mode.js` sends GA4 events `cmd_mode_session` (once per session: `mode`, `origin` = default/stored/url) and `cmd_mode_switch` (`from`, `to`, `source` = header/homepage/add_to_account, `origin`, `switch_count`), and sets user property `cmd_mode`. Register `cmd_mode` as a custom user property and the event params as custom dimensions in GA4 to report on them.
