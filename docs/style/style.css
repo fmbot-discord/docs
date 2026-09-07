@@ -236,24 +236,39 @@ html[data-cmd-mode="slash"] .cmd-text {
     color: var(--md-primary-bg-color);
 }
 
-/* In the header the pill sits on the primary colour, so it inverts. */
+/* Header: the header uses the page background in both schemes, so the pill keeps
+   the primary colour. The palette (theme) button next to it is styled to match. */
 .md-header .cmd-toggle--header {
     display: flex;
     align-items: center;
-    margin: 0 0.2rem;
+    margin: 0 0.3rem 0 0.2rem;
 }
 
 .md-header .cmd-toggle {
-    border-color: var(--md-primary-bg-color--light);
+    background: var(--md-default-bg-color);
 }
 
-.md-header .cmd-toggle__btn {
-    color: var(--md-primary-bg-color);
-}
-
-.md-header .cmd-toggle__btn.active {
-    background: var(--md-primary-bg-color);
+.md-header [data-md-component="palette"] .md-header__button {
+    box-sizing: border-box;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.3rem;
+    margin: 0.2rem 0.3rem 0.2rem 0;
+    border: 1px solid var(--md-primary-fg-color);
+    border-radius: 50%;
     color: var(--md-primary-fg-color);
+    transition: background-color 0.15s, color 0.15s, opacity 0.25s;
+}
+
+.md-header [data-md-component="palette"] .md-header__button svg {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.md-header [data-md-component="palette"] .md-header__button:hover {
+    opacity: 1;
+    background: var(--md-primary-fg-color);
+    color: var(--md-primary-bg-color);
 }
 
 @media screen and (max-width: 44.9375em) {

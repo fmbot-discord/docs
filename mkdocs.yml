@@ -7,14 +7,20 @@ theme:
   name: 'material'
   custom_dir: docs/overrides
   palette:
+    # Follows the system preference (default); clicking cycles auto -> light -> dark
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: lucide/sun-moon
+        name: Following system theme, switch to light mode
+
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: indigo
       accent: indigo
       toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to dark mode
+        icon: lucide/sun
+        name: Light mode, switch to dark mode
 
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
@@ -22,8 +28,8 @@ theme:
       primary: blue
       accent: blue
       toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode
+        icon: lucide/moon
+        name: Dark mode, switch to system theme
   logo: img/logo.png
   favicon: img/favicon.png
   features:
