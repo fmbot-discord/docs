@@ -114,7 +114,7 @@ Use the disconnect button on the remote panel to unlink your Spotify account.
 
 ---
 
-### .play { .text-only }
+### .play { data-slash="/play" }
 
 Plays a track on your Spotify, or resumes playback when no input is given.
 
@@ -123,7 +123,7 @@ Search for a track, album or artist (or a Spotify link).
 You can also reply to a message that contains one.
 { .cmd-text }
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.play`
 
     `.resume`
@@ -131,6 +131,13 @@ You can also reply to a message that contains one.
     `.play C418 Sweden`
 
     `.play Delta Sleep Camp Adventure`
+
+!!! note cmd-slash "Examples"
+    `/play`
+
+    `/play search:C418 Sweden`
+
+    `/play search:Delta Sleep Camp Adventure`
 
 ---
 

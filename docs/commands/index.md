@@ -91,20 +91,28 @@ Options:
 
 ---
 
-### .lastfm (`.lfm`) { .text-only }
+### .lastfm (`.lfm`) { data-slash="/lastfm" }
 
 Shows a link to your or someone else's Last.fm profile.
 
 Options:
 
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+{ .cmd-text }
+* User - Select another user by mention, Discord ID or Last.fm username
+{ .cmd-slash }
 
-!!! note "Examples"
+!!! note cmd-text "Examples"
     `.lfm`
 
     `.lastfm`
 
     `.lastfm @user`
+
+!!! note cmd-slash "Examples"
+    `/lastfm`
+
+    `/lastfm user:frikandel_`
 
 ---
 
@@ -124,7 +132,7 @@ If you can manage the server, you can switch to the 'Server settings' tab with t
 
 ---
 
-### .mode (`.md`, `.customize`) { data-slash="/mode" }
+### .mode (`.md`) { data-slash="/mode" }
 
 Customize how .fmbot responds to you. Pick which mode you want to change:
 
@@ -147,9 +155,6 @@ You can override your response mode on every individual command with its `mode` 
 !!! note cmd-text "Examples"
     `.mode`
 
-    `.fmmode`
-
-    `.responsemode`
 
 !!! note cmd-slash "Examples"
     `/mode` (responds in-channel)
