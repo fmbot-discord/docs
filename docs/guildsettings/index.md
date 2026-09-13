@@ -75,6 +75,11 @@ Each autopost can be a full **server recap** (top artists, albums and tracks, th
 - Posts are stored and shown as a billboard with movement versus the previous post, and a "Full list" button opens the full results
 - Post any autopost for the current period on demand with the "Post now" button
 
+Some examples of how you could use this:
+
+- Post a recap for everyone with the `electronic` role straight to your `#electronic` channel
+- Artist communities can post billboard-style top albums or tracks for a specific artist every week
+
 !!! note "Examples"
     `.autoposter`
 
@@ -145,6 +150,7 @@ Note that you can always mention the bot, this will work regardless of prefix.
     
     `!prefix`
 
+---
 ### .botmanagementroles ✨
 
 Sets one or multiple roles who are allowed to configure .fmbot.
@@ -157,6 +163,7 @@ or Ban Members can change this list.
 !!! info "✨ Exclusive for Premium servers"
     This feature is available with Premium server. [Get premium server here.](../premium-server.md)
 
+---
 ### .servershortcuts ✨
 
 Set server-wide shortcuts (up to 10). Server shortcuts work for every member of this server, supporter or not.

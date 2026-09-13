@@ -48,6 +48,59 @@ document.querySelectorAll('.getsupporter-button-fmbot').forEach(function(btn) {
 
 ---
 
+## What you get
+
+<ul class="perk-grid">
+<li class="perk-card">
+<span class="perk-card__icon">📥</span>
+<p class="perk-card__title">Import your Spotify &amp; Apple Music history</p>
+<p class="perk-card__desc">Bring your full streaming history into .fmbot and use it together with your Last.fm scrobbles for the most accurate playcounts, listening time and insights.</p>
+<div class="perk-card__commands"><code><a href="../importing/"><span class="cmd-text">.import</span><span class="cmd-slash">/import spotify</span></a></code><code class="cmd-slash"><a href="../importing/#import-applemusic"><span class="cmd-text">/import applemusic</span><span class="cmd-slash">/import applemusic</span></a></code></div>
+</li>
+<li class="perk-card">
+<span class="perk-card__icon">🕰️</span>
+<p class="perk-card__title">Go back in time</p>
+<p class="perk-card__desc">See exactly when you discovered and re-discovered artists, albums and tracks, and restore past streaks from your lifetime listening history.</p>
+<div class="perk-card__commands"><code><a href="../commands/artists/#discoveries-d"><span class="cmd-text">.discoveries</span><span class="cmd-slash">/discoveries</span></a></code><code><a href="../commands/artists/#gaps"><span class="cmd-text">.gaps</span><span class="cmd-slash">/gaps</span></a></code><code><a href="../commands/plays/#discoverydate-dd"><span class="cmd-text">.discoverydate</span><span class="cmd-slash">/discoverydate</span></a></code><code><a href="../commands/plays/#streakhistory-strs"><span class="cmd-text">.streakhistory</span><span class="cmd-slash">/streaks</span></a></code></div>
+</li>
+<li class="perk-card">
+<span class="perk-card__icon">📈</span>
+<p class="perk-card__title">Expanded stats and graphs <span class="new">New</span></p>
+<p class="perk-card__desc">Listening history graphs and listening time in artist, album, track, plays and profile, your lifetime history in recent and overview, and artist discoveries per month in year.</p>
+<div class="perk-card__commands"><code><a href="../commands/artists/#artist-a"><span class="cmd-text">.artist</span><span class="cmd-slash">/artist</span></a></code><code><a href="../commands/#profile"><span class="cmd-text">.profile</span><span class="cmd-slash">/profile</span></a></code><code><a href="../commands/plays/#overview-o"><span class="cmd-text">.overview</span><span class="cmd-slash">/overview</span></a></code><code><a href="../commands/plays/#year"><span class="cmd-text">.year</span><span class="cmd-slash">/year</span></a></code></div>
+</li>
+<li class="perk-card">
+<span class="perk-card__icon">📜</span>
+<p class="perk-card__title">Lyrics inside Discord</p>
+<p class="perk-card__desc">View the lyrics for what you're listening to, or for any other track, directly in .fmbot.</p>
+<div class="perk-card__commands"><code><a href="../commands/tracks/#lyrics"><span class="cmd-text">.lyrics</span><span class="cmd-slash">/lyrics</span></a></code></div>
+</li>
+<li class="perk-card">
+<span class="perk-card__icon">🎨</span>
+<p class="perk-card__title">Customize your fm</p>
+<p class="perk-card__desc">Custom accent colors, up to 5 buttons and 10 footer options for your fm, and your own emoji reactions that work everywhere.</p>
+<div class="perk-card__commands"><code><a href="../commands/#mode-md"><span class="cmd-text">.mode</span><span class="cmd-slash">/mode</span></a></code><code><a href="../commands/#userreactions"><span class="cmd-text">.userreactions</span><span class="cmd-slash">.userreactions</span></a></code></div>
+</li>
+<li class="perk-card">
+<span class="perk-card__icon">🎮</span>
+<p class="perk-card__title">Unlimited games and higher limits</p>
+<p class="perk-card__desc">Play unlimited Jumble and Pixel Jumble games, get sharper judge results with a higher usage limit, and add up to 240 friends with 4 close friends that are always shown in WhoKnows.</p>
+<div class="perk-card__commands"><code><a href="../commands/games/#jumble-j"><span class="cmd-text">.jumble</span><span class="cmd-slash">.jumble</span></a></code><code><a href="../commands/games/#pixel-px"><span class="cmd-text">.pixel</span><span class="cmd-slash">.pixel</span></a></code><code><a href="../commands/misc/#judge"><span class="cmd-text">.judge</span><span class="cmd-slash">/judge</span></a></code><code><a href="../commands/friends/#friends-f"><span class="cmd-text">.friends</span><span class="cmd-slash">/friendsfm</span></a></code></div>
+</li>
+<li class="perk-card">
+<span class="perk-card__icon">⭐</span>
+<p class="perk-card__title">Exclusive supporter perks</p>
+<p class="perk-card__desc">A supporter badge, a higher chance to get featured on Supporter Sunday, your name in the supporters list, and a private role and channel on <a href="https://discord.gg/fmbot">our Discord</a> with sneak peeks of new features.</p>
+</li>
+<li class="perk-card">
+<span class="perk-card__icon">❤️</span>
+<p class="perk-card__title">Keep .fmbot free for everyone</p>
+<p class="perk-card__desc">Supporter pays for hosting and development. It also lifts the limits we need for everyone else: lifetime cached scrobble history instead of 1.5 years, and unlimited cached artists, albums and tracks instead of your top 4000 to 6000.</p>
+</li>
+</ul>
+
+## Everything included
+
 !!! quote ""
     <i>Please note that .fmbot is not affiliated with Last.fm. Supporter does not grant Last.fm Pro, or the other way around.</i>
 
@@ -88,7 +141,7 @@ document.querySelectorAll('.getsupporter-button-fmbot').forEach(function(btn) {
 --- 
 
 
-### Frequently asked
+## Frequently asked
 
 ??? info "Why a supporter program?"
 

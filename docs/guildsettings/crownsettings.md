@@ -130,7 +130,7 @@ Crown seeding again only updates automatically seeded crowns, not manually claim
     `.crownseeder`
 
 !!! tip "✨ Enhanced for Premium servers"
-    Want your crowns to be seeded automatically on a schedule? This is available with Premium Server. [Get premium server here.](../premium-server.md)
+    Want your crowns to be seeded automatically every day, week or month? This is available with Premium Server. [Get premium server here.](../premium-server.md)
     
 ---
 
