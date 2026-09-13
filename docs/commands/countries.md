@@ -56,6 +56,11 @@ Time periods:
 
 Shows country information for your current artist or your top artists for the country you're searching for.
 
+Options:
+
+* Search - A country or artist you want to view
+* User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
 !!! note cmd-text "Examples"
     `.from`
 
@@ -65,12 +70,45 @@ Shows country information for your current artist or your top artists for the co
 
     `.country Mac DeMarco`
 
+    `.country Japan @user`
+
+    `.country Netherlands lfm:fm-bot`
+
 !!! note cmd-slash "Examples"
     `/country`
 
     `/country search:Netherlands`
 
     `/country search:Mac DeMarco`
+
+    `/country search:Japan user:frikandel_`
+
+---
+
+### .whoknowscountry (`.wc`, `.wkc`) { data-slash="/wkcountry" }
+
+Shows who in your server listened to artists from a country. Defaults to the country of the artist you're currently listening to.
+
+Options:
+
+* Country - A country or artist you want to search for. Accepts the full name or the 2 letter ISO code.
+* Mode - Response mode, change your default with [`.mode`](./index.md#mode-md-customize){ .cmd-text }[`/mode`](./index.md#mode-md-customize){ .cmd-slash }
+
+!!! note cmd-text "Examples"
+    `.wc`
+
+    `.wkc japan`
+
+    `.whoknowscountry Netherlands`
+
+    `.wc Radiohead`
+
+!!! note cmd-slash "Examples"
+    `/wkcountry`
+
+    `/wkcountry search:Japan`
+
+    `/wkcountry search:Netherlands mode:Pagination`
 
 ---
 
