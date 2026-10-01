@@ -40,7 +40,10 @@ Shows you your playcount for current track or the one you're searching for.
 Options:
 
 * Track - A track you want to search for. You can either use the built-in Last.fm search or separate the artist and trackname yourself using a | as separator.
+* Time period - Only count plays in a specific time period. Defaults to alltime. Periods older than two months are supporter only.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
+
+Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two-year` or `alltime` (`w`, `m`, `q`, `h`, `y`, `2y` or `a`). You can also use a year or month, like `2024` or `march`.
 
 !!! note cmd-text "Examples"
     `.tp`
@@ -49,6 +52,10 @@ Options:
 
     `.trackplays Infected Mushroom Can't Stop`
 
+    `.tp weekly`
+
+    `.trackplays Infected Mushroom Can't Stop 2025`
+
 !!! note cmd-slash "Examples"
     `/trackplays`
 
@@ -56,8 +63,10 @@ Options:
 
     `/trackplays track:Infected Mushroom | Can't Stop user:frikandel_`
 
+    `/trackplays track:Infected Mushroom Can't Stop time-period:2025`
+
 !!! tip "⭐ Enhanced for .fmbot supporters"
-    Want to see a graph of your listening history for the track? [Get .fmbot supporter here.](../supporter.md)
+    Want to see a graph of your listening history for the track, or your plays from more than two months ago? [Get .fmbot supporter here.](../supporter.md)
 
     
 ---

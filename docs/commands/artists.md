@@ -69,6 +69,7 @@ Shows you your playcount for the artist you're currently listening to or searchi
 
 Options:
 
+* Time period - Only count plays in a specific time period. Defaults to alltime. Periods older than two months are for supporters.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Random - Use `random`/`rnd` to view a random artist you've listened to
 { .cmd-text }
@@ -79,12 +80,18 @@ Options:
 * Featured - Check for the currently featured artist with `featured`
 { .cmd-text }
 
+Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two-year` or `alltime` (`w`, `m`, `q`, `h`, `y`, `2y` or `a`). You can also use a year or month, like `2024` or `march`.
+
 !!! note cmd-text "Examples"
     `.ap`
 
     `.artistplays`
 
     `.artistplays Mall Grab`
+
+    `.ap weekly`
+
+    `.artistplays Mall Grab 2025`
 
 !!! note cmd-slash "Examples"
     `/artistplays`
@@ -93,8 +100,10 @@ Options:
 
     `/artistplays artist:Mall Grab user:frikandel_`
 
+    `/artistplays artist:Mall Grab time-period:2025`
+
 !!! tip "⭐ Enhanced for .fmbot supporters"
-    Want to see a graph of your listening history for the artist? [Get .fmbot supporter here.](../supporter.md)
+    Want to see a graph of your listening history for the artist, or your plays from more than two months ago? [Get .fmbot supporter here.](../supporter.md)
     
 ---
 
@@ -180,17 +189,18 @@ Options:
 
 ### .artisttracks (`.at`) { data-slash="/artisttracks" }
 
-Shows you your all-time top tracks for current artist or the one you're searching for.
+Shows you your top tracks for the artist you're currently listening to or searching for.
 
 Options:
 
+* Time period - Only count plays in a specific time period. Defaults to alltime. Periods older than two months are for supporters.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
-* Time-period - Only count tracks from a certain time period
-{ .cmd-slash }
 * Noredirect - Disable Last.fm artist redirects with `noredirect`/`nr`
 { .cmd-text }
 * Redirects - Turn Last.fm artist redirects off
 { .cmd-slash }
+
+Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two-year` or `alltime` (`w`, `m`, `q`, `h`, `y`, `2y` or `a`). You can also use a year or month, like `2024` or `march`.
 
 !!! note cmd-text "Examples"
     `.at`
@@ -199,22 +209,30 @@ Options:
 
     `.artisttracks Crystal Castles`
 
+    `.at weekly`
+
+    `.artisttracks Crystal Castles 2024`
+
 !!! note cmd-slash "Examples"
     `/artisttracks`
 
     `/artisttracks artist:Crystal Castles`
 
-    `/artisttracks artist:Crystal Castles time-period:Monthly`
-    
+    `/artisttracks artist:Crystal Castles time-period:2024`
+
+!!! tip "⭐ Enhanced for .fmbot supporters"
+    Want to see all your tracks for an artist, or your top tracks from more than two months ago? [Get .fmbot supporter here.](../supporter.md)
+
 ---
 
 
 ### .artistalbums (`.aa`) { data-slash="/artistalbums" }
 
-Shows you your all-time top albums for current artist or the one you're searching for.
+Shows you your top albums for the artist you're currently listening to or searching for.
 
 Options:
 
+* Time period - Only count plays in a specific time period. Defaults to alltime. Periods older than two months are for supporters.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Hide singles - Leave singles out with `nosingles`/`ns`
 { .cmd-text }
@@ -225,12 +243,16 @@ Options:
 * Redirects - Turn Last.fm artist redirects off
 { .cmd-slash }
 
+Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two-year` or `alltime` (`w`, `m`, `q`, `h`, `y`, `2y` or `a`). You can also use a year or month, like `2024` or `march`.
+
 !!! note cmd-text "Examples"
     `.aa`
 
     `.artistalbums`
 
     `.artistalbums Frank Ocean`
+
+    `.aa monthly`
 
 !!! note cmd-slash "Examples"
     `/artistalbums`
@@ -239,7 +261,11 @@ Options:
 
     `/artistalbums artist:Frank Ocean hide-singles:True`
 
-    
+    `/artistalbums artist:Frank Ocean time-period:monthly`
+
+!!! tip "⭐ Enhanced for .fmbot supporters"
+    Want to see all your albums for an artist, or your top albums from more than two months ago? [Get .fmbot supporter here.](../supporter.md)
+
 ---
 
 ### .artistpace (`.apc`) { data-slash="/artistpace" }

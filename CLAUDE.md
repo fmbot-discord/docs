@@ -44,11 +44,11 @@ GitHub Actions builds and deploys to GitHub Pages on every push to `master`. The
 ## Key Conventions
 
 - Navigation is explicitly defined in `mkdocs.yml` under `nav:` — new pages must be added there
-- Markdown extensions in use: `admonition`, `pymdownx.details`, `attr_list`, `toc` (with permalinks)
+- Markdown extensions in use: `admonition`, `pymdownx.details`, `pymdownx.superfences`, `attr_list`, `toc` (with permalinks)
 - The homepage (`docs/index.md`) uses a completely custom template (`docs/overrides/home.html`) — the markdown content is hidden via CSS
 - Custom CSS uses Material theme CSS variables (e.g., `--md-primary-fg-color`) for theme consistency
 - The `docs/overrides/` directory uses Jinja2 template inheritance (`{% extends "base.html" %}` / `{% extends "main.html" %}`)
-- Light mode palette: indigo primary; Dark mode palette: blue primary on slate scheme
+- Palette has three entries the toggle cycles through: follow system (default) → light (indigo primary, default scheme) → dark (blue primary, slate scheme)
 
 ## Text / slash command mode
 

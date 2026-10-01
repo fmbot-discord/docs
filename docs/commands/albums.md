@@ -40,9 +40,12 @@ Shows you your playcount for current album or the one you're searching for.
 Options:
 
 * Album - An album you want to search for. You can either use the built-in Last.fm search or separate the artist and album yourself using a | as separator.
+* Time period - Only count plays in a specific time period. Defaults to alltime. Periods older than two months are for supporters.
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Featured - Check for the currently featured album with `featured`
 { .cmd-text }
+
+Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two-year` or `alltime` (`w`, `m`, `q`, `h`, `y`, `2y` or `a`). You can also use a year or month, like `2024` or `march`.
 
 !!! note cmd-text "Examples"
     `.abp`
@@ -51,6 +54,10 @@ Options:
     
     `.albumplays The Slow Rush`
 
+    `.abp monthly`
+
+    `.albumplays The Slow Rush 2024`
+
 !!! note cmd-slash "Examples"
     `/albumplays`
 
@@ -58,8 +65,10 @@ Options:
 
     `/albumplays album:Tame Impala | The Slow Rush user:frikandel_`
 
+    `/albumplays album:The Slow Rush time-period:2024`
+
 !!! tip "⭐ Enhanced for .fmbot supporters"
-    Want to see a graph of your listening history for the album? [Get .fmbot supporter here.](../supporter.md)
+    Want to see a graph of your listening history for the album, or your plays from more than two months ago? [Get .fmbot supporter here.](../supporter.md)
     
 ---
 
