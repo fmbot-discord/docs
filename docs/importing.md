@@ -10,50 +10,15 @@ Imported plays are dynamically applied into your stats across the bot, creating 
 
 This combined view is available to supporters with an [active subscription](./supporter.md).
 
-!!! info cmd-text "Importing uses slash commands"
-    Imports need file attachments, so they are only available as slash commands. Typing `.import` in a server explains the same steps. Use the toggle at the top of the page to view the docs as slash commands.
-
 ---
 
-### /import manage { .slash-only }
-
-Allows you to manage your imports and pick the source for your playcounts.
-
-You can pick between the following modes:
-
-- Last.fm: Use only Last.fm
-- Full imports, then Last.fm: Use your full import history and add Last.fm afterwards
-- Imports until full Last.fm: Use your import history up until you started scrobbling
-- Smart deduplication (Beta): Combine both sources and remove imported plays you already scrobbled to Last.fm, keeping your Last.fm scrobble whenever an import is a duplicate
-
-To delete your imports from .fmbot, switch to the Last.fm option and use the provided button.
-
-!!! note "Examples"
-    `/import manage`
-
----
-
-### .importmodify { data-slash="/import modify" }
-
-Allows you to edit and delete artists, albums and tracks in your .fmbot imports.
-
-The bot will send you a DM where you can make changes.
-
-!!! note cmd-text "Examples"
-    `.importmodify`
-
-!!! note cmd-slash "Examples"
-    `/import modify`
-
----
-
-### /import spotify { .slash-only }
+### /import spotify
 
 Allows you to import your Spotify streaming history in the bot.
 
-Shows the instructions on how to get started if you attach no files. These instructions are also listed below.
+Shows the instructions on how to get started, with an **Upload files** button to send your files. These instructions are also listed below.
 
-This command only supports the 'Extended Streaming History' package. You can either upload the `my_spotify_data.zip` to import everything at once or upload each `.json` file separately.
+This command only supports the 'Extended Streaming History' package. You can either upload the `my_spotify_data.zip` to import everything at once or upload the `.json` files separately, up to 10 at a time.
 
 
 !!! note "Examples"
@@ -76,8 +41,8 @@ This command only supports the 'Extended Streaming History' package. You can eit
 
 #### Importing your data into .fmbot
 1. Download the file Spotify provided
-2. Use the `/import Spotify` slash command and add the `.zip` file as an attachment through the options
-3. Having issues? You can also attach each `.json` file separately
+2. Use the `/import Spotify` command, press **Upload files** and add the `.zip` file
+3. Having issues? You can also upload the `.json` files separately, up to 10 at a time
 
 #### Notes
 - We filter out duplicates, so don't worry about submitting the same file twice
@@ -85,11 +50,11 @@ This command only supports the 'Extended Streaming History' package. You can eit
 
 ---
 
-### /import applemusic { .slash-only }
+### /import applemusic
 
 Allows you to import your Apple Music streaming history in the bot.
 
-Shows the instructions on how to get started if you attach no files. These instructions are also listed below.
+Shows the instructions on how to get started, with an **Upload file** button to send your file. These instructions are also listed below.
 
 !!! note "Examples"
     `/import applemusic`
@@ -102,22 +67,53 @@ Shows the instructions on how to get started if you attach no files. These instr
 #### Requesting your files from Apple
 
 1. Go to your <a href="https://privacy.apple.com/" target="_blank">**Apple Data and Privacy**</a>
-2. Sign in to your account
-3. Click on **Request a copy of your data**
-4. Select **Apple Media Services Information**
-5. De-select the other options
-6. Press **Continue**
-7. Press **Complete request**
-8. Wait up to 7 days for Apple to deliver your files
+2. Click on **Request a copy of your data**
+3. Select **Apple Media Services Information**
+4. De-select the other options
+5. Press **Continue**
+6. Press **Complete request**
+7. Wait up to 7 days for Apple to deliver your files
 
 #### Importing your data into .fmbot
 1. Download the file Apple provided
-2. Use the `/import applemusic` slash command and add the `.zip` file as an attachment through the option
-3. Having issues? You can also attach the `Apple Music Play Activity.csv` file separately
+2. Use the `/import applemusic` command, press **Upload file** and add the `.zip` file
+3. Having issues? You can also upload the `Apple Music Play Activity.csv` file separately
 
 #### Notes
 - Apple provides their history data without artist names. We try to find these as best as possible based on the album and track name.
 - If Apple sent their data in multiple parts, only one of them has the data we need. You can ignore the other parts.
+
+---
+
+### /import manage { .slash-only }
+
+Allows you to manage your imports and pick the source for your playcounts.
+
+You can pick between the following modes:
+
+- Last.fm: Use only Last.fm
+- Full imports, then Last.fm: Use your full import history and add Last.fm afterwards
+- Imports until full Last.fm: Use your import history up until you started scrobbling
+- Smart deduplication: Combine both sources and remove imported plays you already scrobbled to Last.fm, keeping your Last.fm scrobble whenever an import is a duplicate
+
+To delete your imports from .fmbot, switch to the Last.fm option and use the provided button.
+
+!!! note "Examples"
+    `/import manage`
+
+---
+
+### .importmodify { data-slash="/import modify" }
+
+Allows you to edit and delete artists, albums and tracks in your .fmbot imports.
+
+The bot will send you a DM where you can make changes.
+
+!!! note cmd-text "Examples"
+    `.importmodify`
+
+!!! note cmd-slash "Examples"
+    `/import modify`
 
 ---
 
@@ -133,7 +129,7 @@ Shows the instructions on how to get started if you attach no files. These instr
 
 ??? info "The import command keeps saying my files are invalid"
 
-    For Spotify we only support files from the 'Extended streaming history' package. You can try uploading the `my_spotify_data.zip` or attach each `.json` file separately.
+    For Spotify we only support files from the 'Extended streaming history' package. You can try uploading the `my_spotify_data.zip` or upload the `.json` files separately.
 
     Still having issues? Please open a thread on [our server](https://discord.gg/fmbot).
 
