@@ -122,15 +122,15 @@ icon: lucide/circle-help
 
     It could be that it just happens to be updating. If it stays down, please join the [support server](https://discord.gg/fmbot) and check out the #downtime channel.
 
-??? info "What is the difference between the normal bot and the develop bot?"
+??? info "What is the difference between .fmbot and .fmbot beta?"
 
-    ###### What is the difference between the normal bot and the develop bot? { #what-is-the-difference-between-the-normal-bot-and-the-develop-bot }
+    ###### What is the difference between .fmbot and .fmbot beta? { #what-is-the-difference-between-fmbot-and-fmbot-beta }
 
-    The develop bot is used to test new fixes and functionality before they go to the normal bot. This is usually announced in #beta-changelog on [our server](https://discord.gg/fmbot).
+    .fmbot beta is used to test new fixes and functionality before they go to the normal bot. This is usually announced in #beta-changelog on [our server](https://discord.gg/fmbot).
 
-    Note that if either bot leaves your server all your server data and settings will be cleared.
+    Note that both bots share the same server data and settings. If the normal bot leaves your server, all of it will be cleared.
 
-    Invites for the develop bot are currently closed until further notice. You can use it on [our support server](https://discord.gg/fmbot) in #commands or on the unofficial [Last.fm server](https://discord.gg/lastfm).
+    Invites for .fmbot beta are currently closed until further notice. You can use it on [our support server](https://discord.gg/fmbot) in #commands or on the unofficial [Last.fm server](https://discord.gg/lastfm).
 
 
 ??? info "Is there any way to support the bot?"

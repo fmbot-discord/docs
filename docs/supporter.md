@@ -23,7 +23,7 @@ Unlock your full Spotify & Apple Music listening history, discover when you firs
 </div>
 
 !!! note ""
-    To purchase, use the `/getsupporter` command in Discord. You'll be guided through the options and your supporter will be activated instantly.
+    To purchase, use the `/getsupporter` command in Discord. After your purchase supporter will be activated instantly.
 
 <script>
 var note = document.querySelector('.md-typeset .admonition.note');

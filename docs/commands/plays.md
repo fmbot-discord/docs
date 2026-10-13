@@ -275,8 +275,12 @@ Shows you your latest scrobble milestones.
 Options:
 
 * Amount - Milestone you want to check
+* Artist - Show a milestone for a specific artist instead ⭐
 * User - Select another user by mention, Discord ID or Last.fm username (`lfm:username`)
 * Random - Use `random`/`rnd` to view a random milestone
+{ .cmd-text }
+
+Use `.artistmilestone` (`.ams`) to see a milestone for the artist you're currently listening to.
 { .cmd-text }
 
 !!! note cmd-text "Examples"
@@ -292,12 +296,23 @@ Options:
 
     `.milestone rnd`
 
+    `.ms 1000 Radiohead`
+
+    `.ms Radiohead rnd`
+
+    `.ams 500`
+
 !!! note cmd-slash "Examples"
     `/milestone`
 
     `/milestone amount:30000`
 
     `/milestone amount:1337 user:frikandel_`
+
+    `/milestone artist:Radiohead amount:1000`
+
+!!! tip "⭐ Enhanced for .fmbot supporters"
+    Supporters can see milestones for a specific artist, which requires .fmbot to store your full listening history. [Get .fmbot supporter here.](../supporter.md)
     
 ---
 

@@ -117,9 +117,11 @@ Options:
 * Time period - Time period of your top artists. Defaults to weekly.
 * `notitles` - Don't display artist names. (`nt`)
 { .cmd-text }
+* `plays` - Show your playcount under each artist name. (`pc`)
+{ .cmd-text }
 * `skip` - Skips artists without images. (`s`)
 { .cmd-text }
-* Titles - Choose whether artist names are shown
+* Titles - Choose whether artist names are shown, with or without playcounts
 { .cmd-slash }
 * Skip - Skip artists without an image
 { .cmd-slash }
@@ -139,6 +141,8 @@ Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two
     `.artistchart 4x8 yearly`
 
     `.artistchart 8x8 alltime notitles`
+
+    `.artistchart 4x4 monthly plays`
 
     `.artistchart 8x8 alltime notitles skip`
 

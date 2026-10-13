@@ -92,11 +92,13 @@ Options:
 { .cmd-slash }
 * `notitles` - Don't display album titles. (`nt`)
 { .cmd-text }
+* `plays` - Show your playcount under each album title. (`pc`)
+{ .cmd-text }
 * `skipemptyalbums` - Skips albums without images. (`s` or `skip`)
 { .cmd-text }
 * `sfw` - Skip NSFW album covers
 { .cmd-text }
-* Titles - Choose whether album titles are shown
+* Titles - Choose whether album titles are shown, with or without playcounts
 { .cmd-slash }
 * Skip - Skip albums without an image
 { .cmd-slash }
@@ -122,6 +124,8 @@ Available time periods: `weekly`, `monthly`, `quarterly`, `half`, `yearly`, `two
     `.chart 8x8 yearly`
 
     `.chart 6x8 alltime notitles`
+
+    `.chart 4x4 monthly plays`
 
     `.chart released:2022`
 
