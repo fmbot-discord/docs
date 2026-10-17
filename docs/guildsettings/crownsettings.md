@@ -6,7 +6,7 @@ icon: lucide/crown
 
 You can change what users are able to gain crowns, configure other crown settings or completely disable crowns.
 
-These settings can only be changed by admins, users with the 'Ban Members' permission, users with the roles set in [`.botmanagementroles`](index.md#botmanagementroles), or .fmbot admins.
+These settings can only be changed by admins, users with the 'Manage Server' or 'Ban Members' permission, users with the roles set in [`.botmanagementroles`](index.md#botmanagementroles), or .fmbot admins.
 
 !!! info cmd-slash "Using slash commands?"
     With slash commands, run `/settings` and switch to the **Server settings** tab with the buttons at the bottom to change these crown settings. Unblocking members also works directly with `/unblock`.
@@ -130,7 +130,7 @@ Crown seeding again only updates automatically seeded crowns, not manually claim
     `.crownseeder`
 
 !!! tip "✨ Enhanced for Premium servers"
-    Want your crowns to be seeded automatically every day, week or month? This is available with Premium Server. [Get premium server here.](../premium-server.md)
+    Premium servers can run the crownseeder automatically every day, week or month. [Get Premium server here.](../premium-server.md)
     
 ---
 

@@ -31,6 +31,9 @@ Options:
 !!! tip "⭐ Enhanced for .fmbot supporters"
     Want to play unlimited jumbles every day? [Get .fmbot supporter here.](../supporter.md)
 
+!!! tip "✨ Enhanced for Premium servers"
+    Premium servers raise the daily limit to 60 Jumble games for every member. [Get Premium server here.](../premium-server.md)
+
 ---
 
 ### .pixel (`.px`) { .text-only }
@@ -59,3 +62,6 @@ Options:
 
 !!! tip "⭐ Enhanced for .fmbot supporters"
     Want to play unlimited pixel jumbles every day? [Get .fmbot supporter here.](../supporter.md)
+
+!!! tip "✨ Enhanced for Premium servers"
+    Premium servers raise the daily limit to 60 Pixel Jumble games for every member. [Get Premium server here.](../premium-server.md)

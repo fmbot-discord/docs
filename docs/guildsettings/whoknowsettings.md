@@ -6,7 +6,7 @@ icon: lucide/search
 
 You can change what users appear in the whoknows commands and other commands that use all server members
 
-These settings can only be changed by admins, users with the 'Ban Members' permission, users with the roles set in [`.botmanagementroles`](index.md#botmanagementroles), or .fmbot admins.
+These settings can only be changed by admins, users with the 'Manage Server' or 'Ban Members' permission, users with the roles set in [`.botmanagementroles`](index.md#botmanagementroles), or .fmbot admins.
 
 !!! info cmd-slash "Using slash commands?"
     With slash commands, run `/settings` and switch to the **Server settings** tab with the buttons at the bottom to change these settings. Blocking and unblocking members also works directly with `/block` and `/unblock`.

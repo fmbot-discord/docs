@@ -10,9 +10,9 @@ Premium server activates automatically within a few minutes. You can check the s
 
 Here's a quick checklist to get the most out of Premium server:
 
-1. **Enable the automatic crownseeder** — Open `/configuration`, go to the crown settings and pick a daily, weekly or monthly schedule
+1. **Enable the automatic crownseeder** — Open `/settings`, go to the crown settings and pick a daily, weekly or monthly schedule
 2. **Set up the autoposter** — Run `.autoposter`, pick a channel and get weekly or monthly server recaps or top charts posted automatically
-3. **Give the bot your server's look** — Run `.botbranding` with an image attached for a custom avatar, or switch to a featured rotation based on your own members
+3. **Give the bot your server's look** — Run `.botbranding`, pick **Custom avatar** and press **Upload avatar**, or switch to a featured rotation based on your own members
 4. **Create server shortcuts** — Run `.servershortcuts` to add shortcuts for everyone
 5. **Tell your members** — Everyone now has 60 daily games and lyrics access
 6. **Fine-tune WhoKnows** — Configure `.allowedroles`, `.blockedroles` or `.serveractivitythreshold` if your server needs filtering

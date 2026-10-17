@@ -33,6 +33,9 @@ Options:
     `/crowns user:frikandel_`
 
     `/crowns view:Recent`
+
+!!! tip "✨ Enhanced for Premium servers"
+    Premium servers can limit crowns to members with specific roles and seed crowns automatically every day, week or month. [Get Premium server here.](../premium-server.md)
     
 ---
 ### .crown (`.cw`) { data-slash="/crown" }
@@ -69,6 +72,9 @@ Options:
 
     You can change this behavior with [`.crownroles`](../guildsettings/crownsettings.md#crownroles) (✨ [Premium server](../premium-server.md) required)
 
+!!! tip "✨ Enhanced for Premium servers"
+    Premium servers can limit crowns to members with specific roles and seed crowns automatically every day, week or month. [Get Premium server here.](../premium-server.md)
+
 ---   
 ### .crownleaderboard (`.cwlb`) { .text-only }
 
@@ -82,5 +88,8 @@ Shows the users with the most crowns on your server.
     
 !!! tip
     Looking for automatic crowns, crown settings and ways to moderate crowns on your server? That's [available here](../guildsettings/crownsettings.md) in the server setting section.
+
+!!! tip "✨ Enhanced for Premium servers"
+    Premium servers can limit crowns to members with specific roles and seed crowns automatically every day, week or month. [Get Premium server here.](../premium-server.md)
 
 

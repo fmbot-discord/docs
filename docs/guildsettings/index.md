@@ -5,7 +5,7 @@ icon: lucide/settings
 
 # Server settings    
 
-Server settings can only be changed by admins, users with the 'Ban Members' permission, users with the roles set in [`.botmanagementroles`](#botmanagementroles), or .fmbot admins.
+Server settings can only be changed by admins, users with the 'Manage Server' or 'Ban Members' permission, users with the roles set in [`.botmanagementroles`](#botmanagementroles), or .fmbot admins.
 
 !!! info cmd-slash "Using slash commands?"
     Server settings are configured through text commands or the settings menu. With slash commands, run `/settings` and switch to the **Server settings** tab with the buttons at the bottom. Every setting on this page can be changed from there.
@@ -92,7 +92,7 @@ Some examples of how you could use this:
 Give .fmbot a custom look in your server. Three modes are available:
 
 - **Global featured** — The default look, where the bot avatar follows the global hourly featured
-- **Custom avatar** — Your own fixed logo or image, set by running `.botbranding` with an image attached
+- **Custom avatar** — Your own fixed logo or image, uploaded with the **Upload avatar** button once this mode is picked
 - **Server featured** — The bot avatar follows a featured rotation based on the members of *your* server
 
 With server featured you can set how often a new pick rotates in, anywhere from every hour up to once a day, and optionally post each pick to a channel. 
@@ -154,8 +154,8 @@ Note that you can always mention the bot, this will work regardless of prefix.
 ### .botmanagementroles ✨
 
 Sets one or multiple roles who are allowed to configure .fmbot.
-These roles can change every setting except this one, block members and manage crowns. Only members with Administrator 
-or Ban Members can change this list.
+These roles can change every setting except this one, block members and manage crowns. Only members with Administrator, 
+Manage Server or Ban Members can change this list.
 
 !!! note "Examples"
     `.botmanagementroles`

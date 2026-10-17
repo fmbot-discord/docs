@@ -243,6 +243,9 @@ Options:
 
     `/wktrack role-picker:True`
 
+!!! tip "✨ Enhanced for Premium servers"
+    Premium servers can filter WhoKnows by role, limit it to allowed roles, hide blocked roles and hide members who haven't talked in the server recently. [Get Premium server here.](../premium-server.md)
+
 
 ---
 
@@ -543,3 +546,6 @@ Options:
 
 !!! info "⭐ Exclusive for .fmbot supporters"
     Viewing track lyrics in .fmbot is only available for .fmbot supporters. [Get .fmbot supporter here.](../supporter.md)
+
+!!! tip "✨ Enhanced for Premium servers"
+    Premium servers unlock lyrics for every member. [Get Premium server here.](../premium-server.md)

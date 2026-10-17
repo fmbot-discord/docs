@@ -96,7 +96,7 @@ document.querySelectorAll('.premiumserver-button').forEach(function(btn) {
 <li class="perk-card">
 <span class="perk-card__icon">🛡️</span>
 <p class="perk-card__title">Bot management roles</p>
-<p class="perk-card__desc">Let trusted roles configure .fmbot without giving them server management permissions.</p>
+<p class="perk-card__desc">Let trusted roles configure .fmbot without giving them the Administrator, Manage Server or Ban Members permission.</p>
 <div class="perk-card__commands"><code><a href="../guildsettings/#botmanagementroles"><span class="cmd-text">.botmanagementroles</span><span class="cmd-slash">.botmanagementroles</span></a></code></div>
 </li>
 </ul>
@@ -126,7 +126,7 @@ Supporter is a personal subscription that follows you everywhere. Premium server
 ## Frequently asked
 
 ??? question "Who can buy Premium server?"
-    Anyone in the server can purchase Premium server, you don't need to be an admin. Configuring the premium features afterwards does require server management permissions or a configured bot management role.
+    Anyone in the server can purchase Premium server, you don't need to be an admin. Configuring the premium features afterwards does require the Administrator, Manage Server or Ban Members permission, or a configured bot management role.
 
     After purchasing server staff can use `.botmanagementroles` to allow specific roles to configure .fmbot.
 
